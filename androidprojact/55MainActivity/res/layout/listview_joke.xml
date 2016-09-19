@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_frame"
+    >
+   		 <include
+        android:id="@+id/layout_joke"
+        layout="@layout/bestone_qiushi_head"
+        android:visibility="gone"
+         />
+    <FrameLayout
+         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_joke"
+        >
+       <com.byt.market.view.CusPullListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eaeaea"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:overScrollMode="never" >
+    </com.byt.market.view.CusPullListView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/top_textView"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:textColor="#000000"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="2dp"
+                android:visibility="gone"
+                android:background="@drawable/ic_top"
+                />
+            
+        </RelativeLayout>
+   </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/listview_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_joke" >
+
+        <ProgressBar
+            android:id="@+id/listview_loading_icon"
+            style="@style/ProgressMedium.circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/listview_loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listview_loading_icon"
+            android:layout_centerHorizontal="true"
+            android:text="@string/listview_loadding" />
+    </RelativeLayout>
+     <com.byt.market.view.LoadFailedView
+        android:id="@+id/listview_loadfailed"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/layout_joke" >
+    </com.byt.market.view.LoadFailedView>
+</RelativeLayout>

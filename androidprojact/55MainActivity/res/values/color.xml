@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<drawable name="bestone_buttonnorm">#ffffff</drawable>
+    <drawable name="bestone_buttonepress">#66797b80</drawable>
+    <drawable name="bestone_buttonepressbg">#dfdcdc</drawable>
+    <drawable name="bestone_bg_titile_bar">#efefef</drawable>
+    <drawable name="bestone_uninstall_nor">#e9efef</drawable>
+    <drawable name="bestone_uninstall_pre">#bbc9c9</drawable>
+    <drawable name="pop_menu_buttonnormal">#313131</drawable>
+    <drawable name="pop_menu_buttonpress">#afafaf</drawable>
+        <drawable name="musicitembgnor">#eaeaea</drawable>
+     <drawable name="musicitembgpre">#d8d9da</drawable>
+        <drawable name="throdbg">#00000000</drawable>   
+    <color name="white">#ffffff</color>
+    <color name="jokedetailcolr">#636251</color>
+    <color name="lucensy">#00000001</color>
+    <color name="translucency">#e0000000</color>
+    <color name="orange">#ffa500</color>
+    <color name="blue">#836FFF</color>
+    <color name="black">#000000</color>
+    <color name="alpha_60">#99FFFFFF</color>
+    <color name="alpha_blue_80">#8042E6E1</color>
+    <color name="text_selected_color_blue">#12e9e0</color>
+    <color name="text_unenalbed_color">#999</color>
+    
+    <!-- <color name="red">#bf242a</color> -->
+    <color name="transparent">#00000000</color>
+    <color name="light_orange">#fcb75c</color>
+    <color name="alpha_00">#00000000</color>
+    <color name="gray">#DBDBDB</color>
+    <color name="trans">#50000000</color>
+    <!--<color name="red">#fe0202</color>-->
+    <color name="red">#f30000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="transparent_background">#66000000</color>
+    <color name="text_gray">#cccccc</color>
+    <color name="green">#00FF00</color>
+    <color name="grey21">#666666</color>
+    <color name="gold">#b89766</color>
+    <color name="bg_frame">#eaeaea</color>
+    <color name="menu_bg_frame">#333333</color>
+	<color name="rank_item_bg">#fff1f1f1</color>
+	<color name="login_bg">#e9efef</color>
+	<color name="version_name">#ff777777</color>
+	<color name="about_line">#fff1f1f1</color>
+	<color name="weixin_id">#ffff0300</color>
+	
+	<color name="listview_layout_bg_color">#f0f0f0</color>
+	
+	<!-- 全局 -->
+	<color name="text_app_title_black">#363636</color>
+	<color name="text_app_des_grey">#666666</color>
+	
+	<!-- 首页相关 -->
+	<color name="today_rec_color">#ffcc00</color>
+	<color name="home_rec_atip_color">#993300</color>
+	<color name="round_rect_solid_color_top">#F5F5F5</color>
+	<color name="mune_text_color">#000000</color>
+	
+	<!-- 分类排行头 -->
+	<color name="rank_selected">#3799da</color>
+    <color name="rank_unselected">#000000</color>
+    
+    <!-- 搜索相关 -->
+    <color name="clear_text_color">#66ccff</color>
+    
+    <!-- 用户 -->
+    <color name="login_name">#ff484848</color>
+    <color name="login_input_bg_color">#00000000</color>
+    
+    <color name="round_rect_stroke_color">#ffd5d7d7</color>
+    <color name="round_rect_solid_color_pressed">#fff6f6f6</color>
+    
+    <color name="text_color_uninstall_gray">#FF969696</color>
+    <color name="btn_corner_text_pressed_color">#FFC800</color>
+    
+    <!-- 详情相关 -->
+    <color name="property_color">#333333</color>
+    
+    <color name="detail_type_color_aut">#67be35</color>
+    <color name="detail_type_color_safe">#67be35</color>
+    <color name="detail_type_color_no_ads">#67be35</color>
+    <color name="detail_type_color_free">#67be35</color>
+    <!-- add for:音乐item点击效果 -->
+    <drawable name="musicpopnor">#2c2b2b</drawable>
+    <drawable name="musicpoppre">#1d1d1d</drawable>
+    <color name="color_backgroud">#ff171717</color>
+   <color name="color_second_progress">#ff414141</color>
+     <color name="color_progress">#ffe67300</color> 
+     <!-- 计费按钮 背景 -->
+     <color name="paly_back_color">#ffe67300</color>
+     <!-- 阅读 加载进度条 -->
+     <color name="circle_color">#ffffff</color>
+    <color name="ring_color">#14b9d6</color>
+</resources>

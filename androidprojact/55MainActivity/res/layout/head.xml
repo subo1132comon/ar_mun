@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ListView的头部 -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#eaeaea"
+    android:orientation="vertical"
+    
+     >
+
+    <!-- 内容 -->
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="10dp"
+         android:paddingBottom="10dp"
+        >
+        <FrameLayout  
+            android:layout_marginRight="6dp"
+            android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                > 
+      
+        <ProgressBar     
+      			  android:layout_marginTop="2dp"
+                android:id="@+id/head_progressBar"
+                style="@style/ProgressMedium.refreshcircle"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+               />
+        <ImageView 
+            android:layout_marginTop="2dp"
+            android:id="@+id/refresh_ok"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/refresh_ok"
+            />
+        </FrameLayout>
+    <TextView
+        		android:paddingTop="2dp"
+        		android:gravity="left"
+                android:id="@+id/refreshtext"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"             
+                 android:minWidth="100dp"
+                android:text="@string/cus_refreshpull"
+                android:textColor="#888888"
+                android:textSize="16sp" />
+        
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:id="@+id/head_contentLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:padding="5dp" >
+         
+
+        <!-- 箭头图像、进度条 -->
+
+           <ImageView
+                android:id="@+id/head_arrowImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/arrow" />
+
+            <!-- 进度条 -->
+    <!-- 提示、最近更新 -->
+
+        <LinearLayout
+            android:layout_toRightOf="@id/head_arrowImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <!-- 提示 -->
+
+            <TextView
+                android:id="@+id/head_tipsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dp"
+                android:text="@string/cus_refreshpull"
+                android:textColor="#888888"
+                android:textSize="16sp" />
+
+            <!-- 最近更新 -->
+
+            <TextView
+                android:minWidth="100dp"
+                android:id="@+id/head_lastUpdatedTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/head_update"
+                android:textColor="#bab9b9"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

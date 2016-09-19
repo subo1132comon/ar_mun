@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:paddingTop="7dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_alpha"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:shadowColor="#ffffff"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:paddingLeft="15dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textColor="@android:color/black"
+        android:background="#eaeaea"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/uninstallitembg"
+        android:background="@drawable/beston_uninstall_bg_drawable"       
+        android:layout_width="fill_parent"
+        android:layout_height="69dp"       
+        android:orientation="horizontal"
+        android:paddingLeft="7dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/img_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/list_check_box_select_bg" 
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/uninstall_app_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/app_empty_icon" />
+
+      <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/uninstall_app_packagename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/installphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:drawablePadding="4dp"
+                android:drawableLeft="@drawable/installphonepic"
+                android:text="@string/installphonetit"
+                android:textColor="@color/text_color_uninstall_gray"
+                android:textSize="14sp" />
+            <TextView
+                android:drawableLeft="@drawable/installsdpic"                
+                android:id="@+id/installsd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:drawablePadding="4dp"
+                android:text="@string/installsdtit"
+                android:textColor="@color/text_color_uninstall_gray"
+                android:textSize="14sp" 
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/unistall_app_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/text_color_uninstall_gray"
+                android:textSize="14sp" />
+
+            <!--
+                 <TextView
+                android:id="@+id/unistall_app_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="大小：121M"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:visibility="gone"
+                android:textColor="@color/text_color_uninstall_gray"
+                android:textSize="14sp" />
+            -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/icon_btn_uninstall"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="right|center_vertical"
+            android:orientation="vertical"
+            android:clickable="true"
+             >
+
+      			<Button
+      			    android:paddingLeft="4dp"
+      			    android:paddingRight="4dp"
+      			    android:gravity="center"
+      			    android:id="@+id/bestone_btn_uninstall"
+      			    android:layout_width="wrap_content"
+      			    android:layout_height="21dp"
+      			    android:background="@drawable/beston_uninstall_buttonbg_drawable"
+      			    android:minWidth="60dp"
+      			    android:text="@string/expend_child5_text"
+      			    android:textColor="@color/text_color_uninstall_gray"
+      			    android:textSize="14sp" />
+
+      			<TextView
+      			    android:id="@+id/bestone_appsize"
+      			    android:layout_width="wrap_content"
+      			    android:layout_height="27dp"
+      			    android:gravity="right|center_vertical"
+      			    android:textColor="@color/text_color_uninstall_gray"
+      			    android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/driver_line_view"
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/listview_driver_line" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+
+    <dimen name="listitem_downbutton">12sp</dimen>
+    <dimen name="popupWindow_widthho">180dip</dimen>
+    <dimen name="popupWindow_widthho_button">70dip</dimen>
+    <!-- 专区文字位置 -->
+    <dimen name="listitem_sub_name_padding_left">22dip</dimen>
+    <dimen name="listitem_sub_name_padding_right">22dip</dimen>
+    <dimen name="listitem_sub_name_padding_top">111dip</dimen>
+     <dimen name="downbuttontextnonor">12sp</dimen> 
+      <dimen name="downbuttonsharetextnonor">15dp</dimen> 
+</resources>

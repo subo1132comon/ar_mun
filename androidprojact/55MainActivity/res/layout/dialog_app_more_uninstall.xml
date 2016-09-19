@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/dialog_title_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/txt_uninstall_dialog_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_content_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/display_count_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:gravity="center_vertical"
+            
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/uninstalltext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ut_02"
+                android:textColor="@android:color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/txt_all_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:text="@string/ut_03"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textColor="#FFE91515"
+                android:textSize="17dp" />
+
+            
+        </LinearLayout>
+		<TextView
+		    	android:id="@+id/unistallapps"
+    			android:paddingLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ut_01"
+                android:textColor="@android:color/black"
+                android:textSize="17dp" />
+        <LinearLayout
+            android:id="@+id/display_pname_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/qtuninstall"
+                android:textColor="@android:color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/txt_packagename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:maxLines="2"
+                android:text="@string/gamebox"
+                android:textColor="#FFE91515"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/qm"
+                android:textColor="@android:color/black"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_uninstall"
+                android:layout_width="100dp"
+                android:layout_height="36dp"
+                android:background="@drawable/beston_btn_onclick"
+                android:text="@string/tip_uninsatll"
+                android:textColor="#000000"
+                android:textSize="14.6sp" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="100dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/beston_btn_onclick"
+                android:text="@string/cancel"
+                android:textColor="#000000"
+                android:textSize="14.6sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+	<TextView 
+	    android:id="@+id/bommonlayout"
+	    android:layout_height="55dip"
+        android:layout_alignParentBottom="true"
+            android:layout_width="fill_parent"
+            android:background="#ffffff"
+	    />
+    <include
+        android:id="@+id/main_top_frame"
+        layout="@layout/top_frame" />
+        <LinearLayout
+            android:id="@+id/comm_area"
+            android:layout_height="55dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/commenttext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="3dp"
+                android:layout_weight="8"
+                android:ems="10"
+                android:focusable="true"
+                android:hint="@string/sub_textsize"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColorHint="#c1c1c1" />
+
+            <Button
+                android:id="@+id/sendCommentbt"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/btn_detail_downbg"
+                android:text="@string/suggest_submit"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+            android:id="@+id/intro_area"
+            android:layout_width="fill_parent"
+            android:layout_height="55dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+   <RelativeLayout        	  
+              android:gravity="center"  
+        	   android:enabled="false"
+            android:id="@+id/comparepri"
+            android:layout_width="fill_parent"
+            android:layout_height="42dip"
+            android:layout_weight="1"
+            android:background="@drawable/btn_detail_privebg_diss"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/google_icon"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/google_icon" />
+
+ 
+
+                <TextView
+                    android:layout_centerInParent="true"                    
+                    android:layout_toRightOf="@+id/google_icon"
+                    android:id="@+id/bt_free_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:background="#00000000"
+                    android:gravity="center"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="2dp"
+                    android:text="@string/oprice"
+                     android:textSize="14sp"
+            android:textColor="#848484"/>
+
+                <ImageView
+                      android:layout_centerInParent="true"                   
+                     android:layout_toRightOf="@+id/google_icon"
+                    android:visibility="gone"
+                    android:id="@+id/freeline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dip"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="7dp"
+                    android:src="@drawable/app_price_line" />
+        
+        </RelativeLayout>
+        <FrameLayout
+                 android:layout_width="fill_parent"
+            android:layout_height="42dip"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dip"
+            >
+
+                <ProgressBar
+                    android:id="@+id/DownloadProgressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:max="100"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/progress_listitem" />
+
+                <TextView
+                    android:id="@+id/progressnumtext"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/downbutton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/down_button_nor"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:minWidth="80dp"
+                    android:padding="2dp"
+                    android:singleLine="true"
+                    android:text="@string/detailfree"
+           			android:textColor="#ffffff"
+            		android:textSize="14sp" 
+                   />
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/bt_down_btn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:minWidth="80dp"
+                    android:paddingLeft="3dp"
+                    android:singleLine="true"
+                    android:text="@string/sharedowndetail"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scroller_area"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:layout_above="@id/bommonlayout"
+        android:layout_below="@id/main_top_frame" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/appdetailinit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingTop="8.0dip" >
+
+                <ImageView
+                    android:id="@+id/appIconView"
+                    android:layout_width="@dimen/listitem_app_icon"
+                    android:layout_height="@dimen/listitem_app_icon"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                      android:layout_marginTop="2dp"
+                      android:src="@drawable/app_empty_icon"
+                  />
+
+        
+
+                    <TextView
+                        android:layout_toRightOf="@id/appIconView"
+                        android:id="@+id/appNameLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <RatingBar
+                          android:layout_toRightOf="@id/appIconView"
+                          android:layout_below="@id/appNameLabel"
+                        android:id="@+id/appRatingView"
+                        style="@style/RatingBar.Indicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2.0dip"
+                        android:layout_marginTop="3dp"
+                        android:isIndicator="true" />
+
+                    <TextView
+                        android:layout_toRightOf="@id/appIconView"
+                          android:layout_below="@id/appRatingView"
+                        android:id="@+id/appDownloadnumLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:singleLine="true"
+                        android:textColor="#a7a7a7"
+                        android:textSize="13sp" />
+
+            </RelativeLayout>
+
+            <com.byt.market.view.DetailTypeView
+                android:id="@+id/tv_stype"
+                android:layout_marginTop="2dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/appdetailinit"
+                android:paddingLeft="10dp" >
+            </com.byt.market.view.DetailTypeView>
+
+            <View
+                android:layout_below="@+id/tv_stype"
+                android:id="@+id/imagedivider"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_margin="1dip"
+                android:background="@drawable/line_horizontal_more_page" />
+
+            <LinearLayout
+                 android:layout_below="@+id/imagedivider"
+                android:id="@+id/switch_area"
+                android:layout_width="fill_parent"
+                android:layout_height="44dip"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >                 
+                        <View
+                               android:layout_alignParentBottom="true"
+                            android:id="@+id/cate_tab_line1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="2.2dip"
+                            android:background="#288be1"
+                            android:gravity="center" />
+
+                        <View
+                               android:layout_alignParentBottom="true"
+                            android:layout_width="fill_parent"
+                            android:layout_height="1px"
+                            android:layout_gravity="bottom"
+                            android:background="#c6c6c6"
+                            android:gravity="center" />
+                    <Button
+                        android:id="@+id/intro_bt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@id/cate_tab_line1"
+                        android:background="#00000000"
+                        android:gravity="bottom|center_horizontal"
+                        android:paddingBottom="7dp"
+                        android:text="@string/sub_jianjie"
+                        android:textColor="@color/color_top_tab_label"
+                        android:textSize="@dimen/text_size_viewpager_tab" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/tab_divider"
+                    android:layout_width="0.5dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#bbbbbb"
+                    android:padding="1dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+                        <View
+                            android:layout_alignParentBottom="true"
+                             android:visibility="invisible"
+                            android:id="@+id/cate_tab_line2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="2.2dip"
+                            android:background="#288be1"
+                            android:gravity="center" />
+
+                        <View
+                            android:layout_alignParentBottom="true"
+                            android:layout_width="fill_parent"
+                            android:layout_height="1px"
+                            android:layout_gravity="bottom"
+                            android:background="#c6c6c6"
+                            android:gravity="center" />
+                    <Button
+                        android:id="@+id/comm_bt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@id/cate_tab_line2"
+                        android:background="#00000000"
+                        android:gravity="bottom|center_horizontal"
+                        android:paddingBottom="7dp"
+                        android:text="@string/comment_title"
+                        android:textColor="@color/color_top_tab_label"
+                        android:textSize="@dimen/text_size_viewpager_tab" />
+                </RelativeLayout>
+            </LinearLayout>
+                <fragment
+                    android:id="@+id/detailfragment"
+                    android:layout_below="@+id/switch_area"
+                    android:name="com.byt.market.ui.DetailFragment1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:tag="detail_info" />
+                <fragment
+                    android:id="@+id/commonfragment"
+                      android:layout_below="@+id/switch_area"
+                    android:visibility="gone" 
+ 					 android:gravity="center"
+                    android:name="com.byt.market.ui.CommentFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:tag="detail_comm" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/switch_area_temp"
+        android:layout_width="fill_parent"
+        android:layout_height="44dip"
+        android:layout_below="@id/main_top_frame"
+        android:background="#ffffffff"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+                <View
+                      android:layout_alignParentBottom="true"
+                    android:id="@+id/cate_tab_line1_temp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.2dip"
+                    android:background="#288be1"
+                    android:gravity="center" />
+
+                <View
+                      android:layout_alignParentBottom="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_gravity="bottom"
+                    android:background="#c6c6c6"
+                    android:gravity="center" />
+
+
+            <Button
+                android:id="@+id/intro_bt_temp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/cate_tab_line1_temp"
+                android:background="#00000000"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="7dp"
+                android:text="@string/sub_jianjie"
+                android:textColor="@color/color_top_tab_label"
+                android:textSize="@dimen/text_size_viewpager_tab" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/tab_divider_temp"
+            android:layout_width="0.5dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:background="#bbbbbb"
+            android:padding="1dp" />
+
+       <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/cate_tab_line2_temp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.2dip"
+                    android:background="#288be1"
+                    android:visibility="invisible"
+                    android:gravity="center" />
+
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_gravity="bottom"
+                    android:background="#c6c6c6"
+                    android:gravity="center" />
+
+
+            <Button
+                android:id="@+id/comm_bt_temp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/cate_tab_line2_temp"
+                android:background="#00000000"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="7dp"
+                android:text="@string/comment_title"
+                android:textColor="@color/color_top_tab_label"
+                android:textSize="@dimen/text_size_viewpager_tab" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

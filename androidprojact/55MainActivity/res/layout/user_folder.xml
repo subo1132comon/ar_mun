@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<com.byt.market.ui.mine.UserFolder xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/folder_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textSize="22dip"
+        android:singleLine="true"
+        android:ellipsize="end"
+        />
+
+    <RelativeLayout
+        android:id="@+id/edit_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/folder_label_bg"
+        android:visibility="invisible"
+        >
+
+        <EditText
+            android:id="@+id/edit_folder_label"
+            android:layout_width="240dip"
+            android:layout_height="wrap_content"
+            android:textColor="#ff000000"
+            android:textSize="22dip"
+            android:singleLine="true"
+            android:background="@android:color/transparent"
+            />
+
+        <ImageView
+            android:id="@+id/folder_label_clear_button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="3dip"
+            android:src="@drawable/folder_label_clear_button"
+        />
+    </RelativeLayout>
+
+    <com.byt.market.ui.mine.FolderContent
+        android:id="@+id/folder_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        >
+    </com.byt.market.ui.mine.FolderContent>
+
+</com.byt.market.ui.mine.UserFolder>

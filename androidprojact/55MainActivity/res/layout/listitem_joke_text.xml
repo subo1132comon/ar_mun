@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"  
+    android:background="#ededed"  
+    >
+    
+    <LinearLayout 
+        android:id="@+id/jokelistitem"
+        style="@style/joke_listitem_style" 
+        >  
+    <TextView 
+        android:id="@+id/jokecontent"
+        style="@style/joke_text_style"
+        />  
+        
+    </LinearLayout>    
+    <!-- 评论  点赞   分享   start -->
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_feed_item_bottom" 
+        >        
+        <LinearLayout    
+            android:id="@+id/joke_comment_btn"   
+            android:clickable="true"     
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_weight="1"   >    
+        <LinearLayout             
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"         >
+            <ImageView
+                android:id="@+id/joke_comment_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/joke_btn_comment_selector"
+                android:layout_gravity="center"   />
+            <TextView 
+                android:id="@+id/joke_comment_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123"
+                android:textColor="#858585"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"   />            
+        </LinearLayout> 
+        </LinearLayout>
+        
+        <ImageView                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_feed_item_line"
+                android:layout_gravity="center"   />
+                
+        <LinearLayout 
+            android:id="@+id/joke_collect_btn"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"            
+            android:layout_weight="1"   >    
+        <LinearLayout             
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"         >
+            <ImageView 
+                android:id="@+id/joke_collect_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/joke_btn_collect_selector"
+                android:layout_gravity="center"   />
+            <TextView 
+                android:id="@+id/joke_collect_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123"
+                android:textColor="#858585"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"   />            
+        </LinearLayout> 
+        </LinearLayout>
+        
+        <ImageView                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_feed_item_line"
+                android:layout_gravity="center"   />
+                
+        <LinearLayout 
+            android:id="@+id/joke_share_btn"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"            
+            android:layout_weight="1"   >    
+        <LinearLayout             
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"         >
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/joke_btn_share_selector"
+                android:layout_gravity="center"   />
+            <TextView 
+                android:id="@+id/joke_share_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123"
+                android:textColor="#858585"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp" 
+                android:visibility="gone"  />            
+        </LinearLayout> 
+        </LinearLayout>        
+        
+    </LinearLayout>
+    <!-- 评论  点赞   分享   end -->        
+</LinearLayout>

@@ -1,0 +1,194 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+    
+      <include
+        android:id="@+id/main_top_frame"
+        android:layout_alignParentTop="true"
+        layout="@layout/top_frame" />
+    <LinearLayout
+        android:id="@+id/ringbottom"
+        android:layout_width="match_parent"
+        android:layout_below="@id/main_top_frame"
+        android:layout_height="@dimen/top_tab_height"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/ringhome"
+                android:layout_width="fill_parent"
+                android:layout_height="2.2dip"
+                android:layout_alignParentBottom="true" >
+
+                <View
+                    android:id="@+id/ringhome_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.2dip"
+                    android:background="#288be1"
+                    android:gravity="center" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_gravity="bottom"
+                    android:background="#c6c6c6"
+                    android:gravity="center" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/ringhome_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/ringhome"
+                android:background="#00000000"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="7dp"
+                android:text="@string/txt_home_leader_latest_collection"
+                android:textColor="@color/color_top_tab_label"
+                android:textSize="@dimen/text_size_viewpager_tab" />
+        </RelativeLayout>
+         <ImageView
+            android:id="@+id/ringhome_divider"
+            android:layout_width="0.5dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:background="#bbbbbb"
+            android:padding="1dp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/ring_rank"
+                android:layout_width="fill_parent"
+                android:layout_height="2.2dip"
+                android:layout_alignParentBottom="true" >
+
+                <View
+                    android:id="@+id/ring_rank_tab_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.2dip"
+                    android:background="#288be1"
+                    android:gravity="center" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_gravity="bottom"
+                    android:background="#c6c6c6"
+                    android:gravity="center" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/ring_rank_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/ring_rank"
+                android:background="#00000000"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="7dp"
+                android:text="@string/classic_rank"
+                android:textColor="@color/color_top_tab_label"
+                android:textSize="@dimen/text_size_viewpager_tab" />
+        </RelativeLayout>
+    </LinearLayout>
+    
+        <ProgressBar 
+            android:id="@+id/playbar_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:progressDrawable="@drawable/byt_audplayer_progressbar"
+         />
+
+<RelativeLayout
+    android:id="@+id/playbarlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:layout_above="@id/playbar_progress"
+    android:clickable="true"   
+     >
+
+    <ImageView
+        android:id="@+id/musicplayicon"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true" 
+        android:src="@drawable/musicplayicon"
+        />
+
+    <ImageView
+        android:id="@+id/playnextbutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/byt_audplaybar_nextbtn"
+        android:src="@drawable/playbar_btn_next" />
+
+    <ImageView
+        android:id="@+id/playbutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@id/playnextbutton"
+        android:src="@drawable/playbar_btn_play"
+        android:background="@drawable/byt_audplaybar_nextbtn"
+        />
+
+    <TextView
+        android:layout_marginTop="3dp"
+        android:id="@+id/musicname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/playbutton"
+        android:layout_toRightOf="@id/musicplayicon"    
+        android:singleLine="true"
+        android:ellipsize="end"    
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:id="@+id/musicauther"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/musicname"
+        android:layout_toLeftOf="@id/playbutton"
+        android:layout_toRightOf="@id/musicplayicon"
+        android:singleLine="true"
+        android:ellipsize="end" 
+        android:textSize="13sp"        
+        />
+
+</RelativeLayout>
+    <LinearLayout
+        android:id="@+id/ring_area"
+        android:layout_above="@id/playbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ringbottom"
+        android:orientation="horizontal" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/ringviewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:flipInterval="30"
+            android:persistentDrawingCache="animation" />
+    </LinearLayout>
+
+</RelativeLayout>

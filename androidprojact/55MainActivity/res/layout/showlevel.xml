@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#efefef"
+  >
+    
+    <include
+        android:id="@+id/main_top_frame"
+        layout="@layout/top_frame" />  
+        
+    <TextView 
+        android:id="@+id/mine_ingegral"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"   
+        android:layout_margin="10dp"
+        android:background="@drawable/input_text" 
+        android:textSize="16sp"
+        android:textColor="#000000"       
+        />
+    
+    
+    
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+             android:background="@drawable/input_text"
+            >     
+            
+
+            
+        <TextView 
+          
+           
+              android:paddingLeft="4dp"
+             android:id="@+id/level_context"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"          
+            />
+        <LinearLayout 
+            android:layout_marginLeft="4dp"
+              android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            
+            >
+            
+             <TextView 
+          
+           
+              android:paddingLeft="4dp"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"   
+         android:text="@string/level_1"
+         android:layout_gravity="center_vertical"
+            />
+             <ImageView 
+                    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/level"
+            android:layout_gravity="center_vertical"
+                 />
+            
+        </LinearLayout>
+          <LinearLayout 
+                android:layout_marginLeft="4dp"
+              android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            
+            >
+            
+             <TextView 
+          
+            android:text="@string/level_2"
+              android:paddingLeft="4dp"
+         
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"  
+            android:layout_gravity="center_vertical"        
+            />
+             <ImageView 
+                    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/level"
+            android:layout_gravity="center_vertical"
+                 />
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/level"
+                android:layout_gravity="center_vertical"
+                 />      
+        </LinearLayout>
+          <LinearLayout 
+                android:layout_marginLeft="4dp"
+              android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            >
+            
+             <TextView 
+          
+           
+              android:paddingLeft="4dp"
+             android:text="@string/level_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"  
+            android:layout_gravity="center_vertical"        
+            />
+             <ImageView 
+                    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/level"
+            android:layout_gravity="center_vertical"
+                 />
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/level"
+                android:layout_gravity="center_vertical"
+                 />  
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/level"
+                android:layout_gravity="center_vertical"
+                 />                               
+        </LinearLayout>
+            
+         <LinearLayout 
+             android:layout_marginLeft="4dp"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"   
+             android:layout_gravity="center_vertical"         
+            >            
+            <TextView 
+                android:paddingLeft="4dp"
+                android:text="@string/level_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#000000"   
+                android:layout_gravity="center_vertical"       
+            />
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/level"
+                android:layout_gravity="center_vertical"
+                />
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/level"
+                android:layout_gravity="center_vertical"
+                 />  
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/level"
+                android:layout_gravity="center_vertical"
+                 />      
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/level"
+                android:layout_gravity="center_vertical"
+                 />                                               
+        </LinearLayout>          
+         <LinearLayout 
+             android:layout_marginLeft="4dp"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"  
+             android:layout_gravity="center_vertical"
+            >            
+            <TextView 
+                android:paddingLeft="4dp"
+                android:text="@string/level_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#000000" 
+                android:layout_gravity="center_vertical"  
+            />
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                
+                android:src="@drawable/level"
+                android:layout_gravity="center_vertical"
+                />
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/level"
+                android:layout_gravity="center_vertical"
+                 />  
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/level"
+                android:layout_gravity="center_vertical"
+                 />      
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/level"
+                android:layout_gravity="center_vertical"
+                 />    
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/level"
+                android:layout_gravity="center_vertical"
+                 />                                                               
+        </LinearLayout>              
+          
+        </LinearLayout>
+        
+       
+    
+    
+</LinearLayout> 

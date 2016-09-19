@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tc="http://schemas.android.com/apk/res/com.byt.market"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context="com.byt.market.activity.MainActivity"
+    android:layout_height="match_parent" >
+    
+     <com.byt.market.view.TasksCompletedView
+        android:id="@+id/tasks_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tc:radius="50dip"
+        tc:strokeWidth="2dip"
+        tc:circleColor="@color/circle_color"
+        tc:ringColor="@color/ring_color" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="suggest_category">
+      <item> Default </item> 
+         <item> Pemasangan Produk </item> 
+         <item> Produk </item> 
+         <item> Cadangan Ciri </item> 
+         <item> Bug Maklum balas </item> 
+         <item> Model sokongan </item>
+    </string-array>
+     <string-array name="feed_back_type">
+        <item>@string/txt_feed_back_type_product_use</item>
+        <item>@string/txt_feed_back_type_fuction_suggestion</item>
+        <item>@string/txt_feed_back_type_exception_feedback</item>
+    </string-array>
+    <string-array name="colors">
+        <item>182,182,182</item>  
+        <item>182,182,182</item>        
+        <item>0,182,0</item>   
+        <item>182,182,182</item>        
+    </string-array>
+    <string-array name="updated_user_num">
+        <item>app</item>
+        <item>mempunyai</item>
+        <item>0</item>
+        <item>pengguna dikemaskini</item>        
+    </string-array>    
+</resources>

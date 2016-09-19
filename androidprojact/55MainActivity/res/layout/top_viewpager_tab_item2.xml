@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/top_tab_height"
+    android:orientation="horizontal" 
+    android:background="#ffffff"
+    >
+
+    <RelativeLayout
+        android:id="@+id/tab_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+      <FrameLayout 
+          android:id="@+id/tab_line1_fram"
+         android:layout_width="fill_parent"
+            android:layout_height="2.2dip"
+            android:layout_alignParentBottom="true" 
+          >
+          <View
+            android:id="@+id/tab_line1"
+            android:layout_width="fill_parent"
+            android:layout_height="2.2dip"
+            android:background="#288be1"
+            android:gravity="center" />
+           <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#c6c6c6"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+             />
+          
+          
+      </FrameLayout>
+
+        <TextView
+            android:id="@+id/tab_textview"
+            android:layout_above="@id/tab_line1_fram"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom|center_horizontal"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:paddingBottom="6.5dp"
+            android:textColor="@color/color_top_tab_label"
+            android:textSize="@dimen/text_size_viewpager_tab" 
+            android:background="#ffffff"/>
+            
+
+       <ImageView
+           			android:id="@+id/tab_divider"
+                     android:layout_width="0.5dp"
+                     android:layout_height="18dp"
+                     android:layout_alignParentRight="true"
+                     android:layout_centerVertical="true"
+                     android:background="#bbbbbb"
+                     android:padding="1dp" />
+           
+       
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/bottom_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+      
+        
+        android:background="#303339" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/home_bommon_height"
+            android:orientation="horizontal"
+            android:weightSum="5" >
+
+            <RelativeLayout
+                android:id="@+id/homePageview"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="@drawable/beston_bomme_tab_drawable"
+                android:paddingTop="4dp"
+                 android:paddingBottom="4dp"
+                 >
+                 <ImageView 
+                     android:layout_alignParentTop="true"
+                     android:id="@+id/homeImageView"
+                     style="@style/titlebarImageViewStyle"
+                     android:background="@drawable/tab_title_home_drawable"                    
+                     />
+                <TextView
+                    android:layout_below="@id/homeImageView"
+                    style="@style/titlebarStyle" 
+                    
+                    android:id="@+id/label_home"
+                    android:text="@string/title_tab_index"
+                     />
+                  <!--   <ImageView
+                    android:id="@+id/homePageview_divder"
+                    style="@style/divderStyle"
+                    android:layout_centerVertical="true" 
+                    android:layout_toRightOf="@id/label_home"
+                    /> -->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rankButtonview"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/beston_bomme_tab_drawable"               
+                android:orientation="horizontal"
+                android:paddingTop="4dp"
+                 android:paddingBottom="4dp"
+                 >
+                  <ImageView 
+                     android:layout_alignParentTop="true"
+                     android:id="@+id/gamesImageView"
+                     style="@style/titlebarImageViewStyle"
+                    android:background="@drawable/tab_title_zone_drawable"
+                     />
+                <TextView
+                    android:layout_below="@id/gamesImageView"
+                    style="@style/titlebarStyle" 
+                    android:id="@+id/label_rank"
+                    android:text="@string/text_string"
+                      />
+                 <ImageView
+                   android:id="@+id/subject_redpoint"
+                   android:layout_width="12dp"
+                   android:layout_height="12dp"                     
+                   android:layout_alignParentRight="true"
+                   android:layout_alignParentTop="true"   
+                   android:layout_marginRight="9dp"
+                   android:visibility="gone"
+                   android:background="@drawable/yule_redpoint" /> 
+                <!--  <ImageView
+                    android:id="@+id/rankButtonview_divder"
+                    style="@style/divderStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" 
+                    android:layout_toRightOf="@id/label_rank"/> -->
+            </RelativeLayout>
+
+            <RelativeLayout
+                 android:paddingTop="4dp"
+                 android:paddingBottom="4dp"
+                 android:visibility="visible"
+                android:id="@+id/categoryButtonview"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="@drawable/beston_bomme_tab_drawable"
+                 >
+                <ImageView 
+                     android:layout_alignParentTop="true"
+                     android:id="@+id/appsImageView"
+                     style="@style/titlebarImageViewStyle"
+                     android:background="@drawable/tab_title_soft_drawable"
+                     />
+                <TextView
+                    android:layout_below="@id/appsImageView"
+                    style="@style/titlebarStyle"   
+                    android:id="@+id/label_category"
+                    android:text="@string/news"
+                    />
+                 <ImageView
+                   android:id="@+id/new_redpoint"
+                   android:layout_width="12dp"
+                   android:layout_height="12dp"                     
+                   android:layout_alignParentRight="true"
+                   android:layout_alignParentTop="true"   
+                   android:layout_marginRight="9dp"
+                   android:visibility="gone"
+                   android:background="@drawable/yule_redpoint" /> 
+              <!--   <ImageView
+                    android:id="@+id/categoryButtonview_divder"
+                    style="@style/divderStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" 
+                    android:layout_toRightOf="@id/label_category"/> -->
+            </RelativeLayout>
+
+            <RelativeLayout
+                 android:paddingTop="4dp"
+                 android:paddingBottom="4dp"
+                android:id="@+id/subjectButtonview"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="@drawable/beston_bomme_tab_drawable"
+                 >
+                <ImageView 
+                     android:layout_alignParentTop="true"
+                     android:id="@+id/zomeImageView"
+                     style="@style/titlebarImageViewStyle"
+                    android:background="@drawable/title_zones"
+                     />
+                <TextView
+                    android:layout_below="@id/zomeImageView"
+                    style="@style/titlebarStyle"    
+                    android:id="@+id/label_sub"
+                    android:text="@string/av"/>
+                    
+                                  
+                <!--  <ImageView
+                    android:id="@+id/subjectButtonview_divder"
+                    style="@style/divderStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" 
+                    android:layout_toRightOf="@id/label_sub"/> -->
+            </RelativeLayout>
+
+            <RelativeLayout
+                 android:paddingTop="4dp"
+                 android:paddingBottom="4dp"
+                android:id="@+id/mineButtonview"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="@drawable/beston_bomme_tab_drawable"
+                 >
+
+              <!--   <ImageView
+                    android:id="@+id/mineButtonview_divder"
+                    style="@style/divderStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone" />
+                    
+ -->
+ <TextView
+            android:id="@+id/tv_down_num"
+            android:layout_width="20dp"
+            android:layout_height="20dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/icon_prompt" 
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="8sp" 
+            
+            android:visibility="gone"
+            />
+ 			 <ImageView 
+                     android:layout_alignParentTop="true"
+                     android:id="@+id/mineImageView"
+                     style="@style/titlebarImageViewStyle"
+                     android:background="@drawable/tab_title_manager_drawable"
+                     />
+                <TextView
+                    android:layout_below="@id/mineImageView"
+                    style="@style/titlebarStyle"                   
+                    android:id="@+id/minetext"
+                    android:text="@string/app_managertitlest"
+                  />
+                
+            </RelativeLayout>
+    
+
+                 
+            
+        </LinearLayout>
+
+      
+    </RelativeLayout>
+    
+	<TextView
+          android:layout_width="fill_parent"
+         android:layout_height="50dp"
+                    android:id="@+id/test"
+                    android:gravity="center"
+                    android:background="@color/red"
+                    android:text="payment test"
+                    android:textColor="#ffffff"
+                    android:layout_below="@+id/main_top_frame"
+                    android:visibility="gone"
+                     />
+    <com.byt.market.view.CustomViewPager        
+        android:id="@+id/vp_main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_menu"
+         android:layout_below="@+id/test"
+        android:background="#ffffff" >
+
+        <FrameLayout
+            android:id="@+id/main_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_frame" />
+    </com.byt.market.view.CustomViewPager>
+        <include
+        android:id="@+id/main_top_frame"
+        android:layout_alignParentTop="true"
+        layout="@layout/top_frame" />
+        
+        <ImageView 
+            android:id="@+id/loadingbg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#000000"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            />
+
+       <RelativeLayout
+           android:id="@+id/r_main_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" 
+            android:visibility="gone"
+           >
+        <ProgressBar
+            android:id="@+id/main_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            style="@style/ProgressMedium.circle"
+            android:layout_centerVertical="true" 
+            />
+        <TextView
+            android:id="@+id/listview_loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_progressBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/listview_loadding" />
+		</RelativeLayout>
+</RelativeLayout>

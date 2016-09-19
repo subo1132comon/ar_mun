@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dip"
+        android:layout_marginRight="14dip"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <RelativeLayout
+            android:id="@+id/listitem_rec_two_view_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/listitem_padding"
+            android:layout_marginLeft="@dimen/listitem_padding"
+            android:layout_marginRight="@dimen/listitem_padding"
+            android:layout_marginTop="@dimen/listitem_padding"
+            android:layout_weight="1"
+            android:paddingBottom="10dp" >
+
+            <RelativeLayout
+                android:id="@+id/listitem_rec_two_icon_layout_1"
+                android:layout_width="@dimen/listitem_app_icon"
+                android:layout_height="@dimen/listitem_app_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/listitem_rec_icon_1"
+                    android:layout_width="@dimen/listitem_app_icon"
+                    android:layout_height="@dimen/listitem_app_icon" />
+
+                <ImageView
+                    android:id="@+id/listitem_rec_img_check_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/list_check_box_select_bg" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/listitem_rec_name_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/listitem_rec_two_icon_layout_1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textColor="#363636"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textSize="12sp" />
+
+            <RatingBar
+                android:id="@+id/listitem_rec_appRatingView_1"
+                style="@style/RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/listitem_rec_name_1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:isIndicator="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/listitem_rec_two_view_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/listitem_padding"
+            android:layout_marginLeft="@dimen/listitem_padding"
+            android:layout_marginRight="@dimen/listitem_padding"
+            android:layout_marginTop="@dimen/listitem_padding"
+            android:layout_weight="1"
+            android:paddingBottom="10dp" >
+
+            <RelativeLayout
+                android:id="@+id/listitem_rec_two_icon_layout_2"
+                android:layout_width="@dimen/listitem_app_icon"
+                android:layout_height="@dimen/listitem_app_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/listitem_rec_icon_2"
+                    android:layout_width="@dimen/listitem_app_icon"
+                    android:layout_height="@dimen/listitem_app_icon" />
+
+                <ImageView
+                    android:id="@+id/listitem_rec_img_check_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/list_check_box_select_bg" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/listitem_rec_name_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/listitem_rec_two_icon_layout_2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textColor="#363636"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textSize="12sp" />
+
+            <RatingBar
+                android:id="@+id/listitem_rec_appRatingView_2"
+                style="@style/RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/listitem_rec_name_2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:isIndicator="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

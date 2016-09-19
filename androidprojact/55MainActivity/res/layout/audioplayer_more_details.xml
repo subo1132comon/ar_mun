@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/audply_option_menu"
+    android:paddingRight="20dp"    
+    >
+    <!-- 查看歌曲更多信息 -->
+    <LinearLayout 
+        android:id="@+id/more_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"          
+        style="@style/optionmenutyle" >
+        <TextView             
+            style="@style/optionmenutexttyle"
+            android:text="@string/more_details"
+            /> 
+    </LinearLayout>
+              
+</LinearLayout>

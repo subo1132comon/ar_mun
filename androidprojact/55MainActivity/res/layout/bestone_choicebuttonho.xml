@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="#00000000"
+    android:gravity="center"
+     >
+        <Button
+            
+        android:id="@+id/seedetail"
+        android:layout_width="@dimen/popupWindow_widthho_button"
+        android:layout_height="34dip"
+        android:textSize="14sp"
+        android:gravity="center"
+         android:textColor="#ffffff"
+       android:background="@drawable/bestone_button_press"
+       android:singleLine="true"       
+        />
+        <View 
+            android:layout_width="1.1dip"
+            android:layout_height="34dip"
+            android:background="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+        android:id="@+id/cancecel"
+        android:layout_width="@dimen/popupWindow_widthho_button"
+        android:layout_height="34dip"
+        android:textSize="14sp"
+        android:gravity="center"
+         android:textColor="#ffffff"
+          android:singleLine="true"   
+       android:background="@drawable/bestone_button_press"
+        />
+
+</LinearLayout>

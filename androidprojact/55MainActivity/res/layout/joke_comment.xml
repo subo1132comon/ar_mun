@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include
+        android:id="@+id/main_top_frame"
+        android:layout_alignParentTop="true"
+        layout="@layout/top_frame" />
+    
+    <LinearLayout
+        android:id="@+id/jokecommentbottom"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="@dimen/top_tab_height"
+        android:gravity="center_vertical"
+        android:background="#ffffff"        
+        android:orientation="horizontal" >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"            
+            android:background="@drawable/btn_comment_normal"/>
+
+        <EditText
+            android:id="@+id/joke_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/bg_block"
+            android:ems="10"
+            android:focusable="true"
+            android:hint="@string/sub_write"
+            android:padding="10dp"
+            android:textColorHint="#c1c1c1" 
+            android:textSize="12sp"/>
+
+        <Button 
+            android:id="@+id/comment_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/joke_comment_submit"
+            android:text="@string/txt_submit"
+            android:padding="10dp"/>
+        
+    </LinearLayout>    
+
+    <!-- ViewPager 内容显示区 start -->
+    <LinearLayout
+        android:id="@+id/joke_comment_area"        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/jokecommentbottom"
+        android:orientation="horizontal" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/jokeviewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:flipInterval="30"
+            android:persistentDrawingCache="animation" />
+    </LinearLayout>
+    <!-- ViewPager 内容显示区 end -->
+
+</RelativeLayout>
+

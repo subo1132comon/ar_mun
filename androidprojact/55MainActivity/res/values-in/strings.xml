@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Market</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="image_desc"></string>
+    <string name="txt_splash_copyright">hak cipta \@ 2014 toko sinkronisasi</string>
+<string name="toast_pwd_not_less_6_or_more_16">密码不能少于6位数或多于16位数</string>
+    <!-- 首界面 -->
+    <string name="txt_home_leader_online">game online</string>
+    <string name="txt_home_leader_latest_collection">koleksi terbaru</string>
+    <string name="txt_home_leader_classic_play ">Klasik harus memainkan</string>
+    <string name="toast_load_more_no_result">Pada akhirnya telah ^ _ ^</string>
+ 	<string name="welcome_alert">Ingin bermain di mana saja di bermain ~</string>
+    <!-- 应用导航 -->
+    <string name="bottom_home">sarankan</string>
+    <string name="bottom_rank">Peringkat</string>
+    <string name="bottom_cate">klasifikasi</string>
+    <string name="bottom_sub">topik khusus</string>
+    <string name="bottom_mine">saya</string>
+
+    <!-- 大家都在玩 -->
+    <string name="btn_rec_select_count">Instalasi telah dipilih(%1$s)</string>
+
+    <!-- 加载提示 -->
+    <string name="listview_loadfailed">Beban gagal, silakan coba lagi</string>
+    <string name="listview_loadding">pemuatan\.\.\.</string>
+    <string name="listview_loadding2">Sebuah aplikasi yang tidak, baik kesedihan~</string>
+    <string name="listview_loadding3">Anda tidak memiliki koleksi aplikasi, jantung kesedihan yang baik ~</string>
+    <string name="listview_loadding4">Anda tidak memiliki aplikasi apapun</string>
+
+    <!-- 应用退出 -->
+    <string name="ok">oke</string>
+    <string name="cancel">membatalkan</string>
+    <string name="exit_confirm">prompt sistem</string>
+    <string name="exit_confirm_msg">Anda ingin berhenti toko sinkronisasi Toko itu?</string>
+    <string name="exit_confirm_downloading">prompt sistem</string>
+    <string name="exit_confirm_downloading_msg">Download tugas Anda belum selesai keluar toko sinkronisasi Menyimpannya?</string>
+    <string name="exit_confirm_goondownload_check">Setelah keluar terus men-download aplikasi belum selesai</string>
+
+    <!-- 存储显示 -->
+    <string name="storage_phone">mobil</string>
+    <string name="storage_sdcard">SD Card</string>
+    <string name="storage_fomat">digunakan%1$s   tersedia%2$s </string>
+    <string name="storage_unaviable">Tidak Tersedia</string>
+
+    <!-- 设置菜单 -->
+    <string name="set_app">Pengaturan</string>
+    <string name="update_app">Periksa versi update</string>
+    <string name="clean_app">pembersihan Cache</string>
+    <string name="suggest_app">Tanggapan</string>
+    <string name="about_app">Tentang aplikasi</string>
+
+    <!-- 排行列表item -->
+    <string name="rank_t1">Peringkat:</string>
+    <string name="btn_install">memasang</string>
+
+    <!-- 首页相关 -->
+    <string name="today_rec_tip">hari Direkomendasikan</string>
+
+    <!-- 下载相关 -->
+    <string name="state_wait_action_text">tunggu</string>
+    <string name="state_retry_action_text">mencoba kembali</string>
+    <string name="state_ongoing_action_text">Tunda</string>
+    <string name="state_pause_action_text">terus</string>
+    <!-- <string name="state_finish_action_text">继续安装</string> -->
+    <string name="state_finish_action_text">Lanjutkan instalasi</string>
+    <string name="state_finish_need_update_action_text">Terus memperbarui</string>
+    <string name="state_installing_action_text">instalasi</string>
+    <string name="state_installing_need_update_action_text">memperbarui</string>
+    <string name="state_install_failed_action_text">Lanjutkan instalasi</string>
+    <string name="state_install_failed_need_update_action_text">Terus memperbarui</string>
+    <string name="state_update_action_text">memperbarui</string>
+    <string name="state_uninstalling_action_text">bongkar</string>
+    <string name="state_installed_new_action_text">Buka</string>
+    <string name="state_idle_action_text">memasang</string>
+    <string name="state_wait_text">menunggu</string>
+    <string name="state_retry_text">Download gagal</string>
+    <string name="state_ongoing_text">instalasi</string>
+    <string name="state_ongoing_need_update_text">memperbarui</string>
+    <string name="state_pause_text">dijeda</string>
+    <string name="state_finish_text">tidak Terinstal</string>
+    <string name="state_finish_need_update_text">tidak diperbarui</string>
+    <string name="state_uninstalling_text">bongkar</string>
+    <string name="state_installing_text">instalasi</string>
+    <string name="state_installing_need_update_text">memperbarui</string>
+    <string name="state_install_failed_text">instalasi gagal</string>
+    <string name="state_install_failed_need_update_text">pembaruan Gagal</string>
+    <string name="state_idle_text">memiliki Collection</string>
+    <!-- <string name="down_progress_detail">下载资源  %1$s /  %2$s </string> -->
+    <string name="down_progress_detail">%1$s /  %2$s </string>
+    <string name="down_progress_detail2">%1$s</string>
+    <string name="down_summary">versi:</string>
+    <string name="downloadfile_sdcard_no_more_space">SD card tidak memiliki cukup ruang untuk menyimpan file!</string>
+    <string name="dialog_retry_title">cepat</string>
+    <string name="dialog_retry_msg">%s Selama proses download mungkin salah, apakah akan kembali men-download?</string>
+    <string name="dialog_delete_confirm_tips">Anda yakin ingin menghapus?</string>
+    <string name="dialog_retry_btn_ok">Download ulang</string>
+    <string name="dialog_retry_btn_back">kembali</string>
+    <string name="dialog_retry_btn_goon">Cobalah untuk menginstal</string>
+    <string name="apk_not_exist">Install file yang sudah ada</string>
+    <string name="insert_sdcard_first">Install file yang sudah ada</string>
+    <string name="sdcard_using_close_first">kartu sd sedang digunakan, matikan perangkat USB.</string>
+    <string name="sdcard_state_unusual">status kartu sd tidak normal.</string>
+    <string name="dialog_install_no_file_title">peringatan</string>
+    <string name="dialog_install_no_file_msg">Tidak dapat menemukan paket instalasi, pastikan untuk kembali men-download?</string>
+    <string name="dialog_nowifi_title">cepat</string>
+    <string name="dialog_nowifi_msg">Anda sedang dalam Wifi lingkungan non jaringan, permintaan untuk men-download file, terus download?</string>
+    <string name="dialog_nowifi_btn_ok">oke</string>
+    <string name="dialog_nowifi_btn_back">membatalkan</string>
+    <string name="dialog_nowifi_btn_fav">mengumpulkan</string>
+    <string name="taost_pkg_mgr_busy">Menginstal atau menguninstall aplikasi, harap tunggu ...</string>
+    <string name="sdcard_unavailable">SD card tidak tersedia, silakan cek dan coba lagi</string>
+    <string name="game_update_notify_title">aplikasi Pemutakhiran</string>
+    <string name="game_start_rec_title">Setiap orang bermain</string>
+    <string name="game_update_notify_msg">%1$s update game yang tersedia, klik Lihat.</string>
+    <string name="game_download_notify_title">aplikasi download</string>
+    <string name="game_download_notify_msg">%1$s  aplikasi di-download, klik View.</string>
+    <string name="dialog_goon_download_title">cepat</string>
+    <string name="dialog_goon_download_msg">Apakah Anda memiliki%1$s men-download game yang belum selesai, apakah akan melanjutkan download?</string>
+    <string name="txt_tips_never">petunjuknya lagi</string>
+    <!-- 详情相关 -->
+    <string name="detail">perincian</string>
+    <string name="share_app">saham</string>
+    <string name="download">Download</string>
+    <string name="faviorate">mengumpulkan</string>
+    <string name="share_info_to_friend">Kirim ke teman</string>
+    <string name="share_app_content">"Saya menemukan aplikasi yang sangat baik di toko sinkronisasi Toko [%1$s], dengan cepat men-download mengalaminya!\n %2$s"</string>
+    <string name="can_not_share_info">Maaf! Sistem Anda tidak berbagi aplikasi dapat melakukan operasi ini.</string>
+    <string name="can_not_share_info2">Data Loading, please wait</string>
+    <string name="txt_detail_tag_aut">resmi</string>
+    <string name="txt_detail_tag_safe">keamanan</string>
+    <string name="txt_detail_tag_no_ads">Tidak ada iklan</string>
+   <string name="txt_detail_tag_free">gratis</string>
+    <!-- 设置 -->
+    <string name="settings_noicon_title_s">Icon Display untuk menampilkan screenshot, download yang normal</string>
+    <string name="settings_noicon_title_b">Pola lalu lintas provinsi</string>
+    <string name="settings_toast_title_s">Tips diperbarui, direkomendasikan Prompt</string>
+    <string name="settings_toast_title_b">Beritahu Prompt</string>
+    <string name="settings_dpath_title_s">kartu SD</string>
+    <string name="settings_dpath_title_b">Unduh lokasi</string>
+    <string name="settings_dsize_title_s">3</string>
+    <string name="settings_dsize_title_b">Jumlah maksimum download simultan</string>
+    <string name="settings_qinstall_title_b">Menginstal Cepat atau menghapus aplikasi</string>
+    <string name="settings_qinstall_title_s">Latar Belakang menginstal atau menghapus aplikasi  %1$s</string>
+     <string name="about_app_name">nama</string>
+     <string name="about_down_summary">versi</string>     
+     <string name="support_system">Sistem</string>
+     <string name="suppert_system">Android2.1 dan di atas</string>
+      <string name="product_dec">Besar aplikasi mobile free download</string>
+      <string name="version_management">manajemen versi</string>
+
+    <!-- 分类排行头相关 -->
+    <string name="app_list_new">paling baru</string>
+    <string name="app_list_hot">Yang paling hot</string>
+
+    <!-- 搜索相关 -->
+    <string name="search_hint">Pertandingan besar tidak peduli bagaimana Anda mencari</string>
+    <string name="search">pencarian</string>
+    <string name="search_clear_history">Hapus riwayat</string>
+    <string name="user_login_name_hint">Masukkan akun</string>
+    <string name="reg_user_login_name_hint">Nomor Inggris atau kombinasi dari nama pengguna</string>
+    <string name="reg_user_login_pwd_hint">Password 6 karakter atau lebih</string>
+    <string name="user_login_pwd_hint">Masukkan password</string>
+    <string name="back">membatalkan</string>
+    <string name="reg_user_login_pwd_hint_repeat">Harus password yang sama dua kali</string>
+
+    <!-- 我的游戏相关 -->
+    <string name="expend_child1_text">instalasi</string>
+    <string name="expend_child2_text">perincian</string>
+    <string name="expend_child3_text">mengevaluasi</string>
+    <string name="expend_child4_text">Raiders</string>
+    <string name="expend_child5_text">Uninstall</string>
+    <string name="expend_child5_remove">Hapus</string>
+    <string name="expend_child5_del_fav">hapus</string>
+    <string name="expend_child5_text_msg">Tentu Anda uninstall %s?</string>
+    <string name="expend_child5_text_uninstall_system_updated_msg">%s  dimuat game, apakah akan uninstall update dan mengganti aplikasi pabrik?</string>
+    <string name="expend_child5_text_uninstall_system_msg">%s games adalah pra-instal, tidak dapat dihapus!</string>
+    <string name="expend_child5_remove_msg">Tentu untuk menghapus tugas download ini?</string>
+    <string name="expend_child5_del_fav_msg">Tentu untuk membatalkan koleksi %s?</string>
+    <string name="expend_child5_text_check">Hapus paket instalasi</string>
+    <string name="mine_empty_message">Anda belum download aplikasi, klik untuk "merekomendasikan" untuk men-download</string>
+    <string name="txt_my_game_count">aplikasi saya ( %1$s ) </string>
+
+    <!-- 系统版本更新相关 -->
+    <string name="updatetip">Versi toko sinkronisasi Toko tips yang diperbarui</string>
+    <string name="market_update_title">toko sinkronisasi Toko upgrade Informasi</string>
+
+    <!-- 标题栏 -->
+    <string name="titlebar_title_change_userinfo">memodifikasi data</string>
+    <string name="titlebar_title_login">Login</string>
+    <string name="titlebar_title_account">rekening</string>
+    <string name="titlebar_title_logout">Logout</string>
+    <string name="titlebar_title_regist">Register</string>
+    <string name="titlebar_title_settings">Pengaturan</string>
+    <string name="titlebar_cancel">Cancel</string>
+    <string name="titlebar_title_suggest">Tanggapan</string>
+    <string name="titlebar_title_about">Tentang Kami</string>
+    <string name="titlebar_title_protocol">User Agreement</string>
+
+    <!-- 用户登录界面 -->
+    <string name="user_login_regist">Register</string>
+    <string name="user_login">Login</string>
+    <string name="user_login_login">Login</string>
+    <string name="user_login_use_other">Log in using another account</string>
+    <string name="user_login_qqlogin">QQ account</string>
+    <string name="user_login_sinalogin">Use Sina microblogging account login</string>
+    <string name="user_login_tencentweibologin">Use Tencent microblogging account login</string>
+    <string name="user_regist_now">Register now</string>
+    <string name="txt_male_user">Man</string>
+    <string name="txt_female_user">Woman</string>
+    <string name="txt_login_forgot_password">Forgot Password</string>
+    <string name="txt_login_forgot_password2">Retrieve Password</string>
+    <string name="txt_login_forgot_password_dialog_msg">Please call the customer service phone:400-000-0000</string>
+    <string name="txt_call">Call</string>
+
+    <!-- 修改用户资料 -->
+    <string name="change_icon_camera">Camera to take pictures</string>
+    <string name="change_icon_local">Local Albums</string>
+
+    <!-- 用户反馈 -->
+    <string name="your_suggest">Saran Anda:</string>
+    <string name="your_phone">Informasi kontak Anda:</string>
+    <string name="suggest_cate">Mengatur Kategori:</string>
+    <string name="suggest_cancel">membatalkan</string>
+    <string name="suggest_submit">menyerahkan</string>
+
+    <!-- 对话框 -->
+    <string name="dialog_title_hint">cepat</string>
+    <string name="dialog_msg_logining">Login, harap tunggu\.\.\.</string>
+    <string name="dialog_msg_reading_userinfo">Membaca informasi pengguna\.\.\.</string>
+    <string name="dialog_msg_registing">Informasi pendaftaran yang disampaikan, silakan tunggu\.\.\.</string>
+    <string name="dialog_msg_updateing_icon">Informasi pendaftaran yang disampaikan, silakan tunggu\.\.\.</string>
+    <string name="dialog_msg_deleteing">Menghapus Tunggu\.\.\.</string>
+
+    <!-- toast提示 -->
+    <string name="toast_uid_cannot_null">Akun tidak boleh kosong</string>
+    <string name="toast_uid_not_ruler">Nama pengguna hanya dapat memasukkan alfanumerik</string>
+    <string name="toast_pwd_cannot_null">Password tidak boleh kosong</string>
+    <string name="toast_name_not_less_6_or_more_16">Akun tidak boleh kurang dari enam digit atau lebih dari 16 digit</string>
+    <string name="toast_pwd_not_ruler">Sandi hanya dapat memasukkan alfanumerik</string>
+    <string name="toast_regist_success">pendaftaran sukses</string>
+    <string name="toast_modify_pwd_success">berhasil diubah</string>
+    <string name="toast_regist_fail">Pendaftaran gagal, silakan coba lagi</string>
+    <string name="toast_uid_has_used">Julukan ini sudah terdaftar</string>
+    <string name="toast_no_network">jaringan yang buruk</string>
+    <string name="toast_network_connect_error">error parameter</string>
+    <string name="toast_no_search_key">Masukkan nama dari aplikasi atau kata kunci</string>
+    <string name="toast_oauth_error">Error Otorisasi, silakan coba lagi</string>
+    <string name="toast_uid_or_pwd_error">Nama pengguna atau password salah</string>
+    <string name="toast_oauth_get_userinfo_fail">Login gagal, silakan coba lagi</string>
+    <string name="toast_camera_not_return_bitmap">Program kamera tidak kembali gambar</string>
+    <string name="toast_user_cancel_change_icon">Anda telah membatalkan upload avatar operasi</string>
+    <string name="toast_system_cat_fail">Tool Crop tidak sistem pemotongan berhasil</string>
+    <string name="toast_pwd_is_not_same">Harus password yang sama dua kali</string>
+
+    <!-- 攻略 -->
+    <string name="joy_skill_vcount">%s melihat-lihat</string>
+    <string name="joy_skill_no_info">Maaf, tidak ada%s Raiders.</string>
+    <!-- 关于我们 -->
+    <string name="about_word1">Ada fun games, berita, buku!</string>
+    <string name="about_word2">Kami akan berbagi setiap tetes sukacita!</string>
+    <string name="about_word3">Pada saat yang sama kami menyambut masalah tucao!</string>
+
+    <!-- 下载管理 -->
+    <string name="downloading_title_desc">Downloading</string>
+    <string name="downloaded_title_desc">diunduh</string>
+    <string name="list_empty_view_tip_content">Besar, tidak ingin memperbarui aplikasi</string>
+    <string name="list_empty_view_tip_content2">Tugas A no! \n Jangan kau percaya padaku mampu?</string>
+
+    <string name="txt_download_all_go_on">semua terus</string>
+    <string name="txt_download_all_pause">semua Jeda</string>
+    <string name="txt_download_all_cancel">semua Batal</string>
+    <string name="text_download_manager_title">Pengatur Unduhan</string>
+    <string name="text_look_over_detail_desc">Lihat rincian</string>
+    <string name="text_cancel_download_desc">batalkan Mengunduh</string>
+    <string name="text_go_on_download_desc">Lanjutkan Mengunduh</string>
+    <string name="apk_not_exist2">File instalasi telah dihapus, adalah re-Download</string>
+    <string name="text_update_all_desc">semua update</string>
+
+    <!-- 我的收藏 -->
+    <string name="text_my_faviorate_title">Favorit saya</string>
+    <!-- 游戏更新 -->
+    <string name="text_game_update_title">aplikasi Pemutakhiran</string>
+    <string name="text_game_update_desc">saat ini:&#160;</string>
+    <string name="text_game_update_desc2">Versi baru:&#160;</string>
+    <string name="text_game_can_update_count">scalable</string>
+
+    <!-- 卸载排序 -->
+    <string name="txt_sort_by_name">Nama Aplikasi</string>
+    <string name="txt_sort_by_size">ukuran</string>
+    <string name="txt_sort_by_date">waktu instalasi</string>
+    <string name="txt_uninstall_dialog_title">Tips Uninstall</string>
+    <string name="tip_uninsatll">Uninstall</string>
+    <string name="btn_all_uninstall">Batch Uninstall(%1$s)</string>
+         <string name="no_run_app_alert">Tidak dapat memulai aplikasi</string>
+
+    <!-- 应用排行相关 -->
+    <string name="txt_week_rank">minggu Daftar peringkat</string>
+    <string name="txt_month_rank">bulan Daftar peringkat </string>
+    <string name="txt_total_rank">Jumlah Daftar peringkat</string>
+    <string name="menu_control_feed_back_txt">Tanggapan</string>
+    <string name="uninstall_app">Menghapus aplikasi</string>
+    <string name="menu_control_storage_phone">telepon</string>
+    <string name="menu_control_storage_card">SD</string>
+    <string name="menu_control_uninstall_txt">Menghapus aplikasi</string>
+    <string name="menu_control_down_txt">Pengatur Unduhan</string>
+    <string name="menu_control_update_txt">aplikasi Pemutakhiran</string>
+
+    <string name="menu_control_settings_txt">Pengaturan</string>
+    <string name="menu_control_check_up_txt">Periksa pembaruan</string>
+    <string name="menu_control_clear_cache_txt">Bersihkan Cache gambar</string>
+    <string name="app_nogoogledetail">"Pasar google: dukungan aplikasi Market tanpa Google"</string>
+    <string name="app_usereva">"Evaluasi pengguna("</string>
+    <string name="kuohao">")"</string>
+    <string name="app_from">"Berasal dari:"</string>
+    <string name="app_version">"versi:"</string>
+    <string name="about_detail">"Download, instal dan menggunakan perangkat lunak gratis, toko sinkronisasi Toko tidak membebankan biaya apapun, biaya lalu lintas data jaringan selular yang dihasilkan selama download, dibebankan oleh operator"</string>
+    <string name="app_loadingnow">"Memuat data. . ."</string>
+    <string name="appstore_ad">"Apakah ada iklan"</string>
+    <string name="appstore_net">"Kebutuhan untuk jaringan"</string>
+    <string name="appstore_google">"Apakah dukungan pasar Google"</string>
+    <string name="appstore_detail">"Iklan: aplikasi berisi iklan \n wifi: aplikasi ini membutuhkan pada jaringan wifi \n Market: google kerangka layanan yang diperlukan untuk mendukung"</string>
+    <string name="menu_control_about_us_txt">tentang</string>
+    <string name="download_allcon">"semua Lanjutkan"</string>
+    <string name="download_allpause">"semua Jeda"</string>
+    <string name="download_allcance">"semua Batal"</string>
+
+    <!-- 我的 ，个人设置 -->
+    <string name="file_clear">"membersihkan"</string>
+    <string name="head_update">"terakhir diperbarui"</string>
+    <string name="text_mine_setting">Pengaturan Pribadi</string>
+    <string name="lsititem_user">"Evaluasi pengguna"</string>
+    <string name="text_action_save">menyimpan</string>
+    <string name="text_action_nickname_input_tip">Masukkan 4&#045;16 karakter oh</string>
+    <string name="button_text_action_modify_password">Ubah Password</string>
+    <string name="button_text_action_swtich_account">Switching akun</string>
+    <string name="text_nick_name_desc">julukan:</string>
+    <string name="text_gender_desc">jenis kelamin:</string>
+    <!-- 我的 ，找回密码 -->
+    <string name="text_repeat_password_desc">Ulangi password: sandi harus sama dua kali</string>
+    <string name="text_action_input_desc">Masukkan password asli</string>
+    <string name="text_action_input_new_pwd_desc">6&#045;16 huruf atau angka</string>
+    <string name="text_action_input_new_pwd_tip_desc">Nama pengguna tidak sah, masukkan kembali</string>
+    <string name="text_new_pwd_null_desc">Password baru tidak boleh kosong</string>
+    <string name="text_old_pwd_error_desc">Password asli tidak benar</string>
+    <string name="notification_point">"0%"</string>
+    <!-- 意见反馈相关 -->
+    <string name="txt_contact_way">kontak:</string>
+    <string name="txt_feed_back_type">Feedback Type:</string>
+    <string name="txt_reset">Re-fill</string>
+    <string name="txt_submit">menyerahkan</string>
+    <string name="txt_feed_content_edit_hint">Masukkan komentar dan saran untuk umpan balik untuk membantu kami meningkatkan produk kami lebih baik.</string>
+    <string name="txt_contact_way_edit_hint">Nomor telepon / QQ / surat mikro / mail</string>
+    <string name="txt_feed_back_type_product_use">Penggunaan Produk</string>
+    <string name="txt_feed_back_type_fuction_suggestion">Saran Fitur</string>
+    <string name="txt_feed_back_type_exception_feedback">kesalahan umpan balik</string>
+    <string name="submit_suggest">Feedback sedang disampaikan</string>
+    <string name="submit_suggest_fail">Pengiriman Umpan Balik gagal</string>
+    <string name="submit_suggest_success">Sukses pengajuan Saran atau masukan</string>
+
+    <!-- add by zengxiao -->
+    <string name="qtuninstall">"Apakah uninstall"</string>
+    <string name="gamebox">"kotak aplikasi"</string>
+    <string name="ut_01">"Aplikasi?"</string>
+    <string name="ut_02">"Apakah akan uninstall diinstal"</string>
+    <string name="qm">"?"</string>
+    <string name="ut_03">"5"</string>
+    <string name="appjs">"aplikasi Pendahuluan"</string>
+    <string name="appweibo">"microblogging resmi"</string>
+    <string name="installall">"Instal semua"</string>
+    <string name="getstart">"penilaian"</string>
+    <string name="listitem_texts">"Kutipan redaktur"</string>
+    <string name="listitem_gamedetail">"Ringkasan pertandingan"</string>
+    <string name="paused">"Dihentikan Sementara"</string>
+    <string name="searchhotrank">"Cari daftar kata-kata panas"</string>
+    <string name="nodata">"Tidak ada data ~"</string>
+    <string name="findgame">"Carilah games"</string>
+    <string name="notlogin">"Anda belum login yo ~"</string>
+    <string name="register">"pendaftaran"</string>
+    <string name="appresult">"produk Saran atau masukan"</string>
+    <string name="passwordold">"Old Sandi:"</string>
+    <string name="passwordnew">"Baru password:"</string>
+    <string name="inputreplace">"Re-masukkan:"</string>
+    <string name="keepwap">"Pengaturan lalu lintas provinsi:"</string>
+    <string name="notwifi">"Jaringan non-WiFi untuk men-download kiat"</string>
+    <string name="setting_1">"Ikon dan screenshot tampilan"</string>
+    <string name="setting_2">"Pengaturan Manajemen Instalasi:"</string>
+    <string name="setting_3">"Unduh menyelesaikan instalasi segera"</string>
+    <string name="setting_4">"Pengguna ROOT untuk cepat menginstal"</string>
+    <string name="setting_5">"Setelah instalasi menghapus paket instalasi"</string>
+    <string name="setting_6">"Tips instalasi"</string>
+    <string name="setting_7">"Jumlah download simultan"</string>
+    <string name="setting_8">"Lap Cache"</string>
+    <string name="comment_title">"komentar"</string>
+    <string name="sub_textsize">"5&#045;140 karakter"</string>
+    <string name="sub_inputnotman">"Isi input kurang dari 5 karakter"</string>
+    <string name="sub_hitabout">"Saran dan umpan balik, kita akan adopsi pertama kali"</string>
+    <string name="sub_qqmsn">"QQ / telepon / E-mail / MSN"</string>
+    <string name="sub_start">"*"</string>
+    <string name="game_name">"Nama Game"</string>
+    <string name="game_install">"telah diinstal"</string>
+    <string name="game_start">"mulai"</string>
+    <string name="uploadnow">"pemuatan ..."</string>
+    <string name="user_man">"Man"</string>
+    <string name="user_woman">"Woman"</string>
+    <string name="user_number">"Account:"</string>
+    <string name="user_password">"Password:"</string>
+    <string name="user_twopassword">"Repeat password:"</string>
+    <string name="user_text1">"I have read and agree"</string>
+    <string name="user_text2">"《Game Lobby User Agreement》"</string>
+    <string name="addfavourite">Tambahkan ke Favorit ...</string>
+    <string name="installcomment"> "Setelah menginstal perangkat lunak untuk komentar" </string>
+    <string name="sub_write"> "menulis review" </string>
+    <string name="sub_jianjie"> "pengantar" </string>
+    <string name="feedback_inputnull"> "silahkan mengisi konten umpan balik" </string>
+    <string name="gs_clearall"> "kosong" </string>
+    <string name="gs_isclear"> "Adalah sejarah Kosong?" </string>
+    <string name="gs_nomodel"> "tidak menemukan fasilitas bahasa" </string>
+    <string name="gs_hotword"> "Tolong beritahu ingin mencari kata kunci" </string>
+    <string name="gs_whatpoint">"Apakah yang Anda maksud ..."</string>
+    <string name="sp_list">"daftar topik"</string>
+    <string name="updateversionprom">"update versi Tip:"</string>
+    <string name="updateexpain"> Upgrade petunjuk</string>
+    <string name="later"> kemudian </string>
+    <string name="isupdate">menemukan versi baru sekarang diperbarui?</string>
+    <string name="softwaresize">Software Ukuran:</string>
+    <string name="updateversion">versi upgrade:</string>
+    <string name="lodingspeed"> "memuat kemajuan" </string>
+    <string name="unstallmush"> "Batch Uninstall" </string>
+    <string name="version_soft"> "nomor versi:" </string>
+    <string name="unstallnow"> "Bersiap untuk uninstall, silakan tunggu" </string>
+    <string name="unstallsucc"> "dihapus berhasil" </string>
+    <string name="commenttextmax"> "Kata Harap simpan komentar dalam 5&#045;140 karakter" </string>
+    <string name="commentfail">komentar gagal</string>
+    <string name="commentsuccess">komentar diajukan berhasil</string>
+    <string name="submiterror">komentar pengiriman gagal</string>
+    <string name="textnull">umpan balik tidak boleh kosong</string>
+    <string name="scannow">cache file dipindai</string>
+    <string name="scan2">dipindai ke</string>
+    <string name="scan3">arsip</string>
+    <string name="alltotal">ukuran total</string>
+    <string name="clearnow">dalam likuidasi ... Please wait</string>
+    <string name="finishscan">scan selesai</string>
+    <string name="cleared">dibersihkan</string>
+    <string name="finishclear">pembersihan selesai</string>
+    <string name="rastar_forgame"> "pertama aplikasi Penilaian" </string>
+    <string name="rastar_first"> "pro ~, cepat merampok sofa itu!" </string>
+    <string name="rastar_cando"> "dinilai" </string>
+    <string name="rastar_neterror"> "jaringan Kesalahan" </string>
+    <string name="rastar_success"> "Penilaian keberhasilan" </string>
+    <string name="rastar_fail"> "Penilaian Gagal" </string>
+    <string name="rastar_netcoll"> "koneksi jaringan gagal" </string>
+    <string name="rastar_model"> "model:" </string>
+    <string name="rastar_version"> "versi:" </string>
+    <string name="nocomment"> "Ada Komentar Baru" </string>
+    <string name="nocomment_send"> "No comment, cepat mengeluarkan sebuah bar ~" </string>
+    <string name="setnet"> "klik pada layar, mengatur jaringan" </string>
+    <string name="detail_down"> "Unduh:  " </string>
+    <string name="detail_size"> "Ukuran:  " </string>
+    <string name="detail_type"> "Kategori:  " </string>
+    <string name="detail_version"> "versi:  " </string>
+    <string name="detail_date"> "waktu:  " </string>
+    <string name="detail_tag">"labelnya:  "</string>
+    <string name="detail_lang"> "language:  " </string>
+    <string name="detail_zh"> "Cina" </string>
+    <string name="detail_en"> "Inggris" </string>
+    <string name="detail_unknow"> "diketahui" </string>
+    <string name="detail_exp"> "biaya:" </string>
+    <string name="editor_word"> "redaktur Komentar:" </string>
+    <string name="leftkh">"("</string>
+    <string name="rightkh">")"</string>
+    <string name="cache"> cache yang </string>
+    <string name="nofindgame"> "tidak pernah menemukan game yang murbei hati yang baik ~" </string>
+    <string name="scannowversion"> "Memeriksa versi baru" </string>
+    <string name="setting_dispgame"> "menunjukkan tips aplikasi direkomendasikan" </string>
+    <string name="setting_opened"> "terbuka" </string>
+    <string name="setting_closeed"> "lepas" </string>
+    <string name="setting_dispicon"> "menunjukkan icon" </string>
+    <string name="setting_updatenoti"> "memperbarui cepat bar notifikasi" </string>
+    <string name="setting_gamenoti"> "Rekomendasi aplikasi tips" </string>
+    <string name="setting_disnoupdate"> "Tampilkan pemberitahuan update bar" </string>
+    <string name="setting_close"> "dekat" </string>
+    <string name="settting_open"> "terbuka" </string>
+    <string name="sp_install"> "menginstal dipilih" </string>
+    <string name="edit_commiterror"> "meng-upload gagal, silakan coba lagi" </string>
+    <string name="edit_commitesucc"> "Upload sukses" </string>
+    <string name="edit_commitnow"> "Loading ..." </string>
+    <string name="edit_error"> "modifikasi gagal" </string>
+    <string name="edit_succ"> "dimodifikasi berhasil" </string>
+    <string name="edit_nicknamenull"> "nickname tidak boleh kosong" </string>
+    <string name="login_succ"> "successful login" </string>
+    <string name="login_readinfo"> "being read user data" </string>
+    <string name="registernew"> "Register new user" </string>
+    <string name="cus_refreshpull"> " menarik untuk menyegarkan" </string>
+    <string name="cus_refreshnow"> "Refreshing ..." </string>
+    <string name="cus_refreshref"> "rilis Segarkan" </string>
+    <string name="app_ad"> "pengiklanan" </string>
+    <string name="app_addetail"> "Iklan: Aplikasi yang berisi iklan\n" </string>
+    <string name="app_noad"> "tidak ada iklan" </string>
+    <string name="app_noaddetail"> "Iklan: Application ada iklan\n" </string>
+     <string name="app_net"> "perlu terhubung ke jaringan" </string>
+     <string name="app_netdetail"> "Jaringan: Aplikasi ini perlu untuk menghubungkan jaringan\n" </string>
+     <string name="app_nonet"> "tidak ada jaringan" </string>
+     <string name="app_nonetdetail"> "Networking: Aplikasi tidak perlu terhubung ke jaringan\n" </string>
+     <string name="app_google"> " perlu Market Google " </string>
+     <string name="app_googledetail"> "Google Market: aplikasi pasar Google memerlukan dukungan" </string>
+     <string name="app_nogoogle"> "tanpa Market Google" </string>
+     <string name="cus_update"> "Last Update:" </string>
+     <string name="json_16"> "sertifikasi keselamatan (" </string>
+     <string name="json_15"> "related games (" </string>
+     <string name="json_14"> "Tidak ada game disarankan agar Anda menginstal aplikasi populer berikut:" </string>
+     <string name="json_11"> "Raiders terkait (" </string>
+     <string name="json_10"> "searches:" </string>
+     <string name="json_09"> "Cari Views: 1w +" </string>
+     <string name="json_08"> "Cari Views: 50w +" </string>
+     <string name="json_07"> "Cari Views: 500w +" </string>
+     <string name="json_06"> "Cari Views: 1000w +" </string>
+     <string name="json_05"> "benar-benar bebas" </string>
+     <string name="json_04"> "alat peraga biaya" </string>
+     <string name="json_03"> "Free Trial" </string>
+     <string name="json_02"> "biaya penyeberangan" </string>
+     <string name="json_ad"> "iklan tertanam" </string>
+     <string name="json_01"> "diketahui" </string>
+     <string name="json_12"> "kali" </string>
+     <string name="new_product">Baru</string>
+     <string name="hot_product">panas</string>
+     <string name="first_product">sanobar</string>
+     <string name="act_product">bertindak</string>
+     <string name="rec_product">Rec</string>
+     <string name="ger_product">Ger</string>
+     <string name="alert_new">Baru</string>
+      <string name="sub_point2">"penilaian"</string>
+	<string name="sub_comment">"komentar"</string>
+	<string name="sub_evamy">"peringkat saya"</string>
+	<string name="sub_waneva">"pemain Komentar"</string>
+	<string name="sub_canuse">"bisa bermain"</string>
+		<string name="sub_useless">"Tidak bisa bermain"</string>
+	<string name="sub_peoplerank">"Popularitas Urut"</string>
+	<string name="sub_timerank">"waktu sort"</string>
+	<string name="sub_myphone">"model saya"</string>
+	 <string name="resource_manager">"resource Manager"</string>  
+	 <string name="select_all">"Pilih Semua"</string>  
+	 <string name="cance_all">"hapus semua"</string>  
+	 
+	 
+	  <string name="oprice">"harga asli"</string>
+	 <string name="freeinstall">"Free Download"</string> 
+	 <string name="notinstallgoogle">"Anda tidak menginstal Google store"</string> 
+    <string name="downhistory">"downloads"</string>
+    <string name="down_speed">"Kecepatan:"</string>
+    <string name="down_progress">"kemajuan:"</string>
+    <string name="down_neerror">"Koneksi server gagal, silakan coba lagi nanti!"</string>
+    <string name="down_netnot">"Anomali jaringan, download file gagal!"</string>
+    <string name="down_nocache">"Kurangnya ruang penyimpanan, update gagal"</string>
+    <string name="down_gamecenterdowns">"aplikasi lobi memulai download"</string>
+    <string name="down_gamecenterdownu">"Memperbarui lobi aplikasi"</string>
+    <string name="down_gamecenterdownend">"Download game lobby lengkap"</string>
+    <string name="down_gamecenterdownend2">"Unduh menyelesaikan aplikasi lobby"</string>
+    <string name="resourdce_id">"sumber Daya ID"</string>
+    <string name="res_idnow">"Sumberdaya Nama"</string>
+    <string name="dangqzt">"Status saat ini"</string>
+      <string name="integral_shareapptitle">berbagi Software</string>
+       <string name="integral_sharesendtext">hi,推介你使用同步商店，这里了有大量的免费供你下载，还等什么，赶快下载吧！地址：</string>
+       <string name="integral_sharefs">Silahkan pilih metode berbagi:</string>
+     <string name="integral_value">VIP Poin</string>  
+     <string name="integral_help">Poin aturan</string>
+     <string name="mine_integral">Poin saya</string>
+     <string name="integral_help_text">分享同步商店给好友可以赚取积分，积分足够，就可以进入更多的积分专题，还等什么，快分享应用给好友，好友通过分享下载同步商店，你就可以获得一个积分。</string>
+	    <string name="integral_short">Kurangnya integrasi, berbagi mendapatkan poin?</string>
+     <string name="need_inter">Points Required:</string>  
+         <string name="moreshare">lebih...</string>
+           <string name="cancollet_dialogtext">Koleksi ini Anda yakin ingin membatalkan?</string>
+	         <string name="data_loadingerr">beban Gagal</string>
+	           <string name="app_managerst">Manajemen Aplikasi</string>
+	        <string name="app_managertitlest">pengelolaan</string>
+	         <string name="app_gamerank">permainan</string>
+	          <string name="app_commenrank">aplikasi</string>
+	          <string name="app_gamecate">permainan</string>
+	          <string name="app_commencate">aplikasi</string>
+	               <string name="store_exittext">Klik tombol kembali lagi untuk keluar</string>
+	            <string name="getanotherdata">Sekali-sekali</string>
+	            <string name="level_help_text">Poin dibagi menjadi lima tingkat, tingkat yang memadai minimum integrasi akan meningkat menjadi maksimal lima.</string>
+	   	 <string name="level_1">VIP 1:</string>
+	     <string name="level_2">VIP 2:</string>
+	     <string name="level_3">VIP 3:</string>
+	     <string name="level_4">VIP 4:</string>
+	     <string name="level_5">VIP 5:</string>	      
+	      <string name="top_free">Tertinggi Gratis</string>
+	       <string name="top_paid">Tertinggi dibayar</string>
+	     <string name="oobe_text1">Gratis Genuine Google</string>
+    <string name="oobe_text2">Game besar dan aplikasi, update tiap hari</string>
+    <string name="oobe_text3">Daerah rahasia, kustom pribadi</string>
+    <string name="oobe_use">segera mengalami</string>
+      <string name="title_tab_index">Boutique</string>
+    <string name="title_tab_game">permainan</string>
+    <string name="title_tab_pre">daerah</string>
+     <string name="title_tab_soft">Apps</string>  
+      <string name="home_button_need">esensial</string>
+     <string name="home_button_top">puncak</string>
+         <string name="freeintime">Batasi gratis</string>
+         <string name="newvbb">Versi saat ini adalah versi terbaru</string>
+	          <string name="maintext1">Paid app in Google Play,</string>
+        <string name="maintext2">100% free here.</string>
+          <string name="detailfree">Free Download</string>
+	        <string name="refreshok">segarkan selesai</string> 
+	          <string name="favuser">Guess You Like</string>
+	              <string name="delete_downtask">"hapus"</string>   
+	          
+	            <!-- add end -->
+   <!-- util.java start-->
+      <string name="just">hanya</string> 
+      <string name="before_min">menit lalu</string>
+      <string name="before_hour">jam lalu</string> 
+      <string name="myriad">banyak sekali</string> 
+      <string name="ten_million">sepuluh juta</string>  
+      <string name="calculate">menghitung</string>  
+      <string name="username">"Username:"</string>
+     <string name="userpoint">"Tingkat pengguna:"</string>
+         <string name="installphonetit">"Dipasang di telepon"</string>
+    <string name="installsdtit">"Kartu SD dipasang di"</string>    
+ 	<string name="lastuse">"Penggunaan terakhir:"</string>
+ 	<string name="allusene">"Ukuran:"</string>
+ 	  	<string name="appcanuseless">"Tidak dapat membuka aplikasi"</string>
+ 	
+      <!-- util.java end-->
+    <string name="VIP_LEVEL1">VIP 1</string>
+    <string name="VIP_LEVEL2">VIP 2</string>
+    <string name="VIP_LEVEL3">VIP 3</string>
+    <string name="VIP_LEVEL4">VIP 4</string>
+    <string name="VIP_LEVEL5">VIP 5</string> 
+    <string name="mng_app_update_hint_info">Anda harus berjalan di garis depan kali, tidak ada kebutuhan untuk memperbarui...</string> 
+  
+    <string name="mng_app_update_info_part1">app</string>
+    <string name="mng_app_update_info_part2">memiliki</string>
+    <string name="mng_app_update_info_part3">0</string>
+    <string name="mng_app_update_info_part4">pengguna diperbarui</string>      
+    <string name="about_declare">Pernyataan</string>      
+    <string name="about_declare_info">Versi firmware berlaku untuk Android2.1 dan di atas, seperti yang digunakan pada merek lain atau model peralatan perangkat lunak untuk setiap pertanyaan muncul, Divisi I tidak bertanggung jawab atas software untuk men-download, instal gratis, aplikasi besar mobile gratis Unduh biaya lalu lintas data, yang dihasilkan selama penggunaan, dibebankan oleh operator.</string>     
+    <string name="updated_time">Update:</string> 
+    <string name="sharedown">Free</string> 
+    <string name="sharedowndetail">Share to Download</string>
+     <string name="failtoregist">Failed to obtain information</string> 
+    <!-- 在线音乐 -->
+    <string name="musicfile_isnot_exist">Lagu file tidak ada, silahkan scan ulang</string>    
+    <string name="cannotplay">Tidak dapat memutar lagu</string>    
+    <string name="singer">Singer：</string> 
+    <string name="album">Album：</string>   
+    <string name="commentary">komentar</string>           
+    <string name="similar_recommend">rekomendasi Mirip</string>     
+    <string name="no_MV">Tidak MV</string>   
+    <string name="more_details">Lihat lagu informasi lebih lanjut</string>              
+    <string name="download_fail">kegagalan Buffer</string>     
+    <string name="unfind_lrc">tidak dapat menemukan lirik</string>  
+    <string name="mode_shuffle">Shuffle</string>    
+    <string name="mode_repeat_one">Repeat one</string>    
+    <string name="mode_repeat_all">Repeat all</string>    
+    <string name="net_faile">Kegagalan koneksi jaringan！</string>         
+    <string name="lrc_faile">tidak dapat menemukan lirik</string>    
+                   
+    <!-- 糗事百科 -->
+    <string name="joke">lelucon</string>      
+    <string name="joke_text_img">Teks gambar</string>         
+    <string name="joke_text">Teks</string>      
+    <string name="joke_img">Gambar</string>       
+     <string name="musicland">Music</string> 
+    <string name="musicrankstring">Rank</string> 
+    <string name="musicshare">Recommend a good music to you:</string>
+     <string name="musicrank">Music List</string>
+     <string name="musicdownlist">Download Queue</string>
+     <string name="txt_download_all_start">All Start</string>
+     <string name="download_alert">Download the queue is full, please wait</string>
+    <string name="deletesuccess">Deleted successfully</string>
+    <string name="deleteerror">Delete failed</string>
+    <string name="download_allready">Downloaded or are downloading</string>
+    <string name="music_string">Music</string>
+    <string name="text_string">Fun</string>
+    <string name="movie_string">Movie</string>
+    <string name="hollywood_string">Hollywood</string>
+    <string name="vally_string">Arts</string>
+    <string name="downalreadyadd">Has been added to the download queue</string>
+     <string name="playallmusic">"Play All"</string>
+      <string name="app_id">366293396854277</string>  
+     
+    <string name="vote_success">Success</string>    
+    <string name="vote_fail">fail</string> 
+     <string name="videoactor">"Starring : "</string>    
+    <string name="videodirector">"Director : "</string>  
+    <string name="videoarea">"Area : "</string>  
+    <string name="videoyear">"Year : "</string>    
+
+<!-- 在线音乐 -->
+    <string name="video_app_name">Video Player</string>
+    <string name="filename">Video files</string>
+     <string name="allmusicsub">All Song single</string>
+      <string name="quick_download" >Now open</string>
+    <string name="sell_alert" >Just %s baht a month, the three zones, playing endless</string>
+    <string name="char_alert" >$</string>
+   <string name="sell_alert_title" >Once paid,the audience unlock</string>
+      <string name="jing_cai_mei_yi_tian" >Exciting every day</string>
+     <string name="huan_yi_tian" >Change one day</string>
+          <string  name="readbyshare">After share continue reading</string>
+     <string name="shareneedinstall">Please install Facebook or LINE</string>
+      <string name="sell_alerttmp" >to Unlock All Downloads</string>  
+       <string name="paidProcessing">Processing...</string> 
+</resources>

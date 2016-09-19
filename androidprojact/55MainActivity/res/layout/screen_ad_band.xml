@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp" >
+
+    <com.byt.market.view.CustomScreenScrollLayout
+        android:id="@+id/SScrollLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible" 
+        android:paddingBottom="25dp"
+        >
+    </com.byt.market.view.CustomScreenScrollLayout>
+
+    <LinearLayout
+        android:id="@+id/Sllayout"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#80000000"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="umeng_common_action_info_exist">กำลังโหลด...</string>
+	<string name="umeng_common_info_interrupt">มีข้อผิดพลาดในการร้องขอ กรุณาโหลดใหม่</string>
+	<string name="umeng_common_action_pause">หยุด</string>
+	<string name="umeng_common_action_continue">ต่อไป</string>
+	<string name="umeng_common_action_cancel">ยกเลิก</string>
+	<string name="umeng_common_download_notification_prefix">กำลังโหลด: </string>
+	<string name="umeng_common_start_download_notification">กำลังโหลดแอพฯ...</string>
+	<string name="umeng_common_start_patch_notification">กำลังอัพเดท...</string>
+    <string name="umeng_common_network_break_alert">กรุณาเชื่อต่อเครือข่ายเพื่อโหลดใหม่</string>
+	<string name="umeng_common_download_failed">ดาวน์โหลดล้มเหลว</string>
+	<string name="umeng_common_download_finish">ดาวน์โหลดสำเร็จ กรุณาติดตั้ง</string>
+	<string name="umeng_common_patch_finish">อัพเดทสำเร็จ กรุณาติดตั้ง</string>
+</resources>
