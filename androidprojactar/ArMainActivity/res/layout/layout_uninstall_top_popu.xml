@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/top_pop_black_bg"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingTop="15dp" >
+
+    <LinearLayout
+        android:id="@+id/lay_sort_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"        
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/icon_sort_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_pop_item_selected_white"
+            android:duplicateParentState="true" />
+
+        <TextView
+       
+            style="@style/TopPopuTextBlackStyle"
+            android:text="@string/txt_sort_by_name" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/pop_driver_line" />
+
+    <LinearLayout             
+        android:id="@+id/lay_sort_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/icon_sort_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_pop_item_selected_white"
+            android:duplicateParentState="true"
+            android:visibility="invisible" />
+
+        <TextView
+            style="@style/TopPopuTextBlackStyle"
+            android:text="@string/txt_sort_by_date" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/pop_driver_line" />
+
+    <LinearLayout             
+        android:id="@+id/lay_sort_size"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/icon_sort_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_pop_item_selected_white"
+            android:duplicateParentState="true"
+            android:visibility="invisible" />
+
+        <TextView
+            style="@style/TopPopuTextBlackStyle"
+            android:text="@string/txt_sort_by_size" />
+    </LinearLayout>
+    
+        <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/pop_driver_line" />
+
+    <LinearLayout             
+        android:id="@+id/menu_uninstall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/icon_uninstall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_pop_item_selected_white"
+            android:duplicateParentState="true"
+            android:visibility="invisible" />
+
+        <TextView
+            style="@style/TopPopuTextBlackStyle"
+            android:text="@string/tip_uninsatll" />
+    </LinearLayout>
+
+</LinearLayout>

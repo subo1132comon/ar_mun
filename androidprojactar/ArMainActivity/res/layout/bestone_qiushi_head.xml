@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/qiushiheadlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#eaeaea"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+     >
+ <TextView
+     				android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#ffffffff"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/previous"
+                    android:layout_alignParentLeft="true" 
+                    android:background="@drawable/btn_login"
+                    />
+  <TextView
+      				android:id="@+id/switch_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/huan_yi_tian"
+                    android:textColor="#ffffffff"
+                    android:layout_alignParentRight="true"
+                    android:textSize="18sp"
+                    android:visibility="gone"
+                    android:background="@drawable/btn_login" />
+</RelativeLayout>

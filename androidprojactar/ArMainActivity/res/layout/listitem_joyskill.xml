@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dip"
+        android:orientation="vertical"
+        android:background="@drawable/round_rect_bg_selector"
+        android:padding="2dp" 
+        android:id="@+id/joyskill_sub">
+
+        <ImageView
+            android:id="@+id/listitem_joyskill_icon"
+            android:layout_width="82dip"
+            android:layout_height="match_parent"
+            android:maxWidth="82dip"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/app_empty_icon"
+            android:layout_alignParentRight="true"
+            android:padding="2dip"
+             />
+
+        <TextView
+            android:id="@+id/listitem_joyskill_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/listitem_joyskill_icon"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+             android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            style="@style/text_app_item_style" 
+            android:visibility="gone"/>
+        <LinearLayout
+            android:id="@+id/joyskill_des"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="2dp"
+            android:paddingRight="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/listitem_joyskill_icon"
+             >
+            <TextView
+                android:id="@+id/listitem_joyskill_updatedate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_app_item_des_style"
+                android:layout_margin="3dp" />
+
+            <TextView
+                android:id="@+id/listitem_joyskill_vcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                 style="@style/text_app_item_des_style"
+                android:layout_margin="3dp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/listitem_joyskill_adesc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/listitem_joyskill_icon"
+            android:layout_below="@id/listitem_joyskill_name"
+            android:layout_above="@id/joyskill_des"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            style="@style/text_app_item_style" 
+            android:maxLines="3"
+            android:ellipsize="end"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

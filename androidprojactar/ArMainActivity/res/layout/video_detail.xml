@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="#eaeaea" >
+
+    <include
+        android:id="@+id/main_top_frame"
+        layout="@layout/top_frame" />
+
+    <ScrollView
+        android:scrollbars="none"
+          android:layout_below="@+id/main_top_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <RelativeLayout
+           
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/videoimage"
+                android:layout_width="108dp"
+                android:layout_height="158dp"
+               
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="9dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/xline" />
+
+            <TextView
+                android:id="@+id/videoname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@id/videoimage"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/videodirector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/videoname"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="12dp"
+                android:layout_toRightOf="@id/videoimage"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#808080"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/videoactor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/videodirector"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="12dp"
+                android:layout_toRightOf="@id/videoimage"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="#808080"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/videoyear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/videoactor"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="12dp"
+                android:layout_toRightOf="@id/videoimage"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#808080"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/videolocal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/videoyear"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="12dp"
+                android:layout_toRightOf="@id/videoimage"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#808080"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/listitemvideosdc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/videolocal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_toRightOf="@id/videoimage"
+                android:drawableLeft="@drawable/videodetailplay"
+                android:drawablePadding="3dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#ffa7a7ab"
+                android:textSize="15.0sp" />
+
+            <TextView
+                android:id="@+id/video_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/videoimage"
+                android:layout_marginTop="17dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+               	android:layout_marginBottom="5dp"
+                android:textColor="#454545"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

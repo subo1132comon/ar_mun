@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+     
+        >
+
+        <!-- 登录信息区 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80.3dip"
+            android:orientation="vertical" 
+               android:gravity="center_vertical">
+               <TextView 
+                   android:id="@+id/username"
+                    android:layout_width="wrap_content"
+          		    android:layout_height="wrap_content"
+          		    android:textSize="12sp"
+          		    android:padding="4dp"
+          		     android:layout_marginLeft="10dip"
+           			 android:textColor="#000000"
+                   />
+                <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+               android:gravity="center_vertical">
+              
+                <TextView 
+                     android:layout_marginLeft="10dip"
+                     android:padding="4dp"
+                   android:id="@+id/userpoint"
+                    android:layout_width="wrap_content"
+          		    android:layout_height="wrap_content"
+          		    android:textSize="12sp"
+          		    android:textColor="#000000"
+           			
+                   />
+              
+                <LinearLayout
+                     android:layout_marginRight="10dip"
+                   		android:layout_alignParentRight="true"
+                      android:padding="4dp"
+                  	android:layout_marginTop="4dp"
+                    android:id="@+id/lay_my_collect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_user_login"
+                    android:gravity="center"
+                   
+                     >
+
+                    <ImageView
+                        android:id="@+id/img_my_collect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"                   
+                        android:src="@drawable/icon_my_collect_enable" />
+
+                    <TextView
+                        android:id="@+id/txt_my_collect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_my_faviorate_title"
+                        android:textColor="#000000"
+                        android:textSize="13.3sp" />
+                </LinearLayout>
+                </RelativeLayout>
+        </LinearLayout>
+        <View  android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#ffebebeb"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <!-- 我的游戏顶部提示区 -->
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6.6dip"
+                    android:paddingRight="6.6dip" >
+
+                    <!-- 已本地安装的游戏数量提示 -->
+				<Button
+                        android:id="@+id/btn_my_installed_game_updatable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="26.6dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/btn_my_installed_game_updatable"
+                    
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_toLeftOf="@id/btn_my_installed_game_updatable"
+                        android:id="@+id/txt_my_installed_game_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="23.3dip"
+                        android:layout_marginTop="23.3dip"
+                    	android:layout_alignParentLeft="true"
+                        android:textColor="#000000"
+                        android:textSize="14.6sp" />
+                    <!-- 可升级游戏 -->
+
+                    
+                </RelativeLayout>
+                <!-- 我的游戏列表区 -->
+
+                <LinearLayout
+                    android:id="@+id/lay_my_game"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="6.6dip"
+                    android:paddingRight="6.6dip"
+                    android:visibility="gone" >
+
+                    <!-- 已安装的游戏 -->
+
+                    <GridView
+                        android:id="@+id/gv_my_game"
+                        style="@style/common_list_style"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:horizontalSpacing="8dp"
+                        android:numColumns="4"
+                        android:paddingLeft="5dip"
+                        android:paddingRight="5dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- 正在加载view -->
+
+            <RelativeLayout
+                android:id="@+id/lay_loading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" >
+
+                <ProgressBar
+                    android:id="@+id/listview_loading_icon"
+                    style="@style/ProgressMedium.circle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+
+                <TextView
+                    android:id="@+id/listview_loading_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/listview_loading_icon"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/listview_loadding" />
+            </RelativeLayout>
+            <!-- 加载失败 -->
+
+            <RelativeLayout
+                android:id="@+id/lay_loadfailed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/listview_loadfailed_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/nothing_cry" />
+
+                <TextView
+                    android:id="@+id/listview_loadfailed_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/listview_loadfailed_icon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="26.6dip"
+                    android:layout_marginTop="26.6dip"
+                    android:text="@string/listview_loadding2" />
+
+                <Button
+                    android:id="@+id/btn_find_game"
+                    android:layout_width="100dip"
+                    android:layout_height="35dip"
+                    android:layout_below="@+id/listview_loadfailed_text"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/btn_yellow"
+                    android:singleLine="true"
+                         android:gravity="center"
+                    android:text="@string/findgame"
+                    android:textColor="#ffffff"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray" >
+
+    <include
+        android:id="@+id/user_center_title"
+        layout="@layout/top_frame" />
+
+    <RelativeLayout
+        android:id="@+id/user_center_info"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/round_rect_bg_selector"
+        android:layout_below="@+id/user_center_title"
+        android:layout_marginTop="20dp" >
+
+        <ImageView
+            android:id="@+id/user_center_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/default_user" />
+
+        <TextView
+            android:id="@+id/user_center_nick_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/user_center_icon"
+           />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/u19_normal" />
+
+    </RelativeLayout>
+	
+</RelativeLayout>

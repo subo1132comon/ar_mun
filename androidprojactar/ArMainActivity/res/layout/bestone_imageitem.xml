@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sharelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+     <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="272dip"
+        android:background="#ffD9D9D9"
+        android:scaleType="center"
+        android:src="@drawable/l_sub_empty_bg" 
+        />
+
+    <ImageView
+        android:id="@+id/appImage"
+        android:layout_width="fill_parent"
+        android:layout_height="272dip"
+        android:paddingRight="5dp" />
+
+</FrameLayout>

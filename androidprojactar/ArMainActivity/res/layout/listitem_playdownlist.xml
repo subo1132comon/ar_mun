@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rank_item_bg"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+     >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" />
+
+    <ImageButton
+        android:id="@+id/downloadingclosebutton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/musicitembuttonbgdraw"
+        android:src="@drawable/btn_download_close" />
+<RelativeLayout 
+            android:layout_marginLeft="11dp"
+     android:layout_toLeftOf="@id/downloadingclosebutton"
+    android:layout_width="match_parent"
+    android:layout_height="59dp"
+    android:gravity="center_vertical"
+    >
+    <TextView
+        android:id="@+id/downingitemname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        />
+ <TextView
+        android:id="@+id/downingsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/downingitemname"
+
+        android:layout_alignParentRight="true"
+        
+        />
+
+    <ProgressBar
+        android:layout_marginTop="8dp"
+        android:id="@+id/downloadingProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="3dip"
+        android:layout_below="@+id/downingitemname"
+   		android:layout_toLeftOf="@id/downingsize"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_ram" />
+    
+   
+</RelativeLayout>
+    
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:background="#d8d9da" />
+
+</RelativeLayout>

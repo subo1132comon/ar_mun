@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Haha</string>
+    <string name="action_settings">Settings</string>
+    <string name="image_desc"></string>
+    <string name="txt_splash_copyright">Copyright \@ 2014 Android Market</string>
+
+    <!-- 首界面 -->
+    <string name="txt_home_leader_online">Games</string>
+    <string name="txt_home_leader_latest_collection">Latest</string>
+    <string name="txt_home_leader_classic_play ">Classics</string>
+    <string name="toast_load_more_no_result">The End.</string>
+    <string name="welcome_alert">Fun anywhere anytime.</string>
+    <!-- 应用导航 -->
+    <string name="bottom_home">Recommend</string>
+    <string name="bottom_rank">Ranking</string>
+    <string name="bottom_cate">Category</string>
+    <string name="bottom_sub">Featured</string>
+    <string name="bottom_mine">My Manager</string>
+    <string name="toast_pwd_not_less_6_or_more_16">密码不能少于6位数或多于16位数</string>
+    <!-- 大家都在玩 -->
+    <string name="btn_rec_select_count">Install the selected(%1$s)</string>
+
+    <!-- 加载提示 -->
+    <string name="listview_loadfailed">Loading failed. Please try again.</string>
+    <string name="listview_loadding">Loading…</string>
+    <string name="listview_loadding2">No app at all.</string>
+    <string name="listview_loadding3">No app added to your Favorite.</string>
+    <string name="listview_loadding4">No app at all.</string>
+
+    <!-- 应用退出 -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit_confirm">System Notice</string>
+    <string name="exit_confirm_msg">Want to quit?</string>
+    <string name="exit_confirm_downloading">System Notice</string>
+    <string name="exit_confirm_downloading_msg">Downloading not completed. Proceed to exit?</string>
+    <string name="exit_confirm_goondownload_check">Continue to download after exit.</string>
+
+    <!-- 存储显示 -->
+    <string name="storage_phone">Phone</string>
+    <string name="storage_sdcard">SD Card</string>
+    <string name="storage_fomat">Used:%1$s  Available:%2$s</string>
+    <string name="storage_unaviable">Unavailable</string>
+
+    <!-- 设置菜单 -->
+    <string name="set_app">Settings</string>
+    <string name="update_app">Check Updates</string>
+    <string name="clean_app">Clean up Cache</string>
+    <string name="suggest_app">Feedback</string>
+    <string name="about_app">About</string>
+
+    <!-- 排行列表item -->
+    <string name="rank_t1">Ranking:</string>
+    <string name="btn_install">Install</string>
+
+    <!-- 首页相关 -->
+    <string name="today_rec_tip">"Today&#039;s Recommend"</string>
+
+    <!-- 下载相关 -->
+    <string name="state_wait_action_text">Waiting…</string>
+    <string name="state_retry_action_text">Retry</string>
+    <string name="state_ongoing_action_text">Pause</string>
+    <string name="state_pause_action_text">Continue</string>
+    <!-- <string name="state_finish_action_text">继续安装</string> -->
+    <string name="state_finish_action_text">Continue</string>
+    <string name="state_finish_need_update_action_text">Continue to update</string>
+    <string name="state_installing_action_text">Installing…</string>
+    <string name="state_installing_need_update_action_text">Updating…</string>
+    <string name="state_install_failed_action_text">Continue</string>
+    <string name="state_install_failed_need_update_action_text">Continue</string>
+    <string name="state_update_action_text">Update</string>
+    <string name="state_uninstalling_action_text">Uninstalling…</string>
+    <string name="state_installed_new_action_text">Start</string>
+    <string name="state_idle_action_text">Install</string>
+    <string name="state_wait_text">Waiting…</string>
+    <string name="state_retry_text">Download Failed</string>
+    <string name="state_ongoing_text">Installing…</string>
+    <string name="state_ongoing_need_update_text">Updating…</string>
+    <string name="state_pause_text">Paused</string>
+    <string name="state_finish_text">Not Installed</string>
+    <string name="state_finish_need_update_text">Not updated</string>
+    <string name="state_uninstalling_text">Uninstalling…</string>
+    <string name="state_installing_text">Installing…</string>
+    <string name="state_installing_need_update_text">Updating</string>
+    <string name="state_install_failed_text">Installation failed</string>
+    <string name="state_install_failed_need_update_text">Update Failed</string>
+    <string name="state_idle_text">Added to Favorites</string>
+    <!-- <string name="down_progress_detail">下载资源  %1$s /  %2$s </string> -->
+    <string name="down_progress_detail">%1$s/%2$s </string>
+    <string name="down_progress_detail2">%1$s</string>
+    <string name="down_summary">Version:</string>
+    <string name="downloadfile_sdcard_no_more_space">No enough storage in SD card.</string>
+    <string name="dialog_retry_title">Note</string>
+    <string name="dialog_retry_msg">%s Downloading error. Proceed to download again?</string>
+    <string name="dialog_delete_confirm_tips">Are you sure to delete?</string>
+    <string name="dialog_retry_btn_ok">Redownload</string>
+    <string name="dialog_retry_btn_back">Back</string>
+    <string name="dialog_retry_btn_goon">Installing…</string>
+    <string name="apk_not_exist">APK File Already Existed.</string>
+    <string name="insert_sdcard_first">Please insert your SD card</string>
+    <string name="sdcard_using_close_first">SD card in use. Please first turn off your USB device.</string>
+    <string name="sdcard_state_unusual">SD card status error.</string>
+    <string name="dialog_install_no_file_title">Warning</string>
+    <string name="dialog_install_no_file_msg">No APK found. Proceed to new download?</string>
+    <string name="dialog_nowifi_title">Download Notice</string>
+    <string name="dialog_nowifi_msg">No WIFI available. Proceed to download?</string>
+    <string name="dialog_nowifi_btn_ok">OK</string>
+    <string name="dialog_nowifi_btn_back">Cancel</string>
+    <string name="dialog_nowifi_btn_fav">Add to Favorites</string>
+    <string name="taost_pkg_mgr_busy">App Installing / Uninstalling... Please wait.</string>
+    <string name="sdcard_unavailable">SD card not available. Please try again after checking.</string>
+    <string name="game_update_notify_title">App Update</string>
+    <string name="game_start_rec_title">Popular</string>
+    <string name="game_update_notify_msg">%1$s app(s) updates available. Press to view details.</string>
+    <string name="game_download_notify_title">App Download</string>
+    <string name="game_download_notify_msg">%1$s app(s) downloading. Press to view details.</string>
+    <string name="dialog_goon_download_title">Note</string>
+    <string name="dialog_goon_download_msg">%1$s app(s) not downloaded. Proceed to download?</string>
+    <string name="txt_tips_never">"Remind no more."</string>
+    <!-- 详情相关 -->
+    <string name="detail">"Details"</string>
+    <string name="share_app">"Share"</string>
+    <string name="download">"Download"</string>
+    <string name="faviorate">"Add to Favorites"</string>
+    <string name="share_info_to_friend">"Share to Friends"</string>
+    <string name="share_app_content">"Top Secret: How to download 200 USD paid apps for free? Try this now."</string>
+    <string name="can_not_share_info">"Sorry! Sharing failed due to no relevant app."</string>
+    <string name="can_not_share_info2">"Data Loading... Please wait."</string>
+    <string name="txt_detail_tag_aut">"Official"</string>
+    <string name="txt_detail_tag_safe">"Secure"</string>
+    <string name="txt_detail_tag_no_ads">"No Ad"</string>
+    <string name="txt_detail_tag_free">"Free"</string>
+    <!-- 设置 -->
+    <string name="settings_noicon_title_s">"Display icon; Display screenshot; Normal downloading"</string>
+    <string name="settings_noicon_title_b">""Telecom Data Usage Saving Mode</string>
+    <string name="settings_toast_title_s">"Update Notification; Recommend Notification"</string>
+    <string name="settings_toast_title_b">"Notification"</string>
+    <string name="settings_dpath_title_s">"SD card"</string>
+    <string name="settings_dpath_title_b">"Download file"</string>
+    <string name="settings_dsize_title_s">3</string>
+    <string name="settings_dsize_title_b">"Max simultaneous downloads allowed"</string>
+    <string name="settings_qinstall_title_b">"Fast install or uninstall app"</string>
+    <string name="settings_qinstall_title_s">"Install or uninstall app in background %1$s"</string>
+    <string name="about_app_name">"Name"</string>
+    <string name="about_down_summary">"Version"</string>
+    <string name="support_system">System</string>
+    <string name="suppert_system">Android 2.1 or above</string>
+    <string name="product_dec">"Massive free apps available"</string>
+    <string name="version_management">version management</string>
+
+    <!-- 分类排行头相关 -->
+    <string name="app_list_new">"New"</string>
+    <string name="app_list_hot">"Hot"</string>
+
+    <!-- 搜索相关 -->
+    <string name="search_hint">"Get free paid apps"</string>
+    <string name="search">"Search"</string>
+    <string name="search_clear_history">"Clear history"</string>
+    <string name="user_login_name_hint">"Please enter your account."</string>
+    <string name="reg_user_login_name_hint">English numbers or a combination of user name</string>
+    <string name="reg_user_login_pwd_hint">Letter or number combination within 6 to 16 characters.</string>
+    <string name="user_login_pwd_hint">"Please enter a password"</string>
+    <string name="back">Cancel</string>
+    <string name="reg_user_login_pwd_hint_repeat">"Should be the same password twice"</string>
+
+    <!-- 我的游戏相关 -->
+    <string name="expend_child1_text">"Install"</string>
+    <string name="expend_child2_text">"Details"</string>
+    <string name="expend_child3_text">"Comments"</string>
+    <string name="expend_child4_text">"Tips"</string>
+    <string name="expend_child5_text">"Uninstall"</string>
+    <string name="expend_child5_remove">"Delete"</string>
+    <string name="expend_child5_del_fav">"Removed"</string>
+    <string name="expend_child5_text_msg">Proceed to uninstall %s?</string>
+    <string name="expend_child5_text_uninstall_system_updated_msg">"%s is OEM app. Update to newest version?"</string>
+    <string name="expend_child5_text_uninstall_system_msg">"%s is OEM app. Uninstall forbiddened."</string>
+    <string name="expend_child5_remove_msg">"Are you sure to delete?"</string>
+    <string name="expend_child5_del_fav_msg">"Are you sure to remove %s from Favorites?"</string>
+    <string name="expend_child5_text_check">Delete APK files too?</string>
+    <string name="mine_empty_message">"No app downloaded. Click "Recommend" for best apps!"</string>
+    <string name="txt_my_game_count">My apps ( %1$s )</string>
+    <!-- 系统版本更新相关 -->
+    <string name="updatetip">"App Assistant New Update Notice"</string>
+    <string name="market_update_title">"App Assistant Version Information"</string>
+
+    <!-- 标题栏 -->
+    <string name="titlebar_title_change_userinfo">"Information Change"</string>
+    <string name="titlebar_title_login">"Login"</string>
+    <string name="titlebar_title_account">"Account"</string>
+    <string name="titlebar_title_logout">"Logout"</string>
+    <string name="titlebar_title_regist">"Register"</string>
+    <string name="titlebar_title_settings">"Settings"</string>
+    <string name="titlebar_cancel">"Cancel"</string>
+    <string name="titlebar_title_suggest">"Feedback"</string>
+    <string name="titlebar_title_about">"About Us"</string>
+    <string name="titlebar_title_protocol">"User Agreement"</string>
+
+    <!-- 用户登录界面 -->
+    <string name="user_login_regist">"Register"</string>
+    <string name="user_login">Login</string>
+    <string name="user_login_login">"Login"</string>
+    <string name="user_login_use_other">"Login by other account"</string>
+    <string name="user_login_qqlogin">"QQ account"</string>
+    <string name="user_login_sinalogin">"Login by Sina account."</string>
+    <string name="user_login_tencentweibologin">"Login by QQ account."</string>
+    <string name="user_regist_now">"Register now"</string>
+    <string name="txt_male_user">"Male"</string>
+    <string name="txt_female_user">"Female"</string>
+    <string name="txt_login_forgot_password">"Forgot Password"</string>
+    <string name="txt_login_forgot_password2">Retrieve Password</string>
+    <string name="txt_login_forgot_password_dialog_msg">Please call customer service: 400-000-0000</string>
+    <string name="txt_call">Call</string>
+
+    <!-- 修改用户资料 -->
+    <string name="change_icon_camera">Take photo by camera</string>
+    <string name="change_icon_local">"Phone's Photo Album"</string>
+
+    <!-- 用户反馈 -->
+    <string name="your_suggest">Your feedback:</string>
+    <string name="your_phone">Your contacts:</string>
+    <string name="suggest_cate">Settings:</string>
+    <string name="suggest_cancel">Cancel</string>
+    <string name="suggest_submit">Submit</string>
+
+    <!-- 对话框 -->
+    <string name="dialog_title_hint">Note</string>
+    <string name="dialog_msg_logining">Login in process. Please wait\.\.\.</string>
+    <string name="dialog_msg_reading_userinfo">Reading user information\.\.\.</string>
+    <string name="dialog_msg_registing">Registration being submitted. Please wait\.\.\.</string>
+    <string name="dialog_msg_updateing_icon">Submitting\.\.\.</string>
+    <string name="dialog_msg_deleteing">Deleting... Please wait.</string>
+
+    <!-- toast提示 -->
+    <string name="toast_uid_cannot_null">Account cannot be empty.</string>
+    <string name="toast_uid_not_ruler">User name shall be letter or number only.</string>
+    <string name="toast_pwd_cannot_null">Password cannot be empty.</string>
+    <string name="toast_name_not_less_6_or_more_16">Account shall be within 6 to 16 characters.</string>
+    <string name="toast_pwd_not_ruler">The password shall be letter or number only.</string>
+    <string name="toast_regist_success">Registration Succeeded</string>
+    <string name="toast_modify_pwd_success">Change succeeded</string>
+    <string name="toast_regist_fail">Registration failed. Please try again.</string>
+    <string name="toast_uid_has_used">User name has bee registered.</string>
+    <string name="toast_no_network">Network unstable</string>
+    <string name="toast_network_connect_error">Parameter error</string>
+    <string name="toast_no_search_key">Please enter app name or keyword.</string>
+    <string name="toast_oauth_error">Authorization error. Please try again.</string>
+    <string name="toast_uid_or_pwd_error">Incorrect user name or password</string>
+    <string name="toast_oauth_get_userinfo_fail">Login failed. Please try again.</string>
+    <string name="toast_camera_not_return_bitmap">No picture from camera program</string>
+    <string name="toast_user_cancel_change_icon">User picture uploading cancelled</string>
+    <string name="toast_system_cat_fail">Cutting failed.</string>
+    <string name="toast_pwd_is_not_same">Password inputs inconsistent.</string>
+
+    <!-- 攻略 -->
+    <string name="joy_skill_vcount">%s browse</string>
+    <string name="joy_skill_no_info">Sorry, there is no %s tips.</string>
+    <!-- 关于我们 -->
+    <string name="about_word1">Apps/Books/Games/Others available</string>
+    <string name="about_word2">Joy and sharing.</string>
+    <string name="about_word3">Your feedbacks are valued</string>
+
+    <!-- 下载管理 -->
+    <string name="downloading_title_desc">Downloading</string>
+    <string name="downloaded_title_desc">Downloaded</string>
+    <string name="list_empty_view_tip_content">Great! All apps in latest version.</string>
+    <string name="list_empty_view_tip_content2">No Download Task.</string>
+    <string name="txt_download_all_go_on">Continue All</string>
+    <string name="txt_download_all_pause">Pause All</string>
+    <string name="txt_download_all_cancel">Cancel All</string>
+    <string name="text_download_manager_title">Download Manager</string>
+    <string name="text_look_over_detail_desc">View Details</string>
+    <string name="text_cancel_download_desc">Cancel Downloading</string>
+    <string name="text_go_on_download_desc">Continue to Download</string>
+    <string name="apk_not_exist2">APK files deleted. Redownloading...</string>
+    <string name="text_update_all_desc">Update All</string>
+
+    <!-- 我的收藏 -->
+    <string name="text_my_faviorate_title">Favorites</string>
+    <!-- 游戏更新 -->
+    <string name="text_game_update_title">Apps Update</string>
+    <string name="text_game_update_desc">Current Version:&#160;</string>
+    <string name="text_game_update_desc2">New Version:&#160;</string>
+    <string name="text_game_can_update_count">Update Available</string>
+
+    <!-- 卸载排序 -->
+    <string name="txt_sort_by_name">App Name</string>
+    <string name="txt_sort_by_size">Size</string>
+    <string name="txt_sort_by_date">Installation Time</string>
+    <string name="txt_uninstall_dialog_title">Uninstall Note</string>
+    <string name="tip_uninsatll">Uninstall</string>
+    <string name="btn_all_uninstall">Batch Uninstall(%1$s)</string>
+    <string name="no_run_app_alert">Unable to start the app.</string>
+
+    <!-- 应用排行相关 -->
+    <string name="txt_week_rank">Week</string>
+    <string name="txt_month_rank">Month </string>
+    <string name="txt_total_rank">Total</string>
+    <string name="menu_control_feed_back_txt">Feedback</string>
+    <string name="uninstall_app">Uninstall</string>
+    <string name="menu_control_storage_phone">Phone</string>
+    <string name="menu_control_storage_card">SD Card</string>
+    <string name="menu_control_uninstall_txt">Uninstall</string>
+    <string name="menu_control_down_txt">Download Manager</string>
+    <string name="menu_control_update_txt">App Update</string>
+    <string name="menu_control_settings_txt">Settings</string>
+    <string name="menu_control_check_up_txt">Check for Updates</string>
+    <string name="menu_control_clear_cache_txt">Clean Master</string>
+    <string name="app_nogoogledetail">"Google Play: App do not support."</string>
+    <string name="app_usereva">"User Comment ("</string>
+    <string name="kuohao">")"</string>
+    <string name="app_from">"Come from:"</string>
+    <string name="app_version">"Version:"</string>
+    <string name="about_detail">"Downloading, installation and use of this app is 100% free. Network fee may be chargeable by your telecom operator."</string>
+    <string name="app_loadingnow">"Loading data. . ."</string>
+    <string name="appstore_ad">"Are there ads"</string>
+    <string name="appstore_net">"The need for network"</string>
+    <string name="appstore_google">"Are Google market support"</string>
+    <string name="appstore_detail">"Advertising: the application contains the ad \nwifi: The application requires at wifi network \n Market: google services framework needed to support"</string>
+    <string name="menu_control_about_us_txt">About</string>
+    <string name="download_allcon">"Continue all"</string>
+    <string name="download_allpause">"Pause all"</string>
+    <string name="download_allcance">"Cancel all"</string>
+
+    <!-- 我的 ，个人设置 -->
+    <string name="file_clear">"Clear up"</string>
+    <string name="head_update">"Updated"</string>
+    <string name="text_mine_setting">Personal Settings</string>
+    <string name="lsititem_user">"User Rating"</string>
+    <string name="text_action_save">Save</string>
+    <string name="text_action_nickname_input_tip">Input 4 to 16 characters.</string>
+    <string name="button_text_action_modify_password">Change Password</string>
+    <string name="button_text_action_swtich_account">Switching account</string>
+    <string name="text_nick_name_desc">Nickname:</string>
+    <string name="text_gender_desc">Gender:</string>
+    <!-- 我的 ，找回密码 -->
+    <string name="text_repeat_password_desc">Password inputs inconsistent.</string>
+    <string name="text_action_input_desc">Please input the old password</string>
+    <string name="text_action_input_new_pwd_desc">6 to 16 letter or number combination</string>
+    <string name="text_action_input_new_pwd_tip_desc">User name error. Input again.</string>
+    <string name="text_new_pwd_null_desc">New password cannot be empty.</string>
+    <string name="text_old_pwd_error_desc">The old password incorrect.</string>
+    <string name="notification_point">"0%"</string>
+    <!-- 意见反馈相关 -->
+    <string name="txt_contact_way">Contact:</string>
+    <string name="txt_feed_back_type">Feedback Type:</string>
+    <string name="txt_reset">New Feedback</string>
+    <string name="txt_submit">Submit</string>
+    <string name="txt_feed_content_edit_hint">Please write us your valueable ideas. We will try our best to exceed your expectation.</string>
+    <string name="txt_contact_way_edit_hint">Line/Phone Number/E-mail/Facebook</string>
+    <string name="txt_feed_back_type_product_use">Product Usage</string>
+    <string name="txt_feed_back_type_fuction_suggestion">Features Suggestion</string>
+    <string name="txt_feed_back_type_exception_feedback">Bug Feedback</string>
+    <string name="submit_suggest">Feedback submitting.</string>
+    <string name="submit_suggest_fail">Feedback submission failed.</string>
+    <string name="submit_suggest_success">Feedback submitted.</string>
+
+    <!-- add by zengxiao -->
+    <string name="qtuninstall">"Uninstall?"</string>
+    <string name="gamebox">"App box"</string>
+    <string name="ut_01">"Apps?"</string>
+    <string name="ut_02">"Proceed to uninstall"</string>
+    <string name="qm">"?"</string>
+    <string name="ut_03">"5"</string>
+    <string name="appjs">"App Introduction"</string>
+    <string name="appweibo">"Official Twitter"</string>
+    <string name="installall">"Install all"</string>
+    <string name="getstart">"Rating"</string>
+    <string name="listitem_texts">"Editor's Note"</string>
+    <string name="listitem_gamedetail">"App Summary"</string>
+    <string name="paused">"Paused"</string>
+    <string name="searchhotrank">"Top Searches"</string>
+    <string name="nodata">"Not Available"</string>
+    <string name="findgame">"Return Home"</string>
+    <string name="notlogin">"Not loggined"</string>
+    <string name="register">"Register"</string>
+    <string name="appresult">"Feedback"</string>
+    <string name="passwordold">"Old Password:"</string>
+    <string name="passwordnew">"New password:"</string>
+    <string name="inputreplace">"Re-enter:"</string>
+    <string name="keepwap">"Telecom data usage saving setting:"</string>
+    <string name="notwifi">"Non-WiFi Download Notice"</string>
+    <string name="setting_1">"Display Icon and Screenshot"</string>
+    <string name="setting_2">"Installation Settings:"</string>
+    <string name="setting_3">"Immediate Installation after Downloading"</string>
+    <string name="setting_4">"Non-Interrupt Installation by Root Authorization"</string>
+    <string name="setting_5">"Delete APK after Installation"</string>
+    <string name="setting_6">"Install Completion Notice"</string>
+    <string name="setting_7">"Simultaneous Downloads Allowed"</string>
+    <string name="setting_8">"Wipe Cache"</string>
+    <string name="comment_title">"Comment"</string>
+    <string name="sub_textsize">"5&#045;140 letters"</string>
+    <string name="sub_inputnotman">"Input less than 5 letters."</string>
+    <string name="sub_hitabout">"We appreciate your feedback, and shall return to you once accepted."</string>
+    <string name="sub_qqmsn">"Line/Phone Number/E-mail/Facebook"</string>
+    <string name="sub_start">"*"</string>
+    <string name="game_name">"App Name"</string>
+    <string name="game_install">"Installed"</string>
+    <string name="game_start">"Start"</string>
+    <string name="uploadnow">"Loading ..."</string>
+    <string name="user_man">"Male"</string>
+    <string name="user_woman">"Female"</string>
+    <string name="user_number">"Account:"</string>
+    <string name="user_password">"Password:"</string>
+    <string name="user_twopassword">"Repeat password:"</string>
+    <string name="user_text1">"Read and agreed."</string>
+    <string name="user_text2">"《Android Market User Agreement》"</string>
+    <string name="addfavourite">Add to Favorites</string>
+    <string name="installcomment"> "Comment after installation"" </string>
+    <string name="sub_write"> "Write your review" </string>
+    <string name="sub_jianjie"> "Introduction" </string>
+    <string name="feedback_inputnull"> "Kindly please write your feedbacks." </string>
+    <string name="gs_clearall"> "Clear" </string>
+    <string name="gs_isclear"> "Clear history?" </string>
+    <string name="gs_nomodel"> "Language module not found?" </string>
+    <string name="gs_hotword"> "Keyword please!" </string>
+    <string name="gs_whatpoint">"Do you mean..."</string>
+    <string name="sp_list">"Topics"</string>
+    <string name="updateversionprom">"Update Tip:"</string>
+    <string name="updateexpain">Update Instructions</string>
+    <string name="later">Later</string>
+    <string name="isupdate">New update found. Update now?</string>
+    <string name="softwaresize">Software Size:</string>
+    <string name="updateversion">Update Version: </string>
+    <string name="lodingspeed"> "Loading" </string>
+    <string name="unstallmush"> "Batch Uninstall" </string>
+    <string name="version_soft"> "Version No.: " </string>
+    <string name="unstallnow"> "Prepare to uninstall. Please wait." </string>
+    <string name="unstallsucc"> "Uninstall succeeded" </string>
+    <string name="commenttextmax"> "Comment within 140 letters" </string>
+    <string name="commentfail">Comment failed</string>
+    <string name="commentsuccess">Comment submitted</string>
+    <string name="submiterror">Comment submission failed</string>
+    <string name="textnull">Feedback shall not be empty.</string>
+    <string name="scannow">Scanning cache</string>
+    <string name="scan2">Found by scanning</string>
+    <string name="scan3">files</string>
+    <string name="alltotal">Total size</string>
+    <string name="clearnow">Clearing… Please wait.</string>
+    <string name="finishscan">Clearing completed</string>
+    <string name="cleared">Cleared</string>
+    <string name="finishclear">Clearing completed</string>
+    <string name="rastar_forgame">Rate the app.</string>
+    <string name="rastar_first">Be the No.1 to comment.</string>
+    <string name="rastar_cando"> "Rated" </string>
+    <string name="rastar_neterror"> "Network Error" </string>
+    <string name="rastar_success"> "Rating succeeded" </string>
+    <string name="rastar_fail"> "Rating Failed" </string>
+    <string name="rastar_netcoll"> "Network connection failed." </string>
+    <string name="rastar_model"> "Phone model:" </string>
+    <string name="rastar_version"> "Version :" </string>
+    <string name="nocomment"> "No New Comment" </string>
+    <string name="nocomment_send"> "No comment yet. Be the No.1 to comment." </string>
+    <string name="setnet"> "Press for network setting" </string>
+    <string name="detail_down"> "Download: " </string>
+    <string name="detail_size"> "Size:" </string>
+    <string name="detail_type"> "Category: " </string>
+    <string name="detail_version"> "Version: " </string>
+    <string name="detail_date"> "Time: " </string>
+    <string name="detail_tag"> "Label: " </string>
+    <string name="detail_lang"> "Language: " </string>
+    <string name="detail_zh"> "Chinese" </string>
+    <string name="detail_en"> "English" </string>
+    <string name="detail_unknow"> "Unknown" </string>
+    <string name="detail_exp"> "Charges:" </string>
+    <string name="editor_word"> "Editor Comments:" </string>
+    <string name="leftkh">"("</string>
+    <string name="rightkh">")"</string>
+    <string name="cache"> Cache </string>
+    <string name="nofindgame"> "No app found." </string>
+    <string name="scannowversion"> "Version checking" </string>
+    <string name="setting_dispgame"> "Show app recommendation" </string>
+    <string name="setting_opened"> "On" </string>
+    <string name="setting_closeed"> "Off" </string>
+    <string name="setting_dispicon"> "Show icon" </string>
+    <string name="setting_updatenoti"> "Update Notification" </string>
+    <string name="setting_gamenoti"> "Show app recommendation" </string>
+    <string name="setting_disnoupdate"> "Show notification" </string>
+    <string name="setting_close"> "Close" </string>
+    <string name="settting_open"> "Open" </string>
+    <string name="sp_install"> "Install the selected" </string>
+    <string name="edit_commiterror"> "Uploading failed. Please try again." </string>
+    <string name="edit_commitesucc"> "Uploading succeeded" </string>
+    <string name="edit_commitnow"> "Loading ..." </string>
+    <string name="edit_error"> "Change failed." </string>
+    <string name="edit_succ"> "Change succeeded" </string>
+    <string name="edit_nicknamenull"> "Nickname cannot be empty." </string>
+    <string name="login_succ"> "Login succeeded" </string>
+    <string name="login_readinfo"> "User data reading" </string>
+    <string name="registernew"> "Register" </string>
+    <string name="cus_refreshpull"> "Pull down to refresh." </string>
+    <string name="cus_refreshnow"> "Refreshing…" </string>
+    <string name="cus_refreshref"> "Release to refresh." </string>
+    <string name="app_ad"> "Ads included." </string>
+    <string name="app_addetail"> "Ads included\n" </string>
+    <string name="app_noad"> "No ads." </string>
+    <string name="app_noaddetail"> "No ads\n" </string>
+    <string name="app_net"> "Internet required" </string>
+    <string name="app_netdetail"> "Internet required\n" </string>
+    <string name="app_nonet"> "Internet not required" </string>
+    <string name="app_nonetdetail"> "Internet not required \n" </string>
+    <string name="app_google"> "Google play required" </string>
+    <string name="app_googledetail"> "Google play required" </string>
+    <string name="app_nogoogle"> "Google play not required" </string>
+    <string name="cus_update"> "Lastest Update:" </string>
+    <string name="json_16"> "Security certification (" </string>
+    <string name="json_15"> "Related apps (" </string>
+    <string name="json_14"> "No apps found. Recommend the below hot apps:" </string>
+    <string name="json_11"> "Tips ( " </string>
+    <string name="json_10"> "Search views: " </string>
+    <string name="json_09"> "Search Views: 1w +" </string>
+    <string name="json_08"> "Search Views: 50w +" </string>
+    <string name="json_07"> "Search Views: 500w +" </string>
+    <string name="json_06"> "Search Views: 1000w +" </string>
+    <string name="json_05"> "100% Free" </string>
+    <string name="json_04"> "In-app Purchases" </string>
+    <string name="json_03"> "Free Trial" </string>
+    <string name="json_02"> "In-app Purchases" </string>
+    <string name="json_ad"> "Ads included." </string>
+    <string name="json_01"> "Unknown" </string>
+    <string name="json_12"> "times" </string>
+    <string name="new_product">New</string>
+    <string name="hot_product">Hot</string>
+    <string name="first_product">Fir</string>
+    <string name="act_product">Act</string>
+    <string name="rec_product">Rec</string>
+    <string name="ger_product">Ger</string>
+    <string name="alert_new">New</string>
+    <string name="sub_point2">"Rating"</string>
+    <string name="sub_comment">"Comments"</string>
+    <string name="sub_evamy">"Rating by Me"</string>
+    <string name="sub_waneva">"User Comments"</string>
+    <string name="sub_canuse">"Can play"</string>
+    <string name="sub_useless">"Cannot play"</string>
+    <string name="sub_peoplerank">"Popularity"</string>
+    <string name="sub_timerank">"Release Time"</string>
+    <string name="sub_myphone">"Phone model"</string>
+    <string name="resource_manager">"Resource Manager"</string>
+    <string name="select_all">"Select all"</string>
+    <string name="cance_all">"Select none"</string>
+    <string name="oprice">"Price"</string>
+    <string name="freeinstall">"Download"</string>
+    <string name="notinstallgoogle">"Google play not installed"</string>
+    <string name="downhistory">"downloads"</string>
+    <string name="down_speed">"Speed:"</string>
+    <string name="down_progress">"Progress:"</string>
+    <string name="down_neerror">"Server connection failed. Please try again later."</string>
+    <string name="down_netnot">"Network anomaly. File download failed!"</string>
+    <string name="down_nocache">"No storage. Update failed."</string>
+    <string name="down_gamecenterdowns">"App downloading"</string>
+    <string name="down_gamecenterdownu">"App Updating"</string>
+    <string name="down_gamecenterdownend">"App download completed"</string>
+    <string name="down_gamecenterdownend2">"App download completed"</string>
+    <string name="resourdce_id">"Resource ID"</string>
+    <string name="res_idnow">"Resource Name"</string>
+    <string name="dangqzt">"Status"</string>
+    <string name="username">"Username:"</string>
+    <string name="userpoint">"User Level:"</string>
+    <string name="integral_shareapptitle">Share to Friends</string>
+    <string name="integral_sharesendtext">Top Secret: How to download 200 USD paid apps for free? Try this now.</string>
+    <string name="integral_sharefs">Choose your sharing:</string>
+    <string name="integral_value">VIP Points</string>
+    <string name="integral_help">VIP Point Rules</string>
+    <string name="mine_integral">My VIP Points</string>
+    <string name="integral_help_text">Win VIP Points by sharing App Assistant to your LINE or Facebook friends. VIP Points can be used for VIP Privileged Services. Go and press the "Share" button at top-right corner.</string>
+    <string name="integral_short">Not enough VIP points. Share to earn points?</string>
+    <string name="need_inter">VIP Points Required:</string>
+    <string name="moreshare">More...</string>
+    <string name="cancollet_dialogtext">This collection you sure you want to cancel?</string>
+    <string name="data_loadingerr">Loading Failed</string>
+    <string name="app_managerst">App Manager</string>
+    <string name="app_managertitlest">Mine</string>
+    <string name="app_gamerank">Game</string>
+    <string name="app_commenrank">App</string>
+    <string name="app_gamecate">Game</string>
+    <string name="app_commencate">App</string>
+    <string name="store_exittext">Press again to exit.</string>
+    <string name="getanotherdata">See next batch.</string>
+    <string name="level_help_text"> </string>
+    <string name="level_1">VIP 1:</string>
+    <string name="level_2">VIP 2:</string>
+    <string name="level_3">VIP 3:</string>
+    <string name="level_4">VIP 4:</string>
+    <string name="level_5">VIP 5:</string>    
+    <string name="top_free">Top Free</string>
+    <string name="top_paid">Top Paid</string>
+    <string name="oobe_text1">Free Genuine synchronization Google</string>
+    <string name="oobe_text2">Massive games and applications, updated every day</string>
+    <string name="oobe_text3">Secret area, private custom</string>
+    <string name="oobe_use">Immediately experience</string>
+    <string name="title_tab_index">Home</string>
+    <string name="title_tab_game">Games</string>
+    <string name="title_tab_pre">Zones</string>
+    <string name="title_tab_soft">Apps</string>
+    <string name="home_button_need">Must</string>
+    <string name="home_button_top">Top</string>
+    <string name="freeintime">Timed Free</string>
+    <string name="newvbb">Already the newest version</string>
+    <string name="maintext1">Paid app in Google Play,</string>
+    <string name="maintext2">100% free here.</string>
+    <string name="detailfree">Download</string>
+    <string name="refreshok">Refresh completed</string>
+    <string name="favuser">Guess</string>
+         <!-- add end -->
+    <!-- util.java start -->
+    <string name="just">just now</string>
+    <string name="before_min">minute(s) ago</string>
+    <string name="before_hour">hour(s) ago</string>
+    <string name="myriad">ten thousand</string>
+    <string name="ten_million">ten million</string>
+    <string name="calculate">hundred million</string>
+    <!-- util.java end -->
+    <string name="VIP_LEVEL1">VIP 1</string>
+    <string name="VIP_LEVEL2">VIP 2</string>
+    <string name="VIP_LEVEL3">VIP 3</string>
+    <string name="VIP_LEVEL4">VIP 4</string>
+    <string name="VIP_LEVEL5">VIP 5</string> 
+    <string name="mng_app_update_hint_info">Congratulation! All apps are in the latest version.</string>  
+    <string name="delete_downtask">"Delete"</string>   
+  	<string name="appcanuseless">"Unable to open the app."</string>
+    
+
+     <string name="installphonetit">"Installed in Phone"</string>
+    <string name="installsdtit">"Install in SD card"</string>    
+ 	<string name="lastuse">"The Latest Use:"</string>
+ 	<string name="allusene">"Size: "</string>
+    <string name="mng_app_update_info_part1">app</string>
+    <string name="mng_app_update_info_part2">has</string>
+    <string name="mng_app_update_info_part3">0</string>
+    <string name="mng_app_update_info_part4">User Update</string> 
+    
+    <string name="about_declare">Declaration</string>      
+    <string name="about_declare_info">Android 2.1 or above is required for this software. The download, installation, and usage of this software are completely free. However, please be noted that there may be mobile data plan fee chargeable by your telecom carrier during your use of this software.</string>     
+    <string name="updated_time">Update:</string> 
+     <string name="sharedown">Free</string> 
+     <string name="sharedowndetail">Free</string> 
+    <string name="failtoregist">Failed to obtain information</string>
+      
+    <string name="musicland">Music</string> 
+    <string name="musicrankstring">Rank</string> 
+    <string name="musicshare">Recommend a good music to you:</string>
+     <string name="musicrank">Music List</string>
+     <string name="musicdownlist">Download Queue</string>
+     <string name="txt_download_all_start">All Start</string>
+     <string name="download_alert">Download the queue is full, please wait</string>
+    <string name="deletesuccess">Deleted successfully</string>
+    <string name="deleteerror">Delete failed</string>
+    <string name="download_allready">Downloaded or are downloading</string>
+    <string name="music_string">Music</string>
+    <string name="text_string">Fun</string>
+    <string name="movie_string">Movie</string>
+    <string name="hollywood_string">Hollywood</string>
+    <string name="vally_string">Arts</string>
+    <string name="downalreadyadd">Has been added to the download queue</string>
+     <string name="playallmusic">"Play All"</string>
+
+<!-- 在线音乐 -->
+    <string name="video_app_name">Video Player</string>
+    <string name="filename">Video files</string>
+     <string name="allmusicsub">All Song single</string>
+     <string name="musicfile_isnot_exist">file does not exist, please re-scan</string>    
+    <string name="cannotplay">Unable to play the song</string>    
+    <string name="singer">Singer：</string> 
+    <string name="album">Album：</string>   
+    <string name="commentary">Commentary</string>           
+    <string name="similar_recommend">Recommend</string>     
+    <string name="no_MV">no MV</string>   
+    <string name="more_details">more details</string>              
+    <string name="download_fail">Buffer fails, check the network</string>     
+    <string name="unfind_lrc">Search fail</string>  
+    <string name="mode_shuffle">Sequential</string>    
+    <string name="mode_repeat_one">Repeat one</string>    
+    <string name="mode_repeat_all">Repeat all</string>    
+    <string name="net_faile">net fail！</string>         
+    <string name="videoactor">"Starring : "</string>    
+    <string name="videodirector">"Director : "</string>  
+    <string name="videoarea">"Area : "</string>  
+    <string name="videoyear">"Year : "</string>  
+    <!-- 糗事百科 -->
+    <string name="joke">joke</string>      
+    <string name="joke_text_img">Picture Text</string>         
+    <string name="joke_text">Text</string>      
+    <string name="joke_img">Picture</string>      
+     <string name="app_id">366293396854277</string>  
+     
+    <string name="vote_success">Success</string>    
+    <string name="vote_fail">fail</string>      
+    <string name="lrc_faile">Can not find the lyrics</string> 
+     <string name="quick_download" >Now open</string>
+    <string name="sell_alert" >Just %s baht a month, the three zones, playing endless</string>
+    <string name="char_alert" >$</string>
+   <string name="sell_alert_title" >Note: Once paid, the VIP zone will be unlocked accordingly.</string>
+      <string name="jing_cai_mei_yi_tian" >Exciting every day</string>
+      <string name="previous" >previous</string>
+     <string name="huan_yi_tian" >Change one day</string>
+          <string  name="readbyshare">After share continue reading</string>
+     <string name="shareneedinstall">Please install Facebook or LINE</string>
+      <string name="sell_alerttmp" >to Unlock All Downloads</string>  
+       <string name="paidProcessing">Processing...</string> 
+</resources>

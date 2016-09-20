@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eaeaea" >
+
+    <RelativeLayout
+        android:id="@+id/titlelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="#66000000" >
+
+        <Button
+            android:id="@+id/downloadbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/beston_videodowndrawable"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/backactivity"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="#00000000"
+            android:src="@drawable/beston_videobackdrawable"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+ 
+
+    <WebView
+        android:id="@+id/web_video"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        />
+       <RelativeLayout
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" 
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/listview_loading_icon"
+            style="@style/VideoCircle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/listview_loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listview_loading_icon"
+            android:layout_centerHorizontal="true"
+            android:text="@string/listview_loadding" />
+    </RelativeLayout>
+
+</RelativeLayout>

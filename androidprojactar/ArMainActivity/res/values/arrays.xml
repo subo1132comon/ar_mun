@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="suggest_category">
+        <item >Default</item>
+        <item >Product Installation</item>
+        <item >Product Use</item>
+        <item >Feature Suggestions</item>
+        <item >Bug Feedback</item>
+        <item >Models support</item>
+    </string-array>
+    <string-array name="feed_back_type">
+        <item>@string/txt_feed_back_type_product_use</item>
+        <item>@string/txt_feed_back_type_fuction_suggestion</item>
+        <item>@string/txt_feed_back_type_exception_feedback</item>
+    </string-array>
+    <string-array name="colors">
+        <item>182,182,182</item>  
+        <item>182,182,182</item>        
+        <item>0,182,0</item>   
+        <item>182,182,182</item>        
+    </string-array>
+    <string-array name="updated_user_num">
+        <item>app</item>
+        <item>has</item>
+        <item>0</item>
+        <item>user updated</item>        
+    </string-array>  
+</resources>

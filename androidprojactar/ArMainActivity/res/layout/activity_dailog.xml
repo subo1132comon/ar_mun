@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+     >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:text="55Mun_Pay"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:background="#03A9F4"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="horizontal"
+        android:background="#F5F5F5"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_props"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_weight="1"
+                android:background="#E0E0E0"
+                android:text="propsName"
+                android:textColor="#03A9F4"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_marginBottom="2dp"
+                />
+             <TextView
+                android:id="@+id/text_money"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:padding="20dp"
+                  android:background="#E0E0E0"
+                android:text="10THB"
+                android:textColor="#03A9F4"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_weight="15"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:id="@+id/layout_sms"
+                android:layout_width="match_parent"
+                android:background="@drawable/pay_bg_select"
+                android:layout_marginEnd="10dp"
+                android:layout_height="70dp" 
+                android:visibility="gone"
+                >
+                <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_sms" />
+                 <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:layout_toEndOf="@+id/imageView1"
+                    android:text="SMS" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/layout_bank"
+                android:layout_width="match_parent"
+                android:background="@drawable/pay_bg_select"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="10dp"
+                android:layout_height="70dp" 
+                android:visibility="gone"
+                 >
+                <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_bank" />
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:layout_toEndOf="@+id/imageView1"
+                    android:text="Bank" />
+            </RelativeLayout>
+             <RelativeLayout
+                android:id="@+id/layout_LINEPay"
+                android:layout_width="match_parent"
+                android:background="@drawable/pay_bg_select"
+                android:layout_marginEnd="10dp"
+                android:visibility="gone"
+                android:layout_height="70dp" 
+                 >
+                <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_linepay" />
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:layout_toEndOf="@+id/imageView1"
+                    android:text="LINEPay" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/layout_cashu"
+                android:layout_width="match_parent"
+                android:background="@drawable/pay_bg_select"
+                android:layout_marginEnd="10dp"
+                android:layout_height="70dp" 
+                 >
+                <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/cashu" />
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:layout_toEndOf="@+id/imageView"
+                    android:text="CASHU" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/layout_bitcoin"
+                android:layout_width="match_parent"
+                android:background="@drawable/pay_bg_select"
+                android:layout_marginEnd="10dp"
+                android:layout_height="70dp" 
+                 >
+                <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/bitcoin" />
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:layout_toEndOf="@+id/imageView"
+                    android:text="BITCOIN" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_pay_dialog"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:text="@string/pay_select_title" />
+	<RelativeLayout
+	    android:id="@+id/layout_pay_day"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/select_show_pay"
+        android:padding="10dp"
+        android:gravity="center"
+        >
+            <TextView
+		        android:id="@+id/bao_day"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginEnd="10dp"
+		        android:textColor="#000000"
+		        android:textSize="18dip"
+		        android:text="@string/bao_day"/>
+           <TextView
+		        android:id="@+id/bao_day_price"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginStart="15dp"
+		        android:textColor="#FF9100"
+		        android:textSize="18dip"
+		        android:layout_toEndOf="@+id/bao_day"
+		        android:text="@string/money" />
+    </RelativeLayout>
+    <RelativeLayout
+	    android:id="@+id/layout_pay_month"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/select_show_pay"
+        android:padding="10dp"
+        android:gravity="center"
+        >
+            <TextView
+		        android:id="@+id/bao_math"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginEnd="10dp"
+		        android:textColor="#000000"
+		        android:textSize="18dip"
+		        android:text="@string/bao_math"/>
+           <TextView
+		        android:id="@+id/bao_math_price"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_toEndOf="@+id/bao_math"
+		        android:layout_marginStart="15dp"
+		        android:textColor="#FF9100"
+		        android:textSize="18dip"
+		        android:text="@string/money" />
+    </RelativeLayout>
+    <RelativeLayout
+	    android:id="@+id/layout_pay_yeas"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/select_show_pay"
+        android:padding="10dp"
+        android:gravity="center"
+        >
+            <TextView
+		        android:id="@+id/bao_yeas"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginEnd="10dp"
+		        android:textColor="#000000"
+		        android:textSize="18dip"
+		        android:text="@string/bao_year"/>
+           <TextView
+		        android:id="@+id/bao_year_price"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_toEndOf="@+id/bao_yeas"                        
+		        android:layout_marginStart="15dp"
+		        android:textColor="#FF9100"
+		        android:textSize="18dip"
+		        android:text="@string/money"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+         >
+		
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_prompt" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/imageView1"
+            android:layout_marginStart="3dp"
+            android:padding="3dp"
+            android:textColor="#263238"
+            android:textSize="15dip"
+            android:text="@string/sell_alert_title" />
+
+    </RelativeLayout>
+    	
+</LinearLayout>

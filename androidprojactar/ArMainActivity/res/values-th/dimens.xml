@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 专区文字位置 -->
+    <dimen name="listitem_sub_name_padding_left">16dip</dimen>
+    <dimen name="listitem_sub_name_padding_right">16dip</dimen>
+    <dimen name="listitem_sub_name_padding_top">106dip</dimen>
+    <dimen name="sharedivider">49dip</dimen>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/book_pop"
+    android:baselineAligned="false" >
+
+    <TextView
+        style="@style/text_style"
+        android:id="@+id/bookBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/reader_text_size"
+        android:gravity="center"
+        android:text="@string/bookpop_size" />
+
+    <TextView
+         style="@style/text_style"
+        android:id="@+id/bookBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/reader_screen_brightness"
+        android:gravity="center"
+        android:text="@string/bookpop_light" />
+
+</LinearLayout>

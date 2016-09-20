@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Haha</string>
+    <string name="action_settings">设置</string>
+    <string name="image_desc"></string>
+
+    <!-- 首界面 -->
+    <string name="toast_load_more_no_result">已经到底啦 ^_^</string>
+
+    <!-- 加载提示 -->
+    <string name="listview_loadfailed">加载失败，请重试</string>
+    <string name="listview_loadding">加载中\.\.\.</string>
+    <string name="listview_loadding2">一个应用都没有,好桑心~</string>
+    <string name="listview_loadding3">你没有收藏应用哦！</string>
+    <string name="listview_loadding4">亲~你没有任何应用</string>
+
+
+    <!-- 设置菜单 -->
+    <string name="set_app">设置</string>
+    <string name="update_app">检查新版本</string>
+    <string name="clean_app">清理缓存</string>
+    <string name="suggest_app">意见反馈</string>
+    <string name="about_app">关于</string>
+    <string name="about_app_name">名称</string>
+    <string name="about_down_summary">版本</string>
+    <string name="support_system">系统</string>     
+	<string name="suppert_system">Android4.0及以上</string>
+	<string name="version_management">版本管理</string>
+
+
+    <!-- 下载相关 -->
+    <string name="state_wait_action_text">等待</string>
+    <string name="state_retry_action_text">重试</string>
+    <string name="state_ongoing_action_text">暂停</string>
+    <string name="state_pause_action_text">继续</string>
+    <string name="state_finish_action_text">继续安装</string>
+    <string name="state_finish_need_update_action_text">继续更新</string>
+    <string name="state_installing_action_text">安装中</string>
+    <string name="state_installing_need_update_action_text">更新中</string>
+    <string name="state_install_failed_action_text">继续安装</string>
+    <string name="state_install_failed_need_update_action_text">继续更新</string>
+    <string name="state_update_action_text">更新</string>
+    <string name="state_uninstalling_action_text">卸载中</string>
+    <string name="state_installed_new_action_text">启动</string>
+    <string name="state_idle_action_text">安装</string>
+    <string name="state_wait_text">等待中</string>
+    <string name="state_retry_text">下载失败</string>
+    <string name="state_ongoing_text">安装中</string>
+    <string name="state_ongoing_need_update_text">更新中</string>
+    <string name="state_pause_text">已暂停</string>
+    <string name="state_finish_text">未安装</string>
+    <string name="state_finish_need_update_text">未更新</string>
+    <string name="state_uninstalling_text">卸载中</string>
+    <string name="state_installing_text">安装中</string>
+    <string name="state_installing_need_update_text">更新中</string>
+    <string name="state_install_failed_text">安装失败</string>
+    <string name="state_install_failed_need_update_text">更新失败</string>
+    <string name="state_idle_text">已收藏</string>
+	
+    <string name="down_progress_detail"> %1$s /  %2$s </string>
+    <string name="down_progress_detail2">%1$s</string>
+    <string name="down_summary">版本：</string>
+    <string name="downloadfile_sdcard_no_more_space">SD卡没有足够的空间来保存文件！</string>
+    <string name="dialog_retry_title">提示</string>
+    <string name="dialog_retry_msg">%s 可能在下载过程中出错,是否重新下载？</string>
+    <string name="dialog_delete_confirm_tips">确定要删除？</string>
+    <string name="dialog_retry_btn_ok">重新下载</string>
+    <string name="dialog_retry_btn_back">返回</string>
+    <string name="insert_sdcard_first">请先插入sd卡</string>
+    <string name="sdcard_using_close_first">sd卡正在使用中，请先关闭USB设备。</string>
+    <string name="sdcard_state_unusual">sd卡状态不正常。</string>
+    <string name="dialog_install_no_file_title">警告</string>
+    <string name="dialog_nowifi_title">下载提示</string>
+    <string name="dialog_nowifi_msg">当前为非Wifi网络，是否继续下载？</string>
+    <string name="dialog_nowifi_btn_ok">确定</string>
+    <string name="dialog_nowifi_btn_back">取消</string>
+    <string name="dialog_goon_download_title">提示</string>
+    <string name="txt_tips_never">不再提示</string>
+    <!-- 详情相关 -->
+    <string name="detail">应用详情</string>
+    <string name="share_app">分享</string>
+    <string name="download">下载</string>
+    <string name="faviorate">收藏</string>
+    <string name="share_info_to_friend">分享给朋友</string>
+    <string name="share_app_content1">"我正在看这个，好看极了！你也看下:"</string>
+    <string name="share_app_content2">"哎哟，这个不错哦"</string>
+    <string name="share_app_content3">"嘿嘿，好东西大家一起分享"</string>
+    <string name="share_app_content4">"精彩内容，错过了就没有了哈"</string>
+    <string name="share_app_content5">" 围观！围观！"</string>
+    <string name="share_app_content6">"精彩无限，不看就亏大了"</string>
+    
+    
+    
+    <string name="can_not_share_info">抱歉！您的系统没有应用程序可以执行此分享操作。</string>
+    <string name="can_not_share_info2">数据正在加载,请稍等</string>
+
+    <!-- 设置 -->
+    <string name="settings_noicon_title_s">显示图标、显示截图、正常下载</string>
+    <string name="settings_noicon_title_b">省流量模式</string>
+    <string name="settings_toast_title_s">更新提示、推荐提示</string>
+    <string name="settings_toast_title_b">通知提示</string>
+    <string name="settings_dpath_title_s">SD卡</string>
+    <string name="settings_dpath_title_b">下载位置</string>
+    <string name="settings_dsize_title_s">3</string>
+    <string name="settings_dsize_title_b">最大同时下载数</string>
+
+    <!-- 分类排行头相关 -->
+    <string name="app_list_new">最  新</string>
+    <string name="app_list_hot">最  热</string>
+
+    <!-- 搜索相关 -->
+    <string name="search_hint">泰国No.1内容：笑话/电影/App</string>
+    <string name="search">搜索</string>
+    <string name="search_clear_history">清除历史记录</string>
+    <string name="back">返回</string>
+
+
+    <!-- 系统版本更新相关 -->
+    <string name="updatetip">更新提示</string>
+    <string name="market_update_title">升级信息</string>
+
+
+    <!-- 用户反馈 -->
+    <string name="your_suggest">您的建议:</string>
+    <string name="your_phone">您的联系方式:</string>
+    <string name="suggest_cate">设置分类:</string>
+    <string name="suggest_cancel">取消</string>
+    <string name="suggest_submit">提交</string>
+
+    <!-- 对话框 -->
+    <string name="dialog_title_hint">提示</string>
+    <string name="dialog_msg_logining">登录中，请稍后\.\.\.</string>
+    <string name="dialog_msg_reading_userinfo">正在读取用户信息\.\.\.</string>
+    <string name="dialog_msg_registing">正在提交注册信息，请稍后\.\.\.</string>
+    <string name="dialog_msg_updateing_icon">正在上传\.\.\.</string>
+    <string name="dialog_msg_deleteing">正在删除 , 请稍候\.\.\.</string>
+
+    <!-- toast提示 -->
+    <string name="toast_no_network">网络不佳</string>
+    <string name="toast_network_connect_error">参数错误</string>
+    <string name="toast_no_search_key">请输入应用名称或关键字</string>
+    <string name="toast_oauth_error">授权出错，请重试</string>
+    <string name="toast_oauth_get_userinfo_fail">登录失败，请重试</string>
+    <string name="play_fiald">支付失败</string>
+
+    <!-- 攻略 -->
+    <string name="joy_skill_vcount">%s浏览</string>
+    <string name="joy_skill_no_info">对不起，还没有  %s 的攻略</string>
+
+    <!-- 下载管理 -->
+    <string name="downloading_title_desc">下载中</string>
+    <string name="downloaded_title_desc">已下载</string>
+    <string name="list_empty_view_tip_content">没有更新的应用哦！</string>
+    <string name="list_empty_view_tip_content2">你没有下载任务哦！</string>
+    <string name="txt_download_all_go_on">全部继续</string>
+    <string name="txt_download_all_pause">全部暂停</string>
+    <string name="txt_download_all_cancel">全部取消</string>
+    <string name="text_download_manager_title">下载管理</string>
+    <string name="text_look_over_detail_desc">查看详情</string>
+    <string name="text_cancel_download_desc">取消下载</string>
+    <string name="text_go_on_download_desc">继续下载</string>
+    <string name="apk_not_exist2">安装文件已被删除，正重新下载</string>
+    <string name="text_update_all_desc">全部更新</string>
+  
+    <!-- 我的收藏 -->
+    <string name="text_my_faviorate_title">我的收藏</string>
+    <!-- 应用更新 -->
+    <string name="text_game_update_title">应用更新</string>
+    <string name="text_game_update_desc">当前:&#160;</string>
+    <string name="text_game_update_desc2">新版:&#160;</string>
+    <string name="text_game_can_update_count">可升级</string>
+
+
+    <!-- 应用排行相关 -->
+<string name="menu_control_feed_back_txt">意见反馈</string>
+  <string name="uninstall_app">应用卸载</string>
+    <string name="menu_control_storage_phone">手机</string>
+    <string name="menu_control_storage_card">内存卡</string>
+    <string name="menu_control_uninstall_txt">应用卸载</string>
+    <string name="menu_control_down_txt">下载管理</string>
+    <string name="menu_control_update_txt">应用更新</string>
+  
+    <string name="menu_control_settings_txt">设置</string>
+    <string name="menu_control_check_up_txt">检查更新</string>
+    <string name="menu_control_clear_cache_txt">垃圾清理</string>
+    <string name="app_usereva"> "用户评价（ "</string>
+    <string name="kuohao"> ")"</string>
+    <string name="app_from"> "来自： "</string>
+    <string name="app_version"> "版本： "</string>
+    <string name="app_loadingnow"> "正在加载数据... "</string>
+    <string name="menu_control_about_us_txt">关于</string>
+    <string name="download_allcon"> "全部继续"</string>
+    <string name="download_allpause"> "全部暂停"</string>
+    <string name="download_allcance"> "全部取消"</string>
+
+    <string name="text_downdload">官方下载：ar.55mun.com</string>
+    <!-- 意见反馈相关 -->
+    <string name="txt_contact_way">联系方式:</string>
+    <string name="txt_feed_back_type">反馈类型:</string>
+    <string name="txt_reset">重新填写</string>
+    <string name="txt_submit">提交</string>
+    <string name="txt_feed_content_edit_hint">如您有想看的电视剧、电影、或其他内容，或者有任何反馈意见，请告诉我们。请留下Line账号，对于好意见，我们会提供礼品奖励。</string>
+    <string name="txt_contact_way_edit_hint">手机号/QQ/微信/邮箱</string>
+    <string name="txt_feed_back_type_product_use">产品使用</string>
+    <string name="txt_feed_back_type_fuction_suggestion">功能建议</string>
+    <string name="txt_feed_back_type_exception_feedback">报错反馈</string>
+    <string name="submit_suggest">正在提交反馈</string>
+    <string name="submit_suggest_fail">反馈提交失败</string>
+    <string name="submit_suggest_success">反馈提交成功</string>
+    
+<!-- add by zengxiao -->
+		<string name="paused">"已暂停"</string>
+		<string name="nodata">"暂无数据~"</string>
+		<string name="findgame">"去首页逛逛"</string>
+		<string name="appresult">"产品反馈"</string>
+		<string name="notwifi">"非WiFi网络下载提示"</string>
+		<string name="setting_1">"显示图标和截图"</string>
+		<string name="setting_7">"同时下载数量"</string>
+		<string name="setting_8">"清除缓存"</string>
+		<string name="setting_dowload">"下载视频播放器"</string>
+		<string name="comment_title">"评论"</string>
+		<string name="sub_textsize">"5&#045;140个字符"</string>
+		<string name="sub_inputnotman">"输入的内容不足5个字符"</string>
+		<string name="sub_hitabout">"您的建议我们会在第一时间进行采纳和反馈"</string>
+		<string name="sub_qqmsn">"QQ/手机号/邮箱/MSN"</string>
+		<string name="sub_start">"*"</string>
+	<string name="feedback_inputnull">"请填写反馈内容"</string>
+		 <string name="updateversionprom">版本更新提示:</string>
+    <string name="updateexpain">升级说明</string>
+     <string name="later">稍后</string>
+    <string name="isupdate">发现新版本是否现在更新?</string>
+    <string name="softwaresize">软件大小:</string>
+        <string name="updateversion">升级版本:</string>
+		 <string name="lodingspeed">"加载进度"</string>  
+		<string name="unstallmush">"批量卸载"</string>  
+		<string name="version_soft">"版本号: "</string>  
+		<string name="unstallnow">"正在准备卸载,请稍等"</string>  
+		<string name="unstallsucc">"卸载成功"</string>  
+	<string name="commenttextmax">"评论字数请保持5&#045;140字以内"</string> 
+	<string name="commentfail">评论失败</string>
+    <string name="commentsuccess">评论提交成功</string>
+    <string name="submiterror">评论提交失败</string> 
+        <string name="textnull">反馈内容不能为空</string>
+		 <string name="scannow">正在扫描缓存文件</string>
+    <string name="scan2">已扫描到</string>
+    <string name="scan3">个文件</string>
+    <string name="alltotal">总大小</string>
+    <string name="clearnow">正在清理中...请稍后</string>
+    <string name="finishscan">扫描完成</string>
+    <string name="cleared">已清理</string>
+    <string name="finishclear">清理完成</string>
+			
+		<string name="leftkh">"("</string>  
+		<string name="rightkh">")"</string>  
+		   <string name="cache">缓存</string> 
+	<string name="scannowversion">"正在检查新版本"</string>  
+    <string name="setting_opened">"已开启"</string>
+    <string name="setting_closeed">"已关闭"</string> 
+     <string name="setting_dispicon">"显示图标"</string>
+    <string name="setting_updatenoti">"通知栏更新提示"</string> 
+    <string name="setting_close">"关闭"</string>     
+		<string name="settting_open">"开启"</string>  
+	  <string name="cus_refreshpull">"下拉刷新"</string>
+    <string name="cus_refreshnow">"正在刷新..."</string>
+    <string name="cus_refreshref">"松开刷新"</string>
+	 
+    <string name="username">"用户名:"</string>
+    <string name="userpoint">"用户级别:"</string>
+    <string name="integral_shareapptitle">分享给朋友</string>
+    <string name="integral_sharesendtext">我正在看这个，好看极了！你也看下：</string>
+    <string name="integral_sharefs">请选择一个分享方式:</string>
+    <string name="integral_value">积分</string>
+    <string name="integral_help">积分规则</string>
+    <string name="mine_integral">我的积分</string>
+    <string name="integral_help_text">连续登陆可获得VIP积分和提升等级，享受更多隐藏内容！</string>
+    <string name="shareto">分享给朋友，获取VIP积分！</string>
+    <string name="level_help_text">积分分为五个级别,一级最低,积分足够级别就会上升,最高为五级。</string>
+    <string name="level_1">VIP 1:(0-50)</string>
+    <string name="level_2">VIP 2:(50-200)</string>
+    <string name="level_3">VIP 3:(200-500)</string>
+    <string name="level_4">VIP 4:(500-1000)</string>
+    <string name="level_5">VIP 5:(>1000)</string>    
+    <string name="integral_short">积分不足，是否分享赚取积分?</string>
+    <string name="need_inter">所需积分:</string>
+    <string name="moreshare">更多...</string>
+    <string name="cancollet_dialogtext">确定要取消这个收藏吗？</string>
+    <string name="data_loadingerr">加载失败</string>
+    <string name="app_managertitlest">管理</string>
+    <string name="store_exittext">再次点击退出键退出</string>
+    <string name="getanotherdata">换一换</string>
+    <string name="oobe_use">立即体验</string>
+    <string name="title_tab_index">精品</string>
+<!-- add end -->
+       <!-- util.java start-->
+      <string name="just">刚刚</string> 
+      <string name="before_min">分钟前</string>
+      <string name="before_hour">小时前</string> 
+      <string name="myriad">万</string> 
+      <string name="ten_million">千万</string>  
+      <string name="calculate">亿</string>  
+      <!-- util.java end-->
+    <string name="VIP_LEVEL1">VIP 1</string>
+    <string name="VIP_LEVEL2">VIP 2</string>
+    <string name="VIP_LEVEL3">VIP 3</string>
+    <string name="VIP_LEVEL4">VIP 4</string>
+    <string name="VIP_LEVEL5">VIP 5</string>   
+    <string name="mng_app_update_hint_info">您已走在时代前沿，暂时没有需要更新...</string>     
+    <string name="mng_app_update_info_part1">应用</string>
+    <string name="mng_app_update_info_part2">已有</string>
+    <string name="mng_app_update_info_part3">0</string>
+    <string name="mng_app_update_info_part4">用户更新</string>    
+    <string name="about_declare">声明</string>      
+    <string name="about_declare_info">"此版本适用于Android4.0及以上固件，如在其他品牌或型号的设备上使用本软件，对于出现的任何问题，我司不承担任何责任，本软件的下载，安装完全免费，使用过程中产生的数据流量费用，由运营商收取。  Facebook:https://fb.com/55mun/"</string>     
+    <string name="updated_time">更新时间：</string> 
+    <string name="sharedown">免费</string> 
+    <string name="sharedowndetail">免费</string> 
+    <string name="failtoregist">获取信息失败</string>     
+    
+  <string name="musicland">歌单</string> 
+    <string name="musicrankstring">榜单</string> 
+    <string name="musicshare">推介一首好音乐给你：</string>
+     <string name="musicrank">音乐榜</string>
+     <string name="musicdownlist">下载队列</string>
+     <string name="txt_download_all_start">全部开始</string>
+    <string name="download_alert">下载队列已满，请稍后</string>
+    <string name="deletesuccess">删除成功</string>
+    <string name="deleteerror">删除失败</string>
+    <string name="download_allready">已下载或正在下载</string>
+    <string name="music_string">音乐</string>
+    <string name="text_string">糗事</string>
+    <string name="movie_string">电影</string>
+     <string name="news_string">新闻</string>
+    <string name="anime_string">动画</string>
+    <string name="voiced_string">电台</string>
+    <string name="zongyi_string">综艺</string>
+    <string name="comics__string">漫画</string>
+    <string name="waiting__string">...</string>
+    <string name="tv_string">TV</string>
+    <string name="book_string">小说</string>
+    <string name="hollywood_string">好莱坞</string>
+    <string name="vally_string">综艺</string>
+    <string name="downalreadyadd">已加入下载队列</string>
+    <string name="videoactor">"主演 : "</string>
+    <string name="videodirector">"导演 : "</string>
+    <string name="videoarea">"地区 : "</string>
+    <string name="videoyear">"年份 : "</string>
+    <string name="playallmusic">"播放全部"</string>
+    <!-- 在线音乐 -->
+    <string name="video_app_name">视频播放器</string>
+    <string name="filename">视频文件</string>
+    <string name="allmusicsub">全部歌单</string> 
+    <string name="musicfile_isnot_exist">歌曲文件不存在，请重新扫描</string>    
+    <string name="cannotplay">无法播放该歌曲</string>    
+    <string name="singer">歌手：</string> 
+    <string name="album">专辑：</string>   
+    <string name="commentary">评论</string>           
+    <string name="similar_recommend">相似推荐</string>     
+    <string name="no_MV">暂无MV</string>   
+    <string name="more_details">查看歌曲更多信息</string>              
+    <string name="download_fail">缓冲失败，请检查网络</string>     
+    <string name="unfind_lrc">找不到歌词</string>  
+    <string name="mode_shuffle">顺序播放</string>    
+    <string name="mode_repeat_one">单曲循环</string>    
+    <string name="mode_repeat_all">全部循环</string>    
+    <string name="net_faile">网络连接失败，歌词无法查询！</string>         
+    <string name="lrc_faile">找不到歌词</string>    
+                   
+    <!-- 糗事百科 -->
+    <string name="joke">糗事</string>      
+    <string name="joke_text_img">今日</string>         
+    <string name="joke_text">本周</string>      
+    <string name="joke_img">历史</string>      
+    <string name="vote_success">点赞成功</string>    
+    <string name="vote_fail">您已点赞过了</string>        
+   <string name="app_id">366293396854277</string> 
+<!-- 新闻 -->
+		 <string name="news">新闻</string>    
+		
+<!-- 在线音乐 -->
+     <string name="quick_download" >立即开通</string>
+    <string name="sell_alert" >每月只需%s铢，三大专区，畅玩不尽</string>
+    <string name="sell_alert_title" >一次付费，全场解锁</string>
+    <string name="pay_select_title" >请选择会员套餐</string>
+    <string name="char_alert">฿</string>
+    <string name="jing_cai_mei_yi_tian" >欢笑每一天</string>
+    <string name="previous">上一天</string>
+    <string name="huan_yi_tian" >换一天</string>
+    <string name="readbyshare">分享后继续阅读</string>
+    <string name="shareneedinstall">请安装Facebook或者LINE</string>
+    <string name="sell_alerttmp" >to Unlock All Downloads</string> 
+    <string name="paidProcessing">处理中...</string> 
+       <string name="bao_math">包月</string>
+       <string name="bao_day">一周会员</string>
+       <string name="bao_year">包年</string>
+       <string name="money">%s铢</string>
+       <!-- 单个计费 -->
+       <string name="pay_string_text">$ 0.5</string>
+        <!-- 新增 动画，小说，tv -->
+	<string name="cartoon">动画</string>
+	<string name="tv">电视</string>
+	<string name="novel">小说</string>
+	<string name="classic">经典</string>
+	<string name="popular_animotion">最受欢迎的动画</string>    
+	<string name="classic_rank">经典排行</string>
+	<string name="popular_tv">最火电视剧</string>
+	<string name="eee">18+</string>
+	<string name="popular">最受欢迎</string>
+	<string name="zuihuo">最火</string>
+	<string name="must">必备</string>
+	<string name="mv">MV</string>
+	<string name="mmv">预告片</string>
+	
+	<string name="voice_title">有声</string>
+	<string name="ridiao">电台</string>
+    <string name="voice">有声小说</string>
+	
+	<string name="happy_more">每日更新</string>
+	
+	 <string name="bookpop_size">字体</string>
+    <string name="bookpop_light">亮度</string>
+   <string name="fist_page">当前是第一页</string>
+   <string name="last_page">已经是最后一页</string>
+   <string name="open_erro">打开失败</string>
+	<!-- 阅读 -->
+	<string name="zoomin">放大</string>
+    <string name="zoomout">缩小</string>
+    <string name="next">下一篇</string>
+    <string name="more">更多</string>
+    <string name="toast_login_success">您已连续登录%s天\n </string>
+    <string name="toast_login_succes2">获得积分：+%s</string>
+    <string name="leve1_discrble">海量内容免费看</string>
+    <string name="leve2_discrble">每日双倍免费电影和免费片花</string>
+    <string name="leve3_discrble">电影板块VIP区影片免费看</string>
+    <string name="leve4_discrble">AV 板块VIP区所有影片免费看</string>
+    <string name="leve5_discrble">大惊喜</string>
+    <string name="leve_content">VIP特权</string>
+    <string name="tv_toast">如果视频无法播放 点击此处  下载播放器</string>
+    <string name="av_toast">如果视频无法播放  请前往TV下载播放器</string>
+    <string name="tv_dowlod_toast">下载观看更流畅</string>
+    <string name="av">AV</string>
+    <string name="text_downdload_tv">视频不能播放？点击下载高级播放器</string>
+     <string name="desc_share">分享之后观看视频</string>
+     <string name="cartoon_av">色情动漫</string>
+     <string name="payerroe">支付失败，请稍后再试</string>
+      <string name="initerroe">请检查SM卡是否有效</string>
+      <string name="sms_erroe">短信发送失败，请检查SIM卡</string>
+     <string name="not_sufficient_funds">用户余额不足</string>
+     <string name="network_errors">网络错误</string>
+     <string name="timeout">支付过于频繁，请1分钟后再试</string>
+      <string name="pay_text">即将启动LINEPay...</string>
+	  <string name="pay_success">支付成功</string>
+      <string name="pay_fail">支付失败</string>
+      <string name="resouch">搜索功能暂未开启</string>
+	  
+	  
+</resources>

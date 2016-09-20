@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="textsize_hot1">16px</dimen>
+   <dimen name="textsize_hot2">14px</dimen>
+    <dimen name="textsize_hot3">16px</dimen>
+  <dimen name="textsize_hot4">24px</dimen>
+      <dimen name="oobe_height">140dip</dimen>
+<dimen name="oobe_endheight">100dip</dimen>
+  <dimen name="point_start_size">40px</dimen>
+      <dimen name="level_height">25px</dimen>
+      <dimen name="btn_submit_offset_y">100dip</dimen>
+      <dimen name="horizontal_line1_height">1dip</dimen>
+      <dimen name="horizontal_line2_height">2dip</dimen>      
+    <dimen name="loadfailed_iv_icon_offset_y">90dip</dimen>
+    <dimen name="loadfailed_tv_msg_offset_y">44dip</dimen>
+    <dimen name="appmanager_login_height">150dip</dimen>
+    <dimen name="appmanager_button_height">140dip</dimen>
+    <dimen name="appmanager_button_layout_height">110dip</dimen>
+    <dimen name="text_level_width">45dip</dimen>  
+    <dimen name="icon_level_offsety">6dip</dimen> 
+     <dimen name="listitem_height">133dp</dimen> 
+      <dimen name="listitem_myheight">130dp</dimen> 
+     <dimen name="listitem_white_height">79dp</dimen> 
+          <dimen name="listitem_white_height2">61dp</dimen> 
+     
+      <dimen name="listitem_gray_height">45dp</dimen> 
+      <dimen name="listitem_threebutton">53dip</dimen>
+      <dimen name="home_head_height">141dp</dimen>
+      <dimen name="home_bommon_height">54dp</dimen>
+       <dimen name="setting_check_margin_right">23dp</dimen>     
+       <dimen name="app_userpic_margin_left">36dp</dimen> 
+       <dimen name="btn_integral_margin_right">47dp</dimen>    
+       <dimen name="donwload_sum_set_margin_right">10dp</dimen>  
+       <dimen name="mytextview_width">30dp</dimen> 
+       <dimen name="listitem_sub_icon_height">121dp</dimen>  
+    <dimen name="listitem_sub_height">163dp</dimen>  
+       
+      <!-- 音乐播放界面 start -->
+     <dimen name="aud_btnbar_margin_bottom">12dp</dimen> 
+     <dimen name="aud_btnbar_margin_left">2dp</dimen> 
+     <dimen name="aud_btnbar_margin_right">2dp</dimen> 
+     <dimen name="aud_backbtn_width">17.5dp</dimen>      
+     <dimen name="aud_backbtn_height">14dp</dimen>      
+     <dimen name="aud_disc_width">265dp</dimen>      
+     <dimen name="aud_disc_height">265dp</dimen> 
+     <dimen name="aud_disc_margin_top">105dp</dimen>   
+     <dimen name="aud_dischead_width">103dp</dimen>   
+     <dimen name="aud_dischead_height">163dp</dimen>  
+     <dimen name="aud_dischead_margin_top">1dp</dimen> 
+     <dimen name="aud_volbar_margin_top">15dp</dimen> 
+     <dimen name="aud_playmodebtn_width">45dp</dimen> 
+     <dimen name="aud_playmodebtn_height">45dp</dimen>
+     <dimen name="aud_prebtn_width">42dp</dimen> 
+     <dimen name="aud_prebtn_height">42dp</dimen>     
+     <dimen name="aud_playbtn_width">60dp</dimen> 
+     <dimen name="aud_playbtn_height">60dp</dimen> 
+     <dimen name="aud_nextbtn_width">42dp</dimen> 
+     <dimen name="aud_nextbtn_height">42dp</dimen> 
+     <dimen name="aud_playbtn_margin_left">25dp</dimen> 
+     <dimen name="aud_nextbtn_margin_left">25dp</dimen>      
+     <dimen name="aud_prebtn_margin_right">25dp</dimen> 
+     <dimen name="aud_nextbtn_margin_right">25dp</dimen>     
+     <dimen name="aud_filelistbtn_width">45dp</dimen> 
+     <dimen name="aud_filelistbtn_height">45dp</dimen>   
+     <!-- 音乐播放界面 end -->        
+    
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="UMBreak_Network">ยังไม่เชื่อมต่อเครือข่าย</string>
+	<string name="UMUpdateTitle">มีเวอร์ชั่นใหม่</string>
+	<string name="UMNewVersion">เวอร์ชั่นล่าสุด: </string>
+	<string name="UMUpdateContent">อัพเดท</string>
+	<string name="UMUpdateSize">เพียงต้องการดาวน์โหลด</string>
+	<string name="UMTargetSize">ขนาดเวอร์ชั่นใหม่: </string>
+	<string name="UMGprsCondition">(แจ้งเตือน: ไม่มี WIFI)</string>
+	<string name="UMUpdateNow">อัพเดททันที</string>
+	<string name="UMAppUpdate">อัพเดท</string>
+	<string name="UMNotNow">ทีหลัง</string>
+	<string name="UMIgnore">ไม่สนใจ</string>
+	<string name="UMToast_IsUpdating">กำลังอัพเดท...</string>
+	<string name="UMDialog_InstallAPK">เวอร์ชั่นล่าสุดดาวน์โหลดสำเร็จ จะติดตั้งหรือไม่</string>
+</resources>

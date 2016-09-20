@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="app_item_bg_focused" type="drawable">#ffe1f0d1</item>
+    <item name="app_item_bg_normal" type="drawable">#fff4f4f4</item>
+    <item name="search_clear_history_textcolor" type="drawable">#ff0658dc</item>
+    <item name="suggestion_item_title_textcolor_normal" type="drawable">#ff333333</item>
+    <item name="suggestion_item_title_textcolor_pressed" type="drawable">#ffffffff</item>
+    <item name="transparent_background" type="drawable">#00000000</item>
+    <item name="color_top_tab_line_normal" type="drawable">#98d5f1</item>
+    <item name="color_top_tab_line_press" type="drawable">#e5e5e5</item>
+
+</resources>

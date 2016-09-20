@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:weightSum="3" >
+
+    <RelativeLayout
+        android:id="@+id/listitem_three_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/listitem_padding"
+        android:layout_marginLeft="@dimen/listitem_paddingLeft"
+        android:layout_marginRight="@dimen/listitem_padding"
+        android:layout_marginTop="@dimen/listitem_padding"
+        android:layout_weight="1"
+        android:background="@drawable/round_rect_bg_selector"
+        android:paddingBottom="10dp" >
+
+        <ImageView
+            android:id="@+id/listitem_three_icon_1"
+            android:layout_width="@dimen/listitem_app_icon"
+            android:layout_height="@dimen/listitem_app_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/listitem_three_type_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/l_home_type_new" />
+
+        <TextView
+            android:id="@+id/listitem_three_name_1"
+            style="@style/text_app_item_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listitem_three_icon_1"
+            android:layout_centerHorizontal="true"
+            android:singleLine="true"
+            android:textSize="@dimen/listitem_app_name" />
+
+        <LinearLayout
+            android:id="@+id/listitem_three_info_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/listitem_three_btn_1"
+            android:layout_alignRight="@+id/listitem_three_btn_1"
+            android:layout_below="@id/listitem_three_name_1"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/listitem_three_subline_1"
+                style="@style/text_app_item_des_style"
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="1dp"
+                android:singleLine="true"
+                android:textSize="@dimen/listitem_app_size" />
+
+            <ProgressBar
+                android:id="@+id/homedownloadProgressBar_1"
+                style="@style/ProgressBarMain.Download"
+                android:layout_width="fill_parent"
+                android:layout_height="6dip"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:max="100"
+                android:progress="100"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/listitem_three_btn_1"
+            android:layout_width="70dp"
+            android:layout_height="26dp"
+            android:layout_below="@id/listitem_three_info_1"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/main_btn_bg_white"
+            android:text="@string/btn_install"
+            android:textSize="@dimen/listitem_app_btn_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/listitem_three_view_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/listitem_padding"
+        android:layout_marginLeft="@dimen/listitem_padding"
+        android:layout_marginRight="@dimen/listitem_padding"
+        android:layout_marginTop="@dimen/listitem_padding"
+        android:layout_weight="1"
+        android:background="@drawable/round_rect_bg_selector"
+        android:paddingBottom="10dp" >
+
+        <ImageView
+            android:id="@+id/listitem_three_icon_2"
+            android:layout_width="@dimen/listitem_app_icon"
+            android:layout_height="@dimen/listitem_app_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+             />
+
+        <ImageView
+            android:id="@+id/listitem_three_type_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/l_home_type_new" />
+
+        <TextView
+            android:id="@+id/listitem_three_name_2"
+            style="@style/text_app_item_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listitem_three_icon_2"
+            android:layout_centerHorizontal="true"
+            android:singleLine="true"
+            android:textSize="@dimen/listitem_app_name" />
+
+        <LinearLayout
+            android:id="@+id/listitem_three_info_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/listitem_three_btn_2"
+            android:layout_alignRight="@+id/listitem_three_btn_2"
+            android:layout_below="@id/listitem_three_name_2"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/listitem_three_subline_2"
+                style="@style/text_app_item_des_style"
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="1dp"
+                android:singleLine="true"
+                android:textSize="@dimen/listitem_app_size" />
+
+            <ProgressBar
+                android:id="@+id/homedownloadProgressBar_2"
+                style="@style/ProgressBarMain.Download"
+                android:layout_width="fill_parent"
+                android:layout_height="6dip"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:max="100"
+                android:progress="100"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/listitem_three_btn_2"
+            android:layout_width="70dp"
+            android:layout_height="26dp"
+            android:layout_below="@id/listitem_three_info_2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/main_btn_bg_white"
+            android:text="@string/btn_install"
+            android:textSize="@dimen/listitem_app_btn_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/listitem_three_view_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/listitem_padding"
+        android:layout_marginLeft="@dimen/listitem_padding"
+        android:layout_marginRight="@dimen/listitem_paddingLeft"
+        android:layout_marginTop="@dimen/listitem_padding"
+        android:layout_weight="1"
+        android:background="@drawable/round_rect_bg_selector"
+        android:paddingBottom="10dp" >
+
+        <ImageView
+            android:id="@+id/listitem_three_icon_3"
+            android:layout_width="@dimen/listitem_app_icon"
+            android:layout_height="@dimen/listitem_app_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/listitem_three_type_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/l_home_type_new" />
+
+        <TextView
+            android:id="@+id/listitem_three_name_3"
+            style="@style/text_app_item_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listitem_three_icon_3"
+            android:layout_centerHorizontal="true"
+            android:singleLine="true"
+            android:textSize="@dimen/listitem_app_name" />
+
+        <LinearLayout
+            android:id="@+id/listitem_three_info_3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/listitem_three_btn_3"
+            android:layout_alignRight="@+id/listitem_three_btn_3"
+            android:layout_below="@id/listitem_three_name_3"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/listitem_three_subline_3"
+                style="@style/text_app_item_des_style"
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="1dp"
+                android:singleLine="true"
+                android:textSize="@dimen/listitem_app_size" />
+
+            <ProgressBar
+                android:id="@+id/homedownloadProgressBar_3"
+                style="@style/ProgressBarMain.Download"
+                android:layout_width="fill_parent"
+                android:layout_height="6dip"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:max="100"
+                android:progress="100"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/listitem_three_btn_3"
+            android:layout_width="70dp"
+            android:layout_height="26dp"
+            android:layout_below="@id/listitem_three_info_3"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/main_btn_bg_white"
+            android:text="@string/btn_install"
+            android:textSize="@dimen/listitem_app_btn_size" />
+    </RelativeLayout>
+    
+</LinearLayout>

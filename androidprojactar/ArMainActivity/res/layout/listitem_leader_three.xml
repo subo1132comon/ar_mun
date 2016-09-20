@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingRight="5dp"
+        android:paddingTop="25dp" >
+	       <RelativeLayout
+            android:id="@+id/listitem_leader_three_view_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+             <RelativeLayout
+                android:id="@+id/r_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+             <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                 >
+            <ImageView
+                android:id="@+id/listitem_leader_three_icon_2"
+                android:layout_width="@dimen/home_ic_mune_width"
+                        android:layout_height="@dimen/home_ic_mune_height"
+                android:background="@drawable/home_newtest_icon" />
+
+            <TextView
+                android:id="@+id/listitem_leader_three_name_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/tv_string"
+                android:textColor="@color/mune_text_color"
+                android:textSize="@dimen/meum_text_size" />
+            </LinearLayout>
+			</RelativeLayout>
+			<com.byt.market.view.rapit.WaterDrop
+        		android:id="@+id/tv_redpoint_tv"
+        		android:layout_width="20dp"
+        		android:layout_height="20dp"
+        		android:layout_alignParentTop="true"
+               android:layout_marginLeft="39dp"
+               android:visibility="gone"
+        		 >
+    		</com.byt.market.view.rapit.WaterDrop>
+    		<!--  
+            <ImageView
+                android:id="@+id/tv_redpoint_tv"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignParentTop="true"
+               android:layout_marginLeft="39dp"
+                android:background="@drawable/yule_redpoint" />
+                -->
+        </RelativeLayout>
+     
+
+		   <RelativeLayout
+            android:id="@+id/videotitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+			<RelativeLayout
+			   android:id="@+id/move_layout"
+			     android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+			    >
+			    <LinearLayout
+			    android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+			        >
+            <ImageView
+                android:id="@+id/movie_ic"
+               android:layout_width="@dimen/home_ic_mune_width"
+                        android:layout_height="@dimen/home_ic_mune_height"
+                android:src="@drawable/moviesrc" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/movie_string"
+                android:textColor="@color/mune_text_color"
+                android:textSize="@dimen/meum_text_size"
+                />
+            </LinearLayout>
+            </RelativeLayout>
+             <com.byt.market.view.rapit.WaterDrop
+        		 android:id="@+id/move_redpoint_tv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                 android:layout_marginLeft="39dp"
+                 android:visibility="visible"
+        		 >
+    		</com.byt.market.view.rapit.WaterDrop>
+        </RelativeLayout>
+
+		   <!-- 糗百 -->
+		    	<RelativeLayout
+            android:id="@+id/listitem_leader_three_view_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <RelativeLayout
+                android:id="@+id/r_fun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/listitem_leader_three_icon_1"
+                        android:layout_width="@dimen/home_ic_mune_width"
+                        android:layout_height="@dimen/home_ic_mune_height"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/ess_icon" />
+
+                    <TextView
+                        android:id="@+id/listitem_leader_three_name_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="@string/text_string"
+                        android:textColor="@color/mune_text_color"
+                        android:textSize="@dimen/meum_text_size" />
+                </LinearLayout>
+            </RelativeLayout>
+				
+            <com.byt.market.view.rapit.WaterDrop
+        		 android:id="@+id/fun_redpoint_tv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="39dp"
+        		 >
+    		</com.byt.market.view.rapit.WaterDrop>
+        </RelativeLayout>
+		   
+		   <!-- 小说 -->
+       <RelativeLayout
+            android:id="@+id/listitem_leader_three_book_view_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:gravity="center" >
+			<RelativeLayout
+			    android:id="@+id/r_novel"
+			     android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+			    >
+			    <LinearLayout
+			         android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+			        >
+            <ImageView
+                android:id="@+id/listitem_leader_three_book_icon_3"
+               android:layout_width="@dimen/home_ic_mune_width"
+                        android:layout_height="@dimen/home_ic_mune_height"
+                android:background="@drawable/book_icon" />
+
+            <TextView
+                android:id="@+id/listitem_leader_three_book_name_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/book_string"
+                android:textColor="@color/mune_text_color"
+                android:textSize="@dimen/meum_text_size" />
+            </LinearLayout>
+			</RelativeLayout>
+			<com.byt.market.view.rapit.WaterDrop
+        		 android:id="@+id/novel_redpoint_tv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                 android:layout_marginLeft="39dp"
+                 android:visibility="gone"
+        		 >
+    		</com.byt.market.view.rapit.WaterDrop>
+        </RelativeLayout>
+
+       <RelativeLayout
+            android:id="@+id/listitem_leader_three_view_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+			
+            <RelativeLayout
+                android:id="@+id/r_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+			    <LinearLayout
+			         android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" 
+			        >
+            <ImageView
+                android:id="@+id/listitem_leader_three_icon_3"
+                android:layout_width="@dimen/home_ic_mune_width"
+                        android:layout_height="@dimen/home_ic_mune_height"
+                android:background="@drawable/musicsrc" />
+
+            <TextView
+                android:id="@+id/listitem_leader_three_name_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/music_string"
+                android:textColor="@color/mune_text_color"
+                android:textSize="@dimen/meum_text_size"
+                 />
+            </LinearLayout>
+			</RelativeLayout>
+			<com.byt.market.view.rapit.WaterDrop
+        		 android:id="@+id/music_redpoint_tv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="39dp"
+                android:layout_alignParentTop="true"
+                android:visibility="gone"
+        		 >
+    		</com.byt.market.view.rapit.WaterDrop>
+            
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- 折叠 -->
+    <LinearLayout
+        android:id="@+id/combo_info_container_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fastScrollEnabled="true"
+        android:orientation="vertical" >
+        <com.byt.market.view.zhedie.CollapsableLinearLayout
+            	android:id="@+id/collapsable"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentLeft="true"
+			    android:layout_centerVertical="true"
+			    android:orientation="vertical"
+			     >
+			<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp" 
+        android:layout_weight="1"
+        >
+   
+    	<RelativeLayout
+            android:id="@+id/listitem_leader_three_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+			<RelativeLayout
+			   android:id="@+id/r_news"
+			     android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+			    >
+			    <LinearLayout
+			    android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+			        >
+            <ImageView
+                android:id="@+id/listitem_leader_three_news_icon_1"
+               android:layout_width="@dimen/home_ic_mune_width"
+                        android:layout_height="@dimen/home_ic_mune_height"
+                android:background="@drawable/ic_news" />
+
+            <TextView
+                android:id="@+id/listitem_leader_three_news_name_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/news"
+                android:textColor="@color/mune_text_color"
+                android:textSize="@dimen/meum_text_size" />
+            </LinearLayout>
+			</RelativeLayout>
+			<com.byt.market.view.rapit.WaterDrop
+        		 android:id="@+id/news_redpoint_tv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="39dp"
+                android:visibility="gone"
+        		 >
+    		</com.byt.market.view.rapit.WaterDrop>
+        </RelativeLayout>
+		
+		<!-- 动漫 -->
+		  <RelativeLayout
+            android:id="@+id/listitem_leader_three_anime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+			<RelativeLayout
+			    android:id="@+id/r_anime"
+			    android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+			    
+			    <LinearLayout
+			         android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+			        >
+            <ImageView
+                android:id="@+id/listitem_leader_three_anime_icon_1"
+                android:layout_width="@dimen/home_ic_mune_width"
+                        android:layout_height="@dimen/home_ic_mune_height"
+                android:background="@drawable/ic_animotion" />
+
+            <TextView
+                android:id="@+id/listitem_leader_three_anime_name_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/anime_string"
+                android:textColor="@color/mune_text_color"
+                android:textSize="@dimen/meum_text_size" />
+            </LinearLayout>
+			</RelativeLayout>
+			<com.byt.market.view.rapit.WaterDrop
+        		 android:id="@+id/anim_redpoint_tv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="39dp"
+                android:layout_alignParentTop="true"
+                android:visibility="gone"
+        		 >
+    		</com.byt.market.view.rapit.WaterDrop>
+        </RelativeLayout>
+           <!-- 娱乐 -->
+        <RelativeLayout
+            android:id="@+id/listitem_leader_three_zongyi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+			<RelativeLayout
+			   android:id="@+id/r_zongyi"
+			     android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+			    >
+			    <LinearLayout
+			    android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+			        >
+            <ImageView
+                android:id="@+id/listitem_leader_three_zongyi_icon_1"
+               android:layout_width="@dimen/home_ic_mune_width"
+                        android:layout_height="@dimen/home_ic_mune_height"
+                android:background="@drawable/zongyi" />
+
+            <TextView
+                android:id="@+id/listitem_leader_three_zongyi_name_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/zongyi_string"
+                android:textColor="@color/mune_text_color"
+                android:textSize="@dimen/meum_text_size" />
+            </LinearLayout>
+			</RelativeLayout>
+			<com.byt.market.view.rapit.WaterDrop
+        		 android:id="@+id/zongyi_redpoint_tv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                 android:layout_marginLeft="39dp"
+                 android:visibility="gone"
+        		 >
+    		</com.byt.market.view.rapit.WaterDrop>
+        </RelativeLayout>
+ 
+        <!-- 反馈 -->
+          <RelativeLayout
+            android:id="@+id/listitem_leader_three_view_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+                <ImageView
+                    android:id="@+id/suggest_img"
+                    android:layout_width="@dimen/home_ic_mune_width"
+                        android:layout_height="@dimen/home_ic_mune_height"
+                    android:background="@drawable/app_feedback" />
+
+                <TextView
+                    android:id="@+id/listitem_leader_three_name_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/suggest_app"
+                    android:textColor="@color/mune_text_color"
+                   android:textSize="@dimen/meum_text_size"
+                     />
+            </LinearLayout>
+        </RelativeLayout>
+    	       <!-- av -->
+        <RelativeLayout
+            android:id="@+id/listitem_leader_three_view_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:gravity="center" >
+			<RelativeLayout
+			   android:id="@+id/av_layout"
+			     android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+			    >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+                <ImageView
+                    android:id="@+id/av_img"
+                    android:layout_width="@dimen/home_ic_mune_width"
+                        android:layout_height="@dimen/home_ic_mune_height"
+                    android:background="@drawable/app_free_bg_icon" />
+
+                <TextView
+                    android:id="@+id/listitem_leader_three_name_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/av"
+                    android:textColor="@color/mune_text_color"
+                   android:textSize="@dimen/meum_text_size"
+                     />
+            </LinearLayout>
+           </RelativeLayout>
+           <com.byt.market.view.rapit.WaterDrop
+        		 android:id="@+id/av_redpoint_tv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                 android:layout_marginLeft="39dp"
+        		 >
+    		</com.byt.market.view.rapit.WaterDrop>
+        </RelativeLayout>
+		
+    </LinearLayout>
+    	    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingRight="5dp"
+        android:layout_weight="1"
+        android:paddingTop="0dp">
+
+		<RelativeLayout
+            android:id="@+id/listitem_leader_three_Voiced"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:gravity="center" >
+			<RelativeLayout
+			   android:id="@+id/r_rodiao"
+			     android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+			    >
+			    <LinearLayout
+			    android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+			        >
+            <ImageView
+                android:id="@+id/listitem_leader_three_Voiced_icon_1"
+               android:layout_width="@dimen/home_ic_mune_width"
+                        android:layout_height="@dimen/home_ic_mune_height"
+                android:background="@drawable/ic_voiced" />
+
+            <TextView
+                android:id="@+id/listitem_leader_three_Voiced_name_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/voice_title"
+                android:textColor="@color/mune_text_color"
+                android:textSize="@dimen/meum_text_size" />
+            </LinearLayout>
+			</RelativeLayout>
+			<com.byt.market.view.rapit.WaterDrop
+        		 android:id="@+id/vdo_redpoint_tv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                 android:layout_marginLeft="39dp"
+                 android:visibility="gone"
+        		 >
+    		</com.byt.market.view.rapit.WaterDrop>
+        </RelativeLayout>
+       <RelativeLayout
+            android:id="@+id/listitem_leader_three_view_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:gravity="center" >
+			
+            <RelativeLayout
+                android:id="@+id/r_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+			    <LinearLayout
+			         android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" 
+			        >
+            <ImageView
+                android:id="@+id/listitem_leader_three_icon_other"
+                android:layout_width="@dimen/home_ic_mune_width"
+                        android:layout_height="@dimen/home_ic_mune_height"
+                android:background="@drawable/athermin" />
+
+            <TextView
+                android:id="@+id/listitem_leader_three_name_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/mmv"
+                android:textColor="@color/mune_text_color"
+                android:textSize="@dimen/meum_text_size"
+                 />
+            </LinearLayout>
+			</RelativeLayout>
+			<com.byt.market.view.rapit.WaterDrop
+        		android:id="@+id/other_redpoint_tv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                 android:layout_marginLeft="39dp"
+                android:layout_alignParentTop="true"
+                android:visibility="gone"
+        		 >
+    		</com.byt.market.view.rapit.WaterDrop>
+        </RelativeLayout>
+
+      
+    </LinearLayout>
+			</com.byt.market.view.zhedie.CollapsableLinearLayout>
+    <RelativeLayout
+            android:id="@+id/title_click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center" >
+			<ImageView
+			    android:id="@+id/zhedie_imageView"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_centerHorizontal="true"
+			    android:layout_centerVertical="true"
+			    android:padding="5dp"
+			    android:src="@drawable/ic_zhedie" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include
+	    layout="@layout/includ_intervallayout"
+	    />
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d7d5d5"  
+     >
+    <RelativeLayout
+        android:id="@+id/item_bigic_ralayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/up_joke_listitem_bg"
+         >
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+             >
+            <ImageView
+                android:id="@+id/big_imageView"
+                android:layout_width="fill_parent"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/joke_empyt" />
+            <RelativeLayout
+                 android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:layout_gravity="bottom"
+                 android:background="#e0000000"
+                 android:id="@+id/bg_text_layout"
+                  android:gravity="center_vertical"
+                 >
+                <TextView
+                android:id="@+id/big_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:text="TextVieTextViewTextViewTe" />
+            </RelativeLayout>
+             
+        </FrameLayout>
+          <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="9dp"
+        android:layout_below="@+id/frame_layout"
+        android:layout_centerHorizontal="true"
+        android:background="#cccccc"
+        />
+    </RelativeLayout>
+
+</RelativeLayout>
