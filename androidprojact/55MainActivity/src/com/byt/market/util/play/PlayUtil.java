@@ -20,4 +20,7 @@ public class PlayUtil {
 	public interface PlayCallback{
 		
 	}
+	private void test(){
+		
+	}
 }
