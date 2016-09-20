@@ -64,6 +64,7 @@ import com.umeng.analytics.MobclickAgent;
 import com.umeng.analytics.MobclickAgent.EScenarioType;
 
 public class MyApplication extends Application {
+	//this my  test github
 	private static MyApplication mInstance;
 	private MyHandler mHandler;
 	private ConnectionMonitor mConnectionMonitor = null;

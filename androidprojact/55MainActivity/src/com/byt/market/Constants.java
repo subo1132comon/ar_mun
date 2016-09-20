@@ -20,7 +20,6 @@ import com.byt.market.util.SharedPrefManager;
 
 public class Constants {
 
-	
 	public static final String SHARE_ACTION = "com.tyb,share";
 	
 	public static final boolean LOCAL_PROTOCOL = false;
