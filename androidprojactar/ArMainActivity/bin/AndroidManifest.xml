@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.byt.ar"
-    android:versionCode="62"
-    android:versionName="V12.6.0.160918DT50">
+    android:versionCode="63"
+    android:versionName="V12.6.0.160921ORGAR">
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="18" />
@@ -506,7 +506,7 @@
         </meta-data>
          <meta-data
             android:name="UMENG_CHANNEL"
-            android:value="um3001">
+            android:value="um3000">
         </meta-data>
 
         <service
@@ -554,7 +554,7 @@
                 <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!--Required  用户打开自定义通知栏的intent-->
                 <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" /> <!--Optional 用户接受Rich Push Javascript 回调函数的intent-->
                 <action android:name="cn.jpush.android.intent.CONNECTION" /><!-- 接收网络变化 连接/断开 since 1.6.3 -->
-                <category android:name="com.byt.market" />
+                <category android:name="com.byt.ar" />
             </intent-filter>
         </receiver>
         <!-- Required SDK核心功能-->
@@ -669,7 +669,7 @@
         <meta-data
             android:name="TA_APPKEY" android:value="AL4GCN3XA23V" />
         <meta-data
-            android:name="InstallChannel" android:value="3001"/>
+            android:name="InstallChannel" android:value="3000"/>
           <activity android:name="com.facebook.LoginActivity"
                   android:theme="@android:style/Theme.Translucent.NoTitleBar"
                   android:label="@string/app_name" />
@@ -757,7 +757,7 @@
             
              <meta-data
             android:name="LD_CHANNEL_ID"
-            android:value="2000530535"/>
+            android:value="2000530536"/>
              
              <!--
              line pay

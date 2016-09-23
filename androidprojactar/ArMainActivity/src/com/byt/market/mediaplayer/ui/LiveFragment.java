@@ -34,11 +34,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bluepay.data.Config;
-import com.bluepay.pay.BlueMessage;
-import com.bluepay.pay.BluePay;
-import com.bluepay.pay.ClientHelper;
-import com.bluepay.pay.IPayCallback;
 import com.byt.market.Constants;
 import com.byt.market.MyApplication;
 import com.byt.ar.R;
@@ -74,7 +69,6 @@ import com.byt.market.util.StartVidioutil;
 import com.byt.market.util.ToastUtile;
 import com.byt.market.util.Util;
 import com.byt.market.view.CusPullListView;
-import com.byt.market.view.MyPayDailog.PayBack;
 import com.tencent.stat.StatService;
 import com.umeng.analytics.MobclickAgent;
 
@@ -899,9 +893,7 @@ public class LiveFragment extends ListViewFragment {
 			StatService.trackCustomBeginEvent(LiveFragment.this.getActivity(), "payment_success", "");
 			StatService.trackCustomEvent(LiveFragment.this.getActivity(),"payment", "");
 			int feid = 0 ;
-			if(!MyApplication.getInstance().getBulepayInit()){
 				Toast.makeText(getActivity(), getActivity().getString(R.string.initerroe), Toast.LENGTH_LONG).show();
-			}else{
 				try {
 					if(type.equals("week")){
 						MobclickAgent.onEvent(getActivity(), "AVweekpay");
@@ -927,7 +919,6 @@ public class LiveFragment extends ListViewFragment {
 				} catch (Exception e) {
 					Toast.makeText(LiveFragment.this.getActivity(), getActivity().getString(R.string.payerroe),Toast.LENGTH_LONG).show();
 				}
-			}
 		}
 //		public class Ipayback implements com.byt.market.view.MyPayDailog.PayBack{
 //

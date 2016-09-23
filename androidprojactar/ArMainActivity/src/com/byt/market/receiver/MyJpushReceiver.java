@@ -34,7 +34,6 @@ public class MyJpushReceiver extends BroadcastReceiver{
 	public void onReceive(Context context, Intent intent) {
 		// TODO Auto-generated method stub
 		 Bundle bundle = intent.getExtras();
-		 
 		if (JPushInterface.ACTION_MESSAGE_RECEIVED.equals(intent.getAction())) {
 			
 			 String regId = bundle.getString(JPushInterface.EXTRA_MSG_ID);
@@ -47,7 +46,7 @@ public class MyJpushReceiver extends BroadcastReceiver{
 			}
 			
         }else if(JPushInterface.ACTION_NOTIFICATION_OPENED.equals(intent.getAction())){
-        	 String regId = bundle.getString(JPushInterface.EXTRA_MSG_ID);
+        	// String regId = bundle.getString(JPushInterface.EXTRA_MSG_ID);
         	JSONObject pjson;
 			try {
 				pjson = new JSONObject(bundle.getString(JPushInterface.EXTRA_EXTRA));
@@ -55,7 +54,6 @@ public class MyJpushReceiver extends BroadcastReceiver{
 				MobclickAgent.onEvent(context,"Notification");//友盟
 				NotifalUtile.formNotifcation(context, pjson);
 			} catch (JSONException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
         }else if (JPushInterface.ACTION_NOTIFICATION_RECEIVED.equals(intent.getAction())){

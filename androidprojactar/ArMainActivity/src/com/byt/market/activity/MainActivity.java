@@ -54,8 +54,6 @@ import cn.jpush.android.api.CustomPushNotificationBuilder;
 import cn.jpush.android.api.JPushInterface;
 import cn.jpush.android.api.TagAliasCallback;
 
-import com.bluepay.interfaceClass.BlueInitCallback;
-import com.bluepay.pay.Client;
 import com.byt.market.Constants;
 import com.byt.market.MarketContext;
 import com.byt.market.MyApplication;
@@ -125,7 +123,7 @@ import com.byt.market.bitmaputil.core.ImageLoader;
  */
 public class MainActivity extends MenuBaseActivity implements OnClickListener,
 		OnPageChangeListener, DownloadTaskListener,
-		 TaskListener, TaskListenerUser, TaskListenerRead ,BlueInitCallback{
+		 TaskListener, TaskListenerUser, TaskListenerRead {
 	// constants
 	private boolean isexit = false;
 	public static final String EXT_TAB_ID = "tab_id";
@@ -183,7 +181,7 @@ public class MainActivity extends MenuBaseActivity implements OnClickListener,
 	private ImageView loadingbg;// 鍔犺浇鑳屾櫙
 	/** 姝ｅ湪涓嬭浇鏂囦欢鐨勪釜鏁� **/
 	private TextView tv_down_num;
-	public ImageView subject_redpoint, news_redpoint;
+	public ImageView subject_redpoint, news_redpoint,mloading_fait_img;
 	public static final String DATABASE_NAME = "jokefeedback";
 	/** 妫�娴嬪晢搴楃増鏈槸鍚︽湁鏇存柊锛岀敱姝ゅ垽鏂�"妫�鏌ョ増鏈洿鏂癷con"鏄惁闇�瑕佹樉绀衡�淣ew娴爣鈥� **/
 	public static boolean update_need_show_info;
@@ -244,7 +242,6 @@ public class MainActivity extends MenuBaseActivity implements OnClickListener,
 		int from = getIntent().getIntExtra("from", 0);
 		mExtTabID = this.getIntent().getIntExtra(MainActivity.EXT_TAB_ID, -1);
 		setContentView(R.layout.main_frame);
-		Client.init(this, this);//BluePay
 		// StatConfig.
 		// JPushInterface.init(this);
 		RapitUtile.setisBro(false);//底部av支付逻辑
@@ -531,7 +528,6 @@ public class MainActivity extends MenuBaseActivity implements OnClickListener,
 			}
 			mHandler.removeMessages(0);
 			mHandler.removeMessages(INIT_IP_FLAG);
-			Client.exit();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -751,6 +747,7 @@ public class MainActivity extends MenuBaseActivity implements OnClickListener,
 		v_cate = (RelativeLayout) findViewById(R.id.categoryButtonview);
 		v_sub = (RelativeLayout) findViewById(R.id.subjectButtonview);
 		v_mine = (RelativeLayout) findViewById(R.id.mineButtonview);
+		mloading_fait_img = (ImageView) findViewById(R.id.loading_fait_img);
 		// mHorizontalScrollView =
 		// (HorizontalScrollView)findViewById(R.id.horizontalScrollView);
 
@@ -1477,11 +1474,9 @@ public class MainActivity extends MenuBaseActivity implements OnClickListener,
 					if (!isInited) {
 						isInited = true;
 						if (msg.arg1 == 112) {
-							Log.i("test", "timeout switch ip==>"
-									+ Constants.LIST_URL);
 							Constants.switchIP();
 						}
-						Log.i("test", "cur==>" + Constants.LIST_URL);
+						yuleVersionRead();
 						initNewData();
 						loadService.initData(MainActivity.this, maContext,
 								getRequestUrlAd(), getRequestContent(), tag(),
@@ -1505,7 +1500,7 @@ public class MainActivity extends MenuBaseActivity implements OnClickListener,
 							}
 						}
 						checkClientUpdate();
-						yuleVersionRead();
+						//yuleVersionRead();
 					}
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -1812,6 +1807,7 @@ public class MainActivity extends MenuBaseActivity implements OnClickListener,
 	@Override
 	public void onNoNetworking() {
 		// TODO Auto-generated method stub
+		
 
 	}
 
@@ -2160,8 +2156,8 @@ public class MainActivity extends MenuBaseActivity implements OnClickListener,
 				new IntentFilter("com.tyb.mark.jokcanclerepit"));
 		this.registerReceiver(new CancleRepitRecive(news_redpoint),
 				new IntentFilter("com.tyb.mark.newscanclerepit"));
-		// JPushInterface.setAliasAndTags(this, "2025", null, new
-		// Myjpushcallback());
+		 JPushInterface.setAliasAndTags(this, "2025", null, new
+		 Myjpushcallback());
 		this.registerReceiver(new ProgreesBarRecive(mainprogressbar), new IntentFilter(Constants.PROGREES_BAR_RECIVE));
 		// ---------------------------------
 		CustomPushNotificationBuilder builder = new CustomPushNotificationBuilder(
@@ -2269,13 +2265,13 @@ public class MainActivity extends MenuBaseActivity implements OnClickListener,
 
 	@Override
 	public void onNoNetworkingRead() {
-		// TODO Auto-generated method stub
-
+//		mainprogressbar.setVisibility(View.GONE);
+//		mloading_fait_img.setVisibility(View.VISIBLE);
+//		mloading_fait_img.setImageResource(R.drawable.net);
 	}
 
 	@Override
 	public void onNetworkingErrorRead() {
-		// TODO Auto-generated method stub
 
 	}
 
@@ -2479,13 +2475,4 @@ public class MainActivity extends MenuBaseActivity implements OnClickListener,
 
 	}
 
-	@Override
-	public void initComplete(String arg0, String arg1) {
-		// TODO Auto-generated method stub
-		Log.d("nnlog", arg0+"--bulerpay--");
-		if("200".equals(arg0)){
-			MyApplication.getInstance().setBulepayInit(true);
-		}
-		
-	}
 }

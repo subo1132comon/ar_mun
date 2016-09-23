@@ -33,12 +33,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bluepay.data.Config;
-import com.bluepay.pay.BlueMessage;
-import com.bluepay.pay.BluePay;
-import com.bluepay.pay.ClientHelper;
-import com.bluepay.pay.IPayCallback;
-import com.bluepay.pay.PublisherCode;
 import com.byt.market.Constants;
 import com.byt.market.MyApplication;
 import com.byt.ar.R;
@@ -56,7 +50,6 @@ import com.byt.market.mediaplayer.data.PlayDownloadItem;
 import com.byt.market.mediaplayer.data.VideoItem;
 import com.byt.market.mediaplayer.service.PlayDownloadService;
 import com.byt.market.mediaplayer.tv.NewTVListFragment;
-import com.byt.market.mediaplayer.ui.LiveSubFragment.Ipayback;
 import com.byt.market.tools.Dailog;
 import com.byt.market.tools.DownLoadVdioapkTools;
 import com.byt.market.tools.LogCart;
@@ -690,9 +683,6 @@ public class MovieFragment extends ListViewFragment {
   		StatService.trackCustomBeginEvent(MovieFragment.this.getActivity(), "payment_success", "");
   		StatService.trackCustomEvent(MovieFragment.this.getActivity(),"payment", "");
   		int feid = 0 ;
-  		if(!MyApplication.getInstance().getBulepayInit()){
-  			Toast.makeText(getActivity(), getActivity().getString(R.string.initerroe), Toast.LENGTH_LONG).show();
-  		}else{
   			try {
   				if(type.equals("week")){
   					MobclickAgent.onEvent(getActivity(), "moveWeek");
@@ -719,7 +709,6 @@ public class MovieFragment extends ListViewFragment {
   			} catch (Exception e) {
   				Toast.makeText(MovieFragment.this.getActivity(), getActivity().getString(R.string.payerroe),Toast.LENGTH_LONG).show();
   			}
-  		}
   	}
     
     private void payMovie(VideoItem cateItem){

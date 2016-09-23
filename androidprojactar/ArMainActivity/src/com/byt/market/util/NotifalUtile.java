@@ -55,7 +55,7 @@ public class NotifalUtile {
 		if(json!=null){
 				try {
 					if(!json.isNull("sid")){
-						String url = "http://122.155.202.149:8022/Joke/v1.php?qt=Push42&sid="+json.getString("sid");
+						String url = Constants.JOKE_COMMENT_URL+"?qt=Push42&sid="+json.getString("sid");
 						NotifaHttpUtil.getJson(url, new NotifaHttpResalout() {
 							
 							@Override
@@ -275,7 +275,7 @@ public class NotifalUtile {
 							 // 如果程序在后台
 							if(isApplicationBroughtToBackground(context)){
 								intent = context.getPackageManager().
-					                    getLaunchIntentForPackage("com.byt.market");
+					                    getLaunchIntentForPackage("com.byt.ar");
 								intent.setFlags(
 					                    Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED);
 					            Bundle args = new Bundle();

@@ -1,42 +1,22 @@
 package com.byt.market.view;
 
-import java.util.Date;
 import java.util.Random;
 
-import com.bluepay.data.Config;
-import com.bluepay.pay.BlueMessage;
-import com.bluepay.pay.BluePay;
-import com.bluepay.pay.IPayCallback;
-import com.bluepay.pay.PublisherCode;
 import com.byt.ar.R;
-import com.byt.market.Constants;
-import com.byt.market.activity.MainActivity;
-import com.byt.market.activity.PayWebviewActivity;
-import com.byt.market.mediaplayer.ui.LiveFragment;
 import com.byt.market.util.BluePayUtil;
 import com.byt.market.util.DateUtil;
 import com.payssion.android.sdk.PayssionActivity;
 import com.payssion.android.sdk.model.PayRequest;
-import com.tencent.stat.StatService;
-import com.umeng.analytics.MobclickAgent;
 
 import android.app.Activity;
 import android.app.Dialog;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
-import android.content.pm.ApplicationInfo;
-import android.content.pm.PackageManager;
-import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Display;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MyPayDailog extends Dialog implements android.view.View.OnClickListener{
 
@@ -56,7 +36,7 @@ public class MyPayDailog extends Dialog implements android.view.View.OnClickList
 	private String mpropsName;
 	private int msmsId = 0;
 	private String mscheme;
-	private PayBack mcallback;
+	//private PayBack mcallback;
 	private int mfeeid = 0;
 	private String mcurrency;
 	public MyPayDailog(Context context) {
@@ -73,7 +53,7 @@ public class MyPayDailog extends Dialog implements android.view.View.OnClickList
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_dailog);
 		initView();
-		registRecive();
+		//registRecive();
 	}
 	
 	private void initView(){
@@ -99,18 +79,6 @@ public class MyPayDailog extends Dialog implements android.view.View.OnClickList
 		}
 	}
 	
-	public void initData(Activity activity,String transID,String customerId,String price,
-			String propsName,int feeid,PayBack callback){
-		
-		this.mactivity = activity;
-		this.mtransID = transID;
-		this.mcustomerId = customerId;
-		this.mprice = price;
-		this.mpropsName = propsName;
-		this.mfeeid = feeid;
-		this.mcallback = callback;
-		
-	}
 	
 	public void initArData(Activity activity,String transID,String currency,String price){
 		
@@ -120,28 +88,6 @@ public class MyPayDailog extends Dialog implements android.view.View.OnClickList
 		this.mcurrency = currency;
 	}
 	
-	@SuppressWarnings("serial")
-	public class DailogIpayback extends IPayCallback{
-
-		@Override
-		public void onFinished(int arg0, BlueMessage bluemsg) {
-			//
-			if(bluemsg!=null){
-				if(bluemsg.getCode() == 201){
-					Toast.makeText(mcontext, mcontext.getString(R.string.pay_text), Toast.LENGTH_LONG).show();
-				}else{
-					mcallback.Resout(arg0, bluemsg);
-				}
-			}
-			//MyDailog.this.dismiss();
-			MyPayDailog.this.cancel();
-		}
-		
-	}
-	public interface PayBack{
-		public void Resout(int arg0, BlueMessage bluemsg);
-		public void bankRsout(int re);
-	}
 	private String getUrl(){
 		//sid  feeid  
 		//uid  userid
@@ -187,54 +133,10 @@ public class MyPayDailog extends Dialog implements android.view.View.OnClickList
 		
 		return mfeeid+mcustomerId;
 	}
-	private void registRecive(){
-		mcontext.registerReceiver(new BankBrodcast(), new IntentFilter("bank.pay.com"));
-	}
-	private class BankBrodcast extends BroadcastReceiver{
-
-		@Override
-		public void onReceive(Context arg0, Intent arg1) {
-			// TODO Auto-generated method stub
-			if("bank.pay.com".equals(arg1.getAction())){
-				//Toast.makeText(mcontext, "支付成功", Toast.LENGTH_LONG).show();
-				if(arg1.getStringExtra("re").equals("success")){
-					mcallback.bankRsout(1);
-				}else if(arg1.getStringExtra("re").equals("fail")){
-					mcallback.bankRsout(0);
-				}
-			}
-		}
-		
-	}
 	@Override
 	public void onClick(View arg0) {
 		// TODO Auto-generated method stub
 		switch (arg0.getId()) {
-		case R.id.layout_bank:
-			MobclickAgent.onEvent(mcontext, "bank");
-			StatService.trackCustomEvent(mcontext, "bank", "");
-			Intent intent = new Intent(mcontext, PayWebviewActivity.class);
-			intent.putExtra("url", getUrl());
-			mcontext.startActivity(intent);
-			MyPayDailog.this.cancel();
-			break;
-		case R.id.layout_LINEPay:
-			MobclickAgent.onEvent(mcontext, "LINEPay");
-			StatService.trackCustomEvent(mcontext, "LINEPay", "");
-			BluePay.getInstance().payByWallet(mactivity, mcustomerId, 
-					mtransID, Config.K_CURRENCY_TRF,
-					String.valueOf(Integer.parseInt(mprice)*100),
-					mpropsName, PublisherCode.PUBLISHER_LINE,
-					"mun://com.mun.pay", true, new DailogIpayback());
-			break;
-		case R.id.layout_sms:
-			//Config.K_CURRENCY_THB
-			MobclickAgent.onEvent(mcontext, "sms");
-			StatService.trackCustomEvent(mcontext, "sms", "");
-			BluePay.getInstance().payBySMS(mactivity, mtransID,
-					Config.K_CURRENCY_THB, String.valueOf(Integer.parseInt(mprice)*100),
-					msmsId, mpropsName, true, new DailogIpayback());
-			break;
 		case R.id.layout_cashu:
 			arPay("cashu");
 			MyPayDailog.this.cancel();

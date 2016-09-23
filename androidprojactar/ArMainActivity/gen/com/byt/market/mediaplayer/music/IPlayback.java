@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: E:\\bobo\\wokspees\\test\\ArMainActivity\\src\\com\\byt\\market\\mediaplayer\\music\\IPlayback.aidl
+ * Original file: E:\\test\\androidprojactar\\ArMainActivity\\src\\com\\byt\\market\\mediaplayer\\music\\IPlayback.aidl
  */
 package com.byt.market.mediaplayer.music;
 public interface IPlayback extends android.os.IInterface

@@ -37,11 +37,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bluepay.data.Config;
-import com.bluepay.pay.BlueMessage;
-import com.bluepay.pay.BluePay;
-import com.bluepay.pay.ClientHelper;
-import com.bluepay.pay.IPayCallback;
 import com.byt.market.Constants;
 import com.byt.market.MyApplication;
 import com.byt.ar.R;
@@ -382,39 +377,6 @@ public class LiveSubFragment extends ListViewFragment {
 		return view;
 	}
 	
-	public class Ipayback implements com.byt.market.view.MyPayDailog.PayBack{
-
-		@Override
-		public void Resout(int arg0, BlueMessage bluemsg) {
-			// TODO Auto-generated method stub
-			Log.d("nnlog", "arg0---"+arg0+"----BlueMessage---"+bluemsg.getCode());
-			Log.d("nnlog", "arg0---"+arg0+"----BlueMessage类型---"+bluemsg.getPublisher());
-				if(!bluemsg.getPublisher().equals("line")){
-					if(bluemsg.getCode() == 200){
-//						sellBottom.setVisibility(View.GONE);
-//		    			isPayTemp=false;
-						isPay = true;
-		    			mAdapter.notifyDataSetChanged();
-		    			MobclickAgent.onEvent(getActivity(), "AVpaySucceed");
-					}else{
-						BluePayUtil.showErroe(LiveSubFragment.this.getActivity(), bluemsg.getCode());
-					}
-				}else{
-					
-				}
-		}
-
-		@Override
-		public void bankRsout(int re) {
-			// TODO Auto-generated method stub
-			if(re==1){
-				isPay = true;
-    			mAdapter.notifyDataSetChanged();
-    			MobclickAgent.onEvent(getActivity(), "AVpaySucceed");
-			}
-		}
-		
-	}
 	
 	// edit by wangxin
 	@Override
@@ -855,9 +817,7 @@ public class LiveSubFragment extends ListViewFragment {
 		StatService.trackCustomBeginEvent(LiveSubFragment.this.getActivity(), "payment_success", "");
 		StatService.trackCustomEvent(LiveSubFragment.this.getActivity(),"payment", "");
 		int feid = 0 ;
-		if(!MyApplication.getInstance().getBulepayInit()){
 			Toast.makeText(getActivity(), getActivity().getString(R.string.initerroe), Toast.LENGTH_LONG).show();
-		}else{
 			try {
 				if(type.equals("week")){
 					MobclickAgent.onEvent(getActivity(), "AVweekpay");
@@ -880,7 +840,6 @@ public class LiveSubFragment extends ListViewFragment {
 			} catch (Exception e) {
 				Toast.makeText(LiveSubFragment.this.getActivity(), getActivity().getString(R.string.payerroe),Toast.LENGTH_LONG).show();
 			}
-		}
 	}
 	@Override
 	public void onDestroy() {

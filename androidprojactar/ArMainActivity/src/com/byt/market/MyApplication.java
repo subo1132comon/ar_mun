@@ -180,8 +180,8 @@ public class MyApplication extends Application {
 		
 		//友盟
 		MobclickAgent.setScenarioType(this, EScenarioType.E_UM_NORMAL);
-		// 这样是为了强制让数据库进行升级
 		JPushInterface.init(this); // 初始化 JPush
+		// 这样是为了强制让数据库进行升级
 		DatabaseHelper databaseHelper = new DatabaseHelper(this);
 		databaseHelper.getWritableDatabase();
 		mMineViewManager = new MineViewManager(getApplicationContext());
@@ -194,11 +194,11 @@ public class MyApplication extends Application {
 		ScreenTool.init(this);//add  by bobo
 		
 		//---------------add  by  subo 
-		ImageLoaderConfiguration configuration = ImageLoaderConfiguration  
-                .createDefault(this);  
+//		ImageLoaderConfiguration configuration = ImageLoaderConfiguration  
+//                .createDefault(this);  
           
         //Initialize ImageLoader with configuration.  
-        ImageLoader.getInstance().init(configuration);  
+      //  ImageLoader.getInstance().init(configuration);  
       //-------
 		UserKeeper.loadUser();
 	}
