@@ -9,6 +9,8 @@ import com.byt.market.MyApplication;
 
 public class RapitUtile {
 
+	public static String UPDATA_KEY = "update_key_name";
+	public static String PULL_KEY = "pull_key_name";
 	public static void deletRapit(){
 		//取消红点
 		SharedPreferences rapit_p = MyApplication.getInstance()
@@ -87,11 +89,11 @@ public class RapitUtile {
 		boolean b = sp_rapit.getBoolean(Constants.AV_ISbro, false);
 		return b;
 	}
-	public static long getEnterApptime(){
-		SharedPreferences sharepreference =MyApplication.getInstance().getSharedPreferences("myupdate", 0);
-		long unpdataValue = sharepreference.getLong("unpdata", 0);
-		return unpdataValue;
-	}
+//	public static long getEnterApptime(){
+//		SharedPreferences sharepreference =MyApplication.getInstance().getSharedPreferences("myupdate", 0);
+//		long unpdataValue = sharepreference.getLong("unpdata", 0);
+//		return unpdataValue;
+//	}
 	
 	/**
 	 * 交易ID
@@ -125,6 +127,18 @@ public class RapitUtile {
 		SharedPreferences rapit_p = MyApplication.getInstance()
 				.getSharedPreferences("BIEMING", 0);
 		return rapit_p.getBoolean("bvluae", false);
+	}
+	
+	public static long getUpdate(String key){
+		SharedPreferences sharepreference = MyApplication.getInstance().getSharedPreferences("myupdate", 0);
+		return sharepreference.getLong(key, 0);
+	}
+	public static void setUpdata(String key){
+		SharedPreferences sharepreference = MyApplication.getInstance().getSharedPreferences("myupdate", 0);
+		Editor uedit = sharepreference.edit();
+		long cerrenttime = System.currentTimeMillis();
+		uedit.putLong(key, cerrenttime);
+		uedit.commit();
 	}
 	
 }

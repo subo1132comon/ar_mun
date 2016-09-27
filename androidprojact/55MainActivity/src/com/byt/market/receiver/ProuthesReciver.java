@@ -19,9 +19,8 @@ public class ProuthesReciver extends BroadcastReceiver{
 	//	if(!flog){
 		//	flog = true;
 			//arg0.registerReceiver(new FinishBrodcast(MyApplication.getInstance().getMainactivity()), new IntentFilter("com.markt.fnish"));
-			if(!Util.isAppOnForeground()){
-				long thistime = RapitUtile.getEnterApptime();
-				if((System.currentTimeMillis()-RapitUtile.getEnterApptime())>1000*60*60*12){
+		if(!Util.isAppOnForeground()){
+				if((System.currentTimeMillis()-RapitUtile.getUpdate(RapitUtile.PULL_KEY))>1000*60*60*12){
 					if(MyApplication.getInstance().getMainactivity()!=null){
 						MyApplication.getInstance().getMainactivity().finish();
 					}

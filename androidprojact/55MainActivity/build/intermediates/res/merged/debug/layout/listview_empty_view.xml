@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_nocontent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0" >
+
+    <ImageView
+        android:id="@+id/listview_loadfailed_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dip"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/empty_box" />
+
+    <TextView
+        android:id="@+id/listview_loadfailed_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listview_loadfailed_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:text="@string/list_empty_view_tip_content"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btn_find_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listview_loadfailed_text"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true"
+         android:gravity="center"
+        android:layout_marginTop="80dip"
+        android:background="@drawable/btn_corner_bg"
+        android:text="@string/findgame"
+        android:textColor="@color/color_corner_buttons_text"
+        android:textSize="13sp" />
+
+</RelativeLayout>

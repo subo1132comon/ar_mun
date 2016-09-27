@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\color\\color_top_tab_label2.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\color\\color_top_tab_label2.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\color\\main_black_text_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\color\\main_black_text_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\color\\hotlist_item_color.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\color\\hotlist_item_color.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\color\\color_item_more_options.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\color\\color_item_more_options.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\color\\main_white_text_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\color\\main_white_text_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\color\\color_top_tab_label.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\color\\color_top_tab_label.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\color\\list_item_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\color\\list_item_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\color\\color_text_black_unenabled.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\color\\color_text_black_unenabled.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\color\\main_blue_text_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\color\\main_blue_text_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\color\\color_donwload_manage_more_options.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\color\\color_donwload_manage_more_options.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\color\\toolbar_text_color.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\color\\toolbar_text_color.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\color\\color_tabbar_text.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\color\\color_tabbar_text.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\color\\titilebartabtext.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\color\\titilebartabtext.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\color\\color_corner_buttons_text.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\color\\color_corner_buttons_text.xml"
+    }
+]

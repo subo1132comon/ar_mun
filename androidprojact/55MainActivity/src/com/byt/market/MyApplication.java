@@ -10,6 +10,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.Application;
@@ -64,7 +65,7 @@ import com.umeng.analytics.MobclickAgent;
 import com.umeng.analytics.MobclickAgent.EScenarioType;
 
 public class MyApplication extends Application {
-	//this my  test github
+	//------------------------------------------------------
 	private static MyApplication mInstance;
 	private MyHandler mHandler;
 	private ConnectionMonitor mConnectionMonitor = null;
@@ -178,7 +179,7 @@ public class MyApplication extends Application {
 		 * 应用ID：CMGE745159199192780800 插屏：745159199368941568 banner：745159199494770688 通知栏：745159199733846016 
 		 */
 		System.setProperty("app.channel", channel);
-		MobAgent.onResume(this, "745159199494770688", "745159199368941568", "745159199733846016", 0l, "CMGE745159199192780800", channel);
+		//MobAgent.onResume(this, "745159199494770688", "745159199368941568", "745159199733846016", 0l, "CMGE745159199192780800", channel);
 		super.onCreate();
 		mInstance = this;
 		registerConnectionMonitor();
@@ -200,11 +201,11 @@ public class MyApplication extends Application {
 		ScreenTool.init(this);//add  by bobo
 		
 		//---------------add  by  subo 
-		ImageLoaderConfiguration configuration = ImageLoaderConfiguration  
-                .createDefault(this);  
+//		ImageLoaderConfiguration configuration = ImageLoaderConfiguration  
+//                .createDefault(this);  
           
         //Initialize ImageLoader with configuration.  
-        ImageLoader.getInstance().init(configuration);  
+    //    ImageLoader.getInstance().init(configuration);  
       //-------
 		UserKeeper.loadUser();
 	}
@@ -338,8 +339,7 @@ public class MyApplication extends Application {
 		super.onLowMemory();
 		int i = 0;
 		while (i < mLowMemoryListeners.size()) {
-			final OnLowMemoryListener listener = mLowMemoryListeners.get(i)
-					.get();
+			final OnLowMemoryListener listener = mLowMemoryListeners.get(i).get();
 			if (listener == null) {
 				mLowMemoryListeners.remove(i);
 			} else {

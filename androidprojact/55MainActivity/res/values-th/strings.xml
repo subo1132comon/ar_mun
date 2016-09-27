@@ -8,7 +8,7 @@
     <!-- 首界面 -->
     <string name="txt_home_leader_online">เกมส์</string>
     <string name="txt_home_leader_latest_collection">ล่าสุด</string>
-    <string name="txt_home_leader_classic_play ">คลาสสิก</string>
+    <string name="txt_home_leader_classic_play">คลาสสิก</string>
     <string name="toast_load_more_no_result">สุดท้ายแล้ว</string>
     <string name="welcome_alert">อยากเล่นที่ใดก็ได้ ~</string>
 <string name="happy_more">อัพเดททุกวัน</string>

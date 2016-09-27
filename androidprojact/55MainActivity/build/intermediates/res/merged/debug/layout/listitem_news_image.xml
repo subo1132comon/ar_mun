@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"  
+    android:background="#d7d5d5"  
+    >    
+    <LinearLayout 
+         android:layout_width="match_parent"
+    	 android:layout_height="wrap_content"
+        android:id="@+id/jokelistitem"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/news_listitem_bg"
+        > 
+        <!-- 
+        
+          <item name="android:textColor">#636251</item>
+        <item name="android:textSize">17sp</item>   
+        <item name="android:lineSpacingMultiplier">1.1</item>   
+        <item name="android:layout_marginLeft">13dp</item>  
+        <item name="android:layout_marginTop">10dp</item>  
+        <item name="android:layout_marginBottom">10dp</item>  
+         -->
+        
+        
+    <TextView 
+         android:layout_width="55dp"
+         android:layout_height="55dp"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:textSize="15sp"
+        android:ellipsize="end"
+        android:lines="2"
+        android:textColor="#000000"
+        android:id="@+id/jokecontent"
+        android:layout_marginLeft="10dp"
+        
+        
+        />
+            <ImageView
+                android:id="@+id/jokeimage"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY" />
+
+    </LinearLayout>
+</LinearLayout>

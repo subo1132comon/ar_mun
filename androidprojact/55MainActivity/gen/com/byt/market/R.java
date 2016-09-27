@@ -4211,7 +4211,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int txt_feed_back_type_product_use=0x7f0b012a;
         public static final int txt_feed_content_edit_hint=0x7f0b0128;
         public static final int txt_female_user=0x7f0b00b2;
-        public static final int txt_home_leader_classic_play =0x7f0b000a;
+        public static final int txt_home_leader_classic_play=0x7f0b000a;
         public static final int txt_home_leader_latest_collection=0x7f0b0009;
         /**  首界面 
  首界面 

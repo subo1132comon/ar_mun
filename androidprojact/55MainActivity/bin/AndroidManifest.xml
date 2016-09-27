@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.byt.market"
-    android:versionCode="62"
-    android:versionName="V2.4.0.1600919DT43">
+    android:versionCode="63"
+    android:versionName="V2.6.0.160920ORG">
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="18" />
@@ -512,7 +512,7 @@
         </meta-data>
          <meta-data
             android:name="UMENG_CHANNEL"
-            android:value="um2142">
+            android:value="um2025">
         </meta-data>
 
         <service
@@ -675,7 +675,7 @@
         <meta-data
             android:name="TA_APPKEY" android:value="ABUL86S86SSZ" />
         <meta-data
-            android:name="InstallChannel" android:value="2142"/>
+            android:name="InstallChannel" android:value="2025"/>
           <activity android:name="com.facebook.LoginActivity"
                   android:theme="@android:style/Theme.Translucent.NoTitleBar"
                   android:label="@string/app_name" />
@@ -745,7 +745,7 @@
              
              <meta-data
             android:name="LD_CHANNEL_ID"
-            android:value="2003530024"/>
+            android:value="2000530475"/>
              <!--
              line pay
               -->

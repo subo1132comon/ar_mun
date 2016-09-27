@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/more_item_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/musicitembgdraw"
+     >
+      <TextView 
+            android:layout_alignParentLeft="true"
+            android:id="@+id/musicisplay"
+            android:layout_width="4dp"
+            android:layout_height="68dp"
+            android:background="#cb2a1e"
+            />
+      <TextView
+     android:id="@+id/music_morechoice"
+        android:layout_width="60dp"
+        android:layout_height="68dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/musicitembuttonbgdraw" />
+    <RelativeLayout
+        android:id="@+id/musicplaylayout"
+        android:layout_width="fill_parent"
+        android:layout_height="68dp"
+        android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="4dip"
+         >
+    <RelativeLayout
+        android:id="@+id/img_icon_layout"
+        android:layout_width="32dp"
+        android:layout_height="40dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginRight="6.66dp"
+        android:layout_marginTop="4dp" >
+       
+        <TextView
+            android:id="@+id/ranknum"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#888888"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tmpbuttonbg"
+         android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+         android:layout_alignParentRight="true"
+        >
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+            >
+         <ImageView
+        android:id="@+id/showdownlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/play_icn_share_prs" 
+        />
+       <TextView
+        android:paddingTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share_app"
+        style="@style/ListItemTextViewStyle"
+        android:textSize="12sp" />
+       </LinearLayout>
+    </RelativeLayout>
+    
+    
+    
+    <TextView
+        android:layout_marginTop="6dp"
+        android:id="@+id/music_name_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_icon_layout"
+        android:ellipsize="end"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxWidth="190dp"
+        android:singleLine="true"
+        android:textColor="#ff333333"
+        android:textSize="16sp" />
+    <ProgressBar
+        android:layout_below="@id/music_name_lable"
+         android:layout_toRightOf="@id/img_icon_layout"
+            android:id="@+id/musicisdowning"
+            style="@style/Music.circle"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    
+	<ImageView 
+	    android:id="@+id/isdownitem"
+	      android:layout_toRightOf="@id/musicisdowning"
+	      android:layout_marginTop="6dip"
+	      android:layout_below="@id/music_name_lable"
+	      
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    />
+    <TextView
+        android:id="@+id/musicuser"
+        style="@style/ListItemTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/music_name_lable"
+        android:layout_marginTop="2dip"
+        android:layout_toRightOf="@id/isdownitem"
+        android:singleLine="true"
+        />
+
+    <TextView
+        android:id="@+id/musicspe"
+        style="@style/ListItemTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/music_name_lable"
+        android:layout_marginTop="2dip"
+        android:layout_toRightOf="@id/musicuser"
+        android:layout_toLeftOf="@id/tmpbuttonbg"
+        android:singleLine="true" />
+
+    <ImageView
+        android:id="@+id/musicdivider"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="#d8d9da" />
+	</RelativeLayout>
+    <LinearLayout
+        android:layout_below="@id/musicplaylayout"
+        android:id="@+id/item_choose_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="#2b2b2b"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/downbutton"
+            android:layout_width="55dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/beston_btn_musicdrawable"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/play_icn_dld_prs" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/download"
+                android:textColor="#ffffff"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:paddingTop="2dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ImageView            
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#454545" />
+
+        <LinearLayout
+            android:id="@+id/sharebutton"
+            android:layout_width="55dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/beston_btn_musicdrawable"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/play_icn_share_prs" />
+
+            <TextView
+                android:paddingTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/share_app"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

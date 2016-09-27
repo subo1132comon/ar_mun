@@ -8,7 +8,7 @@
     <!-- 首界面 -->
     <string name="txt_home_leader_online"> trực tuyến </string>
     <string name="txt_home_leader_latest_collection"> bộ sưu tập mới nhất </string>
-    <string name="txt_home_leader_classic_play "> cổ điển sẽ đóng </string>
+    <string name="txt_home_leader_classic_play"> cổ điển sẽ đóng </string>
     <string name="toast_load_more_no_result"> đã cuối cùng nó ^ _ ^ </string>
     <string name="welcome_alert"> muốn chơi bất cứ nơi nào trên để chơi ~ </string>
     <!-- 应用导航 -->

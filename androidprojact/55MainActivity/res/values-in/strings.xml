@@ -9,7 +9,7 @@
     <!-- 首界面 -->
     <string name="txt_home_leader_online">game online</string>
     <string name="txt_home_leader_latest_collection">koleksi terbaru</string>
-    <string name="txt_home_leader_classic_play ">Klasik harus memainkan</string>
+    <string name="txt_home_leader_classic_play">Klasik harus memainkan</string>
     <string name="toast_load_more_no_result">Pada akhirnya telah ^ _ ^</string>
  	<string name="welcome_alert">Ingin bermain di mana saja di bermain ~</string>
     <!-- 应用导航 -->

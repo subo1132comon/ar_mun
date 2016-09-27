@@ -1,0 +1,946 @@
+[
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_music_circle.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\progress_music_circle.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_detail_priceclick.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_detail_priceclick.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\round_rect_bg_pressed.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\round_rect_bg_pressed.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_open_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_open_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mine_folder_child_src_failed.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mine_folder_child_src_failed.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_orange.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_orange.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\myapp_item_bg_nor.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\myapp_item_bg_nor.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_rec_white.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_rec_white.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\pop_icon_pause_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\pop_icon_pause_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\detail_btn.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\detail_btn.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\app_back_btn_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\app_back_btn_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_image_3.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\loading_image_3.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_common_gradient_green.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_common_gradient_green.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_search_cancle_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_search_cancle_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\title_zones.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\title_zones.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_rec_green_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_rec_green_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bar_download_detail.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\progress_bar_download_detail.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_videobackdrawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_videobackdrawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\joke_btn_collected.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\joke_btn_collected.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bestone_app_press.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\bestone_app_press.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\app_mng_btn_press.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\app_mng_btn_press.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\tabbar_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\tabbar_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_top_bar_setting.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\navigation_top_bar_setting.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_probar_thumb.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_probar_thumb.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\pop_icon_cancel_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\pop_icon_cancel_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_btn_down_continuawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_btn_down_continuawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_icon_update_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\menu_icon_update_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_shuffle_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_shuffle_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shap_leader_three3.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\shap_leader_three3.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\pay_bg_select.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\pay_bg_select.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\search_voice_btn_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\search_voice_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_ram.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\progress_ram.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_set_down_sum_decrease.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_set_down_sum_decrease.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mine_folder_child_src_uninstalling.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mine_folder_child_src_uninstalling.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_close_bg_tap.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_update_close_bg_tap.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_mine_control_btn_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\layout_mine_control_btn_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_favor_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_favor_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mine_folder_child_src_update.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mine_folder_child_src_update.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\list_check_box_select_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\list_check_box_select_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_title_manager_drawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\tab_title_manager_drawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_add_to_list.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_add_to_list.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bestone_user_press.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\bestone_user_press.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mine_folder_child_src_resume.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mine_folder_child_src_resume.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_rec_yellow_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_rec_yellow_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_icon_rank_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\tab_icon_rank_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mine_folder_child_src_joy_skill.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mine_folder_child_src_joy_skill.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\feedback_btn_reset_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\feedback_btn_reset_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_gray.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_gray.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_focused.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_update_button_cancel_bg_focused.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_progressbar.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_progressbar.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mng_common_btn_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mng_common_btn_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_cate_bg_drawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_cate_bg_drawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\right_shadow.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\right_shadow.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\top_pop_bottom_item_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\top_pop_bottom_item_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\settings_item_top_corner_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\settings_item_top_corner_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_title_game_drawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\tab_title_game_drawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_change.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_change.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_press_draw.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\bg_press_draw.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_btn_musicdrawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_btn_musicdrawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shap_leader_three_funsrc.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\shap_leader_three_funsrc.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\title_bk.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\title_bk.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\myapp_item_bg_pressed.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\myapp_item_bg_pressed.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\image_usericon.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\image_usericon.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mine_folder_child_src_comment.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mine_folder_child_src_comment.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_btn_onclick.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_btn_onclick.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mine_folder_child_src_updating.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mine_folder_child_src_updating.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\app_setting_btn_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\app_setting_btn_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_pausebtnselector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_pausebtnselector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_listitem.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\progress_listitem.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ratingbar.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\ratingbar.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_repeat_one_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_repeat_one_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_repeat_all_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_repeat_all_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_top_bar_add.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\navigation_top_bar_add.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_icon_home_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\tab_icon_home_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\myapp_item_action_selector_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\myapp_item_action_selector_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_rec_red_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_rec_red_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_noti_pausebtnselector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_noti_pausebtnselector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ratingbar_comm.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\ratingbar_comm.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplaybar_playbtn.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplaybar_playbtn.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_my_installed_game_updatable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_my_installed_game_updatable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_blue.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\joke_btn_comment_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\joke_btn_comment_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_integral_set.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_integral_set.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_noti_playbtnselector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_noti_playbtnselector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_set_down_sum_increase.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_set_down_sum_increase.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_playbtnselector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_playbtnselector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_common_gradient_red.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_common_gradient_red.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\login_clear_btn.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\login_clear_btn.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_icon_mine_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\tab_icon_mine_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\joke_comment_submit.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\joke_comment_submit.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_update_button_cancel_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\musicitembuttonbgdraw.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\musicitembuttonbgdraw.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\top_item_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\top_item_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\rank_header_seletor.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\rank_header_seletor.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\settings_item_bottom_corner_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\settings_item_bottom_corner_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\titlebar_back_arrow.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\titlebar_back_arrow.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\down_button_subbg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\down_button_subbg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\joke_btn_collect_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\joke_btn_collect_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\login_oauth2_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\login_oauth2_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_icon_uninstall_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\menu_icon_uninstall_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_dialog_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_update_dialog_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_user_settings.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_user_settings.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_download_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_download_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_close_bg_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_update_close_bg_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_prebtnselector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_prebtnselector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mine_folder_child_src_waiting.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mine_folder_child_src_waiting.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_common_gradient_orange.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_common_gradient_orange.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_image_2.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\loading_image_2.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bar_states.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\progress_bar_states.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\settings_item_single_with_corner_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\settings_item_single_with_corner_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_tabtopbtn_onclick.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_tabtopbtn_onclick.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\select_show_pay.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\select_show_pay.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_down_detail_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_down_detail_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bestone_down_drawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\bestone_down_drawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_subbutton_onclick.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_subbutton_onclick.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_share2_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_share2_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_corner_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_corner_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bestone_facebooksharebgd.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\bestone_facebooksharebgd.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_update_bn.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_update_bn.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_btn_down_pauserawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_btn_down_pauserawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_detail_sc_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_detail_sc_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mine_folder_child_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mine_folder_child_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplaybar_nextbtn.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplaybar_nextbtn.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\round_rect_top_bg_pressed.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\round_rect_top_bg_pressed.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_update_button_ok_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_yellow.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_yellow.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_title_home_drawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\tab_title_home_drawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bluep_offline_background.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\bluep_offline_background.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mine_folder_child_src_install.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mine_folder_child_src_install.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\titlebar_search_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\titlebar_search_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_tap.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_update_button_ok_bg_tap.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mine_folder_child_src_uninstall.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mine_folder_child_src_uninstall.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_check_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_update_button_check_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_uninstall_bg_drawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_uninstall_bg_drawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\app_content_btn.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\app_content_btn.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bsmall_byt.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\progress_bsmall_byt.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\listmusicitembuttonbgdraw.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\listmusicitembuttonbgdraw.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\app_refresh_btn.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\app_refresh_btn.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_vol_thumb.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_vol_thumb.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_wifi_disable.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_update_wifi_disable.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_btn_downactivityawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_btn_downactivityawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_btn_down_waitrawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_btn_down_waitrawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bsmall_circle.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\progress_bsmall_circle.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_uninstall_buttonbg_drawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_uninstall_buttonbg_drawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_setting.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\checkbox_setting.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mine_folder_child_src_download.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mine_folder_child_src_download.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\top_pop_top_item_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\top_pop_top_item_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_top_tab_line.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\bg_top_tab_line.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\settings_item_no_corner_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\settings_item_no_corner_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\controller_small_pause_drawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\controller_small_pause_drawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_btn_down_updateingrawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_btn_down_updateingrawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bestone_free_drawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\bestone_free_drawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_pay_dialog.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\shape_pay_dialog.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mine_folder_child_src_installing.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mine_folder_child_src_installing.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_btn_down_opendrawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_btn_down_opendrawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\music_down_button.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\music_down_button.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_unistall.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_blue_unistall.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_noti_nextbtnselector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_noti_nextbtnselector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_focused.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_update_button_ok_bg_focused.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_image_4.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\loading_image_4.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\control_progress_seek_btn.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\control_progress_seek_btn.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\round_rect_bg_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\round_rect_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_btn_down_downingrawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_btn_down_downingrawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\app_comm_btn_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\app_comm_btn_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_title_soft_drawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\tab_title_soft_drawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\search_item_textcolor_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\search_item_textcolor_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shap_leader_three_view_4c.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\shap_leader_three_view_4c.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\rect_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\rect_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_search_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_search_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shap_leader_three2.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\shap_leader_three2.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\musicitembgdraw.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\musicitembgdraw.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bestone_uninstall_press.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\bestone_uninstall_press.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_close_bg_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_update_button_close_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\title_button_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\title_button_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\viewpaperpress.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\viewpaperpress.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_nextbtnselector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_nextbtnselector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_videodowndrawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_videodowndrawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_detail_installclick.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_detail_installclick.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ratingbar_small.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\ratingbar_small.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_image_1.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\loading_image_1.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_vol_bar.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_vol_bar.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\search_btn_history_icon_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\search_btn_history_icon_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_tap.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_update_button_cancel_bg_tap.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bestone_selectbuttonstyle.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\bestone_selectbuttonstyle.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mine_folder_child_src_open.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mine_folder_child_src_open.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shap_leader_three.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\shap_leader_three.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplaybar_pausebtn.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplaybar_pausebtn.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_title_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_update_title_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\search_clear.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\search_clear.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_title_zone_drawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\tab_title_zone_drawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_user_login.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_user_login.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\search_btn_refine_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\search_btn_refine_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\point_style.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\point_style.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shap_leader_three_videotitle.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\shap_leader_three_videotitle.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_detailselector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_detailselector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_install_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_install_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\back_button_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\back_button_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\commentbutton.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\commentbutton.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_red.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_red.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_login.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\btn_white.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_icon_cate_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\tab_icon_cate_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\about_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\about_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_icon_download_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\menu_icon_download_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_share.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_share.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_listitem_all_drawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\bg_listitem_all_drawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mine_folder_child_src_pause.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mine_folder_child_src_pause.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_normal.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_update_button_ok_bg_normal.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\mine_folder_child_src_detail.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\mine_folder_child_src_detail.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\joke_btn_commented.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\joke_btn_commented.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\byt_audplayer_fav.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\byt_audplayer_fav.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\controller_small_play_drawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\controller_small_play_drawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_favmiddle_onclick.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_favmiddle_onclick.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\share_btn_drawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\share_btn_drawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_favtop_onclick.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_favtop_onclick.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_normal.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\umeng_update_button_cancel_bg_normal.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shap_interval.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\shap_interval.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_btn_down_retryawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_btn_down_retryawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\joke_btn_share_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\joke_btn_share_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_icon_sub_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\tab_icon_sub_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\sex_radio_btn.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\sex_radio_btn.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\hotword_item_action_selector_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\hotword_item_action_selector_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\top_pop_middle_item_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\top_pop_middle_item_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\search_clearhistory_textcolor_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\search_clearhistory_textcolor_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_pop_item_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\icon_pop_item_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_bomme_tab_drawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_bomme_tab_drawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bar_download_main.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\progress_bar_download_main.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_style_drawable.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\seekbar_style_drawable.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_sub_press_draw.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\bg_sub_press_draw.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\beston_favbom_onclick.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\beston_favbom_onclick.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bestone_button_press.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\bestone_button_press.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_horizontal.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\progress_horizontal.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bestone_selecttitlestyle.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\bestone_selecttitlestyle.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_top_bar_edit.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\navigation_top_bar_edit.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\pop_icon_goon_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable\\pop_icon_goon_bg.xml"
+    }
+]

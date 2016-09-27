@@ -305,12 +305,9 @@ public class MainActivity extends MenuBaseActivity implements OnClickListener,
 			JPushSetAlias.setAlias("zhangsan");//极光推送设置别名
 		}
 		// add by bobo 判断是否有更新
-		SharedPreferences sharepreference = getSharedPreferences("myupdate", 0);
-		unpdataValue = sharepreference.getLong("unpdata", 0);
-		Editor uedit = sharepreference.edit();
-		long cerrenttime = System.currentTimeMillis();
-		uedit.putLong("unpdata", cerrenttime);// add by bobo
-		uedit.commit();
+		unpdataValue = RapitUtile.getUpdate(RapitUtile.UPDATA_KEY);
+		RapitUtile.setUpdata(RapitUtile.UPDATA_KEY);
+		RapitUtile.setUpdata(RapitUtile.PULL_KEY);
 		// add end
 		initView();
 		// 查看是否是点击通知栏进来的
@@ -1537,7 +1534,7 @@ public class MainActivity extends MenuBaseActivity implements OnClickListener,
 									+ Constants.LIST_URL);
 							Constants.switchIP();
 						}
-						Log.i("test", "cur==>" + Constants.LIST_URL);
+						yuleVersionRead();
 						initNewData();
 						loadService.initData(MainActivity.this, maContext,
 								getRequestUrlAd(), getRequestContent(), tag(),
@@ -1561,7 +1558,7 @@ public class MainActivity extends MenuBaseActivity implements OnClickListener,
 							}
 						}
 						checkClientUpdate();
-						yuleVersionRead();
+						//yuleVersionRead();
 					}
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -2217,8 +2214,8 @@ public class MainActivity extends MenuBaseActivity implements OnClickListener,
 				new IntentFilter("com.tyb.mark.jokcanclerepit"));
 		this.registerReceiver(new CancleRepitRecive(news_redpoint),
 				new IntentFilter("com.tyb.mark.newscanclerepit"));
-		// JPushInterface.setAliasAndTags(this, "2025", null, new
-		// Myjpushcallback());
+		 JPushInterface.setAliasAndTags(this, "2025", null, new
+		 Myjpushcallback());
 		this.registerReceiver(new ProgreesBarRecive(mainprogressbar), new IntentFilter(Constants.PROGREES_BAR_RECIVE));
 		// ---------------------------------
 		CustomPushNotificationBuilder builder = new CustomPushNotificationBuilder(

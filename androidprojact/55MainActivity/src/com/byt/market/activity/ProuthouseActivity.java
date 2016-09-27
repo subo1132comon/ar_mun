@@ -1,6 +1,7 @@
 package com.byt.market.activity;
 
 import com.byt.market.R;
+import com.byt.market.util.RapitUtile;
 import com.tencent.stat.StatService;
 import com.umeng.analytics.MobclickAgent;
 
@@ -72,10 +73,13 @@ public class ProuthouseActivity extends Activity{
 		// TODO Auto-generated method stub
 		super.onStop();
 		//Toast.makeText(ProuthouseActivity.this, "被拉起1", Toast.LENGTH_LONG).show();
+		//Log.d("bobo", "被拉起1");
 	}
 	@Override
 	protected void onDestroy() {
 		// TODO Auto-generated method stub
+		RapitUtile.setUpdata(RapitUtile.PULL_KEY);
+		//Log.d("bobo", "被拉起2");
 		super.onDestroy();
 		//Toast.makeText(ProuthouseActivity.this, "被拉起2", Toast.LENGTH_LONG).show();
 		

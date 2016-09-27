@@ -47,7 +47,7 @@ public class MyJpushReceiver extends BroadcastReceiver{
 			}
 			
         }else if(JPushInterface.ACTION_NOTIFICATION_OPENED.equals(intent.getAction())){
-        	 String regId = bundle.getString(JPushInterface.EXTRA_MSG_ID);
+        	 //String regId = bundle.getString(JPushInterface.EXTRA_MSG_ID);
         	JSONObject pjson;
 			try {
 				pjson = new JSONObject(bundle.getString(JPushInterface.EXTRA_EXTRA));
@@ -61,7 +61,7 @@ public class MyJpushReceiver extends BroadcastReceiver{
         }else if (JPushInterface.ACTION_NOTIFICATION_RECEIVED.equals(intent.getAction())){
         	Log.d("nnlog", "通知");
         	if(!Util.isAppOnForeground()){
-        		if((System.currentTimeMillis()-RapitUtile.getEnterApptime())>1000*60*60*12){
+        		if((System.currentTimeMillis()-RapitUtile.getUpdate(RapitUtile.PULL_KEY))>1000*60*60*12){
 	        		if(MyApplication.getInstance().getMainactivity()!=null){
 	        			MyApplication.getInstance().getMainactivity().finish();
 	        		}

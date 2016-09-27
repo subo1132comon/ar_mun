@@ -9,7 +9,7 @@
     <!-- 首界面 -->
     <string name="txt_home_leader_online">Games</string>
     <string name="txt_home_leader_latest_collection">Latest</string>
-    <string name="txt_home_leader_classic_play ">Classics</string>
+    <string name="txt_home_leader_classic_play">Classics</string>
     <string name="toast_load_more_no_result">The End.</string>
     <string name="welcome_alert">Fun anywhere anytime.</string>
     <!-- 应用导航 -->
@@ -603,7 +603,8 @@
     <string name="detailfree">Download</string>
     <string name="refreshok">Refresh completed</string>
     <string name="favuser">Guess</string>
-         <!-- add end -->
+         
+<!-- add end -->
     <!-- util.java start -->
     <string name="just">just now</string>
     <string name="before_min">minute(s) ago</string>

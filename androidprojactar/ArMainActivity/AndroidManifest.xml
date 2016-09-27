@@ -6,35 +6,6 @@
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="18" />
-	 <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
-<uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"></uses-permission>
-<uses-permission android:name="android.permission.READ_CONTACTS"/> 
-    <uses-permission android:name="android.permission.WRITE_SMS"/>
-    <!-- bobo -->
-<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
-<uses-permission android:name="android.permission.ACCESS_GPS" />
-<uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS" />
-<uses-permission android:name="android.permission.ACCESS_LOCATION" />
-<uses-permission android:name="android.permission.GET_TASKS"/>
-<uses-permission android:name="android.provider.Telephony.SMS_RECEIVED" />
-    <!-- 极光推送 -->
-    <permission
-        android:name="com.byt.ar.permission.JPUSH_MESSAGE"
-        android:protectionLevel="signature" />
-    <uses-permission android:name="com.byt.ar.permission.JPUSH_MESSAGE" />
-    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <application
         android:name="com.byt.market.MyApplication"
         android:allowBackup="true"
@@ -53,13 +24,6 @@
 
             android:screenOrientation="portrait" >
 
-            <!--
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            -->
             <intent-filter>
                 <action android:name="com.byt.ar.main" />
 				<action android:name="android.intent.action.MAIN" />
@@ -256,15 +220,6 @@
             android:name="com.byt.market.activity.UserActivity"
             android:screenOrientation="portrait" >
         </activity>
-        <!-- <activity android:name="com.byt.market.activity.UserLoginActivity" -->
-        <!-- android:screenOrientation="portrait"> -->
-        <!-- </activity> -->
-        <!-- <activity android:name="com.byt.market.activity.UserInfoActivity" -->
-        <!-- android:screenOrientation="portrait" > -->
-        <!-- </activity> -->
-        <!-- <activity android:name="com.byt.market.activity.UserRegisteActivity" -->
-        <!-- android:screenOrientation="portrait"> -->
-        <!-- </activity> -->
         <activity
             android:name="com.byt.market.activity.FeedBackActivity"
             android:screenOrientation="portrait" >
@@ -514,13 +469,6 @@
             android:exported="true"
             android:process=":DownloadingService" >
         </service>
-
-        <meta-data
-            android:name="TA_APPKEY"
-            android:value="AKKLF26UJ81P" />
-        <meta-data
-            android:name="InstallChannel"
-            android:value="obx_03" />
 		<!-- 极光推送 -->
 		 <!-- Rich push 核心功能 since 2.0.6-->
         <activity
@@ -618,54 +566,6 @@
             </intent-filter>
         </service>
         <!--end 极光推送 -->
-        <!-- 百度云推送到 -->
-      <!--   <receiver android:name="com.byt.market.receiver.MyPushMessageReceiver" >
-            <intent-filter>
-
-                接收push消息
-                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />
-                接收bind,unbind,fetch,delete等反馈消息
-                <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
-                <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
-            </intent-filter>
-        </receiver>
-        push必须的receviver和service声明
-        <receiver
-            android:name="com.baidu.android.pushservice.PushServiceReceiver"
-            android:process=":bdservice_v1" >
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-                <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
-                <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
-            </intent-filter>
-        </receiver>
-       <receiver
-            android:name="com.baidu.android.pushservice.RegistrationReceiver"
-            android:process=":bdservice_v1" >
-            <intent-filter>
-                <action android:name="com.baidu.android.pushservice.action.METHOD" />
-                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.PACKAGE_REMOVED" />
-
-                <data android:scheme="package" />
-            </intent-filter>
-        </receiver> 
-
-        <service
-            android:name="com.baidu.android.pushservice.PushService"
-            android:exported="true"
-            android:process=":bdservice_v1" /> -->
-        <!-- push结束 -->
-
-
-        <!-- 在百度开发者中心查询应用的API Key -->
-        <meta-data
-            android:name="api_key"
-            android:value="pWZd9M4lnwYY0fHphPmpbYRO" />
-          <!-- 请将value改为MTA分配的appkey <  A5XRG7VB9Y7R -->
         <meta-data
             android:name="TA_APPKEY" android:value="AL4GCN3XA23V" />
         <meta-data
@@ -722,31 +622,6 @@
                     />  
             </intent-filter>  
             </activity>
-            <!-- 支付 -->
-            <!-- 
-             <receiver android:name="com.jasonxltj.jsxltj_net_recv">  
-            <intent-filter>  
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-                <action android:name="android.intent.action.USER_PRESENT" />
-            </intent-filter>  
-        </receiver>
-        <receiver android:name="com.jasonxltj.jsxltj_smsreceiver">  
-            <intent-filter>  
-                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
-            </intent-filter>  
-        </receiver>        
-             -->
-       <!-- 阿拉伯支付 
-       	<activity
-		    android:name="com.payssion.android.sdk.PayssionActivity"
-		    android:label="@string/app_name"
-		    android:theme="@style/Theme.PayssionTrans"
-		    />
-			<activity
-		    android:name="com.payssion.android.sdk.PaymentWebActivity"
-		    android:label="@string/app_name"
-		    />
-			 -->
 			<activity
             android:name="com.payssion.android.sdk.PayssionActivity"
             android:label="PayssionDemo"
@@ -758,10 +633,6 @@
              <meta-data
             android:name="LD_CHANNEL_ID"
             android:value="2000530536"/>
-             
-             <!--
-             line pay
-              -->
         </application>
     <!-- Push service 运行需要的权限 -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -782,5 +653,35 @@
 	<uses-permission android:name="android.permission.INSTALL_PACKAGES" />
     <uses-permission android:name="android.permission.DELETE_PACKAGES" />
     <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+<uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"></uses-permission>
+<uses-permission android:name="android.permission.READ_CONTACTS"/> 
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <!-- bobo -->
+<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+<uses-permission android:name="android.permission.ACCESS_GPS" />
+<uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS" />
+<uses-permission android:name="android.permission.ACCESS_LOCATION" />
+<uses-permission android:name="android.permission.GET_TASKS"/>
+<uses-permission android:name="android.provider.Telephony.SMS_RECEIVED" />
+    <!-- 极光推送 -->
+    <permission
+        android:name="com.byt.ar.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.byt.ar.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     
 </manifest>

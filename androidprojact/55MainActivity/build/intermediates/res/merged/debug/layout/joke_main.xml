@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include
+        android:id="@+id/main_top_frame"
+        android:layout_alignParentTop="true"
+        layout="@layout/top_frame"
+        android:visibility="gone"
+         />
+    
+    <LinearLayout
+        android:id="@+id/jokebottom"
+        android:layout_width="match_parent"
+        android:layout_below="@id/main_top_frame"
+        android:layout_height="@dimen/top_tab_height"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+        
+        <!-- 图文Button start -->  
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/jokehome"
+                android:layout_width="fill_parent"
+                android:layout_height="2.2dip"
+                android:layout_alignParentBottom="true" >
+
+                <View
+                    android:id="@+id/jokehome_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.2dip"
+                    android:background="#288be1"
+                    android:gravity="center" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_gravity="bottom"
+                    android:background="#c6c6c6"
+                    android:gravity="center" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/jokehome_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/jokehome"
+                android:background="#00000000"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="7dp"
+                android:text="@string/joke_text_img"
+                android:textColor="@color/color_top_tab_label"
+                android:textSize="@dimen/text_size_viewpager_tab" />
+        </RelativeLayout>
+        <!-- 图文Button end -->  
+        
+        
+        <!-- 纯文Button end -->  
+
+        <ImageView
+            android:id="@+id/jokebottom_divider_2"
+            android:layout_width="0.5dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:background="#bbbbbb"
+            android:padding="1dp" />
+                
+        <!-- 纯图Button start -->  
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/joke_image"
+                android:layout_width="fill_parent"
+                android:layout_height="2.2dip"
+                android:layout_alignParentBottom="true" >
+
+                <View
+                    android:id="@+id/joke_image_tab_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.2dip"
+                    android:background="#288be1"
+                    android:gravity="center" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_gravity="bottom"
+                    android:background="#c6c6c6"
+                    android:gravity="center" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/joke_image_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/joke_image"
+                android:background="#00000000"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="7dp"
+                android:text="@string/joke_img"
+                android:textColor="@color/color_top_tab_label"
+                android:textSize="@dimen/text_size_viewpager_tab" />
+        </RelativeLayout>
+        <!-- 纯图Button end -->          
+    </LinearLayout>    
+    <!-- ViewPager 内容显示区 end -->
+
+     <RelativeLayout 
+    android:id="@+id/qiushiheadlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#eaeaea"
+    android:gravity="center"
+    android:layout_below="@id/jokebottom"
+    android:orientation="horizontal"
+    android:paddingBottom="6dp"
+    android:visibility="gone"
+    android:paddingTop="8dp" >
+ <TextView
+     				android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:textColor="#ff000000"
+                    android:textSize="18sp"
+                    android:text="@string/jing_cai_mei_yi_tian"
+                    android:layout_alignParentLeft="true" 
+                    />
+  <TextView
+      				android:id="@+id/switch_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    android:text="@string/huan_yi_tian"
+                    android:textColor="#ffffffff"
+                    android:layout_alignParentRight="true"
+                    android:textSize="18sp"
+                    android:background="@drawable/btn_login" />
+</RelativeLayout>
+
+    <!-- ViewPager 内容显示区 start -->
+    <LinearLayout
+        android:id="@+id/joke_area"        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/qiushiheadlayout"
+        android:orientation="horizontal" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/jokeviewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:flipInterval="30"
+            android:persistentDrawingCache="animation" />
+    </LinearLayout>
+   
+
+</RelativeLayout>

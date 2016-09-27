@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-zh-hdpi-v4\\checkbox_setting_close.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-zh-hdpi\\checkbox_setting_close.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-zh-hdpi-v4\\checkbox_setting_open.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-zh-hdpi\\checkbox_setting_open.png"
+    }
+]

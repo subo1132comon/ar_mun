@@ -1,0 +1,962 @@
+[
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\rank_week.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\rank_week.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_musiccate.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_musiccate.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\item_news_speas.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\item_news_speas.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\file_cache_dialog.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\file_cache_dialog.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\tvcat_header.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\tvcat_header.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_guide03.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\fragment_guide03.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_common_layout_all.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_common_layout_all.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bluep_by_ad.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bluep_by_ad.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_resultrec_item.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_resultrec_item.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\expend_app_folder.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\expend_app_folder.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\downbuttonsharedetail.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\downbuttonsharedetail.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_fav_layout.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_fav_layout.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_music_layout.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_music_layout.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\menu_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\menu_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listview.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listview.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\activity_guide.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\pp_list_item.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\pp_list_item.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\downbuttonshare.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\downbuttonshare.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_cate_list.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_cate_list.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\single_select_text.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\single_select_text.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\user_folder.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\user_folder.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\pager_end.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\pager_end.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\search_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\search_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\cate_lv_header.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\cate_lv_header.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_app_more_uninstall.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\dialog_app_more_uninstall.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\downloaded_media_main_fragment.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\downloaded_media_main_fragment.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\livetabheadview.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\livetabheadview.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bluepay_logo.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bluepay_logo.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listview_empty_view.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listview_empty_view.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_news_image.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_news_image.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listview_common.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listview_common.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_videolandthreecate.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_videolandthreecate.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\app_uninstall_item_layout.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\app_uninstall_item_layout.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\videobuffer.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\videobuffer.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\joke_details_gif.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\joke_details_gif.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bscreen_ad_band.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bscreen_ad_band.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_download_manage_item.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_download_manage_item.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\sub_comm_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\sub_comm_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\screen_ad_band.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\screen_ad_band.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_common_layout.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_common_layout.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bdetail_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bdetail_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\showintegral.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\showintegral.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_prouthoues.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\activity_prouthoues.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\videotabheadview.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\videotabheadview.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\cplistview.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\cplistview.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\ring_main_fragment.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\ring_main_fragment.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\item_page_more.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\item_page_more.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bestone_choicebutton_share.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bestone_choicebutton_share.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listview_joke.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listview_joke.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\list_info_music_tab_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\list_info_music_tab_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\layout_rec_dialog.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\layout_rec_dialog.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_playdownedlist.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_playdownedlist.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\share_main.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\share_main.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\mine_workspace_screen.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\mine_workspace_screen.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\about_layout.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\about_layout.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dailog.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\activity_dailog.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\pager_item.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\pager_item.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bluepay_view_loading.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bluepay_view_loading.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_app_note.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\dialog_app_note.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_subject_header.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_subject_header.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_progress_vdio.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\dialog_progress_vdio.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\videofragments.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\videofragments.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\play_web_video_activity.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\play_web_video_activity.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_guide01.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\fragment_guide01.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_videolandcate.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_videolandcate.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\head.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\head.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_comment_item.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_comment_item.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bluep_by_otc_landscape.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bluep_by_otc_landscape.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\hotworklistview.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\hotworklistview.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\folder_sec.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\folder_sec.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_history_item.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_history_item.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_homerec_item.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_homerec_item.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_loading.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_loading.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\manager_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\manager_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\top_viewpager_tab_item2.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\top_viewpager_tab_item2.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\favlistview.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\favlistview.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\right_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\right_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\read.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\read.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\detail_type.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\detail_type.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\livefragments.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\livefragments.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\notification.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\video_detail.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\video_detail.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_jokewebview.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\activity_jokewebview.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\folder_icon.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\folder_icon.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\user_layout.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\user_layout.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_result_header.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_result_header.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_loadfailed.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_loadfailed.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_hotword_item.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_hotword_item.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\shell_botton_includ.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\shell_botton_includ.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\rename_folder.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\rename_folder.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\video_loading_progress.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\video_loading_progress.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\uplode_icon_dialog.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\uplode_icon_dialog.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\cate_main_fragment.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\cate_main_fragment.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\main_page_more.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\main_page_more.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\musicland_header.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\musicland_header.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bestone_choicebuttonho.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bestone_choicebuttonho.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\top_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\top_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\rank_total.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\rank_total.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_leader_three.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_leader_three.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\joke_main.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\joke_main.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tabs_pager2.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\fragment_tabs_pager2.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_voiced_dailog.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\activity_voiced_dailog.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\layout_detail_type_item.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\layout_detail_type_item.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\jokedetailimagenotgif.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\jokedetailimagenotgif.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\joke_comment.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\joke_comment.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\musiccat_header.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\musiccat_header.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\joke_comment_fragment.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\joke_comment_fragment.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\rank_fragment.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\rank_fragment.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_hotword_header.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_hotword_header.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\comm_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\comm_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_musiclandcate.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_musiclandcate.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\musicdowning_header.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\musicdowning_header.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_app_uninstall_layout.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\activity_app_uninstall_layout.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\user_center.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\user_center.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_rank_layout.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_rank_layout.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bluep_by_dcb.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bluep_by_dcb.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\user_center2.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\user_center2.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_guide02.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\fragment_guide02.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\setting_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\setting_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_detail.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_detail.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\main_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\main_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\m_tabbar_view.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\m_tabbar_view.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\list_startrec_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\list_startrec_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\protocal_layout.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\protocal_layout.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\rank_main_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\rank_main_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bestone_rec_ada_item.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bestone_rec_ada_item.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\app_push.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\app_push.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bluep_tips_offline.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bluep_tips_offline.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\item_home.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\item_home.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_sub.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_sub.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\donwload_manage.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\donwload_manage.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\musichead.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\musichead.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_playdownlist.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_playdownlist.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\user_info.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\user_info.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listviewhashead.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listviewhashead.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_rank.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_rank.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\audioplayer_main.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\audioplayer_main.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\list_info_new_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\list_info_new_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\audioplayer_option_menu.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\audioplayer_option_menu.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_common_layout_myfa.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_common_layout_myfa.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\play.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\play.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listviewsub.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listviewsub.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sharepage.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\activity_sharepage.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bluep_pay_otc_portrait_happy.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bluep_pay_otc_portrait_happy.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\includ_intervallayout.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\includ_intervallayout.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_main_fragment.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\home_main_fragment.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\rank_month.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\rank_month.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_ad.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_ad.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bluep_by_otc_portrait.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bluep_by_otc_portrait.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bestone_qiushi_head.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bestone_qiushi_head.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_joke_text_image.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_joke_text_image.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\jokedetailimage.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\jokedetailimage.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_guide04.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\fragment_guide04.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\cate_listview.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\cate_listview.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bluep_pay_opt_portrait.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bluep_pay_opt_portrait.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\download_notification_layout.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\download_notification_layout.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_no_wifi_download_tips.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\dialog_no_wifi_download_tips.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dailog_money_pay.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\dailog_money_pay.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\layout_uninstall_top_popu.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\layout_uninstall_top_popu.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_joyskill.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_joyskill.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_update_dialog.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\umeng_update_dialog.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\videoland_header.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\videoland_header.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_forgot_password.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\dialog_forgot_password.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\user_registe.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\user_registe.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\detail_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\detail_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_think_item.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_think_item.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\mine_view.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\mine_view.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bestone_optionmenuho.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bestone_optionmenuho.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_detail_comment_item.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_detail_comment_item.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\user_login.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\user_login.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_sublist.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_sublist.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\storage_view.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\storage_view.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\comm_listview.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\comm_listview.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bestone_imageitem.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bestone_imageitem.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay_ui.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\activity_pay_ui.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\play_music_activity.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\play_music_activity.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\jinli_about_xml.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\jinli_about_xml.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_download.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\dialog_download.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_three.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_three.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\detail_tip.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\detail_tip.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_common_layout2.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_common_layout2.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\toast_installled.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\toast_installled.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_joke_image.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_joke_image.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\settings_fragment2.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\settings_fragment2.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\scrolladbyt.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\scrolladbyt.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\customer_notitfication_layout.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\customer_notitfication_layout.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_htmltv_play.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\activity_htmltv_play.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bestone_choicebutton.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bestone_choicebutton.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tabs_pager.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\fragment_tabs_pager.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_videoloading.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_videoloading.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\joke_details.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\joke_details.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\list_info_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\list_info_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_novel_layout.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_novel_layout.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_loadfailed2.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_loadfailed2.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_guide05.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\fragment_guide05.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_joke_text.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_joke_text.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\settings.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\settings.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_download_manager_category_item.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_download_manager_category_item.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bookpop.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bookpop.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\live_main_fragment.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\live_main_fragment.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\yulehead.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\yulehead.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\retrieve_password.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\retrieve_password.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_cate.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_cate.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_subcatelist.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_subcatelist.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\mine_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\mine_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_rec_two.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_rec_two.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bluep_by_otc_landscape_happy.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bluep_by_otc_landscape_happy.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_detail_comm.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_detail_comm.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\facebookshare.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\facebookshare.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\audioplayer_more_details.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\audioplayer_more_details.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\toolpop.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\toolpop.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_paywenbview.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\activity_paywenbview.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\suggest_layout.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\suggest_layout.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_mygame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_mygame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\mine_frame2.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\mine_frame2.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bluep_smslist.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bluep_smslist.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\home_ad_band.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\home_ad_band.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_comment_headview.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\listitem_comment_headview.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\video_main_fragment.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\video_main_fragment.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\viewer.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\viewer.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\mine_application.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\mine_application.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\settings_fragment.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\settings_fragment.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\av_main_fragment.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\av_main_fragment.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bestone_optionmenu.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bestone_optionmenu.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\list_info_top_tab_frame.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\list_info_top_tab_frame.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bluep_pay_opt_lanscape.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bluep_pay_opt_lanscape.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\top_viewpager_tab_item.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\top_viewpager_tab_item.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\bluep_by_offline.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\bluep_by_offline.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\yule_main.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\yule_main.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\my_game_list_item.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\my_game_list_item.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\start_rec_listitem_three.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\start_rec_listitem_three.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\item_news_big_ic.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\item_news_big_ic.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\softupdate_progress.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\softupdate_progress.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_common_download_notification.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\umeng_common_download_notification.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\preview_view.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\preview_view.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_feed_back.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\activity_feed_back.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\showlevel.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\layout\\showlevel.xml"
+    }
+]

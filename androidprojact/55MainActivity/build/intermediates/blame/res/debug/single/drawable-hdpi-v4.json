@@ -1,0 +1,2882 @@
+[
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_mng_nor.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_mng_nor.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_login_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_login_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\news_nor.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\news_nor.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\star_off_small.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\star_off_small.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\facebook.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\facebook.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_src_installing_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_src_installing_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_yellow_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_yellow_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_custom_toast.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_custom_toast.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_shuffle_on_press.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_shuffle_on_press.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bt_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_bt_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\indicator_search_unfocus.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\indicator_search_unfocus.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nav_setting.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\nav_setting.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\book_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\book_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titile_game_nor.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titile_game_nor.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cate_bg_nor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\cate_bg_nor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audplay_icn_share_dis.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audplay_icn_share_dis.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_input_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_input_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_zhedie.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_zhedie.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_cunchu_01.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_cunchu_01.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\folder_wp.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\folder_wp.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titile_soft_pre.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titile_soft_pre.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titile_op_pre.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titile_op_pre.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_prmt_update.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_prmt_update.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\l_bg_2.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\l_bg_2.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\l_rec_rat.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\l_rec_rat.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluepay_refresh_down.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluepay_refresh_down.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_content_small_btn_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_content_small_btn_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_title_bar.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_title_bar.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playbar_btn_pause.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\playbar_btn_pause.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_gray_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_gray_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\freebuttonpre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\freebuttonpre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titlebar_bg_gap.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titlebar_bg_gap.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_back.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_back.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_sms.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_sms.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_white_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_white_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_delete.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\login_delete.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\facebooksharebutton_s.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\facebooksharebutton_s.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_vol_seekbar_point.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_vol_seekbar_point.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\noti_btn_play.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\noti_btn_play.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\play_icn_dld_prs.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\play_icn_dld_prs.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_red_qs.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_red_qs.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\installphonepic.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\installphonepic.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_icon_one_calltip.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_icon_one_calltip.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\top_pop_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\top_pop_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\google_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\google_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\joke_comment_line.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\joke_comment_line.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detail_zhankai_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\detail_zhankai_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detail_block_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\detail_block_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audplay_more_info.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audplay_more_info.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\act_blk_iner_prs.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\act_blk_iner_prs.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\back_button_bg_pressed.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\back_button_bg_pressed.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\feedback_btn_reset_unuse.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\feedback_btn_reset_unuse.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\l_rec_comm.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\l_rec_comm.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_src_open_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_src_open_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\level.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\level.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_user_login_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_user_login_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bestene_fav_nor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bestene_fav_nor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titlebar_back_arrow_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titlebar_back_arrow_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_pop_pause_press.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_pop_pause_press.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_detail_downbg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_detail_downbg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__spinner_ab_default_holo_light.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\abs__spinner_ab_default_holo_light.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\player_tip_bg.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\player_tip_bg.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_tencent_open_agent_imgnavbar_btn_back_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\com_tencent_open_agent_imgnavbar_btn_back_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_rec_yellow_pressed.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_rec_yellow_pressed.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_logo_happy.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_logo_happy.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_menu_num_pop.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_menu_num_pop.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title_bar_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\title_bar_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\qrcodelogo.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\qrcodelogo.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_rec_unenabled_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_rec_unenabled_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\joke_sender.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\joke_sender.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_price_line.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_price_line.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\news_listitem_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\news_listitem_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_share2_press.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_share2_press.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_title_main_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_title_main_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_newtest_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\home_newtest_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_first_rank_number.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_first_rank_number.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_btn_history_icon_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\search_btn_history_icon_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ad_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ad_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_notbg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\progress_notbg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\item_option_division.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\item_option_division.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_linepay.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_linepay.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_back_bg_player.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_back_bg_player.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hotword_rank_1.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\hotword_rank_1.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluepay_logo.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluepay_logo.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audplay_icn_dld_dis.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audplay_icn_dld_dis.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings_right_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\settings_right_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\joke_listitem_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\joke_listitem_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\appmng_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\appmng_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_item_option_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_item_option_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audplay_icn_add.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audplay_icn_add.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dialog_close_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\dialog_close_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\reader_switch_on.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\reader_switch_on.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_voice_btn_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\search_voice_btn_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tab_cate_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_tab_cate_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nextbtn_p.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\nextbtn_p.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_feed_item_line.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_feed_item_line.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_clear_press.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\search_clear_press.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_content_statusbar_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_content_statusbar_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_playbarbtn_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_playbarbtn_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_progressbar_sec_hl.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_progressbar_sec_hl.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\l_detail_type_safe.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\l_detail_type_safe.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_byt_rank_number.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_byt_rank_number.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_download_close.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_download_close.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_download_progress_animition_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_download_progress_animition_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_icn_dld_gray.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\list_icn_dld_gray.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titlebar_for_searchbox_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titlebar_for_searchbox_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\reader_screen_brightness.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\reader_screen_brightness.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\yule_redpoint.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\yule_redpoint.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\favuserpic.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\favuserpic.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_tab_divider.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\main_tab_divider.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_bookmark_checked.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_bookmark_checked.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_rank_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\home_rank_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_comment_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_comment_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\folder_label_clear_button.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\folder_label_clear_button.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_about.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_about.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_logo_indomog.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_logo_indomog.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vertical_divder_line_1px.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\vertical_divder_line_1px.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_src_update_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_src_update_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nothing_smile.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\nothing_smile.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\folder_indicator.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\folder_indicator.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mytheanmw.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mytheanmw.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_rec_red_pressed.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_rec_red_pressed.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hotword_nor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\hotword_nor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audplay_icn_add_dis.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audplay_icn_add_dis.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_integral_set_p.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_integral_set_p.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_red_norma_qsl.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_red_norma_qsl.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_btn_clear_text.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\search_btn_clear_text.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\setting_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\setting_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_conti_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_conti_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titile_zone_nor.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titile_zone_nor.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pay_select_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\pay_select_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\truemoney_logo.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\truemoney_logo.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_tencent_open_agent_imgnavbar_btn_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\com_tencent_open_agent_imgnavbar_btn_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navigation_top_bar_add_btn.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\navigation_top_bar_add_btn.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\item_more_option_bg_down.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\item_more_option_bg_down.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\main_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\videoplaynum.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\videoplaynum.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_pop_goon_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_pop_goon_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\indicator_search_focus.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\indicator_search_focus.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hotword_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\hotword_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_content_small_btn_pressed.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_content_small_btn_pressed.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guidance_skip.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\guidance_skip.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_my_installed_game_updatable_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_my_installed_game_updatable_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\man_btn_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\man_btn_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_notification_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_notification_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\listitem_bg_gray.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\listitem_bg_gray.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_rec_green_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_rec_green_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox_setting_open.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\checkbox_setting_open.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_app.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_app.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detail_default.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\detail_default.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_download.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_download.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_red_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_red_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\star_half_small.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\star_half_small.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fav_bom_nor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\fav_bom_nor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_animotion.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_animotion.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hotwordbgpress.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\hotwordbgpress.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\folder_icon_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\folder_icon_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guidance_new4.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\guidance_new4.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_repeat_once_press.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_repeat_once_press.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pausebtn_p.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\pausebtn_p.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titile_home_pre.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titile_home_pre.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_new.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_new.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_red_pressed_qs.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_red_pressed_qs.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guidance_new5.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\guidance_new5.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\joke_empyt.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\joke_empyt.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluepay_loading.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluepay_loading.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_other_rank_number.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_other_rank_number.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_icn_dld_ok.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\list_icn_dld_ok.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_leader_rec_3.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_leader_rec_3.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navigation_top_bar_setting_btn_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\navigation_top_bar_setting_btn_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playbar_btn_play.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\playbar_btn_play.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\listitem_sub_time.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\listitem_sub_time.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\qrcode55.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\qrcode55.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_top.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_top.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\play_button.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\play_button.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_detail_privebg_diss.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_detail_privebg_diss.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings_divder_line.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\settings_divder_line.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\act_blk_iner.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\act_blk_iner.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\folder_label_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\folder_label_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_progress_phone_used.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_progress_phone_used.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_detail_p.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_detail_p.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_src_uninstall_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_src_uninstall_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_logo_truemoney.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_logo_truemoney.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\folder_indicator_reverse.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\folder_indicator_reverse.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\l_sub_default_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\l_sub_default_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navigation_btn.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\navigation_btn.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playalllistmusic.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\playalllistmusic.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titlebar_search_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titlebar_search_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_price_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_price_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_btn_refine.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\search_btn_refine.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\back_button_bg_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\back_button_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bestone_btn_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bestone_btn_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\top_pop_bottom_press_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\top_pop_bottom_press_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audplay_icn_loved_dis.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audplay_icn_loved_dis.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zoomout.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\zoomout.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titile_zone_pre.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titile_zone_pre.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bottom_tab_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bottom_tab_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_ret_nor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_ret_nor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\musicplayicon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\musicplayicon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_btnbg_hl.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_btnbg_hl.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_user.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\default_user.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\progress_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_orange_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_orange_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_comment_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_comment_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bestone_btn_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bestone_btn_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\noti_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\noti_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_detail_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_detail_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audplay_icn_loved_prs.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audplay_icn_loved_prs.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_src_detail_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_src_detail_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\prebtn_p.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\prebtn_p.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_pop_item_selected_white.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_pop_item_selected_white.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navigation_top_bar_add_btn_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\navigation_top_bar_add_btn_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_playbarlayout_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_playbarlayout_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_down_detail_bg_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_down_detail_bg_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hotword_rank_2.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\hotword_rank_2.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\facebooksharebg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\facebooksharebg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\play_icn_share_prs.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\play_icn_share_prs.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading02.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\loading02.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_yellow_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_yellow_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\uid_canout_use.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\uid_canout_use.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audplay_icn_add_p.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audplay_icn_add_p.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\noti_btn_pause.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\noti_btn_pause.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tab_home_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_tab_home_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\showlevel_share_btn_p.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\showlevel_share_btn_p.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\umeng_update_close_bg_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\umeng_update_close_bg_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_collected.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_collected.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title_searchbox_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\title_searchbox_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\athermin.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\athermin.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\showlevel_share_btn_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\showlevel_share_btn_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_tencent_open_agent_imgnavbar_btn_back_click_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\com_tencent_open_agent_imgnavbar_btn_back_click_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\listitem_sub_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\listitem_sub_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\top_pop_black_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\top_pop_black_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bestone_mainbg.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bestone_mainbg.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_btn_orange_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\search_btn_orange_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\refresh_pressed.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\refresh_pressed.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_waiting.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_waiting.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bestone_btn_diss.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bestone_btn_diss.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\videodefaultbg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\videodefaultbg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_my_collect_enable.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_my_collect_enable.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tab_rank_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_tab_rank_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_orange_large_disabled.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_orange_large_disabled.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_open_bg_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_open_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nothing_cry.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\nothing_cry.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\downloadingbg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\downloadingbg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\refresh_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\refresh_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\red_point.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\red_point.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_back_p.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_back_p.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_pause_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_pause_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_feedback.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_feedback.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\indicator_focus.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\indicator_focus.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_background.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\login_background.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_oringe_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\progress_oringe_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\index_list_cover.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\index_list_cover.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\uninstall_item_bgpre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\uninstall_item_bgpre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\star_comm_off.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\star_comm_off.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_update_bg_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_update_bg_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_my_installed_game_updatable_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_my_installed_game_updatable_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navigation_top_bar_edit_btn.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\navigation_top_bar_edit_btn.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_controller_small_pause_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_controller_small_pause_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playbtn_p.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\playbtn_p.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audply_menu_icn_alb.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audply_menu_icn_alb.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\l_detail_type_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\l_detail_type_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\arrow.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\l_sub_empty_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\l_sub_empty_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\videothreebg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\videothreebg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tv_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\tv_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dialog_content_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\dialog_content_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_system_message_enable.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_system_message_enable.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playbar_btn_next.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\playbar_btn_next.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_logo_12call.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_logo_12call.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings_divder.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\settings_divder.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_change_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_change_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_subject_item_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_subject_item_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\level1.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\level1.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_paylist_arrow_high.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_paylist_arrow_high.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluepay_refresh.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluepay_refresh.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bt_right.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_bt_right.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\video_por.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\video_por.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_search_submit.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_search_submit.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_menu_app_uninstall_settings.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_menu_app_uninstall_settings.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_share_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_share_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\listitembg_nobo_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\listitembg_nobo_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_downing_nor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_downing_nor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_pop_pause_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_pop_pause_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playbtn_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\playbtn_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_menu_down_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_menu_down_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rank_down.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\rank_down.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_detail_privebg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_detail_privebg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_progressbar_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_progressbar_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playbuttonbig2.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\playbuttonbig2.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\feedback_btn_reset_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\feedback_btn_reset_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_empty_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_empty_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_free_bg_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_free_bg_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_controller_small_play_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_controller_small_play_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\horizontal_divder_line_1px.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\horizontal_divder_line_1px.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_menu_update_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_menu_update_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu_button.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\menu_button.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_paly_disc_empty.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_paly_disc_empty.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_voice_btn_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\search_voice_btn_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\appmng_btn_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\appmng_btn_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_btn_download.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_btn_download.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_vol_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_vol_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pay_select_bg_pass.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\pay_select_bg_pass.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\button_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_src_failed_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_src_failed_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audplay_icn_dld.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audplay_icn_dld.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nothing.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\nothing.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_share.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_share.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_btn_refine_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\search_btn_refine_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\umeng_update_btn_check_on_focused_holo_light.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\umeng_update_btn_check_on_focused_holo_light.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sub_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\sub_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_downing_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_downing_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rankiconbg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\rankiconbg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\item_more_option_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\item_more_option_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_system_message_disable.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_system_message_disable.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_sharebutton2.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_sharebutton2.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\video_arrow_right_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\video_arrow_right_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_zoomout_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_zoomout_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading04.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\loading04.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_btn_open.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_btn_open.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_conti_nor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_conti_nor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_red_pressed.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_red_pressed.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_feed_item_bottom.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_feed_item_bottom.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_progressbar_hl.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_progressbar_hl.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dot_forcused.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\dot_forcused.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_comm_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_comm_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ristyle.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ristyle.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_leader_rec_2.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_leader_rec_2.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cab_divider_vertical_dark.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\cab_divider_vertical_dark.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_btn_bg_orange.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\main_btn_bg_orange.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\oobe_button.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\oobe_button.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_repeat_all_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_repeat_all_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fav_top_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\fav_top_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fav_bom_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\fav_bom_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\focus_loading.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\focus_loading.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xline.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\xline.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\noti_btn_next_p.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\noti_btn_next_p.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_shadow.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_shadow.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_download_dis.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_download_dis.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\top_nav_shadow.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\top_nav_shadow.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_set_down_sum_decrease_press.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_set_down_sum_decrease_press.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_open_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_open_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\share_joke_detail.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\share_joke_detail.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playbuttonbg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\playbuttonbg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_src_download_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_src_download_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\radio_btn_sex_normal_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\radio_btn_sex_normal_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audply_menu_icn_other.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audply_menu_icn_other.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu_button_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\menu_button_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_src_uninstalling_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_src_uninstalling_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detail_expand_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\detail_expand_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\level_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\level_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_price_icaon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_price_icaon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\level3.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\level3.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tabbar_bg_02.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\tabbar_bg_02.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_list_item_common.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_list_item_common.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\feedback_btn_reset_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\feedback_btn_reset_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_detail_sc_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_detail_sc_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_play_needle.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_play_needle.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\toc.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\toc.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\next.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\next.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_repeat_all_press.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_repeat_all_press.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\umeng_update_btn_check_off_holo_light.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\umeng_update_btn_check_off_holo_light.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\showlevel_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\showlevel_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\radio_btn_sex_selected_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\radio_btn_sex_selected_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_btn_pause.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_btn_pause.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titlebar_search_selected.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titlebar_search_selected.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_oringe_light.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\progress_oringe_light.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titile_op_nor.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titile_op_nor.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zoomin_disabled.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\zoomin_disabled.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\refresh_ok.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\refresh_ok.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_share2_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_share2_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_logo_telkomsel.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_logo_telkomsel.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_new.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\about_new.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pop_driver_line.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\pop_driver_line.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\playactivitbig.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\playactivitbig.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_user_settings_press.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_user_settings_press.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_menu_uninstall_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_menu_uninstall_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_my_collect_disable.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_my_collect_disable.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\next_disabled.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\next_disabled.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ad_s.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ad_s.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_tv_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_tv_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_vol_seekbar_p.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_vol_seekbar_p.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_voiced.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_voiced.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bank.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_bank.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_key.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\login_key.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titlebar_update_num.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titlebar_update_num.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wifi_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\wifi_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_collect_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_collect_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_btn_update.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_btn_update.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_manager.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_manager.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_set_down_sum_increase_press.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_set_down_sum_increase_press.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titile_game_pre.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titile_game_pre.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audply_option_menu.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audply_option_menu.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sub_nor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\sub_nor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_gray_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_gray_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\umeng_update_btn_check_off_pressed_holo_light.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\umeng_update_btn_check_off_pressed_holo_light.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_tencent_open_agent_imgnavbar_btn_click_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\com_tencent_open_agent_imgnavbar_btn_click_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_probar_btn.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_probar_btn.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_collet.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_collet.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audplay_icn_share_prs.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audplay_icn_share_prs.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mng_common_btn_press.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mng_common_btn_press.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_orange_large.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_orange_large.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_udpatelocal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_udpatelocal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_newtest_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\home_newtest_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\musicredline.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\musicredline.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_logo_vinaphone.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_logo_vinaphone.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tab_cate_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_tab_cate_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_menu_moreoverflow_normal_holo_dark.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_menu_moreoverflow_normal_holo_dark.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_prmt_fav.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_prmt_fav.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\level2.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\level2.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\star_half.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\star_half.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_logo_vtc.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_logo_vtc.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_oringe_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\progress_oringe_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_search.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_search.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tab_rank_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_tab_rank_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audply_menu_icn_artist.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audply_menu_icn_artist.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_disc_180.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\default_disc_180.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\close_button.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\close_button.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wifi_s.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\wifi_s.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_detail_downbg_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_detail_downbg_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\yestyle.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\yestyle.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_menu_moreoverflow_normal_holo_light.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_menu_moreoverflow_normal_holo_light.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_paylist_arrow_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_paylist_arrow_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_background_more.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\login_background_more.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\l_home_rec_line.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\l_home_rec_line.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_pop_item_selected.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_pop_item_selected.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guidance_new3.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\guidance_new3.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cate_bg_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\cate_bg_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_update_bg_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_update_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audplay_icn_share.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audplay_icn_share.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title_button_bg_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\title_button_bg_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_prompt.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_prompt.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nothing_cute.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\nothing_cute.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camera_bottom_on.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\camera_bottom_on.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zoomin.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\zoomin.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\listitem_headpre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\listitem_headpre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_rec_yellow_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_rec_yellow_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_opten_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_opten_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title_main_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\title_main_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_payarrow.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_payarrow.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_menu_uninstall_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_menu_uninstall_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_logo_viettel.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_logo_viettel.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_sort.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_sort.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_button_nor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_button_nor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\indicator_unfocus.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\indicator_unfocus.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\umeng_update_close_bg_tap.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\umeng_update_close_bg_tap.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\search_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_src_resume_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_src_resume_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_ti.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_ti.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_download_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_download_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_paylist_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_paylist_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\u6_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\u6_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\feedback_pop_background.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\feedback_pop_background.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pay_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_pay_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dot_focused.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\dot_focused.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_dialog.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_dialog.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_next.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_next.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\userbg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\userbg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_comics.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_comics.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audplay_icn_love_prs.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audplay_icn_love_prs.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_setting.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_setting.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_zoomin_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_zoomin_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_progress_horizontal_fg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_progress_horizontal_fg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_btn_suggestion_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\search_btn_suggestion_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_set_down_sum_decrease_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_set_down_sum_decrease_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\noti_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\noti_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_clear_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\search_clear_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audplay_icn_loved.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audplay_icn_loved.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\listitem_headnor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\listitem_headnor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_mng_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_mng_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_btn_bg_white.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\main_btn_bg_white.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ess_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ess_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ess_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ess_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_logo_mobifone.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_logo_mobifone.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\freebuttonnor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\freebuttonnor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_user_login_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_user_login_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dialog_title_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\dialog_title_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\round_rect_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\round_rect_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading01.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\loading01.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_back_bg_player_s.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_back_bg_player_s.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\reader_text_size.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\reader_text_size.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\videodetailplay.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\videodetailplay.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_shuffle_on_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_shuffle_on_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_input.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\search_input.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\toolbar_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\toolbar_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\l_detail_type_free.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\l_detail_type_free.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\listview_driver_line.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\listview_driver_line.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\googel_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\googel_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\installsdpic.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\installsdpic.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\prebtn_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\prebtn_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\noti_btn_pause_p.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\noti_btn_pause_p.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_updating_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_updating_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bomme_tab_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bomme_tab_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\about_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\top_downicon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\top_downicon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\news_par.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\news_par.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_btnbg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_btnbg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navigation_top_bar_setting_btn.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\navigation_top_bar_setting_btn.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\u19_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\u19_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_mgr_arror.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_mgr_arror.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_download_progress_current.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_download_progress_current.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\umeng_update_btn_check_on_holo_light.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\umeng_update_btn_check_on_holo_light.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\star_off.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\star_off.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guidance_new1.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\guidance_new1.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_update.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_update.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\googel_s.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\googel_s.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\uninstall_item_buttonbg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\uninstall_item_buttonbg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_progress_phone_used_percent.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_progress_phone_used_percent.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_icon_true_tip.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_icon_true_tip.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_tv_delet.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_tv_delet.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\line_horizontal_feed_back.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\line_horizontal_feed_back.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_third_rank_number.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_third_rank_number.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_download_p.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_download_p.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_btn_goon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_btn_goon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\top_pop_middle_press_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\top_pop_middle_press_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_move_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_move_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tmall_bar_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\tmall_bar_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_btn_history_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\search_btn_history_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_down_rec_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_down_rec_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_detail.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_detail.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\moviesrc.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\moviesrc.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\happy.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\happy.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\joke_empty_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\joke_empty_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_ias.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_ias.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audply_menu_icn_cmt.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audply_menu_icn_cmt.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_src_install_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_src_install_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fav_midd_nor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\fav_midd_nor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\man_part1_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\man_part1_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titile_home_nor.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titile_home_nor.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_free_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_free_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navigation_top_bar_edit_btn_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\navigation_top_bar_edit_btn_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myapp_non_download_img.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\myapp_non_download_img.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\listitembg_nobo_nor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\listitembg_nobo_nor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_orange_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_orange_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings_line.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\settings_line.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\pic_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\noti_btn_play_p.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\noti_btn_play_p.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_pause_nor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_pause_nor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nextbtn_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\nextbtn_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_leader_rec_1.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_leader_rec_1.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tab_mine_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_tab_mine_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_wait_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_wait_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_controller_small_play_select.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_controller_small_play_select.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_second_rank_number.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_second_rank_number.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guidance_new2.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\guidance_new2.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_paly_disc_bottom.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_paly_disc_bottom.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\reader_switch_off.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\reader_switch_off.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_opten_nor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_opten_nor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_btn_white.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\search_btn_white.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_btn_installing.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_btn_installing.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tab_mine_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_tab_mine_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zongyi.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\zongyi.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_menu_down_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_menu_down_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_bg_h.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_bg_h.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_controller_small_pause_select.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_controller_small_pause_select.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_arror.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_arror.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\top_pop_top_press_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\top_pop_top_press_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_button_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_button_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_updating_nor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_updating_nor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\check_box_off.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\check_box_off.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_menu_update_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_menu_update_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fav_top_nor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\fav_top_nor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_sharebutton.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_sharebutton.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_nav_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_nav_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titlebar_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titlebar_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audplay_icn_love.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audplay_icn_love.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_feed_back_edit_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_feed_back_edit_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_btn_orange.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\search_btn_orange.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_src_pause_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_src_pause_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_block.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_block.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bottombar_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bottombar_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_open_bg_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_open_bg_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_set_down_sum_input.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_set_down_sum_input.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_uninstall_unenabled_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_uninstall_unenabled_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audplay_icn_dld_video.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audplay_icn_dld_video.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audplay_icn_love_dis.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audplay_icn_love_dis.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\check_box_on.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\check_box_on.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_news.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_news.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\listitem_sub_bg_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\listitem_sub_bg_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tab_sub_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_tab_sub_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_corner_press.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_corner_press.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\l_bg_3.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\l_bg_3.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item_bottom_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\list_item_bottom_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bomme_tab_pre.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bomme_tab_pre.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_set_down_sum_increase_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_set_down_sum_increase_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_user_default.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_user_default.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_download_progress_fg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_download_progress_fg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_uninstall.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_uninstall.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\l_detail_type_aut.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\l_detail_type_aut.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\topbuttonline.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\topbuttonline.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dot_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\dot_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\empty_box.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\empty_box.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\u11_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\u11_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_edit_delete_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_edit_delete_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tab_sub_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_tab_sub_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\man_part2_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\man_part2_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\uid_can_use.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\uid_can_use.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_pop_cancel_press.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_pop_cancel_press.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_user.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\login_user.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\umeng_update_btn_check_off_focused_holo_light.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\umeng_update_btn_check_off_focused_holo_light.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\top_pop_bottom_normal_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\top_pop_bottom_normal_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titile_soft_nor.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titile_soft_nor.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\top_share.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\top_share.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_grey.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_grey.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titlebar_big.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titlebar_big.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_setting.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_setting.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_cunchu_02.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_cunchu_02.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_change_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_change_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_user_settings_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_user_settings_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading03.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\loading03.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_install_bg_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_install_bg_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detail_comm_portrait.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\detail_comm_portrait.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_btnbg_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_btnbg_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\facebooksharebutton.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\facebooksharebutton.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_collect_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_collect_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_content_icon_download.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_content_icon_download.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\star_comm_on.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\star_comm_on.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_repeat_once_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_repeat_once_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox_setting_close.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\checkbox_setting_close.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_logo_telenor.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_logo_telenor.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\webview_loading.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\webview_loading.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_paly_disc.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_paly_disc.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_rec_red_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_rec_red_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_wait_nor.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_wait_nor.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_tab_home_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_tab_home_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\line_horizontal_more_page.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\line_horizontal_more_page.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\uninstall_item_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\uninstall_item_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hotword_rank_3.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\hotword_rank_3.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\top_pop_top_normal_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\top_pop_top_normal_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_feed_back_edit.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_feed_back_edit.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_src_updating_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_src_updating_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_feed_back_edit2.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bg_feed_back_edit2.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_rec_green_pressed.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_rec_green_pressed.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\musicsrc.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\musicsrc.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\star_on_small.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\star_on_small.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\input_text.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\input_text.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_gray_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_gray_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_pop_goon_press.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_pop_goon_press.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_detail_sc_p.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_detail_sc_p.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_userpic.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_userpic.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\l_detail_type_no_ads.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\l_detail_type_no_ads.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bomme_tab_nor.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bomme_tab_nor.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_rank_icon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\home_rank_icon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_bookmark_unchecked.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_bookmark_unchecked.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navigation_btn_pressed.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\navigation_btn_pressed.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_edit_delete_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_edit_delete_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_login_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_login_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hotword_line.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\hotword_line.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\uninstall_item_buttonbgpre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\uninstall_item_buttonbgpre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\top_pop_middle_normal_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\top_pop_middle_normal_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_src_download_h.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_src_download_h.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_share.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_share.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\star_on.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\star_on.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_logo_unipin.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_logo_unipin.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_blue_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_blue_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fav_midd_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\fav_midd_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\noti_btn_next.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\noti_btn_next.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\downsumicon.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\downsumicon.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\funsrc.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\funsrc.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\appmng_bg1.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\appmng_bg1.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\l_bg_1.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\l_bg_1.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_download_progress_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_download_progress_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\l_home_type_new.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\l_home_type_new.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_clear.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_clear.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_btn_white_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\search_btn_white_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_pop_cancel_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_pop_cancel_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zoomout_disabled.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\zoomout_disabled.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\setting_btn_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\setting_btn_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_back.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_back.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\delete_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\delete_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\gifplayb.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\gifplayb.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_next_bg.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_next_bg.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_blue_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_blue_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audply_menu_icn_mv.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\audply_menu_icn_mv.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\deletelong_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\deletelong_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\star_comm_half.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\star_comm_half.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_src_waiting_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_src_waiting_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tabbar_bg_press_02.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\tabbar_bg_press_02.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_vol_seekbar_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_vol_seekbar_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_share_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_share_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bluep_paylist_arrow_selector.xml",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\bluep_paylist_arrow_selector.xml"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_disc_360.jpg",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\default_disc_360.jpg"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\empty.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\empty.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_white_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_white_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_commented.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_commented.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\preview_loading_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\preview_loading_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\round_rect_press_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\round_rect_press_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\video_arrow_right_s.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\video_arrow_right_s.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rank_up.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\rank_up.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_prompt.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_prompt.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_press.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\button_press.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\up_joke_listitem_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\up_joke_listitem_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_src_comment_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_src_comment_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_btn_install.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_btn_install.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\listitem_bg_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\listitem_bg_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\browse.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\browse.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_integral_set_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_integral_set_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_ret_pre.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\down_ret_pre.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_top_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\list_top_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_corner_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_corner_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aud_vol_seekbar_point_focused.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\aud_vol_seekbar_point_focused.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_horizontal_separator.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\login_horizontal_separator.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\listitem_bg.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\listitem_bg.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mine_folder_child_src_joy_skill_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\mine_folder_child_src_joy_skill_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pay_bg_pass.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\ic_pay_bg_pass.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pausebtn_n.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\pausebtn_n.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\umeng_update_btn_check_on_pressed_holo_light.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\umeng_update_btn_check_on_pressed_holo_light.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\net.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\net.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\titlebar_back_arrow_normal.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\titlebar_back_arrow_normal.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_detail_privebg_press.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_detail_privebg_press.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\download_app_progress_text_bg.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\download_app_progress_text_bg.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_install_bg_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\btn_install_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\input_text2.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\input_text2.9.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\appmng_bg2.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\appmng_bg2.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_item_divider.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\app_item_divider.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_nav_selected.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\icon_nav_selected.png"
+    },
+    {
+        "merged": "E:\\test\\androidprojact\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\refresh_normal.9.png",
+        "source": "E:\\test\\androidprojact\\55MainActivity\\res\\drawable-hdpi\\refresh_normal.9.png"
+    }
+]

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eaeaea"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="6dp"
+    android:paddingTop="8dp" >
+
+    <RelativeLayout       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  
+        android:layout_weight="1"
+          >   
+        <RelativeLayout
+            android:id="@+id/musictitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="4dp"  
+            android:layout_marginTop="4dp"
+            android:background="@drawable/playbuttonbg"    >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/titile_game_pre" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="@string/title_tab_game"
+                    android:textColor="#ff7770"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </RelativeLayout>
+        
+        <ImageView
+            android:id="@+id/aud_redpoint"
+            android:layout_width="10dp"
+            android:layout_height="10dp" 
+            android:layout_alignParentRight="true"   
+            android:layout_marginRight="2dp"   
+            android:visibility="gone"     
+            android:background="@drawable/yule_redpoint" /> 
+    </RelativeLayout>
+    
+
+    <RelativeLayout       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  
+        android:layout_weight="1"   >  
+    
+        <RelativeLayout
+            android:id="@+id/videotitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"    
+            android:layout_marginTop="4dp"    
+            android:background="@drawable/playbuttonbg" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/titile_home_pre" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="@string/must"
+                    android:textColor="#6d93ff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/vdo_redpoint"
+            android:layout_width="10dp"
+            android:layout_height="10dp"   
+            android:layout_alignParentRight="true"   
+            android:layout_marginRight="2dp" 
+            android:visibility="gone"
+            android:background="@drawable/yule_redpoint" />
+    </RelativeLayout>
+
+    
+    <RelativeLayout       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  
+        android:visibility="gone"
+        android:layout_weight="1" >
+        
+        <RelativeLayout
+            android:id="@+id/txttitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="8dp"   
+            android:layout_marginTop="4dp"     
+            android:background="@drawable/playbuttonbg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/funsrc" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="@string/text_string"
+                    android:textColor="#9ac53e"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/txt_redpoint"
+            android:layout_width="10dp"
+            android:layout_height="10dp"   
+            android:layout_alignParentRight="true"   
+            android:layout_marginRight="4dp" 
+            android:background="@drawable/yule_redpoint" />
+    </RelativeLayout>
+
+</LinearLayout>

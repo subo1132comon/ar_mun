@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_hotword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/hotword_item_action_selector_bg"
+        android:clickable="true"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+         >
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/listitem_hw_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:duplicateParentState="true"
+            android:focusable="false"
+            android:textColor="@android:color/black"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:textSize="11sp"
+               android:visibility="gone"
+           />
+
+        <TextView
+            android:id="@+id/listitem_hw_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:duplicateParentState="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:singleLine="true"
+           android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/grey21"
+            android:textSize="14.66sp" 
+            />
+
+        <TextView
+            android:id="@+id/listitem_hw_count"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:duplicateParentState="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="right|center_vertical"
+            android:singleLine="true"
+            android:textColor="#00cc99"
+            android:textSize="10sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/hotword_line"
+        android:focusable="false"
+        android:focusableInTouchMode="false" 
+        android:visibility="gone"
+        />
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<com.byt.market.ui.mine.ExpendAppFolder xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/folder_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textSize="22dip"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:visibility="gone"
+        />
+
+    <RelativeLayout
+        android:id="@+id/edit_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/folder_label_bg"
+        android:visibility="gone"
+        >
+
+        <EditText
+            android:id="@+id/edit_folder_label"
+            android:layout_width="240dip"
+            android:layout_height="wrap_content"
+            android:textColor="#ff000000"
+            android:textSize="22dip"
+            android:singleLine="true"
+            android:background="@android:color/transparent"
+            />
+
+        <ImageView
+            android:id="@+id/folder_label_clear_button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="3dip"
+            android:src="@drawable/folder_label_clear_button"
+        />
+    </RelativeLayout>
+
+    <com.byt.market.ui.mine.MineExpendView android:id="@+id/custom_view"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/folder_custom_view_height"
+        android:orientation="horizontal"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="8dip"
+        >
+        <TextView android:id="@+id/expend_child1"
+	        android:layout_width="0dip"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        style="@style/mineExpendChildStyle"
+	        android:text="@string/expend_child1_text"
+	        android:drawableTop="@drawable/mine_folder_child_src_download"
+	        />
+        <TextView android:id="@+id/expend_child2"
+	        android:layout_width="0dip"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        style="@style/mineExpendChildStyle"
+	        android:text="@string/expend_child2_text"
+	        android:drawableTop="@drawable/mine_folder_child_src_detail"
+	        />
+        <TextView android:id="@+id/expend_child3"
+	        android:layout_width="0dip"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        style="@style/mineExpendChildStyle"
+	        android:text="@string/expend_child3_text"
+	        android:drawableTop="@drawable/mine_folder_child_src_comment"
+	        />
+        <TextView android:id="@+id/expend_child4"
+	        android:layout_width="0dip"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        style="@style/mineExpendChildStyle"
+	        android:text="@string/expend_child4_text"
+	        android:drawableTop="@drawable/mine_folder_child_src_joy_skill"
+	        />
+        <TextView android:id="@+id/expend_child5"
+	        android:layout_width="0dip"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        style="@style/mineExpendChildStyle"
+	        android:text="@string/expend_child5_text"
+	        android:drawableTop="@drawable/mine_folder_child_src_uninstall"
+	        />
+    </com.byt.market.ui.mine.MineExpendView>
+    <com.byt.market.ui.mine.FolderContent
+        android:id="@+id/folder_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        >
+        <include layout="@layout/folder_sec"/>
+    </com.byt.market.ui.mine.FolderContent>
+
+</com.byt.market.ui.mine.ExpendAppFolder>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <ProgressBar
+        android:id="@+id/playbar_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:progressDrawable="@drawable/byt_audplayer_progressbar" />
+
+    <RelativeLayout
+        android:id="@+id/playbarlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/playbar_progress"
+        android:background="#ffffff" 
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/musicplayicon"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/musicplayicon" />
+
+        <ImageView
+            android:id="@+id/playnextbutton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/byt_audplaybar_nextbtn"
+            android:src="@drawable/playbar_btn_next" />
+		<ProgressBar
+		    android:id="@+id/play_ProgressBar"
+        	android:layout_width="30dp" 
+            android:layout_height="30dp"
+            android:layout_marginRight="7dp"
+            style="@style/Music.circle"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+             />
+        
+        <ImageView
+            android:id="@+id/playbutton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/byt_audplaybar_nextbtn"
+            android:src="@drawable/byt_audplaybar_playbtn" />
+
+        <TextView
+            android:id="@+id/musicname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_toLeftOf="@id/playbutton"
+            android:layout_toRightOf="@id/musicplayicon"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/musicauther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/musicname"
+            android:layout_marginTop="2dp"
+            android:layout_toLeftOf="@id/playbutton"
+            android:layout_toRightOf="@id/musicplayicon"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/contentFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/playbarlayout"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/titlebar_content_height"
+        android:background="@color/bg_frame" />
+
+    <include
+        android:id="@+id/main_top_frame"
+        android:layout_alignParentTop="true"
+        layout="@layout/top_frame" />
+
+</RelativeLayout>

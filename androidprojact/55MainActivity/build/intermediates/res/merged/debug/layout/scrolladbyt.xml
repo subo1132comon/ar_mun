@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/home_head_height"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <com.byt.market.view.HomeViewPaper
+            android:id="@+id/viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/home_head_height" />
+
+        <LinearLayout
+            android:id="@+id/point_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+        </LinearLayout>
+    </FrameLayout>
+	<include
+	    layout="@layout/includ_intervallayout"
+	    />
+</LinearLayout>

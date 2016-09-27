@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:background="#ededed"  
+    >    
+    
+    <include
+        android:id="@+id/main_top_frame"
+        android:layout_alignParentTop="true"
+        layout="@layout/top_frame" />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_top_frame"
+         >
+    <com.byt.market.view.BestoneScrollView
+        android:id="@+id/bestonescroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+         
+          
+        >
+     <RelativeLayout
+           android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+          >
+    <LinearLayout 
+        android:id="@+id/contentlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"  
+        android:orientation="vertical"     
+        android:background="@drawable/joke_listitem_bg"      
+        android:layout_margin="10dp"       
+        android:paddingTop="13dp"
+         > 
+         <TextView 
+            android:id="@+id/joketile"        
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#636251"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            /> 
+          <TextView 
+            android:id="@+id/jokettime"        
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#636251"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.1"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="10dp"
+            />       
+        <TextView 
+            android:id="@+id/jokecontent"        
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#636251"
+            android:textSize="17sp"
+            android:lineSpacingMultiplier="1.1"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            /> 
+        <ImageView
+            android:id="@+id/jokeimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"   
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginBottom="13dp"  
+            android:visibility="gone"
+            /> 
+        <ProgressBar
+            android:id="@+id/loading_icon"
+            style="@style/ProgressMedium.circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true" />   
+        <TextView 
+            android:id="@+id/dlpercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="0%"
+            android:textColor="#636251"
+            android:textSize="15sp"/>             
+        <com.byt.market.view.gifview.GifDecoderView
+            android:id="@+id/gif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:visibility="gone"
+            android:layout_marginBottom="13dp"       >
+        </com.byt.market.view.gifview.GifDecoderView>    
+
+    </LinearLayout>  
+   
+    </RelativeLayout>
+      
+    </com.byt.market.view.BestoneScrollView>   
+     <LinearLayout 
+        android:id="@+id/sharelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="#4f000000"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/readbyshare"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            />
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/share_joke_detail"
+            />
+        
+    </LinearLayout>   
+    </FrameLayout>
+    
+</RelativeLayout>

@@ -17,7 +17,7 @@ public class AlarmManagerRecive extends BroadcastReceiver{
 		// TODO Auto-generated method stub
 		if(!Util.isAppOnForeground()){
 			
-			if((System.currentTimeMillis()-RapitUtile.getEnterApptime())>1000*60*60*12){
+			if((System.currentTimeMillis()-RapitUtile.getUpdate(RapitUtile.PULL_KEY))>1000*60*60*12){
 				if(MyApplication.getInstance().getMainactivity()!=null){
 					MyApplication.getInstance().getMainactivity().finish();
 				}
