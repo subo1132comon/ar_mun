@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.byt.market.ui.mine.DragLayer xmlns:android="http://schemas.android.com/apk/res/android"  android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  android:layout_gravity="center"
+    android:id="@+id/drag_layer"
+    android:background="@color/rank_item_bg">
+        <com.byt.market.ui.mine.WorkspaceContainer
+        android:id="@+id/mine_mgr"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom|center_horizontal"
+        >
+        <com.byt.market.ui.mine.Workspace
+            android:id="@+id/mine_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+        </com.byt.market.ui.mine.Workspace>
+
+        <FrameLayout
+            android:id="@+id/process_mgr_mask"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            />
+    </com.byt.market.ui.mine.WorkspaceContainer>
+</com.byt.market.ui.mine.DragLayer>

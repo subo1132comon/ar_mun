@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dtSdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/55MainActivity/libs/dtSdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

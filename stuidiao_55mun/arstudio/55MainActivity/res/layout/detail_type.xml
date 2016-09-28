@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+        <TextView
+            android:visibility="gone"
+            android:drawableLeft="@drawable/l_detail_type_aut"
+            android:drawablePadding="4dp"
+            android:id="@+id/detail_type_auto"
+            style="@style/l_detail_type_textview_style"           
+            android:text="@string/txt_detail_tag_aut"
+            android:layout_marginLeft="0dp"
+            android:background="#ffffffff"
+            android:textColor="#67be35" />  
+            <TextView
+            android:visibility="gone"               
+            android:drawableLeft="@drawable/l_detail_type_safe"
+            android:drawablePadding="4dp"
+            android:id="@+id/detail_type_safe"
+            style="@style/l_detail_type_textview_style"
+            android:text="@string/txt_detail_tag_safe"
+            android:background="#ffffffff"
+            android:textColor="#67be35" /> 
+            <TextView
+             android:visibility="gone"               
+            android:drawableLeft="@drawable/l_detail_type_no_ads"
+            android:drawablePadding="4dp"
+            android:id="@+id/detail_type_noad"
+            style="@style/l_detail_type_textview_style"
+            android:text="@string/txt_detail_tag_no_ads"
+            android:background="#ffffffff"
+            android:textColor="#67be35" /> 
+            <TextView
+            android:visibility="gone"  
+            android:drawableLeft="@drawable/l_detail_type_free"
+            android:drawablePadding="4dp"
+            android:id="@+id/detail_type_free"
+            style="@style/l_detail_type_textview_style"
+            android:text="@string/txt_detail_tag_free"
+            android:background="#ffffffff"
+            android:textColor="#67be35" />  
+   
+</LinearLayout>

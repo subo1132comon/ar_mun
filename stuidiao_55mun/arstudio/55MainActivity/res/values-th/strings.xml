@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">55mun</string>
+    <string name="action_settings">การตั้งค่า</string>
+    <string name="image_desc"></string>
+    <string name="txt_splash_copyright">ลิขสิทธิ์\@ 2014 55 ผู้ช่วย</string>
+
+    <!-- 首界面 -->
+    <string name="txt_home_leader_online">เกมส์</string>
+    <string name="txt_home_leader_latest_collection">ล่าสุด</string>
+    <string name="txt_home_leader_classic_play">คลาสสิก</string>
+    <string name="toast_load_more_no_result">สุดท้ายแล้ว</string>
+    <string name="welcome_alert">อยากเล่นที่ใดก็ได้ ~</string>
+<string name="happy_more">อัพเดททุกวัน</string>
+    <!-- 应用导航 -->
+    <string name="bottom_home">แนะนำ</string>
+    <string name="bottom_rank">อันดับ</string>
+    <string name="bottom_cate">หมวดหมู่</string>
+    <string name="bottom_sub">เด่น </string>
+    <string name="bottom_mine">ของฉัน</string>
+
+    <!-- 大家都在玩 -->
+    <string name="btn_rec_select_count">เลือกการติดตั้งแล้ว(%1$s)</string>
+
+    <!-- 加载提示 -->
+    <string name="listview_loadfailed">ไม่สามารถโหลดข้อมูลได้ กรุณาลองใหม่อีกครั้ง</string>
+    <string name="listview_loadding">กำลังโหลด...</string>
+    <string name="listview_loadding2">ยังไม่มีแอพใดๆ</string>
+    <string name="listview_loadding3">รายการโปรดของคุณยังไม่มีแอพฯใดๆ</string>
+    <string name="listview_loadding4">คุณยังไม่มีแอพฯใดๆ</string>
+
+    <!-- 应用退出 -->
+    <string name="ok">ตกลง</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="exit_confirm">การเตือนของระบบ</string>
+    <string name="exit_confirm_msg">ต้องการออกจากผู้ช่วย 55 หรือไม่?</string>
+    <string name="exit_confirm_downloading">การแจ้งเตือนระบบ</string>
+    <string name="exit_confirm_downloading_msg">ยังมีแอพฯที่ยังโหลดไม่เสร็จ ต้องการปิดผู้ช่วย 55 หรือไหม?</string>
+    <string name="exit_confirm_goondownload_check">โหลดแอพฯต่อหลังจากปิดผู้ช่วย 55 แล้ว</string>
+
+    <!-- 存储显示 -->
+    <string name="storage_phone">มือถือ</string>
+    <string name="storage_sdcard">การ์ด SD </string>
+    <string name="storage_fomat">ได้ใช้พื้นที่: %1$s พื้นที่ที่เหลือ: %2$s</string>
+    <string name="storage_unaviable">ใช้ไม่ได้</string>
+
+    <!-- 设置菜单 -->
+    <string name="set_app">การตั้งค่า</string>
+    <string name="update_app">ตรวจสอบเวอร์ชันใหม่</string>
+    <string name="clean_app">ล้างแคช</string>
+    <string name="suggest_app">ความคิดเห็น</string>
+    <string name="about_app">เกี่ยวกับ</string>
+     <string name="about_app_name">เกี่ยวกับ</string>
+     <string name="about_down_summary">เวอร์ชัน</string>     
+    <string name="support_system">ระบบ</string>  
+	<string name="suppert_system">Android 2.1 ขึ้นไป </string>
+	<string name="product_dec">ดาวน์โหลดแอพฯมือถือจำนวนมากฟรี</string>
+	<string name="version_management">การจัดการรุ่น</string>
+    <!-- 排行列表item -->
+    <string name="rank_t1">อันดับ:</string>
+    <string name="btn_install">ติดตั้ง</string>
+
+    <!-- 首页相关 -->
+    <string name="today_rec_tip">คำแนะนำวันนี้</string>
+
+    <!-- 下载相关 -->
+    <string name="state_wait_action_text">กำลังรอ…</string>
+    <string name="state_retry_action_text">ลองใหม่</string>
+    <string name="state_ongoing_action_text">หยุด</string>
+    <string name="state_pause_action_text">ต่อไป</string>
+    <!-- <string name="state_finish_action_text">ติดตั้งต่อ</string> -->
+    <string name="state_finish_action_text">ติดตั้งต่อ</string>
+    <string name="state_finish_need_update_action_text">อัพเดทต่อ</string>
+    <string name="state_installing_action_text">กำลังติดตั้ง...</string>
+    <string name="state_installing_need_update_action_text">กำลังอัพเดท…</string>
+    <string name="state_install_failed_action_text">ติดตั้งต่อ</string>
+    <string name="state_install_failed_need_update_action_text">อัพเดทต่อ</string>
+    <string name="state_update_action_text">อัพเดท</string>
+    <string name="state_uninstalling_action_text">กำลังถอดการติดตั้ง</string>
+    <string name="state_installed_new_action_text">เริ่มต้น</string>
+    <string name="state_idle_action_text">ติดตั้ง</string>
+    <string name="state_wait_text">กำลังรอ…</string>
+    <string name="state_retry_text">การโหลดล้มเหลว</string>
+    <string name="state_ongoing_text">กำลังติดตั้ง...</string>
+    <string name="state_ongoing_need_update_text">กำลังอัพเดท…</string>
+    <string name="state_pause_text">หยุด</string>
+    <string name="state_finish_text">ยังไม่ได้ติดตั้ง</string>
+    <string name="state_finish_need_update_text">ยังไม่ได้อัพเดท</string>
+    <string name="state_uninstalling_text">กำลังถอดการติดตั้ง</string>
+    <string name="state_installing_text">กำลังติดตั้ง...</string>
+    <string name="state_installing_need_update_text">กำลังอัพเดท…</string>
+    <string name="state_install_failed_text">การติดตั้งล้มเหลว</string>
+    <string name="state_install_failed_need_update_text">การอัพเดทล้มเหลว</string>
+    <string name="state_idle_text">อยู่ในรายการโปรดแล้ว</string>
+    <!-- <string name="down_progress_detail">下载资源  %1$s /  %2$s </string> -->
+    <string name="down_progress_detail"> %1$s /  %2$s </string>
+    <string name="down_progress_detail2">%1$s</string>
+    <string name="down_summary">เวอร์ชัน:</string>
+    <string name="downloadfile_sdcard_no_more_space">พื้นที่ SD การ์ดมีไม่พอ!</string>
+    <string name="dialog_retry_title">แจ้งเตือน</string>
+    <string name="dialog_retry_msg">%s ดาวน์โหลดผิดผลาด ต้องการโหลดใหม่หรือไม่</string>
+    <string name="dialog_delete_confirm_tips">แน่ใจจะลบหรือไม่?</string>
+    <string name="dialog_retry_btn_ok">โหลดใหม่</string>
+    <string name="dialog_retry_btn_back">ย้อนกลับ</string>
+    <string name="dialog_retry_btn_goon">ติดตั้ง…</string>
+    <string name="apk_not_exist">มีแพคเกจติดตั้ง(APK)นี้แล้ว</string>
+    <string name="insert_sdcard_first">กรุณาใส่ SD การ์ด</string>
+    <string name="sdcard_using_close_first">กำลังใช้ SD การ์ดอยู่ กรุณาปิดอุปกรณ์ USB.</string>
+    <string name="sdcard_state_unusual">SD การ์ดทำงานผิดปกติ.</string>
+    <string name="dialog_install_no_file_title">เตือน</string>
+    <string name="dialog_install_no_file_msg">ไม่พบแพคเกจ ดาวน์โหลดใหม่หรือไม่？</string>
+    <string name="dialog_nowifi_title">เตือนการดาวน์โหลด</string>
+    <string name="dialog_nowifi_msg">ไม่มี WiFi ต้องการจะโหลดต่อหรือไม่</string>
+    <string name="dialog_nowifi_btn_ok">ตกลง</string>
+    <string name="dialog_nowifi_btn_back">ยกเลิก</string>
+    <string name="dialog_nowifi_btn_fav">เพิ่มไปรายการโปรด</string>
+    <string name="taost_pkg_mgr_busy">กำลังติดตั้งหรือถอนการติดตั้งแอพฯ กรุณารอสักครู่</string>
+    <string name="sdcard_unavailable">ไม่พบ SD การ์ด กรุณาตรวจสอบและลองใหม่อีกครั้ง</string>
+    <string name="game_update_notify_title">อัพเดทแอพฯ</string>
+    <string name="game_start_rec_title">ยอดนิยม</string>
+    <string name="game_update_notify_msg">มี %1$s แอพฯสามารถอัพเดทได้ กดเพื่อดูรายละเอียด</string>
+    <string name="game_download_notify_title">ดาวน์โหลดแอพฯ</string>
+    <string name="game_download_notify_msg">กำลังติดตั้ง %1$s แอพฯ กดเพื่อดูรายละเอียด</string>
+    <string name="dialog_goon_download_title">เตือน</string>
+    <string name="dialog_goon_download_msg">คุณยังมี %1$s แอพฯ ที่ยังโหลดไม่เสร็จ ต้องการโหลดต่อหรือไม่？</string>
+    <string name="txt_tips_never">ไม่เตือนอีก</string>
+    <!-- 详情相关 -->
+    <string name="detail">รายละเอียด</string>
+    <string name="share_app">แชร์</string>
+    <string name="download">ดาวน์โหลด</string>
+    <string name="faviorate">เพิ่มไปรายการโปรด</string>
+    <string name="share_info_to_friend">แชร์ให้เพื่อน</string>
+    <!--随机抽取  -->
+    <string name="share_app_content1">"แชร์สนั่น!!"</string>
+    <string name="share_app_content2">"แชร์ได้บุญ!!"</string>
+    <string name="share_app_content3">"คิดก่อนเชื่อ เช็คก่อนแชร์ "</string>
+    <string name="share_app_content4">"ชัวร์ก่อนแชร์"</string>
+    <string name="share_app_content5">"แชร์แรงส์โซเซี่ยลสะเทือน!!"</string>
+    <string name="share_app_content6">"ล้านแรงแชร์ ล้านแรงใจ"</string>
+    <string name="share_app_content">"ล้านแรงแชร์ ล้านแรงใจ"</string>
+    <string name="can_not_share_info">ขออภัย คุณไม่มีแอพฯที่สามารถแซร์ได้</string>
+    <string name="can_not_share_info2">กำลังโหลดข้อมูล… กรุณารอสักครู่</string>
+    <string name="txt_detail_tag_aut">ทางการ</string>
+    <string name="txt_detail_tag_safe">ปลอดภัย</string>
+    <string name="txt_detail_tag_no_ads">ไม่มีโฆษณา</string>
+    <string name="txt_detail_tag_free">ฟรี</string>
+
+    <!-- 设置 -->
+    <string name="settings_noicon_title_s">แสดงไอคอน แสดงหน้าจอ ดาวน์โหลดปกติ</string>
+    <string name="settings_noicon_title_b">โหมดประหยัดโทรคมนาคมข้อมูลการใช้งาน</string>
+    <string name="settings_toast_title_s">การแจ้งเตือนอัพเดทและแนะนำ</string>
+    <string name="settings_toast_title_b">แจ้งเตือน</string>
+    <string name="settings_dpath_title_s">การ์ด SD </string>
+    <string name="settings_dpath_title_b">ดาวน์โหลดไฟล์</string>
+    <string name="settings_dsize_title_s">3</string>
+    <string name="settings_dsize_title_b">จำนวนสูงสุดแต่ละการดาวน์โหลด</string>
+    <string name="settings_qinstall_title_b">ติดตั้งหรือถอนการติดตั้งแอพฯอย่างรวดเร็ว</string>
+    <string name="settings_qinstall_title_s">ติดตั้งหรือถอนการติดตั้งแอพฯ %1$s</string>
+
+    <!-- 分类排行头相关 -->
+    <string name="app_list_new">ใหม่</string>
+    <string name="app_list_hot">ฮิต</string>
+
+    <!-- 搜索相关 -->
+    <string name="search_hint">โหลดเพื่อดูออฟไลน์ได้ </string>
+    <string name="search">ค้นหา</string>
+    <string name="search_clear_history">ล้างประวัติ</string>
+    <string name="user_login_name_hint">กรุณาป้อนบัญชี</string>
+    <string name="reg_user_login_name_hint">6-16 ตัวอักษรและตัวเลข</string>
+    <string name="reg_user_login_pwd_hint">6-16 ตัวอักษรและตัวเลข</string>
+    <string name="user_login_pwd_hint">โปรดป้อนรหัสผ่าน</string>
+    <string name="back">ยกเลิก</string>
+    <string name="reg_user_login_pwd_hint_repeat">ควรเป็นรหัสผ่านเดียวกัน</string>
+
+    <!-- 我的应用相关 -->
+    <string name="expend_child1_text">ติดตั้ง</string>
+    <string name="expend_child2_text">รายละเอียด</string>
+    <string name="expend_child3_text">ความคิดเห็น</string>
+    <string name="expend_child4_text">ทิป</string>
+    <string name="expend_child5_text">ถอดการติดตั้ง</string>
+    <string name="expend_child5_remove">ลบ</string>
+    <string name="expend_child5_del_fav">ลบออกจากรายการโปรด</string>
+    <string name="expend_child5_text_msg">ลบ %S หรือไม่?</string>
+    <string name="expend_child5_text_uninstall_system_updated_msg">%s เป็นแอพฯภายใน อัพเดทเป็นเวอรชันล่าสุดหรือไม</string>
+    <string name="expend_child5_text_uninstall_system_msg">%s เป็นแอพฯภายใน ไม่สามารถถอดการติดตั้งได้!</string>
+    <string name="expend_child5_remove_msg">แน่ใจจะลบหรือไม่</string>
+    <string name="expend_child5_del_fav_msg">แน่ใจจะลบ %s ออกจากรายการโปรดหรือไม่</string>
+    <string name="expend_child5_text_check">ลบแพคเกจติดตั้ง(APK)ดัวยหรือไม่</string>
+    <string name="mine_empty_message">คุณยังไม่ได้ดาวน์โหลดแอพฯ คลิก "แนะนำ" เพื่อดาวน์โหลด</string>
+    <string name="txt_my_game_count">แอพฯของฉัน (%1$s)</string>
+
+    <!-- 系统版本更新相关 -->
+    <string name="updatetip">เตือนการอัพเดทของผู้ช่วย 55</string>
+    <string name="market_update_title">ข้อมูลเวอร์ชันของผู้ช่วย 55</string>
+
+    <!-- 标题栏 -->
+    <string name="titlebar_title_change_userinfo">ข้อมูลการปรับเปลี่ยน</string>
+    <string name="titlebar_title_login">เข้าสู่ระบบ</string>
+    <string name="titlebar_title_account">บัญชี</string>
+    <string name="titlebar_title_logout">ออกจากระบบ</string>
+    <string name="titlebar_title_regist">ลงทะเบียน</string>
+    <string name="titlebar_title_settings">การตั้งค่า</string>
+    <string name="titlebar_cancel">ยกเลิก</string>
+    <string name="titlebar_title_suggest">ความคิดเห็น</string>
+    <string name="titlebar_title_about">เกี่ยวกับ</string>
+    <string name="titlebar_title_protocol">ข้อตกลงผู้ใช้</string>
+
+    <!-- 用户登录界面 -->
+    <string name="user_login_regist">ลงทะเบียน</string>
+    <string name="user_login">เข้าสู่ระบบ</string>
+    <string name="user_login_login">เข้าสู่ระบบ</string>
+    <string name="user_login_use_other">เข้าสู่ระบบโดยใช้บัญชีอื่น</string>
+    <string name="user_login_qqlogin">บัญชี QQ</string>
+    <string name="user_login_sinalogin">ใช้บัญชีไมโครบล็อก Sina เข้าสู่ระบบ</string>
+    <string name="user_login_tencentweibologin">ใช้บัญชีไมโครบล็อก Tencent เข้าสู่ระบบ</string>
+    <string name="user_regist_now">ลงทะเบียนตอนนี้</string>
+    <string name="txt_male_user">ชาย</string>
+    <string name="txt_female_user">หญิง</string>
+    <string name="txt_login_forgot_password">ลืมรหัสผ่าน</string>
+    <string name="txt_login_forgot_password2">เรียกคืนรหัสผ่าน</string>
+    <string name="txt_login_forgot_password_dialog_msg">กรุณาติดต่อโทรศัพท์บริการลูกค้า: 400-000-0000</string>
+    <string name="txt_call">โทร</string>
+
+    <!-- 修改用户资料 -->
+    <string name="change_icon_camera">กล้องถ่ายรูป</string>
+    <string name="change_icon_local">อัลบั้ม</string>
+
+    <!-- 用户反馈 -->
+    <string name="your_suggest">ความคิดเห็นของคุณ:</string>
+    <string name="your_phone">ข้อมูลติดต่อของคุณ:</string>
+    <string name="suggest_cate">การตั้งค่า:</string>
+    <string name="suggest_cancel">ยกเลิก</string>
+    <string name="suggest_submit">ส่ง</string>
+
+    <!-- 对话框 -->
+    <string name="dialog_title_hint">เตือน</string>
+    <string name="dialog_msg_logining">เข้าสู่ระบบ กรุณารอสักครู่\.\.\.</string>
+    <string name="dialog_msg_reading_userinfo">กำลังอ่านข้อมูลผู้ใช้…</string>
+    <string name="dialog_msg_registing">กำลังส่งข้อมูลลงทะเบียน กรุณารอสักครู่\.\.\.</string>
+    <string name="dialog_msg_updateing_icon">กำลังส่ง\.\.\.</string>
+    <string name="dialog_msg_deleteing">กำลังลบ... กรุณารอสักครู่</string>
+
+    <!-- toast提示 -->
+    <string name="toast_uid_cannot_null">บัญชีไม่สามารถปล่อยว่างได้</string>
+    <string name="toast_uid_not_ruler">ชื่อผู้ใช้ต้องเป็นตัวอักษรหรือตัวเลขเท่านั้น</string>
+    <string name="toast_pwd_cannot_null">รหัสผ่านไม่สามารถปล่อยว่างได้</string>
+    <string name="toast_pwd_not_less_6_or_more_16">รหัสผ่านควรมี 6 ถึง 16 ตัวอักษร</string>
+    <string name="toast_name_not_less_6_or_more_16">รหัสผ่านควรมี 6 ถึง 16 ตัวอักษร</string>
+    <string name="toast_pwd_not_ruler">รหัสผ่านต้องเป็นตัวอักษรหรือตัวเลขเท่านั้น</string>
+    <string name="toast_regist_success">ลงทะเบียนเรียบร้อย</string>
+    <string name="toast_login_success">ล็อกอิน  %s วันต่อเนื่อง วันนี้ ! </string>
+    <string name="toast_login_succes2">ได้รับคะแนน +%s </string>
+    <string name="toast_modify_pwd_success">แก้ไขเรียบร้อยแล้ว</string>
+    <string name="toast_regist_fail">ลงทะเบียนไม่สำเร็จ</string>
+    <string name="toast_uid_has_used">ชื่อผู้ใช้นี้ลงทะเบียนแล้ว</string>
+    <string name="toast_no_network">เครือข่ายไม่ดี</string>
+    <string name="toast_network_connect_error">พารามิเตอร์ผิดพลาด</string>
+    <string name="toast_no_search_key">กรุณาป้อนชื่อของแอพฯหรือคีย์เวิร์ด</string>
+    <string name="toast_oauth_error">การอนุญาตผิดพลาด โปรดลองอีกครั้ง</string>
+    <string name="toast_uid_or_pwd_error">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</string>
+    <string name="toast_oauth_get_userinfo_fail">การเข้าสู่ระบบล้มเหลว โปรดลองใหม่อีกครั้ง</string>
+    <string name="toast_camera_not_return_bitmap">ไม่มีรูปภาพในอัลบัม</string>
+    <string name="toast_user_cancel_change_icon">รูปผู้ใช้ถูกยกเลิกแล้ว</string>
+    <string name="toast_system_cat_fail">การตัดล้มเหลว</string>
+    <string name="toast_pwd_is_not_same">รหัสผ่านไม่สอดคล้องกัน</string>
+	<string name="play_fiald">ชาร์จเงินล้มเหลว</string>
+    
+    <!-- 攻略 -->
+    <string name="joy_skill_vcount">ดู %s</string>
+    <string name="joy_skill_no_info">ขอโทษ ไม่มีทิป %s</string>
+    <!-- 关于我们 -->
+    <string name="about_word1">แอพฯ/หน้งสือ/เกมส์/อื่นๆ！</string>
+    <string name="about_word2">ร่วมสนุกและแชร์!</string>
+    <string name="about_word3">ความคิดเห็นของคุณมีความสำคัญ!</string>
+
+    <!-- 下载管理 -->
+    <string name="downloading_title_desc">กำลังดาวน์โหลด …</string>
+    <string name="downloaded_title_desc">ดาวน์โหลดแล้ว</string>
+    <string name="list_empty_view_tip_content">แอพฯทั้งหมดเป็นเวอร์ชันล่าสุดแล้ว</string>
+    <string name="list_empty_view_tip_content2">ไม่มีการดาวน์โหลด</string>
+    <string name="txt_download_all_go_on">ต่อทั้งหมด</string>
+    <string name="txt_download_all_pause">หยุดทั้งหมด</string>
+    <string name="txt_download_all_cancel">ยกเลิกทั้งหมด</string>
+    <string name="text_download_manager_title">จัดการการดาวน์โหลด</string>
+    <string name="text_look_over_detail_desc">ดูรายละเอียด</string>
+    <string name="text_cancel_download_desc">ยกเลิกการโหลด</string>
+    <string name="text_go_on_download_desc">โหลดต่อไป</string>
+    <string name="apk_not_exist2">แพคเดจติดตั้งถูกลบไปแล้ว กำลังโหลดใหม่ …</string>
+    <string name="text_update_all_desc">อัพเดททั้งหมด</string>
+  
+    <!-- 我的收藏 -->
+    <string name="text_my_faviorate_title">รายการโปรด\nของฉัน</string>
+    <!-- 应用更新 -->
+    <string name="text_game_update_title">อัพเดทแอพฯ</string>
+    <string name="text_game_update_desc">เวอร์ชันปัจจุบัน:&#160;</string>
+    <string name="text_game_update_desc2">เวอร์ชันใหม่:&#160;</string>
+    <string name="text_game_can_update_count">สามารถอัพเดทได้</string>
+
+    <!-- 卸载排序 -->
+    <string name="txt_sort_by_name">ชื่อแอพฯ</string>
+    <string name="txt_sort_by_size">ขนาด</string>
+    <string name="txt_sort_by_date">เวลาติดตั้ง</string>
+    <string name="txt_uninstall_dialog_title">การแจ้งเตือนถอนติดตั้ง</string>
+    <string name="tip_uninsatll">ถอนการติดตั้ง</string>
+    <string name="btn_all_uninstall">ถอนการติดตั้งชุด(%1$s)</string>
+     <string name="no_run_app_alert">ไม่สามารถใช้งานแอพฯได้</string>
+    <!-- 应用排行相关 -->
+    <string name="txt_week_rank">สัปดาห์</string>
+    <string name="txt_month_rank">เดือน</string>
+    <string name="txt_total_rank">รวมทั้งหมด</string>
+<string name="menu_control_feed_back_txt">ความคิดเห็น</string>
+  <string name="uninstall_app">ถอนการติดตั้ง</string>
+    <string name="menu_control_storage_phone">โทรศัพท์</string>
+    <string name="menu_control_storage_card">การ์ด SD </string>
+    <string name="menu_control_uninstall_txt">ถอนการติดตั้ง</string>
+    <string name="menu_control_down_txt">ดาวน์โหลด</string>
+    <string name="menu_control_update_txt">อัพเดทแอพฯ</string>
+  
+    <string name="menu_control_settings_txt">การตั้งค่า</string>
+    <string name="menu_control_check_up_txt">ตรวจสอบการอัพเดท</string>
+    <string name="menu_control_clear_cache_txt">ล้างไฟล์ขยะ</string>
+    <string name="app_nogoogledetail">"Google Play: ไม่รองรับ app "</string>
+    <string name="app_usereva"> "ความคิดเห็นของผู้ใช้ ( "</string>
+    <string name="kuohao"> ")"</string>
+    <string name="app_from"> "มาจาก:"</string>
+    <string name="app_version"> "เวอร์ชัน:"</string>
+    <string name="about_detail"> "ดาวน์โหลด การติดตั้งและใช้แอพฯนี้ฟรี 100% ค่าเครือข่ายอาจคิดค่าบริการจากผู้ประกอบการโทรคมนาคมของคุณ"</string>
+    <string name="app_loadingnow">กำลังโหลด …</string>
+    <string name="appstore_ad"> "มีโฆษณา"</string>
+    <string name="appstore_net"> "ต้องการเครือข่าย"</string>
+    <string name="appstore_google"> "สนับสนุโดย Google"</string>
+    <string name="appstore_detail"> "โฆษณา: แอพฯมีโฆษณา\n wifi: ต้องการwifi \n ตลาด: สนับสนุนโดย Google"</string>
+    <string name="menu_control_about_us_txt">เกี่ยวกับ</string>
+    <string name="download_allcon"> "โหลดต่อทั้งหมด"</string>
+    <string name="download_allpause"> "หยุดทั้งหมด"</string>
+    <string name="download_allcance"> "ยกเลิกทั้งหมด"</string>
+
+    <!-- 我的 ，个人设置 -->
+	<string name="file_clear">"ล้าง"</string>
+    <string name="head_update">"อัพเดทล่าสุด"</string> 
+    <string name="text_mine_setting">การตั้งค่าส่วนบุคคล</string>
+    <string name="lsititem_user">"ความคิดเห็นของผู้ใช้"</string>
+    <string name="text_action_save">บันทึก</string>
+    <string name="text_action_nickname_input_tip">ใส่ตัวอักษร 4 ถึง 16 ตัว</string>
+    <string name="button_text_action_modify_password">เปลี่ยนรหัสผ่าน</string>
+    <string name="button_text_action_swtich_account">เปลี่ยนบัญชี</string>
+    <string name="text_nick_name_desc">ชื่อเล่น:</string>
+    <string name="text_gender_desc">เพศ:</string>
+    <string name="text_downdload">ดาวน์โหลด：55mun.com</string>
+    <!-- 我的 ，找回密码 -->
+    <string name="text_repeat_password_desc">รหัสผ่านไม่สอดคล้องกัน</string>
+    <string name="text_action_input_desc">โปรดป้อนรหัสผ่านเก่า</string>
+    <string name="text_action_input_new_pwd_desc">6 ถึง 16 ตัวอักษรหรือตัวเลข</string>
+    <string name="text_action_input_new_pwd_tip_desc">ชื่อผู้ใช้ผิดพลาด โปรดใส่อีกครั้ง</string>
+    <string name="text_new_pwd_null_desc">รหัสผ่านใหม่ไม่สามารถปล่อยว่างได้</string>
+    <string name="text_old_pwd_error_desc">รหัสผ่านเก่าไม่ถูกต้อง</string>
+	<string name="notification_point">"0%"</string>
+    <!-- 意见反馈相关 -->
+    <string name="txt_contact_way">ติดต่อ:</string>
+    <string name="txt_feed_back_type"> ประเภทความคิดเห็น:</string>
+    <string name="txt_reset">แสดงใหม่</string>
+    <string name="txt_submit">ส่ง</string>
+    <string name="txt_feed_content_edit_hint">คุณอยากได้หนัง ทีวี ซีรีย์หรือข้อมูลต่างๆ กรุณาแจ้งให้ทราบนะค่ะ ทางเราจะจัดการให้ตามคิวค่ะ และกรุณาส่งID LINE ของท่านให้ด้วยนะคะเพราะทางเราจะแถมรางวัลให้ด้วยสำหรับความคิดเห็นของท่านค่ะ</string>
+    <string name="txt_contact_way_edit_hint">Line/เบอร์โทรศัพท์/อีเมลล์/Facebook</string>
+    <string name="txt_feed_back_type_product_use">การใช้ผลิตภัณฑ์</string>
+    <string name="txt_feed_back_type_fuction_suggestion">ข้อเสนอคุณสมบัติ</string>
+    <string name="txt_feed_back_type_exception_feedback">ความคิดเห็นผิดพลาด</string>
+    <string name="submit_suggest">กำลังส่งความคิดเห็น …</string>
+    <string name="submit_suggest_fail">การส่งความคิดเห็นไม่สำเร็จ</string>
+    <string name="submit_suggest_success">การส่งความคิดเห็นสำเร็จ</string>
+    
+<!-- add by zengxiao -->
+		<string name="qtuninstall">"ถอนการติดตั้งหรือไม่ "</string>
+		<string name="gamebox">"กล่องแอพฯ"</string>
+		<string name="ut_01">"แอพฯหรือ?"</string>
+		<string name="ut_02">"จะถอนการติดตั้งหรือไม่"</string>
+		<string name="qm">"?"</string>
+		<string name="ut_03">"5"</string>
+		<string name="appjs">"คำแนะนำแอพฯ"</string>
+		<string name="appweibo">"Twitter ที่เป็นทางการ"</string>
+		<string name="installall">"ติดตั้งทั้งหมด"</string>
+		<string name="getstart">"คะแนน"</string>
+		   <string name="listitem_texts">"แนะนำโดยบรรณาธิการ"</string> 
+	<string name="listitem_gamedetail">"รายละเอียด"</string> 
+		<string name="paused">"หยุด"</string>
+		<string name="searchhotrank">"Top การค้นหา"</string>
+		<string name="nodata">"ยังไม่มีข้อมูล"</string>
+		<string name="findgame">"กลับหน้าแรก"</string>
+		<string name="notlogin">"ยังไม่เข้าสู่ระบบ"</string>
+		<string name="register">"ลงทะเบียน"</string>
+		<string name="appresult">"ความคิดเห็น"</string>
+		<string name="passwordold">"รหัสผ่านเก่า："</string>
+		<string name="passwordnew">"รหัสผ่านใหม่："</string>
+		<string name="inputreplace">"ระบุอีกครั้ง："</string>
+		<string name="keepwap">"การตั้งค่าโหมดประหยัดปริมาณใช้งาน"</string>
+		<string name="notwifi">"แจ้งการโหลดเมื่อไม่มีสัญญาณ WiFi"</string>
+		<string name="setting_1">"แสดงไอคอนและภาพหน้าจอ"</string>
+		<string name="setting_2">"ตั้งค่าการติดตั้ง"</string>
+		<string name="setting_3">"ติดตั้งทันทีหลังจากโหลดเสร็จ"</string>
+		<string name="setting_4">"ติดตั้งอย่างเร็วหลังจากรับอนุญาต ROOT"</string>
+		<string name="setting_5">"ลบแพคเกจ(APK)หลังจากติดตั้งเสร็จ"</string>
+		<string name="setting_6">"แจ้งเมื่อติดตั้งเสร็จ"</string>
+		<string name="setting_7">"จำนวนการโหลดพร้อมกัน"</string>
+		<string name="setting_8">"เคลีอแครช"</string>
+		<string name="comment_title">"ความคิดเห็น"</string>
+		<string name="sub_textsize">"5-140 ตัวอักษร"</string>
+		<string name="sub_inputnotman">"เนื้อหาไม่ถึง 5 ตัวอักษร"</string>
+		<string name="sub_hitabout">"ขอขอบคุณที่ส่งข้อเสนอแนะให้เราปรับปรุงประสิทธิภาพและบริการให้ดียิ่งขึ้น"</string>
+		<string name="sub_qqmsn">"Line/เบอร์โทรศัพท์/อีเมลล์/Facebook"</string>
+		<string name="sub_start">"*"</string>
+		<string name="game_name">"ชื่อแอพฯ"</string>
+		<string name="game_install">"ติดตั้ง"</string>
+		<string name="game_start">"เริ่มต้น"</string>
+		<string name="uploadnow">"กำลังโหลด…"</string>
+		<string name="user_man">"ชาย"</string>
+		<string name="user_woman">"หญิง"</string>
+		<string name="user_number">"บัญชี:"</string>
+		<string name="user_password">"รหัสผ่าน:"</string>
+		<string name="user_twopassword">"ยืนยันรหัสผ่าน:"</string>
+		<string name="user_text1">"อ่านแล้วเห็นด้วย"</string>
+		<string name="user_text2">"《ข้อตกลงผู้ใช้ 55 ผู้ช่วย》"</string>
+		 <string name="addfavourite">เพิ่มไปรายการโปรด</string>
+		 <string name="installcomment">"ความคิดเห็นหลังการติดตั้ง"</string>
+		 <string name="sub_write">"เขียนรีวิว"</string>
+		 <string name="sub_jianjie">รายละเอียด</string>
+	<string name="feedback_inputnull">"กรุณาแสดงความคิดเห็น"</string>
+		<string name="gs_clearall">"ล้าง"</string>
+		<string name="gs_isclear">"จะล้างประวัติหรือไม่?"</string>
+		<string name="gs_nomodel">"ไม่พบการติดตั้งภาษา"</string>
+		<string name="gs_hotword">" โปรดให้คีย์เวิร์ดที่ต้องการค้นหา "</string>
+		<string name="gs_whatpoint">"คุณหมายถึง …"</string> 
+		<string name="sp_list">"หัวข้อ"</string>  
+		 <string name="updateversionprom">อัพเดทเวอร์ชัน:</string>
+    <string name="updateexpain">รายละเอียดการอัพเดท</string>
+     <string name="later">รอสักครู่</string>
+    <string name="isupdate">มีเวอร์ชันใหม่  ต้องการอัพเดทหรือไม่</string>
+    <string name="softwaresize">ขนาดซอฟต์แวร์:</string>
+        <string name="updateversion">อัพเดทเวอร์ชัน:</string>
+		 <string name="lodingspeed">"กำลังโหลด"</string>  
+		<string name="unstallmush">"ถอนการติดตั้งเป็นชุด"</string>  
+		<string name="version_soft">"เวอร์ชัน: "</string>  
+		<string name="unstallnow">"กำลังถอนการติดตั้ง กรุณารอสักครู่"</string>  
+		<string name="unstallsucc">"ถอนการติดตั้งสำเร็จ"</string>  
+	<string name="commenttextmax">"ความคิดเห็นสูงสุด 140 ตัวอักษร"</string> 
+	<string name="commentfail">แสดงความคิดเห็นไม่สำเร็จ</string>
+    <string name="commentsuccess">แสดงความคิดเห็นสำเร็จ</string>
+    <string name="submiterror">แสดงความคิดเห็นไม่สำเร็จ</string>
+        <string name="textnull">ยังไม่ได้ใส่ข้อความ</string>
+		 <string name="scannow">สแกนแคช</string>
+    <string name="scan2">พบโดยสแกน</string>
+    <string name="scan3">ไฟล์</string>
+    <string name="alltotal">ขนาดรวม</string>
+    <string name="clearnow">กำลังล้าง ...กรุณารอสักครู่</string>
+    <string name="finishscan">สแกนเสร็จ</string>
+    <string name="cleared">ล้างเสร็จ</string>
+    <string name="finishclear">การล้างเสร็จสิ้น</string>
+			<string name="rastar_forgame">"แอพฯอัตรา"</string>  
+		<string name="rastar_first">"แสดงความคิดเห็นเป็นคนแรก"</string>  
+		<string name="rastar_cando">"ให้คะแนนแล้ว"</string>  
+		<string name="rastar_neterror">"เครือข่ายผิดพลาด"</string>  
+		<string name="rastar_success">"ให้คะแนนสำเร็จ"</string>  
+		<string name="rastar_fail">"ให้คะแนนไม่สำเร็จ"</string>  
+		<string name="rastar_netcoll">"ไม่สามารถเชื่อมต่อเครือข่ายได้"</string>  
+		<string name="rastar_model">"รูปแบบโทรศัพท์:"</string>  
+		<string name="rastar_version">"เวอร์ชัน:"</string>  
+		 <string name="nocomment">"ไม่มีความคิดเห็นใหม่"</string>
+    <string name="nocomment_send">"ยังไม่มีความคิดเห็น แสดงความคิดเห็นคนแรก "</string>
+    <string name="setnet">"คลิกหน้าจอและตั้งค่าเครือข่าย"</string>
+     <string name="detail_down">"โหลด:  "</string>
+    <string name="detail_size">"ขนาด:  "</string>
+    <string name="detail_type">"หมวดหมู่:  "</string>
+    <string name="detail_version">"เวอร์ชัน:  "</string>
+    <string name="detail_date">"เวลา:  "</string>
+    <string name="detail_tag">"ฉลาก:  "</string>
+    <string name="detail_lang">"ภาษา:  "</string>
+    <string name="detail_zh">"ภาษาจีน"</string>
+    <string name="detail_en">"ภาษาอังกฤษ"</string>        
+    <string name="detail_unknow">"ไม่ทราบ"</string>
+    <string name="detail_exp">"ค่าใช้จ่าย:"</string>
+		<string name="editor_word">"ความคิดเห็นของบรรณาธิการ:"</string>  
+		<string name="leftkh">"("</string>  
+		<string name="rightkh">")"</string>  
+		   <string name="cache">แคช</string>
+		<string name="nofindgame">"ไม่พบแอพฯใดๆ"</string>  
+	<string name="scannowversion">"กำลังตรวจสอบเวอร์ชั่น"</string>  
+	<string name="setting_dispgame">"แสดงแอพฯที่แนะนำ"</string>
+    <string name="setting_opened">"เปิด"</string>
+    <string name="setting_closeed">"ปิด"</string> 
+     <string name="setting_dispicon">"แสดงไอคอน"</string>
+    <string name="setting_updatenoti">"การแจ้งเตือนอัพเดท"</string> 
+    <string name="setting_gamenoti">"แสดงแอพฯที่แนะนำ"</string>
+        <string name="setting_disnoupdate">"แสดงแถบการแจ้งเตือน"</string> 
+    <string name="setting_close">"ปิด"</string>     
+		<string name="settting_open">"เปิด"</string>  
+		 <string name="sp_install">"ติดตั้งที่เลือก"</string>
+        <string name="edit_commiterror">"การอัพโหลดล้มเหลว กรุณาลองใหม่อีกครั้ง"</string>
+    <string name="edit_commitesucc">"อัพโหลดสำเร็จ"</string>
+    <string name="edit_commitnow">"กำลังโหลด…"</string> 
+  <string name="edit_error">"การเปลี่ยนแปลงล้มเหลว"</string>
+    <string name="edit_succ">"การเปลี่ยนแปลงสำเร็จ"</string>
+    <string name="edit_nicknamenull">"ชื่อเล่นไม่สามารถปล่อยว่างได้"</string>
+      <string name="login_succ">"เข้าสู่ระบบสำเร็จ"</string>
+    <string name="login_readinfo">"กำลังอ่านข้อมูลผู้ใช้…"</string>
+	<string name="registernew">"ลงทะเบียน"</string>
+	  <string name="cus_refreshpull">"สไลด์ลงเพื่อรีเฟรช"</string>
+    <string name="cus_refreshnow">"กำลังรีเฟรช …"</string>
+    <string name="cus_refreshref">"ปล่อยนิ้วเพื่อรีเฟรช"</string>
+       <string name="app_ad">"มีโฆษณา"</string>
+    <string name="app_addetail">"มีโฆษณา\n"</string>
+    <string name="app_noad">"ไม่มีโฆษณา"</string>   
+       <string name="app_noaddetail">"ไม่มีโฆษณา\n"</string>
+    <string name="app_net">"ต้องการอินเทอร์เน็ต"</string>
+    <string name="app_netdetail">"ต้องการอินเทอร์เน็ต\n"</string>        
+       <string name="app_nonet">"ไม่ต้องการอินเทอร์เน็ต"</string>
+    <string name="app_nonetdetail">"ไม่ต้องการอินเทอร์เน็ต\n"</string>
+    <string name="app_google">"ต้องการ Google play"</string>   
+       <string name="app_googledetail">"ต้องการ Google play"</string>
+    <string name="app_nogoogle">"ไม่ต้องการ Google play"</string>
+        <string name="cus_update">"อัพเดทล่าสุด:"</string>
+        <string name="json_16">"การรับรองความปลอดภัย("</string>
+        <string name="json_15">"แอพฯที่เกี่ยวข้อง("</string>
+        <string name="json_14">"ไม่พบแอพฯ แนะนำแอพฯฮิตด้านล่าง :"</string>
+        <string name="json_11">"ทิป("</string>
+         <string name="json_10">"จำนวนค้นหา:"</string>
+        <string name="json_09">"จำนวนค้นหา:1w+"</string>
+        <string name="json_08">"จำนวนค้นหา:50w+"</string>
+        <string name="json_07">"จำนวนค้นหา:500w+"</string>
+        <string name="json_06">"จำนวนค้นหา:1000w+"</string>
+        <string name="json_05">"ฟรี 100%"</string>
+        <string name="json_04">"ค่าใช้จ่ายอุปกรณ์"</string>
+        
+        <string name="json_03">"ทดลองฟรี"</string>
+        <string name="json_02">"ซื้อเพิ่มเติมภายในแอพฯ "</string>
+        <string name="json_ad">"โฆษณารวมอยู่ "</string>
+        <string name="json_01">"ไม่รู้จัก"</string>
+       <string name="json_12">"ครั้ง"</string>
+      <string name="new_product">ใหม่</string>
+     <string name="hot_product">ฮิต</string>
+     <string name="first_product">เปิดตัวใหม่</string>
+     <string name="act_product">กิจกรรม</string>
+     <string name="rec_product">แนะนำ</string>
+     <string name="ger_product">ทางการ</string>
+       <string name="alert_new">ใหม่</string>   
+           <string name="sub_point2">"คะแนน"</string>
+	<string name="sub_comment">"ความคิดเห็น"</string>
+	<string name="sub_evamy">"ให้คะแนนโดยฉัน"</string>
+	<string name="sub_waneva">"ความคิดเห็นผู้ใช้"</string>
+	<string name="sub_canuse">"สามารถเล่นได้"</string>
+		<string name="sub_useless">"ไม่สามารถเล่นได้"</string>
+	<string name="sub_peoplerank">"ยอดนิยม"</string>
+	<string name="sub_timerank">"เวลา"</string>
+	<string name="sub_myphone">"รุ่นโทรศัพท์มือถือ"</string>
+    <string name="resource_manager">"การจัดการทรัพยากร"</string>    
+    	 <string name="select_all">"เลือกทั้งหมด "</string>  
+	 <string name="cance_all">"ยกเลิกที่เลือก"</string>
+	 
+	 <string name="oprice">"ราคา"</string>
+    <string name="freeinstall">"ฟรี"</string>
+    <string name="notinstallgoogle">"ยังไม่ได้ติดตั้ง Google Play"</string>
+    <string name="downhistory">"ดาวน์โหลด"</string>
+    <string name="down_speed">"ความเร็ว:"</string>
+    <string name="down_progress">"การคืบหน้า:"</string>
+    <string name="down_neerror">"การเชื่อมต่อเซิร์ฟเวอร์ล้มเหลว กรุณาลองใหม่อีกครั้งภายหลัง!"</string>
+    <string name="down_netnot">"เครือข่ายผิดพลาด การโหลดไฟล์ล้มเหลว!"</string>
+    <string name="down_nocache">"พื้นที่ไม่พอ การอัพเดทล้มเหลว"</string>
+    <string name="down_gamecenterdowns">"กำลังดาวน์โหลด …"</string>
+    <string name="down_gamecenterdownu">"กำลังอัพเดท …"</string>
+    <string name="down_gamecenterdownend">"ดาวน์โหลดเสร็จ"</string>
+    <string name="down_gamecenterdownend2">"ดาวน์โหลดสร็จ"</string>
+    <string name="resourdce_id">"ID ทรัพยากร"</string>
+    <string name="res_idnow">"ชื่อทรัพยากร"</string>
+    <string name="dangqzt">"สถานะ"</string>
+      <string name="username">"ชื่อผู้ใช้:"</string>
+     <string name="userpoint">"ระดับผู้ใช้:"</string>
+      <string name="integral_shareapptitle">แชร์ให้เพื่อน</string>
+       <string name="integral_sharesendtext">ช็อกมาก!! ฉันก็กำลังติดตามเรื่องนี้อยู่ รีบเข้าไปดูกันเถอะ</string>
+       <string name="integral_sharefs">กรุณาเลือกวิธีแซร์:</string>
+     <string name="integral_value">เหรียญ</string>  
+     <string name="integral_help">กฏการได้คะแนน VIP</string>
+     <string name="mine_integral">คะแนน VIP ของฉัน</string>
+     <string name="integral_help_text">เซอร์ไพรส์!!! ล็อกอิน55 ต่อเนื่องได้รับเหรียญ55mun จำนวนมาก รีบกด</string>
+     <string name="shareto">แชร์ให้เพื่อนที่ FB หรือ Line รับเหรียญ 55mun ฟรีๆ เพื่อมีสิทธิ์เข้าใช้บริการในหมวด VIP</string>
+	    <string name="integral_short">คะแนนไม่พอ แชร์เพื่อรับคะแนนหรือไม่?</string>
+	    <string name="need_inter">ต้องการคะแนน VIP :</string>  
+	        <string name="moreshare">เพิ่มเติม…</string>
+	        <string name="cancollet_dialogtext">ลบแอพฯนี้ออกจากรายการโปรดหรือไม่</string>
+	        <string name="data_loadingerr">การโหลดล้มเหลว</string>
+	          <string name="app_managerst">จัดการแอพฯ</string>
+	        <string name="app_managertitlest">การตั้งค่า</string>
+	         <string name="app_gamerank">เกม</string>
+	          <string name="app_commenrank">แอพฯ</string>
+	               <string name="app_gamecate">เกม</string>
+	          <string name="app_commencate">แอพฯ</string>
+	             <string name="store_exittext">คลิกปุ่มย้อนกลับอีกครั้งเพื่อออก</string>
+	            <string name="getanotherdata">ดูชุดถัดไป</string>
+	               <string name="level_help_text"></string>
+          <string name="level_1">VIP 1:(0-50)</string>
+    <string name="level_2">VIP 2:(50-200)</string>
+    <string name="level_3">VIP 3:(200-500)</string>
+    <string name="level_4">VIP 4:(500-1000)</string>
+    <string name="level_5">VIP 5:(>1000)</string>    
+	      <string name="top_free">แอพฯฟรี</string>
+	       <string name="top_paid">แอพฯไม่ฟรี</string>
+	       	<string name="oobe_text1">ประสานแท้ Google ฟรี</string>
+    <string name="oobe_text2">เกมใหญ่และการประยุกต์ใช้การปรับปรุงทุกวัน</string>
+    <string name="oobe_text3">พื้นที่ที่เป็นความลับส่วนตัวที่กำหนดเอง</string>
+    <string name="oobe_use">สัมผัสได้ทันที</string>
+      <string name="title_tab_index">หน้าแรก</string>
+    <string name="title_tab_game">เกม</string>
+    <string name="title_tab_pre">เขต</string>
+     <string name="title_tab_soft">แอพๆ</string>
+      <string name="home_button_need">จำเป็น</string>
+     <string name="home_button_top">อันดับ</string>
+         <string name="freeintime">ฟรีจำกัดเวลา</string>
+         <string name="newvbb">เวอร์ชันปัจจุบันนี้เป็นเวอร์ชันล่าสุดแล้ว</string>
+            <string name="maintext1">แอพฯเสียเงินที่ Google play</string>
+        <string name="maintext2">ที่นี่ฟรี 100%</string>
+          <string name="detailfree">โหลด</string>
+          <string name="refreshok">รีเฟรชเรียบร้อย</string> 
+		<string name="favuser">สุ่ม</string>      
+      <string name="delete_downtask">"ลบ"</string>   
+	  	  	<string name="appcanuseless">"ไม่สามารถเปิดแอพฯนี้ได้"</string>
+      	
+        <!-- add end -->
+       <!-- util.java start-->
+      <string name="just">เมื่อกี๊</string> 
+      <string name="before_min">นาทีที่ผ่านมา</string>
+      <string name="before_hour">ชั่วโมงที่ผ่านมา</string> 
+      <string name="myriad">หมื่น</string> 
+      <string name="ten_million">10 ล้าน</string>  
+      <string name="calculate">100 ล้าน</string>  
+      <!-- util.java end-->
+    <string name="VIP_LEVEL1">VIP 1</string>
+    <string name="VIP_LEVEL2">VIP 2</string>
+    <string name="VIP_LEVEL3">VIP 3</string>
+    <string name="VIP_LEVEL4">VIP 4</string>
+    <string name="VIP_LEVEL5">VIP 5</string>   
+    <string name="mng_app_update_hint_info">แอพฯทั้งหมดเป็นเวอร์ชันล่าสุดแล้ว</string>      
+    <string name="mng_app_update_info_part1">Paytm</string>
+    <string name="mng_app_update_info_part2">มีผู้ใช้</string>
+    <string name="mng_app_update_info_part3">0</string>
+    <string name="mng_app_update_info_part4">คนอัพเดทแล้ว</string>  
+        <string name="installphonetit">"ติดตั้งในเครื่อง"</string>
+    <string name="installsdtit">"ติดตั้งที่ SD การ์ด"</string>    
+ 	<string name="lastuse">"ใช้ครั้งล่าสุด:"</string>
+ 	<string name="allusene">"ขนาด:"</string>   
+    <!-- 专区分类 -->  
+   
+    <string name="about_declare">แถลงการณ์</string>      
+    <string name="about_declare_info">ต้องการแอนดรอยด์เวอร์ชัน 4.0 ขึ้นไป สามารถติดตั้งฟรี มีแอพฯให้โหลดฟรี 100% (ไม่รวมค่าบริการข้อมูล GPRS/3G/4G หรือ Wifi)</string>       
+    <string name="updated_time">ปรับปรุง:</string> 
+    <string name="sharedown">ฟรี</string> 
+    <string name="sharedowndetail">ฟรี</string>
+     <string name="failtoregist">ล้มเหลวที่จะได้รับข้อมูล</string> 
+         <string name="musicland">เพลง</string> 
+    <string name="musicrankstring">อันดับ</string> 
+    <string name="musicshare">แนะนำเพลงที่ดีกับคุณ:</string>
+     <string name="musicrank">รายชื่อเพลง</string>
+     <string name="musicdownlist">ดาวน์โหลดคิว</string>
+     <string name="txt_download_all_start">ทั้งหมดเริ่มต้น</string>
+     <string name="download_alert">ดาวน์โหลดคิวเต็มโปรดรอสักครู่</string>
+       <string name="deletesuccess">ลบแล้ว</string>  
+       <string name="deleteerror">ลบล้มเหลว</string>  
+       <string name="download_allready">ดาวน์โหลดหรือมีการดาวน์โหลด</string> 
+       <string name="music_string">เพลง</string>
+       <string name="text_string">55</string>
+         <string name="movie_string">หนัง</string>
+         <string name="tv_string">TV</string>
+         <string name="book_string">นวนิยาย</string>
+       <string name="hollywood_string">ฮอลลีวู้ด</string>
+       <string name="vally_string">ศิลปะ</string> 
+       <string name="videoactor">"นำแสดงโดย : "</string>    
+    <string name="videodirector">"ผู้อำนวยการ : "</string>  
+    <string name="videoarea">"พื้นที่ : "</string>  
+    <string name="videoyear">"ปี : "</string> 
+    <string name="playallmusic">"เล่นทั้งหมด"</string>
+    <!-- 在线音乐 -->
+    <string name="video_app_name">เครื่องเล่นวีดีโอ</string>
+    <string name="filename">ไฟล์วิดีโอ</string>
+     <string name="allmusicsub">ทุกเพลงเดียว</string>
+    <!-- 在线音乐 -->
+    <string name="musicfile_isnot_exist">เพลงไฟล์ไม่อยู่อีกครั้งโปรดสแกน</string>    
+    <string name="cannotplay">ไม่สามารถที่จะเล่นเพลง</string>    
+    <string name="singer">นักร้อง：</string> 
+    <string name="album">อัลบั้ม：</string>   
+    <string name="commentary">ความคิดเห็น</string>           
+    <string name="similar_recommend">ข้อเสนอแนะที่คล้ายกัน</string>     
+    <string name="no_MV">ไม่มี MV</string>   
+    <string name="more_details">ดูเพลงข้อมูลเพิ่มเติม</string>              
+    <string name="download_fail">บัฟเฟอร์ล้มเหลวในการตรวจสอบเครือข่าย</string>     
+    <string name="unfind_lrc">ไม่สามารถหาเนื้อเพลง</string>  
+    <string name="mode_shuffle">เล่นสลับ</string>    
+    <string name="mode_repeat_one">รอบเดียว</string>    
+    <string name="mode_repeat_all">แบบครบวงจร</string>    
+    <string name="net_faile">ความล้มเหลวของการเชื่อมต่อเครือข่าย!</string>         
+    <string name="lrc_faile">ไม่สามารถหาเนื้อเพลง</string>  
+    <string name="downalreadyadd">ได้รับการเพิ่มลงในคิวการดาวน์โหลด</string>                  
+    <!-- 糗事百科 -->
+    <string name="joke">55</string>
+    <string name="joke_text_img">วันนี้</string>
+    <string name="joke_text">สัปดาห์นี้ </string>
+    <string name="joke_img">ประวัติ</string>
+    <string name="vote_success">ที่ประสบความสำเร็จ</string>
+    <string name="vote_fail">ถูกใจแล้ว</string>
+    <string name="app_id">366293396854277</string>
+    <string name="quick_download">ปลดล็อกเลย</string>
+    <string name="sell_alert">เดือนละ %s เท่านั้น แอพฯใน 3 เขต เล่นฟรีไม่อั้น</string>
+    <string name="char_alert">฿</string>
+    <string name="sell_alert_title">แค่จ่ายทีเดียว ปลดล็อกแอพทั้งหมด</string>
+    
+    <!-- 新闻 -->
+		 <string name="news">ข่าว</string>    
+		 <string name="zongyi_string">บันเทิง</string>
+    <!-- 支付 -->
+    <string name="bao_math">สองเดือน </string>
+    <string name="bao_year">ครบปี</string>
+       <string name="bao_day"> 7 วัน </string>
+       <string name="day">(8.4฿/วัน )</string>
+       <string name="moth">(3.3฿/วัน)</string>
+       <string name="year">(1.0฿/วัน)</string>
+       <string name="card">ชำระเงินโดยบัตร์ CashCard ได้</string>
+       <string name="pay_select_title" >เลือกแพ็กเกจตรงใจ</string>
+       <string name="money">%s฿</string>
+       <string name="dan">วัน</string>
+    <string name="jing_cai_mei_yi_tian">มีฮาทุกวัน</string>
+    <string name="previous" >เพิ่มเดิม</string>
+    <string name="huan_yi_tian">เปลี่ยนวันที่</string>
+    <string name="readbyshare">แชร์แล้วอ่านต่อ</string>
+    <string name="shareneedinstall">กรุณาติดตั้ง Facebook หรือ Line</string>
+    <string name="sell_alerttmp">to Unlock All Downloads</string>
+    <string name="paidProcessing">ประมวลผล ...</string>
+    <!-- 下载播放器 -->
+     <string name="isdownload">โหลด Movie Player เพื่อดูหนังลื่นขึ้น</string>
+      <string name="setting_dowload">โหลด Movie Player</string>
+     
+     <!-- 新增 动画，小说，tv -->
+	<string name="cartoon">การ์ตูน</string>
+	<string name="tv">ทีวี</string>
+	<string name="novel">นวนิยาย</string>
+	<string name="voice">เรื่องเล่า</string>
+	<string name="voice_title">เรื่องเล่า</string>
+	<string name="classic">คลาสสิค</string>
+	<string name="popular_animotion">ฮิตนิยม</string>
+	<string name="classic_rank">อันดับนิยม</string>
+	<string name="popular_tv">ซีรีย์ฮิตนิยม</string>
+	<string name="eee">18+</string>
+	<string name="popular">ฮิตนิยม</string>
+	<string name="zuihuo">ใหม่</string>
+	<string name="must">จำเป็น</string>
+	<string name="anime_string">การ์ตูน</string>
+	 <string name="voiced_string">วิทยุ </string>
+    <string name="comics__string">การ์ตูน</string>
+    <string name="waiting__string">...</string>
+    
+    <string name="bookpop_size">อักษร</string>
+    <string name="bookpop_light">ความสว่าง</string>
+    <string name="fist_page">หน้าแรก</string>
+   <string name="last_page">หน้าสุดท้าย</string>
+   <string name="open_erro">ล้มเหลว</string>
+    <string name="more">เพิ่มเติม</string>
+     <string name="searchhotrank2">ค้นหาได้แค่แอพเท่านั้น</string>
+      <string name="leve_content">สิทธิพิเศษ VIP</string>
+      <string name="mv">MV</string>
+      <string name="mmv">ตัวอย่างหนัง</string>
+      <string name="ridiao">วิทยุออนไลน์</string>
+       <string name="tv_toast">ถ้าดูคลิปไม่ได้ กรุณาดาวน์โหลด Player ใหม่ได้ที่นี่</string>
+       <string name="av_toast">ถ้าดูคลิปไม่ได้ กรุณาดาวน์โหลด Player ใหม่ในโหมด TV</string>
+       <string name="tv_dowlod_toast">ดาว์นโหลดเพื่อรับชมคลิบได้อย่างราบรื่น</string>
+       <string name="av">พิเศษ</string>
+        <string name="text_downdload_tv">ถ้าดูคลิปไม่ได้ กรุณาคลิกที่นี่เพื่อดาวน์โหลด Player ใหม่</string>
+        <string name="desc_share">แชร์เพื่อชมคลิป</string>
+        <string name="cartoon_av">การ์ตูนโป๊</string>
+        <string name="payerroe">ชำระเงินล้มเหลว กรุณาลองอีกครั้ง</string>
+         <string name="initerroe">กรุณาตรวจสอบซิมโทรศัพท์สามารถใช้งานได้หรือเปล่า</string>
+         <string name="sms_erroe">SMS ล้มเหลว กรุณาเช็คดูซิมโทรศัพท์</string>
+     <string name="not_sufficient_funds">ยอดเงินของท่านไม่พอ</string>
+     <string name="network_errors">เครือข่ายผิดพลาด</string>
+     <string name="timeout">กรุณารอ 1 นาทีลองใหม่ค่ะ </string>
+     <string name="pay_text">กำลังเปิดใช้งาน  LINEPay...</string>
+     <string name="pay_success">ชำระเงินสำเร็จ</string>
+      <string name="pay_fail">ชำระเงินล้มเหลว </string>
+      <string name="resouch">ยังไม่สามารถค้นหาข้อมูลได้</string>
+    <string name="leve1_discrble">Massive contents for FREE.</string>
+    <string name="leve2_discrble">Enjoy DOUBLE free movies and trailers.</string>
+    <string name="leve3_discrble">Enjoy VIP movies for FREE.</string>
+    <string name="leve4_discrble">Enjoy VIP AVs for FREE.</string>
+    <string name="leve5_discrble">and other SURPRISES!</string>
+    <string name="next">Next</string>
+</resources>

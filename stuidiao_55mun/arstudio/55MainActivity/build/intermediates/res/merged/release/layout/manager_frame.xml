@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fadingEdge="vertical"
+     android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="#eaeaea"
+      >
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea"
+    android:gravity="center" >
+   
+    <!--  
+      <include
+        android:id="@+id/main_top_frame"
+        android:layout_alignParentTop="true"
+        layout="@layout/top_frame" />
+    -->  
+    
+    <LinearLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:layout_below="@id/main_top_frame">
+        
+        
+                
+        <!-- 新的登录信息栏  start-->
+        <LinearLayout             
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"  
+            android:orientation="vertical"                    
+            android:background="@drawable/man_part1_bg"    
+            android:layout_margin="5dp"  
+            >
+        
+        <LinearLayout
+            android:id="@+id/userbg"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"   
+            android:orientation="horizontal"                   
+            android:background="@drawable/userbg" 
+            android:layout_margin="1dp" 
+            android:clickable="true"   
+            >
+                                  
+            <RelativeLayout 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"  
+                android:layout_weight="1"    >   
+                
+                <com.byt.market.view.XCRoundRectImageView
+                    android:id="@+id/app_userpic"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="@dimen/app_userpic_margin_left"     
+                    android:src="@drawable/app_userpic"                        
+                    android:layout_centerVertical="true"
+                   />
+                <TextView 
+                    android:id="@+id/unregist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/app_userpic"	
+                    android:layout_centerVertical="true"	
+                    android:layout_marginLeft="10dp" 
+			        android:textColor="#000000"  
+			        android:textSize="18sp" 
+			        android:text="@string/failtoregist"     
+			        android:visibility="gone"               
+                    />
+                                
+                <TextView
+                    android:id="@+id/appusername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"   
+			        android:textColor="#000000"  
+			        android:textSize="22sp" 
+			        android:textStyle="bold"
+			        android:layout_toRightOf="@id/app_userpic"			       
+			        android:layout_marginTop="0.5dp" 
+			        android:layout_marginLeft="10dp" 			        
+			        />    
+
+			       <LinearLayout 
+                       android:orientation="horizontal"
+                       android:id="@+id/usericon"
+                       android:layout_width="wrap_content"
+                	   android:layout_height="wrap_content"  
+                	   android:layout_alignBottom ="@id/app_userpic"   
+                	   android:layout_toRightOf="@id/app_userpic"   
+                	   android:layout_alignLeft="@id/appusername"  
+                	   android:layout_marginBottom="3dp"            	   
+                	   >
+                    <ImageView  
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:visibility="gone"   />
+                   </LinearLayout> 
+                   
+			       <TextView
+                       android:id="@+id/appuservip"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"                       
+                       android:layout_marginLeft="6dp"  
+			           android:textColor="#000000"  
+			           android:textSize="15sp"  		                       
+			           android:layout_toRightOf="@id/usericon"				           
+			           android:layout_alignTop="@id/usericon"  
+			           android:gravity="bottom" 
+			           android:layout_marginBottom="2dp" 
+			           android:visibility="gone"
+			           />  
+			       <LinearLayout 
+                       android:id="@+id/my_vip_containter"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal"   
+                       android:layout_toRightOf="@id/usericon"	
+                       android:layout_alignBottom ="@id/app_userpic"  
+                       android:layout_marginLeft="6dp"   
+                       android:layout_marginBottom="2.5dp"                                     
+                     >  
+                   </LinearLayout>                       
+            
+               <TextView
+                    android:id="@+id/appuserpoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"       
+                    android:visibility="gone"         
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+            
+            <Button
+                android:id="@+id/btn_integral_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"               
+                android:layout_gravity="bottom"   
+                android:background="@drawable/btn_integral_set"
+                android:layout_marginRight="@dimen/btn_integral_margin_right"   
+                android:layout_marginBottom="3.7dp" 
+                />  
+        </LinearLayout>
+        
+        <!-- 猜你喜欢  我的收藏  意见反馈 start -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="115dp" 
+            android:gravity="center"            
+            android:orientation="horizontal" >
+            <!-- 猜你喜欢 -->
+            <LinearLayout
+                android:id="@+id/applike"
+                style="@style/appmanagerSpecButtonStyle"
+                android:gravity="center"                
+                android:orientation="vertical" >
+                <ImageView
+                    android:layout_marginTop="10dp"                    
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/share_btn_drawable" />
+                <TextView                    
+                    style="@style/apptextbutton"
+                    android:text="@string/share_app" />
+            </LinearLayout>            
+            <!-- 我的收藏 -->
+            <LinearLayout
+                android:id="@+id/appcellect"
+                style="@style/appmanagerSpecButtonStyle"
+                android:gravity="center"                
+                android:orientation="vertical" >
+                <ImageView
+                    android:layout_marginTop="10dp"                    
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/app_collet" />
+                <TextView                    
+                    style="@style/apptextbutton"
+                    android:text="@string/text_my_faviorate_title" />
+                <TextView                    
+                    android:id="@+id/tv_collect"
+                    android:layout_marginLeft="60dp"  
+                    android:layout_marginTop="10dp"
+                    android:visibility="gone"
+                    style="@style/MenuControlItemNumPopStyle"
+                    />
+            </LinearLayout>  
+           
+            <!-- 意见反馈 -->
+            <LinearLayout
+                android:id="@+id/appfeedback"
+                style="@style/appmanagerSpecButtonStyle"
+                android:gravity="center"                
+                android:orientation="vertical" >
+                <ImageView
+                    android:layout_marginTop="10dp"                    
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/app_feedback" />
+                <TextView
+                    style="@style/apptextbutton"
+                    android:text="@string/suggest_app" />
+            </LinearLayout>
+        </LinearLayout>        
+        <!-- 猜你喜欢  我的收藏  意见反馈 end -->                
+        </LinearLayout>
+        <!-- 新的登录信息栏   end -->
+        
+        <!-- by bobo  下载地址 -->
+        <LinearLayout 
+            android:id="@+id/donwload_layout"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:orientation="horizontal"
+           android:layout_marginLeft="5dp" 
+           android:layout_marginRight="5dp" 
+           android:layout_margin="3dp"
+           style="@style/appmanagerButtonStyle"  
+           >
+        	<TextView 
+        	    	android:id="@+id/button_text2"
+        	        android:layout_width="match_parent"
+          		 	android:layout_height="match_parent" 
+                    android:textColor="#337AB7"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/text_downdload"/>  
+              <ImageView 
+				   android:background="@drawable/qrcodelogo"
+				   android:layout_width="21dp"
+                   android:layout_height="21dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="20dp" 
+                   />  
+        </LinearLayout>
+       <!-- 应用更新 start-->   
+       
+       <LinearLayout 
+            android:id="@+id/donwload_layout_tv"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:layout_marginLeft="5dp" 
+           android:layout_marginRight="5dp" 
+           android:layout_margin="3dp"
+           style="@style/appmanagerButtonStyle" 
+           >
+        	<TextView 
+        	    	android:id="@+id/button_text"
+        	        android:layout_width="match_parent"
+          		 	android:layout_height="match_parent" 
+                    android:textColor="#337AB7"
+                    android:layout_weight="2"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/text_downdload_tv"/>  
+        </LinearLayout>
+       
+       <LinearLayout 
+           android:id="@+id/appupdate"
+           android:layout_width="match_parent"
+           android:layout_height="90dp"
+           android:orientation="vertical"
+           android:layout_marginLeft="5dp" 
+           android:layout_marginRight="5dp"  
+           android:layout_margin="3dp"
+           android:visibility="gone"
+           style="@style/appmanagerButtonStyle"  
+           >
+           <LinearLayout 
+               android:layout_width="match_parent"
+               android:layout_height="35dp"               
+               android:orientation="horizontal"
+               android:layout_marginTop="13dp"
+               >
+               <ImageView 
+                   android:layout_gravity="center_vertical"
+				   android:background="@drawable/app_update"
+				   android:layout_width="21dp"
+                   android:layout_height="21dp"
+                   android:layout_marginLeft="20dp" 
+                   />  
+               <TextView                    
+                    android:layout_gravity="center_vertical"
+                    style="@style/manapptextbutton"
+                    android:text="@string/game_update_notify_title" />             
+               <TextView
+                    android:id="@+id/tv_pop_update"
+                    android:layout_gravity="center_vertical"               
+                    android:layout_marginLeft="15dp"                                       
+                    style="@style/MenuControlItemNumPopStyle"
+                />
+           </LinearLayout>  
+           <LinearLayout 
+               android:layout_width="match_parent"
+               android:layout_height="45dp"               
+               android:orientation="horizontal"   
+               >   
+                        
+               <TextView
+                    android:id="@+id/app_update_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"                                 
+                    android:layout_marginLeft="55dp"     
+                    android:layout_marginRight="10dp"   
+                    android:singleLine="true"   
+                    android:ellipsize="end"                                                 
+                    android:textSize="13sp"                                      
+                />
+           </LinearLayout>                
+       </LinearLayout>  
+  
+        <!-- start -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:background="@drawable/man_part2_bg"
+            android:orientation="vertical" >
+
+           <!-- 软件卸载  下载管理 -->
+           <LinearLayout 
+               android:layout_width="fill_parent"
+               android:layout_height="60dp"
+               android:orientation="horizontal"  
+               android:layout_marginTop="2dp"
+               android:layout_marginLeft="1dp"
+               android:visibility="gone"
+               android:layout_marginRight="1dp">
+               <!-- 软件卸载 -->
+               <LinearLayout 
+                   android:id="@+id/appmanager"
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent"
+                   android:orientation="horizontal"    
+                   android:layout_marginLeft="15dp"     
+                   android:layout_gravity="center_vertical"  
+                   android:visibility="gone"             
+                   style="@style/appmanagerCommonButtonStyle"                   
+                   >
+                   <ImageView 
+				       android:background="@drawable/app_manager"
+				       android:layout_width="23dp"
+                       android:layout_height="23dp"
+                       android:layout_marginLeft="15dp"                         
+                       android:layout_gravity="center_vertical" 
+                   />  
+                   <TextView         
+                       android:layout_gravity="center_vertical" 
+                       style="@style/manapptextbutton"
+                       android:text="@string/app_managerst"  />             
+                   <TextView
+                       android:id="@+id/tv_down_update"
+                       android:layout_gravity="center_vertical"   
+                       android:layout_marginLeft="60dp"  
+                       android:visibility="gone"
+                       style="@style/MenuControlItemNumPopStyle"
+                    />               
+               </LinearLayout>
+               <ImageView 
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:background="@drawable/vertical_divder_line_1px"  />               
+               <!-- 下载管理 -->
+               <LinearLayout 
+                   android:id="@+id/appdownload"
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent"
+                   android:orientation="horizontal"    
+                   android:layout_marginLeft="15dp" 
+                   android:visibility="gone"    
+                   android:layout_gravity="center_vertical"               
+                   style="@style/appmanagerCommonButtonStyle"                   
+                   >
+                   <ImageView 
+				       android:background="@drawable/app_download"
+				       android:layout_width="23dp"
+                       android:layout_height="23dp"
+                       android:layout_marginLeft="15dp"                         
+                       android:layout_gravity="center_vertical" 
+                   />  
+                   <TextView         
+                       android:layout_gravity="center_vertical" 
+                       style="@style/manapptextbutton"
+                       android:text="@string/text_download_manager_title"  />             
+                   <TextView
+                       android:id="@+id/tv_pop_down_manager"
+                       android:layout_gravity="center_vertical"     
+                       android:layout_marginLeft="60dp"  
+                       android:visibility="gone"
+                       style="@style/MenuControlItemNumPopStyle"
+                    />               
+               </LinearLayout>             
+           </LinearLayout>
+           
+            <ImageView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/horizontal_divder_line_1px"  />  
+                         
+           <!-- 垃圾清理  设置 -->
+           <LinearLayout 
+               android:layout_width="fill_parent"
+               android:layout_height="60dp"
+               android:orientation="horizontal"
+               android:layout_marginLeft="1dp"
+               android:layout_marginRight="1dp"
+               >
+               <!-- 垃圾清理 -->
+               <LinearLayout 
+                   android:id="@+id/appclear"
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent"
+                   android:orientation="horizontal"    
+                   android:layout_marginLeft="15dp"     
+                   android:layout_gravity="center_vertical"               
+                   style="@style/appmanagerCommonButtonStyle"
+                   >
+                   <ImageView 
+				       android:background="@drawable/app_clear"
+				       android:layout_width="23dp"
+                       android:layout_height="23dp"
+                       android:layout_marginLeft="15dp"                         
+                       android:layout_gravity="center_vertical" 
+                   />  
+                   <TextView         
+                       android:layout_gravity="center_vertical" 
+                       style="@style/manapptextbutton"
+                       android:text="@string/menu_control_clear_cache_txt"  />     
+               </LinearLayout>  
+               <ImageView 
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:background="@drawable/vertical_divder_line_1px"  />                
+               <!-- 设置 -->
+               <LinearLayout 
+                   android:id="@+id/appsetting"
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent"
+                   android:orientation="horizontal"    
+                   android:layout_marginLeft="15dp"     
+                   android:layout_gravity="center_vertical"               
+                   style="@style/appmanagerCommonButtonStyle"                   
+                   >
+                   <ImageView 
+				       android:background="@drawable/app_setting"
+				       android:layout_width="23dp"
+                       android:layout_height="23dp"
+                       android:layout_marginLeft="15dp"                         
+                       android:layout_gravity="center_vertical" 
+                   />  
+                   <RelativeLayout 
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"  
+                       android:layout_gravity="center_vertical" 
+                       > 
+                       <TextView         
+                           android:layout_gravity="center_vertical" 
+                           style="@style/manapptextbutton"
+                           android:text="@string/menu_control_settings_txt"                         
+                       />         
+                       <!-- 检查有新版本时，设置右边显示一个小红点 -->
+                       <ImageView                            
+                           android:id="@+id/redpoint"
+				           android:background="@drawable/red_point"
+				           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"                                               
+                           android:layout_centerVertical="true"      
+                           android:layout_alignParentRight="true"  
+                           android:layout_marginRight="10dp"    
+                           android:visibility="gone"                             
+                       />  
+                   </RelativeLayout> 
+               </LinearLayout>                
+                          
+           </LinearLayout>   
+           
+            <ImageView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/horizontal_divder_line_1px"  /> 
+                           
+           <!-- 分享  关于 -->
+           
+           <LinearLayout 
+               android:layout_width="fill_parent"
+               android:layout_height="60dp"
+               android:orientation="horizontal"
+               android:layout_marginBottom="1dp"
+               android:layout_marginLeft="1dp"
+               android:layout_marginRight="1dp"
+               >
+               <!-- 检查新版本 -->
+               <LinearLayout 
+                   android:id="@+id/appupdatelocal"
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent"
+                   android:orientation="horizontal"    
+                   android:layout_marginLeft="15dp"     
+                   android:layout_gravity="center_vertical"    
+                   android:visibility="gone"           
+                   style="@style/appmanagerCommonButtonStyle"                   
+                   >
+                   <ImageView 
+				       android:background="@drawable/app_udpatelocal"
+				       android:layout_width="23dp"
+                       android:layout_height="23dp"
+                       android:layout_marginLeft="15dp"                         
+                       android:layout_gravity="center_vertical" 
+                   />  
+                   <TextView         
+                       android:layout_gravity="center_vertical" 
+                       style="@style/manapptextbutton"
+                       android:text="@string/update_app"  />             
+                   <TextView
+                       android:id="@+id/appupdatelocal_status"
+                       android:layout_gravity="center_vertical"     
+                       android:layout_marginLeft="60dp"  
+                       android:visibility="gone"
+                       style="@style/MenuControlItemNumPopStyle"
+                    />               
+               </LinearLayout>  
+               <!-- 分享 -->
+               <LinearLayout 
+                   android:id="@+id/appshare"
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent"
+                   android:orientation="horizontal"    
+                   android:layout_marginLeft="15dp"     
+                   android:layout_gravity="center_vertical"                                
+                   style="@style/appmanagerCommonButtonStyle"                   
+                   >
+                   <ImageView 
+				       android:background="@drawable/app_share"
+				       android:layout_width="23dp"
+                       android:layout_height="23dp"
+                       android:layout_marginLeft="15dp"                         
+                       android:layout_gravity="center_vertical" 
+                   />  
+                   <TextView         
+                       android:layout_gravity="center_vertical" 
+                       style="@style/manapptextbutton"
+                       android:text="@string/share_app"  />     
+               </LinearLayout> 
+               <ImageView 
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:background="@drawable/vertical_divder_line_1px"  />                                    
+               <!-- 关于 -->
+               <LinearLayout 
+                   android:id="@+id/appabout"
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent"
+                   android:orientation="horizontal"    
+                   android:layout_marginLeft="15dp"     
+                   android:layout_gravity="center_vertical"               
+                   style="@style/appmanagerCommonButtonStyle"                   
+                   >
+                   <ImageView 
+				       android:background="@drawable/app_about"
+				       android:layout_width="23dp"
+                       android:layout_height="23dp"
+                       android:layout_marginLeft="15dp"                         
+                       android:layout_gravity="center_vertical" 
+                   />  
+                   <TextView         
+                       android:layout_gravity="center_vertical" 
+                       style="@style/manapptextbutton"
+                       android:text="@string/menu_control_about_us_txt"  />        
+               </LinearLayout>                          
+           </LinearLayout>            
+           
+        
+        </LinearLayout>
+        <!-- end -->
+        
+    </LinearLayout>
+    
+
+</RelativeLayout>
+</ScrollView>

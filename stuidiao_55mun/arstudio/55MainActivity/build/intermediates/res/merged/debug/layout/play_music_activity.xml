@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/playerbg"
+    style="@style/audplayer_bg_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191919"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/discshow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/disc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/aud_paly_disc" />
+
+        <ImageView
+            android:id="@+id/disc_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="@dimen/aud_dischead_margin_top"
+            android:src="@drawable/aud_play_needle" />
+    </FrameLayout>
+    <!-- title 栏 start -->
+
+    <LinearLayout
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_content_height"
+        android:layout_alignParentTop="true"
+        android:background="#ff000000"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="46.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/title_button_bg"
+            android:focusable="false"
+            android:scaleType="center"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:id="@+id/currFileName"
+            style="@style/titlebar_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:ellipsize="end"
+            android:singleLine="true" />
+    </LinearLayout>
+    <!-- title 栏 end -->
+    <!-- 播放按键 start -->
+
+    <LinearLayout
+        android:id="@+id/play_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/aud_btnbar_margin_bottom"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/playModeBtn"
+            android:layout_width="@dimen/aud_playmodebtn_width"
+            android:layout_height="@dimen/aud_playmodebtn_height"
+            android:layout_gravity="center"
+            android:src="@drawable/byt_audplayer_shuffle_bg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/preBtn"
+                    android:layout_width="@dimen/aud_prebtn_width"
+                    android:layout_height="@dimen/aud_prebtn_height"
+                    android:layout_gravity="center"
+                    android:src="@drawable/byt_audplayer_prebtnselector" />
+
+                <ImageView
+                    android:id="@+id/playBtn"
+                    android:layout_width="@dimen/aud_playbtn_width"
+                    android:layout_height="@dimen/aud_playbtn_height"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/byt_audplayer_pausebtnselector" />
+
+                <ImageView
+                    android:id="@+id/nextBtn"
+                    android:layout_width="@dimen/aud_nextbtn_width"
+                    android:layout_height="@dimen/aud_nextbtn_height"
+                    android:layout_gravity="center"
+                    android:src="@drawable/byt_audplayer_nextbtnselector" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/filelistBtn"
+            android:layout_width="@dimen/aud_filelistbtn_width"
+            android:layout_height="@dimen/aud_filelistbtn_height"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/byt_audplayer_detailselector" />
+    </LinearLayout>
+    <!-- 播放按键 end -->
+    <!-- 播放进度 start -->
+
+    <LinearLayout
+        android:id="@+id/playProBar"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_above="@id/play_menu"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/currPlayTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="00:00"
+            android:textSize="10sp" />
+
+        <SeekBar
+            android:id="@+id/music_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:maxHeight="1dp"
+            android:minHeight="1dp"
+            android:progressDrawable="@drawable/byt_audplayer_progressbar"
+            android:thumb="@drawable/byt_audplayer_probar_thumb"
+            android:thumbOffset="0dp" />
+
+        <TextView
+            android:id="@+id/tocalPlayTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="00:00"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/playProBar"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+         />
+    <!-- 播放进度 end -->
+
+</RelativeLayout>

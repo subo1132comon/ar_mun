@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout-en-rUS\\shell_botton_includ.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\layout-en-rUS\\shell_botton_includ.xml"
+    },
+    {
+        "merged": "E:\\git_master\\stuidiao_55mun\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout-en-rUS\\shell_botton_includ.xml",
+        "source": "E:\\git_master\\stuidiao_55mun\\Example for Android studio\\55MainActivity\\res\\layout-en-rUS\\shell_botton_includ.xml"
+    },
+    {
+        "merged": "E:\\git_master\\stuidiao_55mun\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout-en-rUS\\listview.xml",
+        "source": "E:\\git_master\\stuidiao_55mun\\Example for Android studio\\55MainActivity\\res\\layout-en-rUS\\listview.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\debug\\layout-en-rUS\\listview.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\layout-en-rUS\\listview.xml"
+    }
+]

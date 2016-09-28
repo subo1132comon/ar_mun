@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d2d3d4"
+    android:gravity="top|center_horizontal"
+    android:orientation="horizontal"
+    android:paddingBottom="2.6dp"
+    android:paddingTop="6dp"
+     >
+
+    <RelativeLayout
+        android:id="@+id/videolandthreelayout1"
+         android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="3dp"
+        android:orientation="vertical"
+        android:background="@drawable/videothreebg"
+         >
+     
+
+        <FrameLayout
+            android:id="@+id/istitem_music_content_1"
+         	android:layout_alignParentTop="true"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/videosublist_shuheight" >
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/musicrankpic"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/videodefaultbg" 
+                 android:contentDescription="3" 
+                />
+         
+
+            <TextView
+                android:id="@+id/musicranklandlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000" />
+        </FrameLayout>
+           <TextView
+               android:layout_marginStart="7.5dp"
+            android:layout_below="@id/istitem_music_content_1"
+            android:paddingTop="3dp"
+            android:id="@+id/listitem_cate_name_Start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#ff46494b"
+            android:textSize="14.0sp" />
+           
+           <!-- 1111111 -->
+           <RelativeLayout
+               android:id="@+id/listitemvid_relativelayout"
+               android:layout_below="@id/listitem_cate_name_Start"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="5dp"
+               android:paddingTop="3dp"
+               android:paddingBottom="3dp"
+               >
+           <TextView
+               android:layout_marginStart="7.5dp"
+            android:drawableStart="@drawable/videoplaynum"
+            android:id="@+id/listitemvideosdc"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#ffa7a7ab"
+            android:textSize="12.0sp"
+            android:drawablePadding="3dp"
+             />
+           <TextView
+               android:id="@+id/price_text1"
+               android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:textColor="#ffa7a7ab"
+           android:text="@string/money"
+           android:visibility="gone"
+               />
+            <ImageView
+                android:id="@+id/dowload_image1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="2dp"
+                android:visibility="visible"
+                android:src="@drawable/play_icn_dld_prs" />
+            <ProgressBar
+            android:id="@+id/musicisdowning1"
+            style="@style/Music.circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="2dp"
+            android:visibility="gone" />
+            <ImageView
+                android:id="@+id/dowloaded1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="2dp"
+                />
+           </RelativeLayout>
+            <!-- 
+           <TextView 
+               android:id="@+id/pay_button_text"
+               android:layout_below="@+id/l"
+               android:layout_width="fill_parent"
+               android:layout_height="4dp"
+               />
+           
+           <TextView 
+               android:id="@+id/pay_button_text"
+               android:layout_below="@id/listitemvideosdc"
+               android:layout_width="fill_parent"
+               android:layout_height="30dp"
+               android:text="@string/pay_string_text"
+               android:background="@color/paly_back_color"
+               />
+               -->
+    </RelativeLayout>
+
+    <RelativeLayout
+       android:background="@drawable/videothreebg"       
+       android:id="@+id/videolandthreelayout2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"		      
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:orientation="vertical" >
+        
+
+        <FrameLayout
+             android:id="@+id/istitem_music_content_2"
+            android:layout_alignParentTop="true"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/videosublist_shuheight" >
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/musicrankpic2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/videodefaultbg"
+                 android:contentDescription="3" 
+                 />
+ 
+
+            <TextView
+                android:id="@+id/musicranklandlayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000" />
+        </FrameLayout>
+		<TextView
+		    android:layout_marginStart="7.5dp"
+            android:paddingTop="3dp"
+          android:layout_below="@id/istitem_music_content_2"
+            android:id="@+id/listitem_cate_name_Start2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#ff46494b"
+            android:textSize="14.0sp" />
+		
+		<RelativeLayout
+               android:id="@+id/listitemvid_relativelayout2"
+               android:layout_below="@id/listitem_cate_name_Start2"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="5dp"
+               android:paddingTop="3dp"
+               android:paddingBottom="3dp"
+               >
+		<TextView
+		     android:drawablePadding="3dp"
+		    android:layout_marginStart="7.5dp"
+		   android:drawableStart="@drawable/videoplaynum"		    		    
+            android:id="@+id/listitemvideosdc2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_centerVertical="true"
+            android:textColor="#ffa7a7ab"
+            android:textSize="12.0sp" />
+		 <TextView
+               android:id="@+id/price_text2"
+               android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:textColor="#ffa7a7ab"
+           android:text="@string/money"
+           android:visibility="gone"
+               />
+		  <ImageView
+		        android:id="@+id/dowload_image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="2dp"
+                android:src="@drawable/play_icn_dld_prs" />
+		  <ProgressBar
+            android:id="@+id/musicisdowning2"
+            style="@style/Music.circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="2dp"
+            android:visibility="gone" />
+		  <ImageView
+                android:id="@+id/dowloaded2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="2dp"
+                />
+		</RelativeLayout>
+    </RelativeLayout>
+     <RelativeLayout
+        android:background="@drawable/videothreebg"        
+        android:id="@+id/videolandthreelayout3"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"		      
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="6dp"
+        android:orientation="vertical" >
+        
+
+        <FrameLayout
+             android:id="@+id/istitem_music_content_3"
+            android:layout_alignParentTop="true"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/videosublist_shuheight" >
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/musicrankpic3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/videodefaultbg" 
+                 android:contentDescription="3" 
+                />
+ 
+
+            <TextView
+                android:id="@+id/musicranklandlayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000" />
+        </FrameLayout>
+		<TextView
+		    android:layout_marginStart="7.5dp"
+            android:paddingTop="3dp"
+          android:layout_below="@id/istitem_music_content_3"
+            android:id="@+id/listitem_cate_name_Start3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#ff46494b"
+            android:textSize="14.0sp" />
+
+		<RelativeLayout
+               android:id="@+id/listitemvid_relativelayout3"
+               android:layout_below="@id/listitem_cate_name_Start3"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="5dp"
+               android:paddingTop="3dp"
+               android:paddingBottom="3dp"
+               >
+		<TextView
+		     android:drawablePadding="3dp"
+		    android:layout_marginStart="7.5dp"
+		    android:id="@+id/listitemvideosdc3"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:drawableStart="@drawable/videoplaynum"
+		    android:layout_centerVertical="true"
+		    android:textColor="#ffa7a7ab"
+		    android:textSize="12.0sp" />
+		<TextView
+               android:id="@+id/price_text3"
+               android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:textColor="#ffa7a7ab"
+           android:text="@string/money"
+           android:visibility="gone"
+               />
+		 <ImageView
+		      android:id="@+id/dowload_image3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="2dp"
+                android:src="@drawable/play_icn_dld_prs" />
+		 <ProgressBar
+            android:id="@+id/musicisdowning3"
+            style="@style/Music.circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="2dp"
+            android:visibility="gone" />
+		 <ImageView
+                android:id="@+id/dowloaded3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="2dp"
+                />
+	</RelativeLayout>
+     
+    </RelativeLayout>
+
+</LinearLayout>

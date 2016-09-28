@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f2f3" >
+
+    <include 
+        android:id="@+id/sharefacetop"
+        layout="@layout/top_frame" />
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/sharefacetop"
+	    >
+	    <LinearLayout 
+	          android:layout_centerHorizontal="true"
+	         android:layout_marginTop="40dp"
+	        android:id="@+id/sharebglayout"
+	        android:layout_width="@dimen/facebookshare_icon"
+	        android:layout_height="@dimen/facebookshare_icon"
+	        android:padding="5dp"
+	        android:background="@drawable/facebooksharebg"
+	        >
+	         <ImageView 	    
+	        android:scaleType="fitXY"  
+	        android:id="@+id/sharebg"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:background="@drawable/default_disc_360"
+	        />
+	        
+	    </LinearLayout>
+	   
+	    <TextView 
+	        android:layout_marginTop="26dp"
+	        android:layout_below="@id/sharebglayout"
+	        android:id="@+id/musicname"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textColor="#000000"
+	        android:textSize="15sp"
+	        />
+	    <TextView 
+	           android:layout_marginTop="9dp"
+	        android:layout_below="@id/musicname"
+	        android:id="@+id/musicauther"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textColor="#666666"
+	        android:textSize="12sp"
+	        />
+	    <LinearLayout 
+	        android:padding="15dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="36.5dp"
+	        android:id="@+id/gotoshare"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_below="@id/musicauther"
+	        android:background="@drawable/bestone_facebooksharebgd"
+	        android:gravity="center"
+	        >
+	        <ImageView 
+	            android:layout_gravity="center"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/facebook"
+	            />
+	        <TextView 
+	            android:layout_marginTop="10dp"
+	             android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	           android:text="facebook"
+	           android:textColor="#000000"
+	        android:textSize="13sp"
+	            />
+	        
+	    </LinearLayout>
+	</RelativeLayout>
+
+</RelativeLayout>

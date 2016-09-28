@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea"
+    android:orientation="vertical"
+    android:paddingLeft="8dip"
+    android:paddingRight="8dip" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6.6dip"
+        android:layout_marginTop="13.3dip"
+        android:text="@string/keepwap"
+        android:textColor="#000000"
+        android:textSize="16sp" 
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"      
+        android:background="@drawable/setting_bg"
+        android:layout_marginTop="15dp"        
+        android:orientation="vertical" >     
+    <!-- 非wifi网络下载提示 --> 
+    <RelativeLayout
+        android:id="@+id/lay_set_download_notification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:gravity="center_vertical" 
+        style="@style/appSettingBtnStyle" 
+        android:layout_marginTop="1dp">
+    <CheckBox
+            android:id="@+id/cb_set_download_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/setting_check_margin_right"
+            android:button="@drawable/checkbox_setting"
+            android:clickable="false" />
+        <TextView
+            style="@style/SettingsItemTextStyle"
+            android:clickable="false"
+            android:text="@string/notwifi" 
+            android:layout_toLeftOf="@id/cb_set_download_notification"
+            />
+
+    
+    </RelativeLayout>
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_divder_line"
+        />
+    
+    <!-- 显示图标和截图 -->
+    <RelativeLayout
+        android:id="@+id/lay_set_display_icon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:layout_marginTop="-1px"
+        android:gravity="center_vertical" 
+        style="@style/appSettingBtnStyle" 
+        android:layout_marginBottom="1dp">        
+        <CheckBox
+            android:id="@+id/cb_set_display_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/setting_check_margin_right"
+            android:button="@drawable/checkbox_setting"
+            android:clickable="false" />
+        <TextView
+            style="@style/SettingsItemTextStyle"
+            android:clickable="false"
+            android:text="@string/setting_1" 
+               android:layout_toLeftOf="@id/cb_set_display_icon"
+            />
+
+   
+    </RelativeLayout>
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6.6dip"
+        android:layout_marginTop="13.3dip"
+        android:text="@string/setting_2"
+        android:textColor="#000000"
+        android:textSize="16sp" 
+        android:visibility="gone" />
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"      
+        android:background="@drawable/setting_bg"
+        android:layout_marginTop="10dp" 
+        android:orientation="vertical" >  
+           
+    <!-- 下载完成立即进行安装 -->
+
+    <RelativeLayout
+        android:id="@+id/lay_set_download_to_install"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:gravity="center_vertical" 
+        style="@style/appSettingBtnStyle" 
+        android:visibility="gone"
+        android:layout_marginTop="1dp">
+        <CheckBox
+            android:id="@+id/cb_set_download_to_install"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/setting_check_margin_right"
+            android:button="@drawable/checkbox_setting"
+            android:clickable="false" />
+        
+         <TextView
+            style="@style/SettingsItemTextStyle"
+            android:clickable="false"
+            android:text="@string/setting_3"
+            android:layout_toLeftOf="@id/cb_set_download_to_install" />
+    </RelativeLayout>
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@drawable/settings_divder_line"
+        />
+    <!-- ROOT用户快速安装 -->
+
+    <RelativeLayout
+        android:id="@+id/lay_set_root_install"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1px"    
+        android:visibility="gone"    
+        android:gravity="center_vertical" 
+        style="@style/appSettingBtnStyle" >
+          <CheckBox
+            android:id="@+id/cb_set_root_install"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/setting_check_margin_right"
+            android:button="@drawable/checkbox_setting"
+            android:clickable="false" />
+        <TextView
+              android:layout_toLeftOf="@id/cb_set_root_install"
+            style="@style/SettingsItemTextStyle"
+            android:clickable="false"
+            android:text="@string/setting_4" />
+
+      
+    </RelativeLayout>
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@drawable/settings_divder_line"
+        />    
+    <!-- 安装后删除安装包 -->
+
+    <RelativeLayout
+        android:id="@+id/lay_set_installed_delete_apk"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1px"   
+        android:visibility="gone"     
+        android:gravity="center_vertical" 
+        style="@style/appSettingBtnStyle" >
+
+        
+        <CheckBox
+            android:id="@+id/cb_set_installed_delete_apk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/setting_check_margin_right"
+            android:button="@drawable/checkbox_setting"
+            android:clickable="false" />
+        <TextView
+            android:layout_marginRight="2dp"
+            android:layout_toLeftOf="@id/cb_set_installed_delete_apk"
+            style="@style/SettingsItemTextStyle"
+            android:clickable="false"
+            android:text="@string/setting_5" />
+        
+    </RelativeLayout>
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@drawable/settings_divder_line"
+        />    
+    <!-- 安装完成提示 -->
+
+    <RelativeLayout
+        android:id="@+id/lay_set_installed_notification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1px"        
+        android:gravity="center_vertical" 
+        android:visibility="gone"
+        style="@style/appSettingBtnStyle" >
+
+          <CheckBox
+            android:id="@+id/cb_set_installed_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/setting_check_margin_right"
+            android:button="@drawable/checkbox_setting"
+            android:clickable="false" />
+        <TextView
+                android:layout_toLeftOf="@id/cb_set_installed_notification"
+            style="@style/SettingsItemTextStyle"
+            android:clickable="false"
+            android:text="@string/setting_6" />
+
+      
+    </RelativeLayout>
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@drawable/settings_divder_line"
+        />    
+    <!-- 同时下载数量 -->
+
+    <RelativeLayout
+        android:id="@+id/lay_set_currnet_download_count"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1px"        
+        android:gravity="center_vertical" 
+        style="@style/appSettingBtnStyle" >
+        <com.byt.market.view.DownloadSumSetView
+            android:id="@+id/lay_currnet_donwload_sum_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/donwload_sum_set_margin_right" 
+            android:background="#14a7e0">
+
+            <Button
+                android:id="@+id/btn_set_down_sum_decrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_set_down_sum_decrease" />
+
+            <Button
+                android:id="@+id/btn_set_down_sum_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                
+                android:background="@drawable/btn_set_down_sum_input"
+              
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_set_down_sum_increase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_set_down_sum_increase" />
+        </com.byt.market.view.DownloadSumSetView>
+        <TextView
+            android:layout_marginRight="2dp"
+            style="@style/SettingsItemTextStyle"
+            android:layout_toLeftOf="@id/lay_currnet_donwload_sum_set"
+            android:clickable="false"
+            android:text="@string/setting_7" />
+    </RelativeLayout>
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_divder_line"
+        />    
+    <!-- 删除全部安装包 -->
+
+  
+    </LinearLayout>
+
+    <!-- 版本管理 -->   
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6.6dip"
+        android:layout_marginTop="13.3dip"
+        android:text="@string/version_management"
+        android:textColor="#000000"
+        android:textSize="16sp" 
+        android:visibility="gone"
+    />    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"      
+        android:background="@drawable/setting_bg"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical" >     
+    <!-- 下载 播放器 -->
+     <RelativeLayout
+        android:id="@+id/lay_dowlod_pay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        style="@style/appSettingBtnStyle"   
+        android:layout_marginTop="1dp"  
+        android:visibility="gone"
+        >
+
+        <TextView
+            style="@style/SettingsItemTextStyle"
+            android:clickable="false"
+            android:textColor="@color/blue"
+            android:text="@string/setting_dowload" />
+        <TextView
+            android:id="@+id/dowload_text"
+            style="@style/SettingsItemTextStyle"
+            android:clickable="false"
+            android:layout_alignParentRight="true"
+            android:gravity="right|center_vertical"
+           />
+    </RelativeLayout>
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_divder_line"
+        />  
+    <!-- 检查版本更新 -->
+      <RelativeLayout
+        android:id="@+id/lay_set_delete_all_apk"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        style="@style/appSettingBtnStyle"   
+        android:layout_marginTop="1dp"  
+        >
+
+        <TextView
+            style="@style/SettingsItemTextStyle"
+            android:clickable="false"
+            android:text="@string/setting_8" />
+        <TextView
+            android:id="@+id/clearcathlen"
+            style="@style/SettingsItemTextStyle"
+            android:clickable="false"
+            android:layout_alignParentRight="true"
+            android:gravity="right|center_vertical"
+           />
+    </RelativeLayout>
+     <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_divder_line"
+        />  
+    <RelativeLayout
+        android:id="@+id/appupdatecheck"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"         
+        android:layout_marginTop="-1px"        
+        android:gravity="center_vertical" 
+        style="@style/appSettingBtnStyle"     
+        >
+
+        <TextView
+            android:id="@+id/update_app"
+            style="@style/SettingsItemTextStyle"
+            android:clickable="false"
+            android:text="@string/update_app" />
+        <ImageView
+            android:id="@+id/update_app_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red_point"
+            android:layout_alignRight="@id/update_app"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            />
+    </RelativeLayout>  
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_divder_line"
+        />
+    <!-- 关于 -->  
+    <RelativeLayout
+        android:id="@+id/lay_set_about_app"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"               
+        android:gravity="center_vertical"
+        android:layout_marginBottom="1dp"
+        style="@style/appSettingBtnStyle" >
+        <TextView
+            style="@style/SettingsItemTextStyle"
+            android:clickable="false"
+            android:text="@string/menu_control_about_us_txt" />
+    </RelativeLayout>  
+    </LinearLayout> 
+</LinearLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sell_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="100dip"
+    android:layout_alignParentBottom="true"
+    android:background="#ff888888"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sell_alert_title"
+        android:textColor="#ffffffff"
+        android:textSize="20dip" />
+
+    <TextView
+        android:id="@+id/alert_sell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textSize="15dip" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+         >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:layout_marginRight="10dp"
+            >
+			
+             <TextView
+		        android:id="@+id/bao_math"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginRight="4dp"
+		        android:text="@string/bao_math"/>
+            <TextView
+		        android:id="@+id/bao_math_price"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignLeft="@+id/bao_math"
+		        android:layout_below="@+id/bao_math"
+		        android:text="@string/money" />
+            <TextView
+                android:id="@+id/sell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bestone_down_drawable"
+                android:padding="3dip"
+                android:layout_toRightOf="@+id/bao_math"
+                
+                android:text="@string/quick_download"
+                android:textColor="#ffffffff"
+                android:textSize="16dip" />
+
+            <TextView
+                android:id="@+id/selltmp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bestone_down_drawable"
+                android:gravity="center"
+                android:padding="3dip"
+                android:singleLine="true"
+                android:text="@string/paidProcessing"
+                android:textColor="#ffffffff"
+                android:textSize="16dip"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:layout_marginLeft="10dp"
+            >
+			
+             <TextView
+		        android:id="@+id/bao_day"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginRight="4dp"
+		        android:text="@string/bao_day"/>
+            <TextView
+		        android:id="@+id/bao_day_price"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignLeft="@+id/bao_day"
+		        android:layout_below="@+id/bao_day"
+		        android:text="@string/money" />
+            
+            <TextView
+                android:id="@+id/sell_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bestone_down_drawable"
+                android:padding="3dip"
+                android:layout_toRightOf="@+id/bao_day"
+                android:text="@string/quick_download"
+                android:textColor="#ffffffff"
+                android:textSize="16dip" />
+
+            <TextView
+                android:id="@+id/selltmp_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bestone_down_drawable"
+                android:gravity="center"
+                android:padding="3dip"
+                android:singleLine="true"
+                android:text="@string/paidProcessing"
+                android:textColor="#ffffffff"
+                android:textSize="16dip"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rank_item_bg"
+    android:orientation="horizontal"
+    
+    >
+    <TextView        
+        android:id="@+id/musiclayout"
+         android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/musicitembgdraw"
+        />
+
+    <RelativeLayout
+        android:paddingRight="13dp"
+		android:paddingLeft="13dp"
+        android:id="@+id/listitem_cate_left"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#00000000"
+         >
+
+      
+        <ImageView 
+              android:id="@+id/musicrankicon"
+             android:scaleType="fitXY"
+              android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/default_disc_180"
+             android:contentDescription="2" 
+            
+             />
+
+        <TextView
+            
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/musicrankicon"
+            android:id="@+id/listitem_cate_name_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           	android:singleLine="true"
+           	android:ellipsize="end"
+            android:layout_alignParentTop="true"      
+            android:textSize="16sp"
+            android:textColor="#ff333333"
+            android:layout_marginLeft="17dp"
+             android:layout_marginTop="13dp"
+           />
+         <TextView 
+             android:paddingTop="3dp"
+             android:layout_below="@id/listitem_cate_name_left"
+            android:id="@+id/cate_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+           android:layout_alignLeft="@id/listitem_cate_name_left"
+            android:maxLines="2"
+            android:textSize="12sp"
+          android:ellipsize="end"
+            android:textColor="@android:color/darker_gray"           
+            />
+        
+         <TextView 
+            android:layout_alignParentBottom="true"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#d8d9da"
+            />
+    </RelativeLayout>
+</RelativeLayout>

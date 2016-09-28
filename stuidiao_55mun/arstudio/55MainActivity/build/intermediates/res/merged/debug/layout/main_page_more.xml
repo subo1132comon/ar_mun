@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/top_pop_black_bg"
+    android:paddingRight="20dp"
+     >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 全部继续 -->
+        <!-- delete old png bg_download_all_go_on -->
+
+        <LinearLayout
+            android:id="@+id/btn_download_all_go_on"
+            style="@style/downpoplinestyle"
+            android:background="@drawable/top_pop_black_bg" >
+
+            <ImageView
+                  android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pop_icon_goon_bg" />
+
+            <TextView
+             style="@style/downpopimagestyle"
+                android:text="@string/txt_download_all_go_on"
+                />
+        </LinearLayout>
+
+        <!-- 全部暂停 -->
+
+        <LinearLayout
+            android:id="@+id/btn_download_all_pause"
+            style="@style/downpoplinestyle"
+            android:background="@drawable/top_pop_black_bg" >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pop_icon_pause_bg" />
+
+            <TextView
+                 style="@style/downpopimagestyle"
+                android:text="@string/txt_download_all_pause"
+                />
+        </LinearLayout>
+        <!-- 全部取消 -->
+
+        <LinearLayout
+            android:id="@+id/btn_download_all_cancel"
+            style="@style/downpoplinestyle"
+            android:background="@drawable/top_pop_black_bg" >
+
+            <ImageView
+                  android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pop_icon_cancel_bg" />
+
+            <TextView
+                
+                style="@style/downpopimagestyle"
+                android:text="@string/txt_download_all_cancel"
+               />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

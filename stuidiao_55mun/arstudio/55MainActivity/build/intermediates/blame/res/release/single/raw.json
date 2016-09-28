@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\raw\\trie_cache.txt",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\raw\\trie_cache.txt"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\raw\\whole_word_cache.txt",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\raw\\whole_word_cache.txt"
+    }
+]

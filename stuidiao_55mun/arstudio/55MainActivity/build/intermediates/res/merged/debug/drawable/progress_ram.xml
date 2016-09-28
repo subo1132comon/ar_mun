@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@android:id/background">
+        <nine-patch android:src="@drawable/bg_progress_phone_used_percent" >
+        </nine-patch>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <nine-patch android:src="@drawable/bg_progress_phone_used" >
+            </nine-patch>
+        </clip>
+    </item>
+
+</layer-list>

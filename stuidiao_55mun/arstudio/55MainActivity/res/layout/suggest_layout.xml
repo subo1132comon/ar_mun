@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/login_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_frame" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0px"
+        android:layout_weight="1.0" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+	            <TextView
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:gravity="center_vertical|left"
+	                android:text="@string/your_suggest"
+	                android:textColor="#ff0f0f0f"
+	                android:focusable="true"
+	                android:focusableInTouchMode="true"
+	                android:textSize="@dimen/text_1" />
+	            <TextView 
+	                android:layout_marginLeft="5dp"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/sub_start"
+	                android:textColor="@color/red"/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_suggest_content"
+                style="@style/searchbox_text_style"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:gravity="top"
+                android:hint="@string/sub_hitabout"
+                android:imeOptions="actionSearch"
+                android:maxLength="140">
+
+            </EditText>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/your_phone"
+                android:textColor="#ff0f0f0f"
+                android:textSize="@dimen/text_1" />
+
+            <EditText
+                android:id="@+id/et_suggest_conn"
+                style="@style/searchbox_text_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:hint="@string/sub_qqmsn"
+                android:imeOptions="actionSearch"
+                 />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/suggest_cate"
+                android:textColor="#ff0f0f0f"
+                android:textSize="@dimen/text_1" />
+
+            <Spinner
+                android:visibility="gone"
+                android:id="@+id/sp_question"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/suggest_category" 
+                android:layout_marginTop="5dp"/>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:background="@drawable/main_btn_bg_white"
+                        android:id="@+id/btn_cancel_suggest"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/suggest_cancel" />
+
+                    <Button
+                        android:background="@drawable/main_btn_bg_white"
+                        android:id="@+id/btn_submit_suggest"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="@string/suggest_submit" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

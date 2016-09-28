@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/musicrectop"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#fafcfc" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp" >
+
+        <ImageView
+            android:id="@+id/musicicon"
+            android:layout_width="@dimen/musiciconwidth"
+            android:layout_height="@dimen/musiciconwidth"
+            android:layout_margin="11.5dp"
+            android:contentDescription="2"
+            android:src="@drawable/default_disc_360" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@id/musicicon"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/musicname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="24dp"
+                android:ellipsize="none"
+                android:maxLines="2"
+                android:textColor="#3e3e3e"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/musicupdatetiem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:maxLines="4"
+                android:paddingBottom="2dp"
+                android:textColor="#aaaaaa"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/parent_layout"
+        android:layout_below="@+id/relativeLayout1"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EAEAEA"
+        android:visibility="visible"
+        >
+    <RelativeLayout
+        android:id="@+id/re_dow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_tv_bg"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+         >
+        <TextView
+            android:id="@+id/dowload_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="52dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:textColor="#854602"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="@string/tv_toast"
+             />
+        <ImageView
+            android:id="@+id/imageView_delet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_tv_delet" />
+
+    </RelativeLayout>
+</RelativeLayout>
+</RelativeLayout>

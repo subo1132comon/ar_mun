@@ -1,0 +1,61 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Page Not Found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            line-height: 1.2;
+            margin: 0;
+        }
+        html {
+            color: #888;
+            display: table;
+            font-family: sans-serif;
+            height: 100%;
+            text-align: center;
+            width: 100%;
+        }
+        body {
+            display: table-cell;
+            vertical-align: middle;
+            margin: 2em auto;
+        }
+        h1 {
+            color: #555;
+            font-size: 3em;
+            font-weight: 400;
+        }
+        p {
+            margin: 0 auto;
+            width: 280px;
+        }
+        @media only screen and (max-width: 280px) {
+            body, p {
+                width: 95%;
+            }
+            h1 {
+                font-size: 1.5em;
+                margin: 0 0 0.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>😭</h1>
+    <br/>
+    <p id="msg">เครือข่ายไม่ดี</p>
+    <p style="font-size: 1.5em;">🙏</p>
+    <script type="text/javascript">
+        var lang = navigator.language || navigator.userLanguage; 
+        // 英语
+        if (lang.indexOf("en") >=0){
+            document.getElementById("msg").innerHTML="Network unstable";
+        }
+        // 中文 - 不分繁体和简体
+        else if (lang.indexOf("zh") >=0){
+            document.getElementById("msg").innerHTML="网络不佳";
+        }
+    </script>
+</body>
+</html>

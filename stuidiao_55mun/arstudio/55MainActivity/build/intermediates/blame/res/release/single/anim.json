@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\push_top_out.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\push_top_out.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\push_right_out.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\push_right_out.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\shrink_fade_out.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\shrink_fade_out.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\decelerate_interpolator.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\decelerate_interpolator.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\push_top_in.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\push_top_in.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\grow_fade_in_from_bottom.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\grow_fade_in.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\grow_fade_in.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\push_right_in.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\push_right_in.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\fade_out_fast.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\fade_out_fast.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\disc_head_on.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\disc_head_on.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\bluepay_loading.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\bluepay_loading.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\fade_in_fast.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\fade_in_fast.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\loading.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\loading.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\bottommenu_txt_anim.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\bottommenu_txt_anim.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\push_bottom_out.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\push_left_out.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\push_left_out.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\disc_head_off.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\disc_head_off.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\push_left_in.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\push_left_in.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\shrink_fade_out_from_bottom.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\popup_exit_up.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\popup_exit_up.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\push_bottom_in.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\popup_enter_up.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\popup_enter_up.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\accelerate_interpolator.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\accelerate_interpolator.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\disc.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\disc.xml"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\anim\\bottommenu_img_anim.xml",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\anim\\bottommenu_img_anim.xml"
+    }
+]

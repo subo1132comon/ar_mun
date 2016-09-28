@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffffff"
+    >
+    
+     <TextView
+         android:layout_marginLeft="6.66dip"
+    		    android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:text="@string/sub_point2"
+        android:textSize="13sp"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="2dp"
+    		     />
+    		<TextView
+    		    android:layout_marginLeft="6.66dip"
+    		    android:layout_width="fill_parent"
+        android:layout_height="20dp"
+                android:gravity="center_vertical"
+        android:text="@string/sub_evamy"
+        android:textSize="13sp"
+    		     />
+    <RelativeLayout 
+        android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000" >
+  
+    <RatingBar 
+        
+        android:id="@+id/rb_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6.66dip"
+        style="@style/RatingBar.Comment"
+         android:gravity="center_vertical"
+        />
+    <Button 
+        android:id="@+id/btn_commit_score"
+        android:layout_width="120dip"
+        android:layout_height="32dip"
+        android:singleLine="true"
+        android:background="@drawable/beston_detail_installclick"
+        android:layout_toRightOf="@id/rb_score"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:textSize="14.66sp"
+        android:text="@string/suggest_submit"/>
+
+</RelativeLayout>
+  <TextView
+      android:layout_marginLeft="6.66dip"
+    		    android:layout_width="fill_parent"
+        android:layout_height="14dp"
+        android:text="@string/sub_myphone"
+        android:textSize="11sp"
+        android:visibility="gone"
+    		     />
+    		<LinearLayout   		  
+        android:id="@+id/appRatingLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+          android:gravity="center_vertical"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+        android:orientation="horizontal" 
+        android:visibility="gone"
+        >
+
+    		 <Button
+    		     android:id="@+id/CanUse"
+    		    android:layout_weight="1"
+    		     android:layout_width="match_parent"
+    		     android:layout_height="30dp"
+    		     android:layout_centerVertical="true"
+    		     android:background="@drawable/bestone_selectbuttonstyle"
+    		     android:textSize="12sp"
+    		     android:text="@string/sub_canuse"
+    		     android:focusable="false" />
+    		 
+    		 <Button 
+    		     android:background="@drawable/bestone_selectbuttonstyle"
+    		     android:layout_weight="1"
+    		     android:id="@+id/Useless"
+    		        android:textSize="12sp"
+    		     android:layout_width="match_parent"
+    		     android:layout_height="30dp"
+    		     android:text="@string/sub_useless"
+    		     android:textColor="#000000"
+    		     />
+    		 </LinearLayout>
+             
+           <TextView
+               android:layout_marginLeft="6.66dip"
+    		    android:layout_width="fill_parent"
+         android:text="@string/sub_comment"
+         android:layout_height="20dp"
+        android:textSize="13sp"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="5dp"
+    		     />
+    		<LinearLayout
+        android:id="@+id/appRatingLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+          android:gravity="center_vertical"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+        android:orientation="horizontal" >
+
+    		 <Button
+    		     android:id="@+id/sortinpeople"
+    		    android:layout_weight="1"
+    		     android:layout_width="match_parent"
+    		     android:layout_height="30dp"
+    		     android:layout_centerVertical="true"
+    		     android:background="@drawable/bestone_selectbuttonstyle"
+    		     android:textSize="12sp"
+    		     android:text="@string/sub_peoplerank"
+    		     android:focusable="false" />
+    		 
+    		 <Button 
+    		     android:background="@drawable/bestone_selectbuttonstyle"
+    		     android:layout_weight="1"
+    		     android:id="@+id/sortintime"
+    		        android:textSize="12sp"
+    		     android:layout_width="match_parent"
+    		     android:layout_height="30dp"
+    		     android:text="@string/sub_timerank"
+    		     android:textColor="#000000"
+    		     />
+    		 </LinearLayout>
+    
+    
+</LinearLayout>
+

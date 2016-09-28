@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="234dip"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_title_bar"
+        android:gravity="center"
+        android:text="@string/comment_title"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/et_comment"
+            style="@android:style/TextAppearance.Inverse"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="13.33dip"
+            android:background="@drawable/bg_block"
+            android:ems="10"
+            android:focusable="true"
+            android:gravity="top|left"
+            android:hint="@string/sub_textsize"
+            android:textColorHint="#c1c1c1"
+            android:maxLength="140"
+            android:padding="10dp" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/tv_text_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="8.66dip"
+            android:text="@string/sub_inputnotman"
+            android:textSize="10.66sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13.33dip"
+            android:layout_marginBottom="26.66dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/titlebar_back_arrow"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="16.66dp"
+                android:layout_marginLeft="36.66dip"
+                android:layout_weight="1"
+                android:background="@drawable/btn_white"
+                android:text="@string/cancel"
+                android:textColor="#000000"
+                android:textSize="14.66sp" />
+            <Button
+                android:id="@+id/btn_sub_comm"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16.66dp"
+                android:layout_marginRight="36.66dip"
+                android:layout_weight="1"
+                android:background="@drawable/btn_blue"
+                android:text="@string/suggest_submit"
+                android:textColor="#000000"
+                android:textSize="14.66sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

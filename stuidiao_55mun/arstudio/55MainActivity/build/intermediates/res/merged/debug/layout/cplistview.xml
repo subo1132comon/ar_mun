@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.byt.market.view.CusPullListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:fadingEdge="none" >
+    </com.byt.market.view.CusPullListView>
+
+    <include
+        android:id="@+id/have_header"
+        layout="@layout/cate_lv_header"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:background="@color/rank_item_bg"
+        android:layout_below="@+id/have_header"
+        android:id="@+id/listview_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ProgressBar
+            android:id="@+id/listview_loading_icon3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ProgressMedium.circle"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/listview_loading_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listview_loading_icon3"
+            android:layout_centerHorizontal="true"
+            android:text="@string/listview_loadding" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@color/rank_item_bg"
+        android:layout_below="@+id/have_header"
+        android:id="@+id/listview_loadfailed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/listview_loadfailed_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/nothing" />
+
+        <TextView
+            android:id="@+id/listview_loadfailed_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listview_loadfailed_icon"
+            android:layout_centerHorizontal="true"
+            android:text="@string/listview_loadfailed" />
+    </RelativeLayout>
+
+</RelativeLayout>

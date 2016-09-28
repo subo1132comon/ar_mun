@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/audply_option_menu"
+    android:paddingRight="20dp"    
+    >
+    <!-- 歌手 -->
+    <LinearLayout 
+        android:id="@+id/singer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"          
+        style="@style/optionmenutyle" >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/audply_menu_icn_artist"
+            />
+        <TextView   
+            android:id="@+id/tv_singer"          
+            style="@style/optionmenutexttyle"
+            android:text="@string/singer"
+            /> 
+    </LinearLayout>
+    <!-- 评论 -->
+    <LinearLayout 
+        android:id="@+id/commentary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/optionmenutyle"  >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/audply_menu_icn_cmt"
+            />
+        <TextView 
+            android:id="@+id/tv_commentary"       
+            style="@style/optionmenutexttyle"
+            android:text="@string/commentary"
+            /> 
+    </LinearLayout>
+    <!-- 推荐 -->
+    <LinearLayout 
+        android:id="@+id/similar_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/optionmenutyle" >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/audply_menu_icn_other"
+            />
+        <TextView  
+            style="@style/optionmenutexttyle"
+            android:text="@string/similar_recommend"
+            /> 
+    </LinearLayout>
+    <!-- MV -->
+    <LinearLayout 
+        android:id="@+id/MV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/optionmenutyle"  >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/audply_menu_icn_mv"
+            />
+        <TextView 
+            style="@style/optionmenutexttyle"
+            android:text="@string/no_MV"
+            /> 
+    </LinearLayout>                
+</LinearLayout>
+

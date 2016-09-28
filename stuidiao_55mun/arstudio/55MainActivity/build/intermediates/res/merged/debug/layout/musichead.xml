@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eaeaea" 
+    android:paddingLeft="13dip"
+    android:paddingRight="13dp">
+    
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="63dp"
+         />
+
+    <TextView
+        android:id="@+id/musicrankbomdivider"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="#d8d9da" />
+
+    <TextView
+        android:id="@+id/left"
+        android:layout_centerVertical="true"
+        android:layout_width="3dip"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/musicredline" />
+
+    <TextView
+        android:id="@+id/runk"
+        android:layout_centerVertical="true"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/musicrank"
+        android:layout_toRightOf="@id/left"
+        android:textColor="#3e3e3e"
+        android:textSize="18sp" />
+
+</RelativeLayout>

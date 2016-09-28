@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bluep_offline_background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView_linp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+   		android:layout_marginLeft="20dp"
+        android:src="@drawable/bluepay_logo" />
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment price:" />
+
+        <TextView
+            android:id="@+id/tv_offline_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5000" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment channel:" />
+
+        <TextView
+            android:id="@+id/tv_offline_channel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ATM" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+          <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment code:" />
+        
+    <TextView
+        android:id="@+id/tv_offline_paymentcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+ 
+        android:text="000000800000912" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+         android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:text="Transaction Id:" />
+
+
+    <TextView
+        android:id="@+id/tv_offline_tid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abc12345667891123456789" />
+    </LinearLayout>
+
+ 
+    
+  	<RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+       
+        >
+
+       <Button
+           android:id="@+id/btn_offline_concel"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentTop="true"
+           android:background="@drawable/bluep_btnbg_selector"
+           android:text="aku tahu"
+           android:textColor="@android:color/white" />
+
+       <Button
+           android:id="@+id/btn_offline_goto_tips"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"
+           android:background="@drawable/bluep_btnbg_selector"
+           android:text="cara pembayaran ?>>"
+           android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+    
+  
+
+</LinearLayout>

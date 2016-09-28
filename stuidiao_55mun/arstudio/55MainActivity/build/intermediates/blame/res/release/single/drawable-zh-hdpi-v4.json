@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\drawable-zh-hdpi-v4\\checkbox_setting_close.png",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\drawable-zh-hdpi\\checkbox_setting_close.png"
+    },
+    {
+        "merged": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\drawable-zh-hdpi-v4\\checkbox_setting_open.png",
+        "source": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\drawable-zh-hdpi\\checkbox_setting_open.png"
+    }
+]

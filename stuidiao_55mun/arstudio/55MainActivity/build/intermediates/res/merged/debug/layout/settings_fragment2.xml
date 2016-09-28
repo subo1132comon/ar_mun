@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/settings_fragment_noicon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/settings_fragment_bigtitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_noicon_title_b"
+            android:textColor="@color/grey21"
+            android:textSize="@dimen/text_1" />
+
+        <TextView
+            android:id="@+id/settings_fragment_smalltitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/settings_fragment_bigtitle1"
+            android:layout_marginTop="3dp"
+            android:text="@string/settings_noicon_title_s"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_3" />
+
+        <ImageView
+            android:id="@+id/settings_fragment_righticon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/settings_right_icon" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/grey21" />
+
+    <RelativeLayout
+        android:id="@+id/settings_fragment_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/settings_fragment_bigtitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_toast_title_b"
+            android:textColor="@color/grey21"
+            android:textSize="@dimen/text_1" />
+
+        <TextView
+            android:id="@+id/settings_fragment_smalltitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/settings_fragment_bigtitle2"
+            android:layout_marginTop="3dp"
+            android:text="@string/settings_toast_title_s"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_3" />
+
+        <ImageView
+            android:id="@+id/settings_fragment_righticon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/settings_right_icon" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/grey21" />
+
+    <RelativeLayout
+        android:id="@+id/settings_fragment_dpath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/settings_fragment_bigtitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_dpath_title_b"
+            android:textColor="@color/grey21"
+            android:textSize="@dimen/text_1" />
+
+        <TextView
+            android:id="@+id/settings_fragment_smalltitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/settings_fragment_bigtitle3"
+            android:layout_marginTop="3dp"
+            android:text="@string/settings_dpath_title_s"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_3" />
+
+        <ImageView
+            android:id="@+id/settings_fragment_righticonr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/settings_right_icon" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/grey21" 
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/settings_fragment_dsize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/settings_fragment_bigtitle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_dsize_title_b"
+            android:textColor="@color/grey21"
+            android:textSize="@dimen/text_1" />
+
+        <TextView
+            android:id="@+id/settings_fragment_smalltitle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/settings_fragment_bigtitle4"
+            android:layout_marginTop="3dp"
+            android:text="@string/settings_dsize_title_s"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_3" />
+
+        <ImageView
+            android:id="@+id/settings_fragment_righticonm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/settings_right_icon" />
+    </RelativeLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/grey21" 
+        />
+    <RelativeLayout
+        android:id="@+id/settings_fragment_quick_install"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/settings_fragment_bigtitle5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_qinstall_title_b"
+            android:textColor="@color/grey21"
+            android:textSize="@dimen/text_1" />
+
+        <TextView
+            android:id="@+id/settings_fragment_smalltitle5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/settings_fragment_bigtitle5"
+            android:layout_marginTop="3dp"
+            android:text="@string/settings_qinstall_title_s"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_3" />
+
+        <ImageView
+            android:id="@+id/settings_fragment_righticonh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/settings_right_icon" />
+    </RelativeLayout>
+
+</LinearLayout>

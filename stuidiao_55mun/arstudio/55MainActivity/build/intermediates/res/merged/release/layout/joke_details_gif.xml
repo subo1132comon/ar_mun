@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed"
+    android:orientation="vertical" >
+
+    <FrameLayout
+       
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#ededed"
+        android:minHeight="150dp"
+        android:gravity="center"
+        >
+		<LinearLayout
+		    android:layout_gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:orientation="vertical"
+		>
+        <ProgressBar
+            android:id="@+id/loading_icon"
+            style="@style/ProgressMedium.circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/dlpercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="0%"
+            android:textColor="#636251"
+            android:textSize="15sp" />
+        </LinearLayout>
+
+        <com.byt.market.view.gifview.GifDecoderView
+            android:id="@+id/gif"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+			android:adjustViewBounds="true"
+            >
+        </com.byt.market.view.gifview.GifDecoderView>
+         <TextView 
+     	android:id="@+id/giflayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        />
+    </FrameLayout>
+   
+
+</LinearLayout>

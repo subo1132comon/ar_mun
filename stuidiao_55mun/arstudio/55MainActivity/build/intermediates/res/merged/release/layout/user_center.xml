@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_frame" >
+
+    <include
+        android:id="@+id/user_center_title"
+        layout="@layout/top_frame" />
+
+    <!-- 用户头像 -->
+
+    <ImageView
+        android:id="@+id/img_user_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_center_title"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/icon_user_default" />
+    <!-- android:background="@drawable/round_rect_bg_selector" -->
+
+    <TextView
+        android:id="@+id/tv_show_user_regist_tip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_user_avatar"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/user_center_info"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tv_show_user_regist_tip"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/user_center_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/text_nick_name_desc"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/user_center_nick_name"
+            android:layout_width="fill_parent"
+            android:textSize="14sp"
+            android:paddingLeft="10dp"
+            android:layout_height="33.3dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:singleLine="true"
+            android:layout_toRightOf="@+id/user_center_icon"
+            android:background="@drawable/round_rect_bg_selector"
+            android:hint="@string/text_action_nickname_input_tip"
+             />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/user_gender_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_center_info"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" >
+
+        <TextView
+            android:id="@+id/user_center_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/text_gender_desc"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@id/user_center_gender"
+            android:contentDescription="@string/text_gender_desc"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/user_man"
+                android:gravity="center"
+                android:button="@drawable/sex_radio_btn"
+                android:textColor="@color/black" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="33.3dp"
+                android:gravity="center"
+                android:text="@string/user_woman"
+                android:button="@drawable/sex_radio_btn"
+                android:textColor="@color/black" >
+            </RadioButton>
+        </RadioGroup>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_modify_password"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_below="@id/user_gender_select"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_rec_white"
+        android:text="@string/button_text_action_modify_password"
+        android:textColor="@color/color_text_black_unenabled"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/btn_swtich_accoun"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_below="@id/btn_modify_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_red"
+        android:textColor="@android:color/white"
+        android:text="@string/button_text_action_swtich_account"
+        android:textSize="14dp" />
+
+</RelativeLayout>

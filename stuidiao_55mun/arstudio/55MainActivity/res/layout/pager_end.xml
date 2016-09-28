@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/page_end"
+    >
+  
+    
+        <ProgressBar
+            android:id="@+id/oobe_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ProgressMedium.circle"
+            android:layout_gravity="center" 
+            android:visibility="gone"
+            />
+    
+     <RelativeLayout
+        android:id="@+id/group_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       
+      
+      
+        android:orientation="vertical" >
+          <Button android:id="@+id/endButton"
+          
+            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:minWidth="200dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/oobe_button"
+             android:layout_marginBottom="20dp"
+            android:text="@string/oobe_use"
+               android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+             />
+           <TextView
+               
+               android:gravity="center"
+                android:id="@+id/pageendshowtext"
+        	android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"         
+                   android:textSize="18sp"
+           android:padding="5dip"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:layout_marginBottom="@dimen/oobe_endheight"
+            android:layout_above="@id/endButton"
+            
+            />
+
+      
+    </RelativeLayout>
+    
+
+</FrameLayout>

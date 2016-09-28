@@ -1,0 +1,1128 @@
+[
+    {
+        "outputFile": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\build\\intermediates\\res\\merged\\release\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 7,
+                        "startOffset": 1563,
+                        "endColumn": 57,
+                        "endOffset": 1613
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 110,
+                    "endColumn": 57,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 817,
+                        "endColumn": 57,
+                        "endOffset": 870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 168,
+                    "endColumn": 64,
+                    "endOffset": 228
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 876,
+                        "endColumn": 64,
+                        "endOffset": 936
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 233,
+                    "endColumn": 56,
+                    "endOffset": 285
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 759,
+                        "endColumn": 56,
+                        "endOffset": 811
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 290,
+                    "endColumn": 49,
+                    "endOffset": 335
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 5,
+                        "startOffset": 2193,
+                        "endColumn": 50,
+                        "endOffset": 2238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 340,
+                    "endColumn": 50,
+                    "endOffset": 386
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 5,
+                        "startOffset": 2134,
+                        "endColumn": 51,
+                        "endOffset": 2180
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 391,
+                    "endColumn": 55,
+                    "endOffset": 442
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 5,
+                        "startOffset": 1962,
+                        "endColumn": 56,
+                        "endOffset": 2013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 447,
+                    "endColumn": 52,
+                    "endOffset": 495
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 5,
+                        "startOffset": 2021,
+                        "endColumn": 53,
+                        "endOffset": 2069
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 500,
+                    "endColumn": 53,
+                    "endOffset": 549
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 5,
+                        "startOffset": 2077,
+                        "endColumn": 54,
+                        "endOffset": 2126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 554,
+                    "endColumn": 47,
+                    "endOffset": 597
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 5,
+                        "startOffset": 2306,
+                        "endColumn": 48,
+                        "endOffset": 2349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 602,
+                    "endColumn": 51,
+                    "endOffset": 649
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 5,
+                        "startOffset": 2357,
+                        "endColumn": 52,
+                        "endOffset": 2404
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 654,
+                    "endColumn": 46,
+                    "endOffset": 696
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 5,
+                        "startOffset": 2251,
+                        "endColumn": 47,
+                        "endOffset": 2293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 701,
+                    "endColumn": 51,
+                    "endOffset": 748
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 5,
+                        "startOffset": 2470,
+                        "endColumn": 52,
+                        "endOffset": 2517
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 753,
+                    "endColumn": 53,
+                    "endOffset": 802
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 5,
+                        "startOffset": 2526,
+                        "endColumn": 54,
+                        "endOffset": 2575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 807,
+                    "endColumn": 50,
+                    "endOffset": 853
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 5,
+                        "startOffset": 2414,
+                        "endColumn": 51,
+                        "endOffset": 2460
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 858,
+                    "endColumn": 53,
+                    "endOffset": 907
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 5,
+                        "startOffset": 3366,
+                        "endColumn": 54,
+                        "endOffset": 3415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 912,
+                    "endColumn": 52,
+                    "endOffset": 960
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 5,
+                        "startOffset": 3310,
+                        "endColumn": 53,
+                        "endOffset": 3358
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 965,
+                    "endColumn": 49,
+                    "endOffset": 1010
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 5,
+                        "startOffset": 3015,
+                        "endColumn": 50,
+                        "endOffset": 3060
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1015,
+                    "endColumn": 54,
+                    "endOffset": 1065
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 5,
+                        "startOffset": 3126,
+                        "endColumn": 55,
+                        "endOffset": 3176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1070,
+                    "endColumn": 55,
+                    "endOffset": 1121
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 5,
+                        "startOffset": 3247,
+                        "endColumn": 56,
+                        "endOffset": 3298
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1126,
+                    "endColumn": 48,
+                    "endOffset": 1170
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 5,
+                        "startOffset": 2963,
+                        "endColumn": 49,
+                        "endOffset": 3007
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1175,
+                    "endColumn": 49,
+                    "endOffset": 1220
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 5,
+                        "startOffset": 2910,
+                        "endColumn": 50,
+                        "endOffset": 2955
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1225,
+                    "endColumn": 54,
+                    "endOffset": 1275
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 5,
+                        "startOffset": 3068,
+                        "endColumn": 55,
+                        "endOffset": 3118
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1280,
+                    "endColumn": 48,
+                    "endOffset": 1324
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 5,
+                        "startOffset": 2858,
+                        "endColumn": 49,
+                        "endOffset": 2902
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1329,
+                    "endColumn": 53,
+                    "endOffset": 1378
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 5,
+                        "startOffset": 2695,
+                        "endColumn": 54,
+                        "endOffset": 2744
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1383,
+                    "endColumn": 52,
+                    "endOffset": 1431
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 5,
+                        "startOffset": 2639,
+                        "endColumn": 53,
+                        "endOffset": 2687
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1436,
+                    "endColumn": 48,
+                    "endOffset": 1480
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 5,
+                        "startOffset": 2802,
+                        "endColumn": 49,
+                        "endOffset": 2846
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1485,
+                    "endColumn": 54,
+                    "endOffset": 1535
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 5,
+                        "startOffset": 3189,
+                        "endColumn": 55,
+                        "endOffset": 3239
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1540,
+                    "endColumn": 47,
+                    "endOffset": 1583
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 5,
+                        "startOffset": 2751,
+                        "endColumn": 48,
+                        "endOffset": 2794
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1588,
+                    "endColumn": 52,
+                    "endOffset": 1636
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 5,
+                        "startOffset": 2583,
+                        "endColumn": 53,
+                        "endOffset": 2631
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1641,
+                    "endColumn": 56,
+                    "endOffset": 1693
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 7,
+                        "startOffset": 1623,
+                        "endColumn": 59,
+                        "endOffset": 1675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1698,
+                    "endColumn": 52,
+                    "endOffset": 1746
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 6,
+                        "startOffset": 462,
+                        "endColumn": 54,
+                        "endOffset": 510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1751,
+                    "endColumn": 60,
+                    "endOffset": 1807
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 7,
+                        "startOffset": 1688,
+                        "endColumn": 63,
+                        "endOffset": 1744
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1812,
+                    "endColumn": 49,
+                    "endOffset": 1857
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 6,
+                        "startOffset": 1442,
+                        "endColumn": 51,
+                        "endOffset": 1487
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1862,
+                    "endColumn": 48,
+                    "endOffset": 1906
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 6,
+                        "startOffset": 1390,
+                        "endColumn": 50,
+                        "endOffset": 1434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1911,
+                    "endColumn": 54,
+                    "endOffset": 1961
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 6,
+                        "startOffset": 518,
+                        "endColumn": 56,
+                        "endOffset": 568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1966,
+                    "endColumn": 54,
+                    "endOffset": 2016
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 6,
+                        "startOffset": 576,
+                        "endColumn": 56,
+                        "endOffset": 626
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2021,
+                    "endColumn": 49,
+                    "endOffset": 2066
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 994,
+                        "endColumn": 49,
+                        "endOffset": 1039
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2071,
+                    "endColumn": 43,
+                    "endOffset": 2110
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 6,
+                        "startOffset": 415,
+                        "endColumn": 45,
+                        "endOffset": 454
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2115,
+                    "endColumn": 51,
+                    "endOffset": 2162
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 6,
+                        "startOffset": 1278,
+                        "endColumn": 53,
+                        "endOffset": 1325
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2167,
+                    "endColumn": 47,
+                    "endOffset": 2210
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 5,
+                        "startOffset": 1047,
+                        "endColumn": 48,
+                        "endOffset": 1090
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2215,
+                    "endColumn": 49,
+                    "endOffset": 2260
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 6,
+                        "startOffset": 1099,
+                        "endColumn": 51,
+                        "endOffset": 1144
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2265,
+                    "endColumn": 51,
+                    "endOffset": 2312
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1868,
+                        "endColumn": 51,
+                        "endOffset": 1915
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2317,
+                    "endColumn": 56,
+                    "endOffset": 2369
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 7,
+                        "startOffset": 1808,
+                        "endColumn": 59,
+                        "endOffset": 1860
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2374,
+                    "endColumn": 52,
+                    "endOffset": 2422
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 6,
+                        "startOffset": 1334,
+                        "endColumn": 54,
+                        "endOffset": 1382
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2427,
+                    "endColumn": 52,
+                    "endOffset": 2475
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 5,
+                        "startOffset": 1152,
+                        "endColumn": 53,
+                        "endOffset": 1200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2480,
+                    "endColumn": 53,
+                    "endOffset": 2529
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 10,
+                        "startOffset": 1213,
+                        "endColumn": 59,
+                        "endOffset": 1262
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2534,
+                    "endColumn": 59,
+                    "endOffset": 2589
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 638,
+                        "endColumn": 59,
+                        "endOffset": 693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2594,
+                    "endColumn": 58,
+                    "endOffset": 2648
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 699,
+                        "endColumn": 58,
+                        "endOffset": 753
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2653,
+                    "endColumn": 47,
+                    "endOffset": 2696
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 7,
+                        "startOffset": 1755,
+                        "endColumn": 50,
+                        "endOffset": 1798
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 2701,
+                    "endColumn": 47,
+                    "endOffset": 2744
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 317,
+                        "endColumn": 43,
+                        "endOffset": 360
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 2749,
+                    "endColumn": 44,
+                    "endOffset": 2789
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 6,
+                        "startOffset": 275,
+                        "endColumn": 46,
+                        "endOffset": 315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 2794,
+                    "endColumn": 47,
+                    "endOffset": 2837
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 2,
+                        "startOffset": 364,
+                        "endColumn": 45,
+                        "endOffset": 407
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 2842,
+                    "endColumn": 57,
+                    "endOffset": 2895
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 7,
+                        "startOffset": 1496,
+                        "endColumn": 60,
+                        "endOffset": 1549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 2900,
+                    "endColumn": 48,
+                    "endOffset": 2944
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 942,
+                        "endColumn": 48,
+                        "endOffset": 986
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 2949,
+                    "endColumn": 44,
+                    "endOffset": 2989
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 44,
+                        "endOffset": 132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 2994,
+                    "endColumn": 44,
+                    "endOffset": 3034
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 3,
+                        "startOffset": 137,
+                        "endColumn": 43,
+                        "endOffset": 177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 3039,
+                    "endColumn": 44,
+                    "endOffset": 3079
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 183,
+                        "endColumn": 44,
+                        "endOffset": 223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 3084,
+                    "endColumn": 44,
+                    "endOffset": 3124
+                },
+                "from": {
+                    "file": "E:\\bobo\\tools\\Example for Android studio\\55MainActivity\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 2,
+                        "startOffset": 227,
+                        "endColumn": 42,
+                        "endOffset": 267
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d2d3d4"
+    android:orientation="vertical" >
+
+    <com.byt.market.view.LoadFailedView
+        android:id="@+id/listview_loadfailed"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/listview_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/listview_loading_icon3"
+            style="@style/ProgressMedium.circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/listview_loading_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listview_loading_icon3"
+            android:layout_centerHorizontal="true"
+            android:text="@string/listview_loadding" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/videotitlebg"
+        android:layout_width="fill_parent"
+        android:layout_height="37.8dp"
+        android:background="#fafafa"
+        android:visibility="gone" />
+		
+    <HorizontalScrollView
+        android:id="@+id/scrollbartab"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/top_tab_height"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/cate_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/top_tab_height"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/game_rec_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/scrollbartab"
+        android:orientation="horizontal" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:flipInterval="30"
+            android:persistentDrawingCache="animation" />
+    </LinearLayout>
+
+</RelativeLayout>

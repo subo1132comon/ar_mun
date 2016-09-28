@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_rec_today"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingTop="5dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" >
+
+    <LinearLayout
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="8dp"
+        android:id="@+id/ll_downliad_item_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:background="@drawable/bg_listitem_all_drawable"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp" >
+
+            <ImageView
+                android:id="@+id/listitem_rec_icon"
+                android:layout_width="@dimen/listitem_app_icon"
+                android:layout_height="@dimen/listitem_app_icon"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/app_empty_icon" />
+
+            <ImageView
+                android:id="@+id/listitem_rec_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/listitem_rec_name"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/listitem_rec_icon"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/listitem_rec_btn"
+                android:layout_toRightOf="@+id/listitem_rec_icon"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+            
+                <Button
+                    android:layout_marginRight="6dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                android:descendantFocusability="blocksDescendants"
+                    android:id="@+id/bt_down_btn_update"
+                     android:layout_width="64dp"
+                    android:layout_height="27dp"
+                    android:padding="3dp"
+                   	android:background="@drawable/beston_btn_onclick"
+                    android:focusable="false"
+                    android:text="@string/btn_install"
+                    android:textColor="#ffffff"
+                     android:textSize="@dimen/listitem_downbutton" 
+                    android:singleLine="true"
+                    android:ellipsize="end" />
+               
+            <!-- style="@style/ProgressBarMain.Download" -->
+
+            <ProgressBar
+                android:id="@+id/homedownloadProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="3dip"
+                android:layout_below="@+id/listitem_rec_name"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="6dp"
+                android:layout_toLeftOf="@id/bt_down_btn_update"
+                android:layout_toRightOf="@id/listitem_rec_icon"
+                android:max="100"
+                android:progress="0"
+                android:progressDrawable="@drawable/progress_ram" />
+
+            <RelativeLayout
+                android:id="@+id/rl_listitem_rec_category_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/homedownloadProgressBar"
+                android:layout_below="@+id/homedownloadProgressBar"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="1dp"
+                android:layout_toLeftOf="@id/bt_down_btn_update"
+                android:layout_toRightOf="@id/listitem_rec_icon" >
+
+                 <TextView
+                       android:gravity="center_vertical"
+                    android:id="@+id/listitem_rec_category_right"
+                    style="@style/text_app_item_des_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:singleLine="true"
+                    android:text="@string/paused"
+                    android:textSize="15dp"
+                   android:textColor="#999999"
+                    android:visibility="gone" 
+                   />
+                
+                <TextView
+                    android:id="@+id/listitem_rec_category"
+                    style="@style/text_app_item_des_style"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/listitem_rec_category_right"
+                    android:drawablePadding="2dip"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:textColor="#999999"
+                    android:textSize="15dp" />
+              
+            </RelativeLayout>
+
+            <!-- 下载描述第二栏，如已下载中显示安装包大小等 -->
+                <TextView
+                     android:layout_alignRight="@+id/homedownloadProgressBar"
+                android:layout_below="@+id/rl_listitem_rec_category_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="1dp"
+                     android:layout_toLeftOf="@id/bt_down_btn_update"
+               		 android:layout_toRightOf="@id/listitem_rec_icon"
+                    android:id="@+id/listitem_rec_category2"
+                    style="@style/text_app_item_des_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:textColor="#999999"
+                    android:textSize="15dp"
+                    android:visibility="gone" />
+                  <TextView
+                      android:paddingRight="1dp"
+                      android:layout_alignParentBottom="true"
+                     android:layout_alignParentRight="true"
+                     android:layout_marginRight="6dp"
+                     android:layout_below="@id/bt_down_btn_update"
+                    android:id="@+id/listitem_rec_category2_right"
+                    style="@style/text_app_item_des_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="27dp"
+                    android:gravity="center_vertical|right"
+                    android:singleLine="true"
+                    android:text="@string/paused"
+                    android:textColor="#999999"
+                    android:textSize="15dp"
+                    android:visibility="gone"
+                     />
+        </RelativeLayout>
+        
+    </LinearLayout>
+</RelativeLayout>

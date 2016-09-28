@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="false" android:state_enabled="false" android:drawable="@drawable/feedback_btn_reset_unuse"></item>    
+    <item android:state_pressed="false" android:state_enabled="true" android:drawable="@drawable/feedback_btn_reset_normal"></item>
+    <item android:state_pressed="true" android:state_enabled="true" android:drawable="@drawable/feedback_btn_reset_press"></item>    
+	<item android:drawable="@drawable/feedback_btn_reset_unuse"></item>
+</selector>

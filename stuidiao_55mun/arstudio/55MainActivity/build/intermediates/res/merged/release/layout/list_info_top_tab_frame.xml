@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <FrameLayout
+        android:id="@+id/contentFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/titlebar_content_height"
+        android:background="@color/bg_frame" >
+
+        <include layout="@layout/fragment_tabs_pager" />
+    </FrameLayout>
+
+    <include
+        android:id="@+id/main_top_frame"
+        android:layout_alignParentTop="true"
+        layout="@layout/top_frame" />
+
+</RelativeLayout>

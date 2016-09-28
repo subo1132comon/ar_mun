@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+     >
+
+    <TextView
+        android:id="@+id/wjtabmenu_iv"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/tabbar_bg_press_02"
+        android:clickable="false"
+        android:duplicateParentState="false"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:paddingRight="3dip"
+        android:paddingLeft="3dip" />
+
+    <TextView
+        android:id="@+id/wjtabmenu_tv"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/tabbar_bg_02"
+        android:clickable="false"
+        android:duplicateParentState="false"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="16sp" 
+        android:paddingRight="3dip"
+        android:paddingLeft="3dip" />
+
+    <ImageView
+        android:layout_width="1.5dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/cab_divider_vertical_dark" />
+</FrameLayout>

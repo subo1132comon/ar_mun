@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#dfe1e2">
+    
+     <TextView
+         android:layout_marginLeft="10dp"
+         android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/musicdownlist"
+        android:gravity="center_vertical|left"
+        android:textColor="#000000"
+        android:textSize="16sp"
+         />
+     <Button
+        android:id="@+id/cancelalltask"
+        android:layout_centerVertical="true"        
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="10dp"        
+        android:layout_alignParentRight="true"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:background="@drawable/music_down_button"     
+        android:text="@string/txt_download_all_cancel"  
+         />
+    <Button
+        android:id="@+id/goonalltask"
+        android:layout_centerVertical="true"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="10dp"  
+        android:layout_toLeftOf="@id/cancelalltask"
+          android:textColor="#000000"
+        android:textSize="12sp" 
+        android:background="@drawable/music_down_button"
+        android:text="@string/txt_download_all_start" 
+         />
+
+    
+
+</RelativeLayout>

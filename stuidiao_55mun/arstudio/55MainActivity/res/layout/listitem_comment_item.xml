@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/appcommAuthorName"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:maxWidth="80dp"
+                android:singleLine="true"
+              
+                android:textColor="@color/today_rec_color"
+                android:textSize="14sp" />
+
+            <RatingBar
+                android:id="@+id/appcommRatingView"
+                style="@style/RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2.0dip"
+                android:layout_toRightOf="@id/appcommAuthorName"
+                android:isIndicator="true" />
+
+            <TextView
+                android:id="@+id/appcommTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_toRightOf="@id/appcommRatingView"
+                android:singleLine="true"
+              
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/listitem_comm_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+       
+            android:textColor="@color/grey21"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

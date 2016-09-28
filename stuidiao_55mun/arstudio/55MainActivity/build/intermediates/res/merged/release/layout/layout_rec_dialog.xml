@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="60dp"
+            android:background="@android:color/white" >
+
+            <com.byt.market.view.CustomListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:cacheColorHint="#00000000"
+                android:divider="@null"
+                android:fadingEdge="none"
+                android:scrollbars="@null" >
+            </com.byt.market.view.CustomListView>
+
+            <RelativeLayout
+                android:id="@+id/listview_loading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/rank_item_bg" >
+
+                <ProgressBar
+                    android:id="@+id/listview_loading_icon3"
+                    style="@style/ProgressMedium.circle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+
+                <TextView
+                    android:id="@+id/listview_loading_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/listview_loading_icon3"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/listview_loadding" />
+            </RelativeLayout>
+
+            <com.byt.market.view.LoadFailedView
+                android:id="@+id/listview_loadfailed"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <Button
+                android:id="@+id/btn_install_select"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:enabled="true"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:background="@drawable/beston_btn_onclick"
+                android:textColor="@color/color_text_black_unenabled"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_install_all"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="32dp"
+                android:background="@drawable/beston_btn_onclick"
+                android:text="@string/installall"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

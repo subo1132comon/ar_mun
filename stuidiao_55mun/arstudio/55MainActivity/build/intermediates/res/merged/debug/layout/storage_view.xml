@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#ff333333" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp" >
+
+        <TextView
+            android:id="@+id/storage_phone_text"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:minEms="2"
+            android:text="@string/storage_phone"
+            android:textColor="#80c2c0c0"
+            android:textSize="14.6sp" />
+
+        <RelativeLayout
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ProgressBar
+                android:id="@+id/storage_phone_progress"
+                style="@style/ProgressBar.Memory"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/storage_phone_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="@dimen/storage_text_margin"
+                android:text="@string/storage_fomat"
+                android:textColor="#80000000"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/storage_sd_text"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:minEms="2"
+            android:text="@string/storage_sdcard"
+            android:textColor="#80c2c0c0"
+            android:textSize="14.6sp" />
+
+        <RelativeLayout
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ProgressBar
+                android:id="@+id/storage_sd_progress"
+                style="@style/ProgressBar.Memory"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/storage_sd_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="@dimen/storage_text_margin"
+                android:text="@string/storage_fomat"
+                android:textColor="#80000000"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

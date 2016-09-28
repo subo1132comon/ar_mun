@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d2d3d4"
+    android:gravity="top|center_horizontal"
+    android:paddingTop="6dp"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+       android:background="@drawable/videothreebg"               
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="3dp"
+        android:orientation="vertical" >
+     
+
+        <FrameLayout
+            android:id="@+id/myistitem_music_content_1"
+         	android:layout_alignParentTop="true"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/videosublist_height" >
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/mymusicrankpic"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/videodefaultbg"
+                 android:contentDescription="3" 
+                 />
+         
+
+            <TextView
+                android:id="@+id/mymusicranklandlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000" />
+        </FrameLayout>
+           <TextView
+               android:layout_marginLeft="7dp"
+            android:layout_below="@id/myistitem_music_content_1"
+            android:paddingTop="3dp"
+            android:id="@+id/mylistitem_cate_name_left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#ff46494b"
+            android:textSize="14.0sp" />
+           <TextView
+               android:layout_marginLeft="7dp"
+          android:layout_below="@id/mylistitem_cate_name_left"
+            android:id="@+id/mylistitemvideosdc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#ff838589"
+            android:textSize="12.0sp" />
+           <RelativeLayout
+               android:layout_width="fill_parent"
+               android:layout_height="20dp"
+               android:layout_below="@id/mylistitemvideosdc"
+               >
+               
+           <TextView 
+               android:id="@+id/money_text"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="2dp"
+               android:text="@string/money"
+               />
+           
+			</RelativeLayout>
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+         android:background="@drawable/videothreebg" 
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"		      
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="6dp"
+        android:orientation="vertical" >
+        
+
+        <FrameLayout
+             android:id="@+id/myistitem_music_content_2"
+            android:layout_alignParentTop="true"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/videosublist_height" >
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/mymusicrankpic2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/videodefaultbg" 
+                 android:contentDescription="3" 
+                />
+ 
+
+            <TextView
+                android:id="@+id/mymusicranklandlayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000" />
+        </FrameLayout>
+		<TextView
+		    android:layout_marginLeft="7dp"
+            android:paddingTop="3dp"
+          android:layout_below="@id/myistitem_music_content_2"
+            android:id="@+id/mylistitem_cate_name_left2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#ff46494b"
+            android:textSize="14.0sp" />
+		<TextView
+		    android:layout_marginLeft="7dp"
+          android:layout_below="@id/mylistitem_cate_name_left2"
+            android:id="@+id/mylistitemvideosdc2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#ff838589"
+            android:textSize="12.0sp" />
+		<RelativeLayout
+               android:layout_width="fill_parent"
+               android:layout_height="20dp"
+               android:layout_below="@id/mylistitemvideosdc2"
+               >
+               
+           <TextView 
+               android:id="@+id/money_text2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="2dp"
+               android:text="@string/money"
+               />
+           
+			</RelativeLayout>
+     
+    </RelativeLayout>
+
+</LinearLayout>

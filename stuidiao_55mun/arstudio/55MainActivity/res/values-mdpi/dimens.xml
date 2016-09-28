@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="textsize_hot1">9px</dimen>
+   <dimen name="textsize_hot2">8px</dimen>
+    <dimen name="textsize_hot3">13px</dimen>
+     <dimen name="textsize_hot4">13px</dimen>
+         <dimen name="oobe_height">100dip</dimen>
+<dimen name="oobe_endheight">60dip</dimen>
+  <dimen name="point_start_size">25px</dimen>
+    <dimen name="level_height">25px</dimen>
+    <dimen name="btn_submit_offset_y">50dip</dimen>
+    <dimen name="horizontal_line1_height">3dip</dimen>
+    <dimen name="horizontal_line2_height">2dip</dimen>    
+    <dimen name="loadfailed_iv_icon_offset_y">25dip</dimen>
+    <dimen name="loadfailed_tv_msg_offset_y">10dip</dimen>
+    <dimen name="appmanager_login_height">145dip</dimen>
+    <dimen name="appmanager_button_height">110dip</dimen>
+    <dimen name="appmanager_button_layout_height">110dip</dimen>
+    <dimen name="text_level_width">45dip</dimen>  
+    <dimen name="icon_level_offsety">3dip</dimen> 
+    <dimen name="setting_check_margin_right">15dp</dimen>  
+       <dimen name="app_userpic_margin_left">30dp</dimen> 
+       <dimen name="btn_integral_margin_right">41dp</dimen>   
+       <dimen name="donwload_sum_set_margin_right">10dp</dimen>  
+    <dimen name="mytextview_width">50dp</dimen>  
+    <dimen name="listitem_sub_icon_height">126dp</dimen> 
+      <dimen name="listitem_subtext_height">37dp</dimen>    
+     <dimen name="showitemvipwidth">60dp</dimen>     
+          <dimen name="videoplaybommonheight">250dp</dimen> 
+</resources>

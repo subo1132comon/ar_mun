@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.byt.market"
+    android:versionCode="62"
+    android:versionName="V2.4.0.1600919DT43" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="23" />
+
+    <!-- Push service 运行需要的权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <!-- bobo -->
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+    <uses-permission android:name="android.provider.Telephony.SMS_RECEIVED" />
+    <!-- 极光推送 -->
+    <permission
+        android:name="com.byt.market.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:name="com.byt.market.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.byt.market.activity.HomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.byt.market.main" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.SettingsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.qiushibaike.PlayGifActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CustomDialog" >
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.SplashRecommendActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/DialogTheme" >
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.SubCommentFrame"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.ShareTextActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/mydialogstyle" >
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.SharePageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.PushMessageFrame"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.ProtocolActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- by  bob -->
+
+        <activity
+            android:name="com.byt.market.activity.HtmlTVpalyActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.SoftwareUninstallActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.MusicDownLoadManageActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 小说 -->
+        <activity
+            android:name="com.byt.market.mediaplayer.voiced.VoicedDownLoadManageActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.ShareActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/mydialogstyle" >
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.music.NewRingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.ShareFacebookActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.ShareMusicActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/mydialogstyle" >
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.VideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.byt.market.activity.ShowLevelActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.DetailFrame2"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.byt.market.detail" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.music.NewMusicListInfoFrame"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.byt.market.musiclist" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.tv.NewTVListInfoFrame"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.byt.market.tvlist" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.voiced.NewVoicedListInfoFrame"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.byt.market.novellist" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.nover.NewNovelListInfoFrame"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.byt.market.ridiaollist" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.ListInfoFrame"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.byt.market.list" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.BScreenFrame"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.byt.market.bscreen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.ui.AVListInfoFrame"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.byt.market.avlist" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.UserActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.FeedBackActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.AboutActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.GameListUpdateFrame"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.voiced.VoicedActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 引导页 -->
+        <activity
+            android:name="com.byt.market.activity.GuideActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.animtion.AnimtionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.nover.NovelActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.PlayActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.show.ShowActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.VideoDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service android:name="com.byt.market.mediaplayer.service.PlayDownloadService" >
+        </service>
+
+        <activity
+            android:name="com.byt.market.mediaplayer.voiced.Read"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.mediaplayer.MV.MVActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- html -->
+        <activity
+            android:name="com.byt.market.activity.JokeDetailsWebViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.JoySkillListFrame"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.byt.market.joyskill" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.GameSearchFrame"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.byt.market.search" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.DownLoadManageActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.byt.market.activity.MyFaviorateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <!-- 支付 webview activity -->
+        <activity android:name="com.byt.market.activity.PayWebviewActivity" />
+        <activity
+            android:name="com.byt.market.activity.ApkUninstallActivity"
+            android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.NoDisplay" />
+        <activity android:name="com.byt.market.activity.RetrievePasswordActivity" />
+
+        <!-- news -->
+        <activity
+            android:name="com.byt.market.qiushibaike.news.NewsActivity"
+            android:screenOrientation="portrait" />
+        <!-- 糗事百科 -->
+        <activity
+            android:name="com.byt.market.qiushibaike.JokeActivity"
+            android:screenOrientation="portrait" />
+        <!-- 应用 -->
+        <activity
+            android:name="com.byt.market.activity.CateMainFragmentActivity"
+            android:screenOrientation="portrait" />
+        <!-- 应用 -->
+        <activity
+            android:name="com.byt.market.activity.RankMainFragmentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.byt.market.qiushibaike.JokeDetailsActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.byt.market.jokedetail" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.byt.market.qiushibaike.news.JokeDetailsActivity2"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.byt.market.jokedetail2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.byt.market.qiushibaike.JokeCommentActivity" />
+        <activity
+            android:name="com.byt.market.mediaplayer.music.PlayMusicActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.byt.market.activity.ProuthouseActivity"
+            android:theme="@android:style/Theme.Translucent" >
+            <intent-filter>
+                <action android:name="android.intent.action.Prouthouse" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.byt.market.mediaplayer.music.PlayMusicService"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <service android:name="com.byt.market.service.DownloadService" >
+        </service>
+        <service android:name="com.byt.market.service.PushService" >
+        </service>
+        <service android:name="com.byt.market.service.UpdateDownloadService" />
+        <service android:name="com.byt.market.mediaplayer.service.RediaoService" />
+
+        <!-- 播放器 安装 完成 提示 -->
+        <receiver android:name="com.byt.market.receiver.VdioinstensReciver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <!-- 已安装游戏提示 -->
+
+        <service
+            android:name="com.byt.market.service.MyInstalledToastService"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="com.byt.market.BReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.byt.market.REQUEST_GAME_UPDATE_CHECK" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 网络监听变化 -->
+        <receiver android:name="com.byt.market.receiver.ConnectionChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.byt.market.receiver.ProuthesReciver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.byt.market.download.GamesProvider"
+            android:authorities="com.byt.market.database" />
+
+        <!-- 友盟 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="574e916567e58eef2d0009b0" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="um2142" >
+        </meta-data>
+        <!-- 极光推送 -->
+        <!-- Rich push 核心功能 since 2.0.6 -->
+        <activity
+            android:name="cn.jpush.android.ui.PopWinActivity"
+            android:exported="false" >
+        </activity>
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.byt.market" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="05933d997366eb017f6fb03e" />
+        <!-- User defined.  For test only 极光推送 用户自定义的广播接收器 -->
+        <receiver
+            android:name="com.byt.market.receiver.MyJpushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+ <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+ <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+ <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+ <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" />
+ <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+ <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="com.byt.market" />
+            </intent-filter>
+        </receiver>
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" />
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
+ <!-- Required  显示通知栏 -->
+                <category android:name="com.byt.market" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- myum统计 -->
+        <service
+            android:name="com.byt.market.service.MyumService"
+            android:process=":MyumService" >
+            <intent-filter android:priority="1000" >
+                <action android:name="com.byt.market.intent.MyumService" />
+            </intent-filter>
+        </service>
+
+        <!-- Required  SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <receiver android:name="com.byt.market.receiver.AlarmManagerRecive" >
+            <intent-filter>
+                <action android:name="COM.MARKET.ALARM" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK 核心功能 -->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+        <!-- end 极光推送 -->
+
+
+        <!-- 请将value改为MTA分配的appkey <  A5XRG7VB9Y7R -->
+        <meta-data
+            android:name="TA_APPKEY"
+            android:value="ABUL86S86SSZ" />
+        <meta-data
+            android:name="InstallChannel"
+            android:value="2142" />
+
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="366293396854277" />
+
+        <activity
+            android:name="com.byt.market.mediaplayer.PlayWebVideoActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name="com.byt.market.WebCommonActivity" />
+        <activity
+            android:name="com.byt.market.mediaplayer.LiveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.byt.market.mediaplayer.tv.TVActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 小说加载 界面 -->
+        <activity
+            android:name="com.byt.market.mediaplayer.voiced.VoicedDailogActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.byt.market.mediaplayer.txtreader.TxtViewerActivity" >
+        </activity>
+        <activity
+            android:name="com.bluepay.ui.PaymentActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <data
+                    android:host="asia.bluepay.pay"
+                    android:scheme="bluepay" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.byt.market.activity.LinePayActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="com.mun.pay"
+                    android:scheme="mun" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="LD_CHANNEL_ID"
+            android:value="2003530024" />
+<!--         line pay -->
+    </application>
+
+</manifest>

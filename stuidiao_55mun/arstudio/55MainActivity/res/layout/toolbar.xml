@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/toolbar_bg">
+
+     <ImageButton
+        android:id="@+id/btn_night"
+        android:src="@drawable/ristyle"
+        android:text="@string/next"
+        android:contentDescription="@null"
+        style="@style/toolbar" />
+    <ImageButton
+        android:id="@+id/btn_light"
+        android:src="@drawable/yestyle"
+        android:text="@string/next"
+        android:contentDescription="@null"
+        style="@style/toolbar" />
+    <ImageButton
+        android:id="@+id/btn_zoomout"
+        android:src="@drawable/btn_zoomout_bg"
+        android:text="@string/next"
+        android:contentDescription="@null"
+        style="@style/toolbar" />
+    <ImageButton
+        android:id="@+id/btn_zoomin"
+        android:src="@drawable/btn_zoomin_bg"
+        android:text="@string/next"
+        android:contentDescription="@null"
+        style="@style/toolbar" />
+</LinearLayout>

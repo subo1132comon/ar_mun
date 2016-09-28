@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:id="@+id/listitem_subcatelist_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_rect_bg_selector"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/listitem_subcatelist_icon"
+            android:layout_width="@dimen/listitem_app_icon"
+            android:layout_height="@dimen/listitem_app_icon"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/app_empty_icon" />
+        <ImageView
+                android:id="@+id/listitem_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/l_home_type_new" />
+        <LinearLayout
+            android:id="@+id/listitem_middle_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/listitem_subcatelist_btn"
+            android:layout_toRightOf="@+id/listitem_subcatelist_icon"
+            android:orientation="vertical" >
+			<TextView
+                android:id="@+id/listitem_subcatelist_name"
+                style="@style/text_app_item_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:singleLine="true"
+                />
+
+            <TextView
+                android:id="@+id/listitem_subcatelist_category"
+                style="@style/text_app_item_des_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+              />
+
+            <ProgressBar
+                android:id="@id/downloadProgressBar"
+                style="@style/ProgressBarMain.Download"
+                android:layout_width="fill_parent"
+                android:layout_height="4dip"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:max="100"
+                android:progress="0"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/listitem_subcatelist_btn"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/main_btn_bg_white"
+            android:text="@string/btn_install"
+            android:textSize="@dimen/listitem_app_btn_size" />
+
+    </RelativeLayout>
+
+</LinearLayout>
